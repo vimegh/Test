@@ -21,7 +21,7 @@
       "value": "Standard_A2"
     },
     "vmName": {
-      "value": "achallaTestAgent"
+      "value": "achallaTA"
     },
     "vaultName": {
       "value": "achallaKeyVaultEastUS2"
