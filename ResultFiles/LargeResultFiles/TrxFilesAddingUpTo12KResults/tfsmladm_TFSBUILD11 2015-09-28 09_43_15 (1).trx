@@ -1,0 +1,759 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b43f64a5-b91c-42e2-8154-75a2f0f8d769" name="tfsmladm@TFSBUILD11 2015-09-28 09:43:15" runUser="REDMOND\tfsmladm" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2015-09-28T09:43:15.1237427-07:00" queuing="2015-09-28T09:43:15.1237427-07:00" start="2015-09-28T09:43:15.1237427-07:00" finish="2015-09-28T09:43:15.2487513-07:00" />
+  <TestSettings name="default" id="468b9bbd-877e-4ec0-9382-458de771575f">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="tfsmladm_TFSBUILD11 2015-09-28 09_43_15" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="9f8217de-db4e-4ba9-87ca-564cce62f3e6" testId="54f453d8-d482-c712-45ab-f19b23f325a0" testName="EvaluateDoesNothingIfSatisfied" computerName="TFSBUILD11" duration="00:00:00.0043869" startTime="2015-09-28T09:43:15.0143599-07:00" endTime="2015-09-28T09:43:15.0456118-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f8217de-db4e-4ba9-87ca-564cce62f3e6" />
+    <UnitTestResult executionId="b4a3c5c6-5d85-4d74-87e4-d6607d2372f3" testId="ea3b9ca8-7b13-3161-5ba8-1293e18f99ec" testName="EvaluateInconclusiveIfNoSatisfy" computerName="TFSBUILD11" duration="00:00:00.0078523" startTime="2015-09-28T09:43:15.0612385-07:00" endTime="2015-09-28T09:43:15.0612385-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4a3c5c6-5d85-4d74-87e4-d6607d2372f3">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.000  Precondition of type Common.TestFramework.L2.Common.L0.TestPreconditionAttributeBaseTests+FakePlainPreconditionAttribute was not satisfied.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="98e18661-896f-4716-9a91-a007217fa581" testId="5080b272-509b-44e9-5072-b50c2d664ba9" testName="FailsSatisfyDoesNothingByDefault" computerName="TFSBUILD11" duration="00:00:00.0002093" startTime="2015-09-28T09:43:15.0612385-07:00" endTime="2015-09-28T09:43:15.0612385-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98e18661-896f-4716-9a91-a007217fa581">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.000  Precondition of type Common.TestFramework.L2.Common.L0.TestPreconditionAttributeBaseTests+FakeFailsSatisfyPreconditionAttribute was not satisfied.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="74ef3091-8fd6-4602-83dc-240b01dbabe0" testId="88ebec7f-5038-8f62-7456-8bc7a7b7d82b" testName="FailsSatisfyRespectsFailureMode" computerName="TFSBUILD11" duration="00:00:00.0101774" startTime="2015-09-28T09:43:15.0612385-07:00" endTime="2015-09-28T09:43:15.0768641-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74ef3091-8fd6-4602-83dc-240b01dbabe0">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.000  Precondition of type Common.TestFramework.L2.Common.L0.TestPreconditionAttributeBaseTests+FakeFailsSatisfyPreconditionAttribute was not satisfied.
+00:00.000  Precondition of type Common.TestFramework.L2.Common.L0.TestPreconditionAttributeBaseTests+FakeFailsSatisfyPreconditionAttribute was not satisfied.
+00:00.015  Precondition exception: Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException: Assert.Inconclusive failed. Common.TestFramework.L2.Common.L0.TestPreconditionAttributeBaseTests+FakeFailsSatisfyPreconditionAttribute precondition failed.
+             at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Inconclusive(String message, Object[] parameters)
+             at Common.TestFramework.L2.Common.TestPreconditionAttributeBase.Fail(Exception e) in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common\Attributes\TestPreconditionAttributeBase.cs:line 166
+             at Common.TestFramework.L2.Common.TestPreconditionAttributeBase.Evaluate() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common\Attributes\TestPreconditionAttributeBase.cs:line 82</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="34fa95f5-2fdf-481c-bc92-41cfc9ea9144" testId="40eea8dd-32f9-3a7e-8318-b1e3e661c625" testName="ThrowSatisfyRespectsFailureMode" computerName="TFSBUILD11" duration="00:00:00.0051248" startTime="2015-09-28T09:43:15.0768641-07:00" endTime="2015-09-28T09:43:15.0768641-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34fa95f5-2fdf-481c-bc92-41cfc9ea9144">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.015  Precondition of type Common.TestFramework.L2.Common.L0.TestPreconditionAttributeBaseTests+FakeThrowsSatisfyPreconditionAttribute was not satisfied.
+00:00.015  Precondition exception: System.Exception: Exception of type 'System.Exception' was thrown.
+             at Common.TestFramework.L2.Common.L0.TestPreconditionAttributeBaseTests.FakeThrowsSatisfyPreconditionAttribute.Satisfy() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\TestPreconditionAttributeBaseTests.cs:line 73
+             at Common.TestFramework.L2.Common.TestPreconditionAttributeBase.Evaluate() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common\Attributes\TestPreconditionAttributeBase.cs:line 80</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="11c0848e-c94d-4564-9dc7-82ff5e40a994" testId="23bd49c6-4223-ae52-5b25-d53ae4aa8e19" testName="PassSatisfyDoesNothing" computerName="TFSBUILD11" duration="00:00:00.0001251" startTime="2015-09-28T09:43:15.0768641-07:00" endTime="2015-09-28T09:43:15.0768641-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11c0848e-c94d-4564-9dc7-82ff5e40a994" />
+    <UnitTestResult executionId="b03e9dde-38a9-472c-91ec-e8c42fd8bf47" testId="afac6204-6367-9238-fa75-429de0cf22a1" testName="UndoDoesNotCallRevertIfSatisfied" computerName="TFSBUILD11" duration="00:00:00.0005845" startTime="2015-09-28T09:43:15.0768641-07:00" endTime="2015-09-28T09:43:15.0768641-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b03e9dde-38a9-472c-91ec-e8c42fd8bf47" />
+    <UnitTestResult executionId="27a700fd-5457-4e9a-b014-56aa9bf252a9" testId="f54d7389-9d74-7e74-e813-7ae8beb9b262" testName="SatisfyAndUndoEatExceptions" computerName="TFSBUILD11" duration="00:00:00.0005586" startTime="2015-09-28T09:43:15.0768641-07:00" endTime="2015-09-28T09:43:15.0924902-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27a700fd-5457-4e9a-b014-56aa9bf252a9">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.015  Precondition of type Common.TestFramework.L2.Common.L0.TestPreconditionAttributeBaseTests+FakeThrowsSatisfyPreconditionAttribute was not satisfied.
+00:00.031  Precondition exception: System.Exception: Exception of type 'System.Exception' was thrown.
+             at Common.TestFramework.L2.Common.L0.TestPreconditionAttributeBaseTests.FakeThrowsSatisfyPreconditionAttribute.Satisfy() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\TestPreconditionAttributeBaseTests.cs:line 73
+             at Common.TestFramework.L2.Common.TestPreconditionAttributeBase.Evaluate() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common\Attributes\TestPreconditionAttributeBase.cs:line 80
+00:00.031  Reverting precondition of type Common.TestFramework.L2.Common.L0.TestPreconditionAttributeBaseTests+FakeThrowsSatisfyPreconditionAttribute failed.
+00:00.031  Revert Exception: System.Exception: Exception of type 'System.Exception' was thrown.
+             at Common.TestFramework.L2.Common.L0.TestPreconditionAttributeBaseTests.FakeThrowsSatisfyPreconditionAttribute.Revert() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\TestPreconditionAttributeBaseTests.cs:line 78
+             at Common.TestFramework.L2.Common.TestPreconditionAttributeBase.Undo() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common\Attributes\TestPreconditionAttributeBase.cs:line 141</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d8056fd5-ae54-40f3-8e01-8656b8b9e765" testId="eaa87077-93ef-c2a8-c24a-9a81904cb04d" testName="UndoTwiceDoesNotCallRevertTwice" computerName="TFSBUILD11" duration="00:00:00.0002835" startTime="2015-09-28T09:43:15.0924902-07:00" endTime="2015-09-28T09:43:15.0924902-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8056fd5-ae54-40f3-8e01-8656b8b9e765" />
+    <UnitTestResult executionId="8034f5b7-e216-45da-89dc-a43a0ea4b092" testId="a9389bdc-4909-024e-7716-90a268a53d05" testName="SimpleMaxAttemptsRetrying" computerName="TFSBUILD11" duration="00:00:00.0079294" startTime="2015-09-28T09:43:15.0924902-07:00" endTime="2015-09-28T09:43:15.1081169-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8034f5b7-e216-45da-89dc-a43a0ea4b092">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.046  Retry failed after 2 tries and time of 00:00:00.0156267.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1ee9f0c4-7003-46b5-976a-b1f0b4097bb3" testId="8a8e8631-f5ee-6f12-c1ad-37b2cce2f660" testName="SimpleTimeoutRetrying" computerName="TFSBUILD11" duration="00:00:00.0006237" startTime="2015-09-28T09:43:15.1081169-07:00" endTime="2015-09-28T09:43:15.1081169-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ee9f0c4-7003-46b5-976a-b1f0b4097bb3">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.046  Retry failed after 1 tries and time of 00:00:00.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="779a411b-af04-46b0-8cc9-808b187832ed" testId="83d2162d-54e6-b5ed-d5cb-e57462bfd581" testName="NoRetriesNeeded" computerName="TFSBUILD11" duration="00:00:00.0006419" startTime="2015-09-28T09:43:15.1081169-07:00" endTime="2015-09-28T09:43:15.1081169-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="779a411b-af04-46b0-8cc9-808b187832ed">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.046  Retry succeeded after 1 tries and time of 00:00:00.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7d661c23-6741-4d82-8e14-2da4abd6f8f9" testId="521c4016-0306-6725-8959-9370440f0410" testName="SuccessAfterRetrying" computerName="TFSBUILD11" duration="00:00:00.0125271" startTime="2015-09-28T09:43:15.1081169-07:00" endTime="2015-09-28T09:43:15.1237427-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d661c23-6741-4d82-8e14-2da4abd6f8f9">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.062  Retry succeeded after 2 tries and time of 00:00:00.0156258.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="36b999c2-7915-4847-a769-9ed2df7dfc29" testId="8b9d5014-1e65-df24-23fd-1793090be802" testName="ZeroSleepIntervalIsAllowed" computerName="TFSBUILD11" duration="00:00:00.0004750" startTime="2015-09-28T09:43:15.1237427-07:00" endTime="2015-09-28T09:43:15.1237427-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36b999c2-7915-4847-a769-9ed2df7dfc29">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.062  Retry succeeded after 2 tries and time of 00:00:00.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8c5ce26d-6e45-4376-8915-5744352aca35" testId="32ec3836-4ed2-f95b-8a70-15ad92500edb" testName="HandlesExceptionsWithFailure" computerName="TFSBUILD11" duration="00:00:00.0147236" startTime="2015-09-28T09:43:15.1237427-07:00" endTime="2015-09-28T09:43:15.1393682-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c5ce26d-6e45-4376-8915-5744352aca35">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.062  Exception caught while retrying: System.Exception: Exception of type 'System.Exception' was thrown.
+             at Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests.&lt;HandlesExceptionsWithFailure&gt;b__17_0() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\RetryHelperTests.cs:line 123
+             at Common.TestFramework.L2.Common.RetryHelper.Retry(TimeSpan timeout, TimeSpan sleepInterval, Func`1 action, Action failureAction, Boolean handleExceptions, Int32 maxAttempts) in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common\RetryHelper.cs:line 84
+00:00.078  Retry failed after 2 tries and time of 00:00:00.0156255.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b0ed170d-5319-4c35-abb3-aabc76a232b2" testId="3607eb46-3f05-4da7-542a-55aeceebb77f" testName="HandlesExceptionsWithSuccess" computerName="TFSBUILD11" duration="00:00:00.0168072" startTime="2015-09-28T09:43:15.1393682-07:00" endTime="2015-09-28T09:43:15.1549952-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0ed170d-5319-4c35-abb3-aabc76a232b2">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.078  Exception caught while retrying: System.Exception: Exception of type 'System.Exception' was thrown.
+             at Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests.&lt;HandlesExceptionsWithSuccess&gt;b__18_0() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\RetryHelperTests.cs:line 143
+             at Common.TestFramework.L2.Common.RetryHelper.Retry(TimeSpan timeout, TimeSpan sleepInterval, Func`1 action, Action failureAction, Boolean handleExceptions, Int32 maxAttempts) in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common\RetryHelper.cs:line 84
+00:00.093  Retry succeeded after 2 tries and time of 00:00:00.0156270.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d68311eb-31f6-4358-9aee-d84ea2ed02b5" testId="1127cfe3-4f15-9ed0-94a7-8bc497af124f" testName="ThrowsIfLastIterationThrows" computerName="TFSBUILD11" duration="00:00:00.0012703" startTime="2015-09-28T09:43:15.1549952-07:00" endTime="2015-09-28T09:43:15.1549952-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d68311eb-31f6-4358-9aee-d84ea2ed02b5">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.093  Exception caught while retrying: System.Exception: 2
+             at Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests.&lt;ThrowsIfLastIterationThrows&gt;b__19_0() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\RetryHelperTests.cs:line 165
+             at Common.TestFramework.L2.Common.RetryHelper.Retry(TimeSpan timeout, TimeSpan sleepInterval, Func`1 action, Action failureAction, Boolean handleExceptions, Int32 maxAttempts) in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common\RetryHelper.cs:line 84
+00:00.093  Retry failed after 2 tries and time of 00:00:00.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fa9b66bc-767f-43dc-bfd5-7f6c63aa78c8" testId="046ab4e8-22f8-4027-568b-067adc57a9a0" testName="ThrowsWhenEveryIterationThrows" computerName="TFSBUILD11" duration="00:00:00.0007369" startTime="2015-09-28T09:43:15.1549952-07:00" endTime="2015-09-28T09:43:15.1549952-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa9b66bc-767f-43dc-bfd5-7f6c63aa78c8">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.093  Exception caught while retrying: System.Exception: 1
+             at Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests.&lt;ThrowsWhenEveryIterationThrows&gt;b__20_0() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\RetryHelperTests.cs:line 188
+             at Common.TestFramework.L2.Common.RetryHelper.Retry(TimeSpan timeout, TimeSpan sleepInterval, Func`1 action, Action failureAction, Boolean handleExceptions, Int32 maxAttempts) in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common\RetryHelper.cs:line 84
+00:00.093  Retry failed after 1 tries and time of 00:00:00.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6175f4c1-2f64-46a4-8569-db84343e57bc" testId="ec3e9ca9-988f-3988-31b5-4673f483deb6" testName="HandleExceptionsFalseThrows" computerName="TFSBUILD11" duration="00:00:00.0006351" startTime="2015-09-28T09:43:15.1549952-07:00" endTime="2015-09-28T09:43:15.1549952-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6175f4c1-2f64-46a4-8569-db84343e57bc">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.093  Exception caught while retrying: System.Exception: 1
+             at Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests.&lt;HandleExceptionsFalseThrows&gt;b__21_0() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\RetryHelperTests.cs:line 209
+             at Common.TestFramework.L2.Common.RetryHelper.Retry(TimeSpan timeout, TimeSpan sleepInterval, Func`1 action, Action failureAction, Boolean handleExceptions, Int32 maxAttempts) in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common\RetryHelper.cs:line 84
+00:00.093  Retry failed after 1 tries and time of 00:00:00.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="37508a3c-0202-493e-adb1-a5747e106b5f" testId="e1eb5ac7-34bc-8594-1d14-2f8507d66549" testName="HandleExceptionsFalseThrowsIfLastIterationThrows" computerName="TFSBUILD11" duration="00:00:00.0006798" startTime="2015-09-28T09:43:15.1549952-07:00" endTime="2015-09-28T09:43:15.1549952-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="37508a3c-0202-493e-adb1-a5747e106b5f">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.093  Exception caught while retrying: System.Exception: 2
+             at Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests.&lt;HandleExceptionsFalseThrowsIfLastIterationThrows&gt;b__22_0() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\RetryHelperTests.cs:line 234
+             at Common.TestFramework.L2.Common.RetryHelper.Retry(TimeSpan timeout, TimeSpan sleepInterval, Func`1 action, Action failureAction, Boolean handleExceptions, Int32 maxAttempts) in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common\RetryHelper.cs:line 84
+00:00.093  Retry failed after 2 tries and time of 00:00:00.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="92a57f08-cfc6-4af6-9817-415bc9f048de" testId="10cf0243-42a0-72ea-0c38-7570a269e46d" testName="SimpleTimeoutRetryingWithHandleExceptionsFalse" computerName="TFSBUILD11" duration="00:00:00.0005330" startTime="2015-09-28T09:43:15.1549952-07:00" endTime="2015-09-28T09:43:15.1549952-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92a57f08-cfc6-4af6-9817-415bc9f048de">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.093  Retry failed after 1 tries and time of 00:00:00.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="455dd3a7-72e0-4e08-ba14-235a5fb2cd40" testId="c3d3d94b-71d7-7dca-35cc-d3e306146c30" testName="SuccessAfterRetryingWithHandleExceptionsFalse" computerName="TFSBUILD11" duration="00:00:00.0109166" startTime="2015-09-28T09:43:15.1549952-07:00" endTime="2015-09-28T09:43:15.1706207-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="455dd3a7-72e0-4e08-ba14-235a5fb2cd40">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.109  Retry succeeded after 2 tries and time of 00:00:00.0156255.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a89d8703-e11a-4782-96e4-0c00bfec503e" testId="f71d6102-88a7-8c55-a3d2-1c04bd076133" testName="FailureActionCalledAfterLastAttempt" computerName="TFSBUILD11" duration="00:00:00.0006675" startTime="2015-09-28T09:43:15.1706207-07:00" endTime="2015-09-28T09:43:15.1706207-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a89d8703-e11a-4782-96e4-0c00bfec503e">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.109  Retry failed after 2 tries and time of 00:00:00.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d3e8f76b-4d95-4f18-bb6e-65e8cf4408da" testId="36bafbbe-9b84-7c9e-2829-0069074b29e8" testName="FailureActionCalledAfterTimeout" computerName="TFSBUILD11" duration="00:00:00.0005000" startTime="2015-09-28T09:43:15.1706207-07:00" endTime="2015-09-28T09:43:15.1706207-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3e8f76b-4d95-4f18-bb6e-65e8cf4408da">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.109  Retry failed after 1 tries and time of 00:00:00.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="94db9b76-0384-4640-8119-ba56868d012a" testId="5d37b061-c69b-3086-1dd7-effdc0fb3ece" testName="FailureActionCalledAfterUnhandledException" computerName="TFSBUILD11" duration="00:00:00.0008914" startTime="2015-09-28T09:43:15.1706207-07:00" endTime="2015-09-28T09:43:15.1706207-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94db9b76-0384-4640-8119-ba56868d012a">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.109  Exception caught while retrying: System.InvalidOperationException: Exception!
+             at Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests.&lt;&gt;c.&lt;FailureActionCalledAfterUnhandledException&gt;b__27_0() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\RetryHelperTests.cs:line 324
+             at Common.TestFramework.L2.Common.RetryHelper.Retry(TimeSpan timeout, TimeSpan sleepInterval, Func`1 action, Action failureAction, Boolean handleExceptions, Int32 maxAttempts) in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common\RetryHelper.cs:line 84
+00:00.109  Retry failed after 1 tries and time of 00:00:00.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1ffdafbd-7237-4315-b7c9-0141bac928aa" testId="7a1f4139-b1bd-3cc3-747b-ee74de78e8c1" testName="FailureActionNotCalledAfterSuccess" computerName="TFSBUILD11" duration="00:00:00.0004602" startTime="2015-09-28T09:43:15.1706207-07:00" endTime="2015-09-28T09:43:15.1706207-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ffdafbd-7237-4315-b7c9-0141bac928aa">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.109  Retry succeeded after 1 tries and time of 00:00:00.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a1486cfd-d64b-4832-8bd6-169811e3f408" testId="edf42a63-360e-6b16-c464-baaafd07ca3c" testName="FailureActionNotCalledAfterHandledException" computerName="TFSBUILD11" duration="00:00:00.0006360" startTime="2015-09-28T09:43:15.1706207-07:00" endTime="2015-09-28T09:43:15.1706207-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1486cfd-d64b-4832-8bd6-169811e3f408">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.109  Exception caught while retrying: System.Exception: Exception of type 'System.Exception' was thrown.
+             at Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests.&lt;FailureActionNotCalledAfterHandledException&gt;b__29_0() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\RetryHelperTests.cs:line 365
+             at Common.TestFramework.L2.Common.RetryHelper.Retry(TimeSpan timeout, TimeSpan sleepInterval, Func`1 action, Action failureAction, Boolean handleExceptions, Int32 maxAttempts) in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common\RetryHelper.cs:line 84
+00:00.109  Retry succeeded after 2 tries and time of 00:00:00.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7e46536f-3f8f-43e4-9e30-688397e9063e" testId="1c63a242-ccad-256b-f703-aa3ff5b150ad" testName="NegativeTimeoutnIsInvalid" computerName="TFSBUILD11" duration="00:00:00.0005822" startTime="2015-09-28T09:43:15.1706207-07:00" endTime="2015-09-28T09:43:15.1706207-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e46536f-3f8f-43e4-9e30-688397e9063e" />
+    <UnitTestResult executionId="f41f7978-f746-4695-a12b-b50c2743b9c4" testId="965818de-636f-25b6-8a27-691028c6c908" testName="ZeroTimeoutIsInvalid" computerName="TFSBUILD11" duration="00:00:00.0005028" startTime="2015-09-28T09:43:15.1706207-07:00" endTime="2015-09-28T09:43:15.1706207-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f41f7978-f746-4695-a12b-b50c2743b9c4" />
+    <UnitTestResult executionId="0efb9868-1cf4-4790-93d8-dd004d14242a" testId="f3e2406c-ffe1-f7c9-ce2b-93289ccfc08b" testName="NegativeSleepIntervalIsInvalid" computerName="TFSBUILD11" duration="00:00:00.0004744" startTime="2015-09-28T09:43:15.1706207-07:00" endTime="2015-09-28T09:43:15.1706207-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0efb9868-1cf4-4790-93d8-dd004d14242a" />
+    <UnitTestResult executionId="a0937526-e8da-41c8-977e-a341702d3704" testId="4949e668-9663-e469-e3c5-cd06f31ba4d9" testName="LessThanTwoAttemptsIsInvalid" computerName="TFSBUILD11" duration="00:00:00.0004955" startTime="2015-09-28T09:43:15.1706207-07:00" endTime="2015-09-28T09:43:15.1706207-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0937526-e8da-41c8-977e-a341702d3704" />
+    <UnitTestResult executionId="55a1ab72-a305-4de4-8a61-a3061df3d4dd" testId="f9fbba8d-66ba-9b92-a022-9f62f9a57510" testName="NullActionIsInvalid" computerName="TFSBUILD11" duration="00:00:00.0003899" startTime="2015-09-28T09:43:15.1706207-07:00" endTime="2015-09-28T09:43:15.1706207-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55a1ab72-a305-4de4-8a61-a3061df3d4dd" />
+    <UnitTestResult executionId="38609bc4-09fb-4232-b461-da7cd23ffe72" testId="f23290f7-229e-4793-1916-d2cc41b486ec" testName="NestedTimeoutScopesPauseEachother" computerName="TFSBUILD11" duration="00:00:00.0031246" startTime="2015-09-28T09:43:15.1706207-07:00" endTime="2015-09-28T09:43:15.1706207-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38609bc4-09fb-4232-b461-da7cd23ffe72">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.109  Created new TimeoutScope, 'parentScope', for 01:00:00.  Thread Name: 
+00:00.109  TimeoutScope, 'parentScope', has been pushed.
+00:00.109  Created new TimeoutScope, 'childScope', for 01:00:00.  Thread Name: 
+00:00.109  TimeoutScope, 'parentScope', has been paused.
+00:00.109  TimeoutScope, 'childScope', has been pushed.
+00:00.109  TimeoutScope, 'childScope', has been popped.
+00:00.109  TimeoutScope, 'parentScope', has been resumed.  Time adjusted by: 00:00:00
+00:00.109  TimeoutScope, 'parentScope', has been popped.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b3a10ec0-4b31-4156-a01a-4439e5b8ef4e" testId="ca579311-023e-ba8e-d054-9bf182173459" testName="SubscriberNotifiedUponFailure" computerName="TFSBUILD11" duration="00:00:00.0076811" startTime="2015-09-28T09:43:15.1706207-07:00" endTime="2015-09-28T09:43:15.1862471-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3a10ec0-4b31-4156-a01a-4439e5b8ef4e">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.125  
+          
+          Failure 0:  Evaluate.IsTrue failed. 
+          Stack Trace:
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.EvaluateEvent.SubscriberNotifiedUponFailure() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 26
+          
+00:00.125  
+          
+          Failure 1:  Evaluate.Fail failed. We failed
+          Stack Trace:
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.EvaluateEvent.SubscriberNotifiedUponFailure() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 28
+          
+00:00.125  
+          
+          Failure 2:  Evaluate.Fail failed. No exception was thrown.  
+          Stack Trace:
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.EvaluateEvent.SubscriberNotifiedUponFailure() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 30</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="87c013d0-0feb-42b5-8ab5-9fb91acac957" testId="a3cd7924-968b-ee22-c156-c6e1fdc18589" testName="CatchesExceptions" computerName="TFSBUILD11" duration="00:00:00.0014668" startTime="2015-09-28T09:43:15.1862471-07:00" endTime="2015-09-28T09:43:15.1862471-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87c013d0-0feb-42b5-8ab5-9fb91acac957">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.125  Caught expected exception of type 'System.Exception'</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5cc1f3d5-729e-4465-94f2-eec9150b5e51" testId="d3e794a6-5f51-0afa-f988-a7d15373651c" testName="HandlesPolymorphism" computerName="TFSBUILD11" duration="00:00:00.0005344" startTime="2015-09-28T09:43:15.1862471-07:00" endTime="2015-09-28T09:43:15.1862471-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5cc1f3d5-729e-4465-94f2-eec9150b5e51">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.125  Caught expected exception of type 'System.InvalidCastException'</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2b2cb62e-dfb2-4d95-ba89-f61b8408481d" testId="d55bfc1a-65ca-8e75-e6bc-8d5e180c8536" testName="UsesExceptionMessageToMatchException" computerName="TFSBUILD11" duration="00:00:00.0005247" startTime="2015-09-28T09:43:15.1862471-07:00" endTime="2015-09-28T09:43:15.1862471-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b2cb62e-dfb2-4d95-ba89-f61b8408481d">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.125  Caught expected exception of type 'System.Exception'</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="57cd4b9d-acb3-4a50-9d25-0521927aeffb" testId="69b361bc-9708-a643-e299-af97120fda6e" testName="FailsTestIfNoExceptionIsThrown" computerName="TFSBUILD11" duration="00:00:00.0010063" startTime="2015-09-28T09:43:15.1862471-07:00" endTime="2015-09-28T09:43:15.1862471-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57cd4b9d-acb3-4a50-9d25-0521927aeffb">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.125  
+          
+          Failure 0:  Evaluate.Fail failed. No exception was thrown.  
+          Stack Trace:
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.&lt;&gt;c.&lt;FailsTestIfNoExceptionIsThrown&gt;b__4_0() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 75
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.Test(Func`1 action, Boolean expectToFailTest) in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 134
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.FailsTestIfNoExceptionIsThrown() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 76</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8c6fc053-0bb0-4b96-b6d0-8b2c94d04524" testId="e2d5f988-34dc-103c-1f2f-de3d1cede265" testName="FailsTestIfWrongExceptionTypeThrown" computerName="TFSBUILD11" duration="00:00:00.0010746" startTime="2015-09-28T09:43:15.1862471-07:00" endTime="2015-09-28T09:43:15.1862471-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c6fc053-0bb0-4b96-b6d0-8b2c94d04524">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.125  
+          
+          Failure 0:  Evaluate.Fail failed. Unexpected Exception was caught.  Was expecting type System.InvalidCastException.  Caught: 
+          System.Exception: Exception of type 'System.Exception' was thrown.
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.&lt;&gt;c.&lt;FailsTestIfWrongExceptionTypeThrown&gt;b__5_1() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 81
+             at Common.TestFramework.L2.Common.Evaluate.ThrowsInner[TException](String expectedExceptionMessage, Action action, String message, Func`2 exceptionValidator, Object[] parameters) in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common\Evaluate.cs:line 568
+          Stack Trace:
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.&lt;&gt;c.&lt;FailsTestIfWrongExceptionTypeThrown&gt;b__5_0() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 81
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.Test(Func`1 action, Boolean expectToFailTest) in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 134
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.FailsTestIfWrongExceptionTypeThrown() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 82</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="814edb22-6b48-450e-89b4-910a69527093" testId="c8017cfd-ea14-b1cf-24f4-f2df31946eae" testName="FailsTestIfWrongExceptionTypeThrownEvenWithRightMessage" computerName="TFSBUILD11" duration="00:00:00.0009176" startTime="2015-09-28T09:43:15.1862471-07:00" endTime="2015-09-28T09:43:15.1862471-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="814edb22-6b48-450e-89b4-910a69527093">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.125  
+          
+          Failure 0:  Evaluate.Fail failed. Unexpected Exception was caught.  Was expecting type System.InvalidCastException.  Caught: 
+          System.Exception: TestMessage
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.&lt;&gt;c.&lt;FailsTestIfWrongExceptionTypeThrownEvenWithRightMessage&gt;b__6_1() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 87
+             at Common.TestFramework.L2.Common.Evaluate.ThrowsInner[TException](String expectedExceptionMessage, Action action, String message, Func`2 exceptionValidator, Object[] parameters) in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common\Evaluate.cs:line 568
+          Stack Trace:
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.&lt;&gt;c.&lt;FailsTestIfWrongExceptionTypeThrownEvenWithRightMessage&gt;b__6_0() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 87
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.Test(Func`1 action, Boolean expectToFailTest) in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 134
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.FailsTestIfWrongExceptionTypeThrownEvenWithRightMessage() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 88</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="032f3ef6-7d67-4e53-923d-09afe0a51b1e" testId="bac88f1e-a46d-f783-4a7b-9f63f59e478a" testName="FailsTestIfRightExceptionTypWrongMessage" computerName="TFSBUILD11" duration="00:00:00.0008024" startTime="2015-09-28T09:43:15.1862471-07:00" endTime="2015-09-28T09:43:15.1862471-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="032f3ef6-7d67-4e53-923d-09afe0a51b1e">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.125  
+          
+          Failure 0:  Evaluate.Fail failed. Exception did not have expected message.
+          
+          Was expecting: "TestMessage"
+          
+          Actual Message: "Foo"
+          Stack Trace:
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.&lt;&gt;c.&lt;FailsTestIfRightExceptionTypWrongMessage&gt;b__7_0() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 93
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.Test(Func`1 action, Boolean expectToFailTest) in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 134
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.FailsTestIfRightExceptionTypWrongMessage() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 94</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="466c962e-93c1-4e7a-a0dc-5b3bb1fe26e9" testId="b841c043-f805-46d4-2103-4dd7eb173d3d" testName="ExceptionHandledWithWriteInnerException" computerName="TFSBUILD11" duration="00:00:00.0016017" startTime="2015-09-28T09:43:15.1862471-07:00" endTime="2015-09-28T09:43:15.1862471-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="466c962e-93c1-4e7a-a0dc-5b3bb1fe26e9">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.125  Caught expected exception of type 'Common.TestFramework.L2.Common.L0.Tests.EvaluateTests+Throws+CustomExceptionWithInnerException'</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9d6ed121-2182-4143-981f-f521bf451d62" testId="d312ab28-499a-a45a-25c2-e3ef28587764" testName="HandlesInnerExceptionPolymorphism" computerName="TFSBUILD11" duration="00:00:00.0005410" startTime="2015-09-28T09:43:15.1862471-07:00" endTime="2015-09-28T09:43:15.1862471-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d6ed121-2182-4143-981f-f521bf451d62">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.125  Caught expected exception of type 'Common.TestFramework.L2.Common.L0.Tests.EvaluateTests+Throws+CustomExceptionWithInnerException'</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8ac079a9-0af3-48ae-a65e-667542664108" testId="b1a1931b-59e1-d0d7-aaae-1ec50a2f0a2d" testName="HandlesInnerExceptionWithRightMessage" computerName="TFSBUILD11" duration="00:00:00.0006570" startTime="2015-09-28T09:43:15.1862471-07:00" endTime="2015-09-28T09:43:15.2018730-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ac079a9-0af3-48ae-a65e-667542664108">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.140  Caught expected exception of type 'Common.TestFramework.L2.Common.L0.Tests.EvaluateTests+Throws+CustomExceptionWithInnerException'</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="72370c25-3b49-48e9-a240-74ff8d45ed94" testId="e09a13ba-be7b-98d4-efe1-ee5ccbad5f76" testName="FailsTestIfNoExceptionThrownInnerException" computerName="TFSBUILD11" duration="00:00:00.0008374" startTime="2015-09-28T09:43:15.2018730-07:00" endTime="2015-09-28T09:43:15.2018730-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72370c25-3b49-48e9-a240-74ff8d45ed94">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.140  
+          
+          Failure 0:  Evaluate.Fail failed. No exception was thrown.  
+          Stack Trace:
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.&lt;&gt;c.&lt;FailsTestIfNoExceptionThrownInnerException&gt;b__11_0() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 117
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.Test(Func`1 action, Boolean expectToFailTest) in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 134
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.FailsTestIfNoExceptionThrownInnerException() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 118</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="85fb9213-e32d-4ef7-93ce-bc3d3025ec22" testId="c4e82bc9-d707-750c-c704-0ac45520c74d" testName="FailsTestIfWrongExceptionThrownInnerException" computerName="TFSBUILD11" duration="00:00:00.0012313" startTime="2015-09-28T09:43:15.2018730-07:00" endTime="2015-09-28T09:43:15.2018730-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85fb9213-e32d-4ef7-93ce-bc3d3025ec22">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.140  
+          
+          Failure 0:  Evaluate.Fail failed. Unexpected Exception was caught.  Was expecting type Common.TestFramework.L2.Common.L0.Tests.EvaluateTests+Throws+CustomExceptionWithInnerException.  Caught: 
+          System.Exception: Exception of type 'System.Exception' was thrown.
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.&lt;&gt;c.&lt;FailsTestIfWrongExceptionThrownInnerException&gt;b__12_1() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 123
+             at Common.TestFramework.L2.Common.Evaluate.ThrowsInner[TException](String expectedExceptionMessage, Action action, String message, Func`2 exceptionValidator, Object[] parameters) in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common\Evaluate.cs:line 568
+          Stack Trace:
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.&lt;&gt;c.&lt;FailsTestIfWrongExceptionThrownInnerException&gt;b__12_0() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 123
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.Test(Func`1 action, Boolean expectToFailTest) in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 134
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.FailsTestIfWrongExceptionThrownInnerException() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 124</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d73dcea9-252d-4b1a-9841-9443a35e8299" testId="46a7346f-0f47-59d1-b5ea-d0c0dddcb294" testName="FailsTestIfWrongInnerExceptionThrown" computerName="TFSBUILD11" duration="00:00:00.0014643" startTime="2015-09-28T09:43:15.2018730-07:00" endTime="2015-09-28T09:43:15.2018730-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d73dcea9-252d-4b1a-9841-9443a35e8299">
+      <Output>
+        <StdOut>Debug Trace:
+00:00.140  
+          
+          Failure 0:  Evaluate.Fail failed. Exception did not have expected inner exception.
+          Was expecting: "System.InvalidOperationException"
+          Actual Message: "System.Exception: Exception of type 'System.Exception' was thrown."
+          Stack Trace:
+             at Common.TestFramework.L2.Common.Evaluate.&lt;&gt;c__86`2.&lt;Throws&gt;b__86_0(Exception ex) in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common\Evaluate.cs:line 550
+             at Common.TestFramework.L2.Common.Evaluate.ThrowsInner[TException](String expectedExceptionMessage, Action action, String message, Func`2 exceptionValidator, Object[] parameters) in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common\Evaluate.cs:line 573
+             at Common.TestFramework.L2.Common.Evaluate.Throws[TException,TInnerException](String expectedExceptionMessage, Action action, String message, Object[] parameters) in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common\Evaluate.cs:line 535
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.&lt;&gt;c.&lt;FailsTestIfWrongInnerExceptionThrown&gt;b__13_0() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 129
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.Test(Func`1 action, Boolean expectToFailTest) in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 134
+             at Common.TestFramework.L2.Common.L0.Tests.EvaluateTests.Throws.FailsTestIfWrongInnerExceptionThrown() in D:\v2.0\A1\_work\dbded102\VSO\Common\TestFramework\L2.Common.L0.Tests\EvaluateTests.cs:line 130</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="EvaluateDoesNothingIfSatisfied" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="54f453d8-d482-c712-45ab-f19b23f325a0">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="9f8217de-db4e-4ba9-87ca-564cce62f3e6" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.TestPreconditionAttributeBaseTests" name="EvaluateDoesNothingIfSatisfied" />
+    </UnitTest>
+    <UnitTest name="EvaluateInconclusiveIfNoSatisfy" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="ea3b9ca8-7b13-3161-5ba8-1293e18f99ec">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="b4a3c5c6-5d85-4d74-87e4-d6607d2372f3" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.TestPreconditionAttributeBaseTests" name="EvaluateInconclusiveIfNoSatisfy" />
+    </UnitTest>
+    <UnitTest name="FailsSatisfyDoesNothingByDefault" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="5080b272-509b-44e9-5072-b50c2d664ba9">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="98e18661-896f-4716-9a91-a007217fa581" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.TestPreconditionAttributeBaseTests" name="FailsSatisfyDoesNothingByDefault" />
+    </UnitTest>
+    <UnitTest name="FailsSatisfyRespectsFailureMode" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="88ebec7f-5038-8f62-7456-8bc7a7b7d82b">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="74ef3091-8fd6-4602-83dc-240b01dbabe0" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.TestPreconditionAttributeBaseTests" name="FailsSatisfyRespectsFailureMode" />
+    </UnitTest>
+    <UnitTest name="ThrowSatisfyRespectsFailureMode" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="40eea8dd-32f9-3a7e-8318-b1e3e661c625">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="34fa95f5-2fdf-481c-bc92-41cfc9ea9144" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.TestPreconditionAttributeBaseTests" name="ThrowSatisfyRespectsFailureMode" />
+    </UnitTest>
+    <UnitTest name="PassSatisfyDoesNothing" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="23bd49c6-4223-ae52-5b25-d53ae4aa8e19">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="11c0848e-c94d-4564-9dc7-82ff5e40a994" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.TestPreconditionAttributeBaseTests" name="PassSatisfyDoesNothing" />
+    </UnitTest>
+    <UnitTest name="UndoDoesNotCallRevertIfSatisfied" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="afac6204-6367-9238-fa75-429de0cf22a1">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="b03e9dde-38a9-472c-91ec-e8c42fd8bf47" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.TestPreconditionAttributeBaseTests" name="UndoDoesNotCallRevertIfSatisfied" />
+    </UnitTest>
+    <UnitTest name="SatisfyAndUndoEatExceptions" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="f54d7389-9d74-7e74-e813-7ae8beb9b262">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="27a700fd-5457-4e9a-b014-56aa9bf252a9" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.TestPreconditionAttributeBaseTests" name="SatisfyAndUndoEatExceptions" />
+    </UnitTest>
+    <UnitTest name="UndoTwiceDoesNotCallRevertTwice" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="eaa87077-93ef-c2a8-c24a-9a81904cb04d">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="d8056fd5-ae54-40f3-8e01-8656b8b9e765" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.TestPreconditionAttributeBaseTests" name="UndoTwiceDoesNotCallRevertTwice" />
+    </UnitTest>
+    <UnitTest name="SimpleMaxAttemptsRetrying" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="a9389bdc-4909-024e-7716-90a268a53d05">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="8034f5b7-e216-45da-89dc-a43a0ea4b092" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="SimpleMaxAttemptsRetrying" />
+    </UnitTest>
+    <UnitTest name="SimpleTimeoutRetrying" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="8a8e8631-f5ee-6f12-c1ad-37b2cce2f660">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="1ee9f0c4-7003-46b5-976a-b1f0b4097bb3" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="SimpleTimeoutRetrying" />
+    </UnitTest>
+    <UnitTest name="NoRetriesNeeded" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="83d2162d-54e6-b5ed-d5cb-e57462bfd581">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="779a411b-af04-46b0-8cc9-808b187832ed" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="NoRetriesNeeded" />
+    </UnitTest>
+    <UnitTest name="SuccessAfterRetrying" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="521c4016-0306-6725-8959-9370440f0410">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="7d661c23-6741-4d82-8e14-2da4abd6f8f9" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="SuccessAfterRetrying" />
+    </UnitTest>
+    <UnitTest name="ZeroSleepIntervalIsAllowed" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="8b9d5014-1e65-df24-23fd-1793090be802">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="36b999c2-7915-4847-a769-9ed2df7dfc29" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="ZeroSleepIntervalIsAllowed" />
+    </UnitTest>
+    <UnitTest name="HandlesExceptionsWithFailure" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="32ec3836-4ed2-f95b-8a70-15ad92500edb">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="8c5ce26d-6e45-4376-8915-5744352aca35" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="HandlesExceptionsWithFailure" />
+    </UnitTest>
+    <UnitTest name="HandlesExceptionsWithSuccess" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="3607eb46-3f05-4da7-542a-55aeceebb77f">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="b0ed170d-5319-4c35-abb3-aabc76a232b2" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="HandlesExceptionsWithSuccess" />
+    </UnitTest>
+    <UnitTest name="ThrowsIfLastIterationThrows" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="1127cfe3-4f15-9ed0-94a7-8bc497af124f">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="d68311eb-31f6-4358-9aee-d84ea2ed02b5" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="ThrowsIfLastIterationThrows" />
+    </UnitTest>
+    <UnitTest name="ThrowsWhenEveryIterationThrows" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="046ab4e8-22f8-4027-568b-067adc57a9a0">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="fa9b66bc-767f-43dc-bfd5-7f6c63aa78c8" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="ThrowsWhenEveryIterationThrows" />
+    </UnitTest>
+    <UnitTest name="HandleExceptionsFalseThrows" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="ec3e9ca9-988f-3988-31b5-4673f483deb6">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="6175f4c1-2f64-46a4-8569-db84343e57bc" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="HandleExceptionsFalseThrows" />
+    </UnitTest>
+    <UnitTest name="HandleExceptionsFalseThrowsIfLastIterationThrows" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="e1eb5ac7-34bc-8594-1d14-2f8507d66549">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="37508a3c-0202-493e-adb1-a5747e106b5f" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="HandleExceptionsFalseThrowsIfLastIterationThrows" />
+    </UnitTest>
+    <UnitTest name="SimpleTimeoutRetryingWithHandleExceptionsFalse" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="10cf0243-42a0-72ea-0c38-7570a269e46d">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="92a57f08-cfc6-4af6-9817-415bc9f048de" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="SimpleTimeoutRetryingWithHandleExceptionsFalse" />
+    </UnitTest>
+    <UnitTest name="SuccessAfterRetryingWithHandleExceptionsFalse" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="c3d3d94b-71d7-7dca-35cc-d3e306146c30">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="455dd3a7-72e0-4e08-ba14-235a5fb2cd40" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="SuccessAfterRetryingWithHandleExceptionsFalse" />
+    </UnitTest>
+    <UnitTest name="FailureActionCalledAfterLastAttempt" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="f71d6102-88a7-8c55-a3d2-1c04bd076133">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="a89d8703-e11a-4782-96e4-0c00bfec503e" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="FailureActionCalledAfterLastAttempt" />
+    </UnitTest>
+    <UnitTest name="FailureActionCalledAfterTimeout" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="36bafbbe-9b84-7c9e-2829-0069074b29e8">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="d3e8f76b-4d95-4f18-bb6e-65e8cf4408da" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="FailureActionCalledAfterTimeout" />
+    </UnitTest>
+    <UnitTest name="FailureActionCalledAfterUnhandledException" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="5d37b061-c69b-3086-1dd7-effdc0fb3ece">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="94db9b76-0384-4640-8119-ba56868d012a" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="FailureActionCalledAfterUnhandledException" />
+    </UnitTest>
+    <UnitTest name="FailureActionNotCalledAfterSuccess" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="7a1f4139-b1bd-3cc3-747b-ee74de78e8c1">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="1ffdafbd-7237-4315-b7c9-0141bac928aa" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="FailureActionNotCalledAfterSuccess" />
+    </UnitTest>
+    <UnitTest name="FailureActionNotCalledAfterHandledException" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="edf42a63-360e-6b16-c464-baaafd07ca3c">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="a1486cfd-d64b-4832-8bd6-169811e3f408" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="FailureActionNotCalledAfterHandledException" />
+    </UnitTest>
+    <UnitTest name="NegativeTimeoutnIsInvalid" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="1c63a242-ccad-256b-f703-aa3ff5b150ad">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="7e46536f-3f8f-43e4-9e30-688397e9063e" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="NegativeTimeoutnIsInvalid" />
+    </UnitTest>
+    <UnitTest name="ZeroTimeoutIsInvalid" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="965818de-636f-25b6-8a27-691028c6c908">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="f41f7978-f746-4695-a12b-b50c2743b9c4" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="ZeroTimeoutIsInvalid" />
+    </UnitTest>
+    <UnitTest name="NegativeSleepIntervalIsInvalid" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="f3e2406c-ffe1-f7c9-ce2b-93289ccfc08b">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="0efb9868-1cf4-4790-93d8-dd004d14242a" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="NegativeSleepIntervalIsInvalid" />
+    </UnitTest>
+    <UnitTest name="LessThanTwoAttemptsIsInvalid" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="4949e668-9663-e469-e3c5-cd06f31ba4d9">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="a0937526-e8da-41c8-977e-a341702d3704" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="LessThanTwoAttemptsIsInvalid" />
+    </UnitTest>
+    <UnitTest name="NullActionIsInvalid" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="f9fbba8d-66ba-9b92-a022-9f62f9a57510">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="55a1ab72-a305-4de4-8a61-a3061df3d4dd" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.RetryHelperTests" name="NullActionIsInvalid" />
+    </UnitTest>
+    <UnitTest name="NestedTimeoutScopesPauseEachother" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="f23290f7-229e-4793-1916-d2cc41b486ec">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="38609bc4-09fb-4232-b461-da7cd23ffe72" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.TimeoutScopeTests" name="NestedTimeoutScopesPauseEachother" />
+    </UnitTest>
+    <UnitTest name="SubscriberNotifiedUponFailure" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="ca579311-023e-ba8e-d054-9bf182173459">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="b3a10ec0-4b31-4156-a01a-4439e5b8ef4e" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.EvaluateTests+EvaluateEvent" name="SubscriberNotifiedUponFailure" />
+    </UnitTest>
+    <UnitTest name="CatchesExceptions" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="a3cd7924-968b-ee22-c156-c6e1fdc18589">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="87c013d0-0feb-42b5-8ab5-9fb91acac957" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.EvaluateTests+Throws" name="CatchesExceptions" />
+    </UnitTest>
+    <UnitTest name="HandlesPolymorphism" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="d3e794a6-5f51-0afa-f988-a7d15373651c">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="5cc1f3d5-729e-4465-94f2-eec9150b5e51" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.EvaluateTests+Throws" name="HandlesPolymorphism" />
+    </UnitTest>
+    <UnitTest name="UsesExceptionMessageToMatchException" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="d55bfc1a-65ca-8e75-e6bc-8d5e180c8536">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="2b2cb62e-dfb2-4d95-ba89-f61b8408481d" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.EvaluateTests+Throws" name="UsesExceptionMessageToMatchException" />
+    </UnitTest>
+    <UnitTest name="FailsTestIfNoExceptionIsThrown" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="69b361bc-9708-a643-e299-af97120fda6e">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="57cd4b9d-acb3-4a50-9d25-0521927aeffb" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.EvaluateTests+Throws" name="FailsTestIfNoExceptionIsThrown" />
+    </UnitTest>
+    <UnitTest name="FailsTestIfWrongExceptionTypeThrown" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="e2d5f988-34dc-103c-1f2f-de3d1cede265">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="8c6fc053-0bb0-4b96-b6d0-8b2c94d04524" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.EvaluateTests+Throws" name="FailsTestIfWrongExceptionTypeThrown" />
+    </UnitTest>
+    <UnitTest name="FailsTestIfWrongExceptionTypeThrownEvenWithRightMessage" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="c8017cfd-ea14-b1cf-24f4-f2df31946eae">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="814edb22-6b48-450e-89b4-910a69527093" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.EvaluateTests+Throws" name="FailsTestIfWrongExceptionTypeThrownEvenWithRightMessage" />
+    </UnitTest>
+    <UnitTest name="FailsTestIfRightExceptionTypWrongMessage" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="bac88f1e-a46d-f783-4a7b-9f63f59e478a">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="032f3ef6-7d67-4e53-923d-09afe0a51b1e" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.EvaluateTests+Throws" name="FailsTestIfRightExceptionTypWrongMessage" />
+    </UnitTest>
+    <UnitTest name="ExceptionHandledWithWriteInnerException" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="b841c043-f805-46d4-2103-4dd7eb173d3d">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="466c962e-93c1-4e7a-a0dc-5b3bb1fe26e9" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.EvaluateTests+Throws" name="ExceptionHandledWithWriteInnerException" />
+    </UnitTest>
+    <UnitTest name="HandlesInnerExceptionPolymorphism" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="d312ab28-499a-a45a-25c2-e3ef28587764">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="9d6ed121-2182-4143-981f-f521bf451d62" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.EvaluateTests+Throws" name="HandlesInnerExceptionPolymorphism" />
+    </UnitTest>
+    <UnitTest name="HandlesInnerExceptionWithRightMessage" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="b1a1931b-59e1-d0d7-aaae-1ec50a2f0a2d">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="8ac079a9-0af3-48ae-a65e-667542664108" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.EvaluateTests+Throws" name="HandlesInnerExceptionWithRightMessage" />
+    </UnitTest>
+    <UnitTest name="FailsTestIfNoExceptionThrownInnerException" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="e09a13ba-be7b-98d4-efe1-ee5ccbad5f76">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="72370c25-3b49-48e9-a240-74ff8d45ed94" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.EvaluateTests+Throws" name="FailsTestIfNoExceptionThrownInnerException" />
+    </UnitTest>
+    <UnitTest name="FailsTestIfWrongExceptionThrownInnerException" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="c4e82bc9-d707-750c-c704-0ac45520c74d">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="85fb9213-e32d-4ef7-93ce-bc3d3025ec22" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.EvaluateTests+Throws" name="FailsTestIfWrongExceptionThrownInnerException" />
+    </UnitTest>
+    <UnitTest name="FailsTestIfWrongInnerExceptionThrown" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\common.testframework\common.testframework.l2.common.l0.tests\common.testframework.l2.common.l0.tests.dll" id="46a7346f-0f47-59d1-b5ea-d0c0dddcb294">
+      <Owners>
+        <Owner name="johnmo" />
+      </Owners>
+      <Execution id="d73dcea9-252d-4b1a-9841-9443a35e8299" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Common.TestFramework\Common.TestFramework.L2.Common.L0.Tests\Common.TestFramework.L2.Common.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Common.TestFramework.L2.Common.L0.Tests.EvaluateTests+Throws" name="FailsTestIfWrongInnerExceptionThrown" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="54f453d8-d482-c712-45ab-f19b23f325a0" executionId="9f8217de-db4e-4ba9-87ca-564cce62f3e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ea3b9ca8-7b13-3161-5ba8-1293e18f99ec" executionId="b4a3c5c6-5d85-4d74-87e4-d6607d2372f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5080b272-509b-44e9-5072-b50c2d664ba9" executionId="98e18661-896f-4716-9a91-a007217fa581" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="88ebec7f-5038-8f62-7456-8bc7a7b7d82b" executionId="74ef3091-8fd6-4602-83dc-240b01dbabe0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40eea8dd-32f9-3a7e-8318-b1e3e661c625" executionId="34fa95f5-2fdf-481c-bc92-41cfc9ea9144" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23bd49c6-4223-ae52-5b25-d53ae4aa8e19" executionId="11c0848e-c94d-4564-9dc7-82ff5e40a994" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="afac6204-6367-9238-fa75-429de0cf22a1" executionId="b03e9dde-38a9-472c-91ec-e8c42fd8bf47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f54d7389-9d74-7e74-e813-7ae8beb9b262" executionId="27a700fd-5457-4e9a-b014-56aa9bf252a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eaa87077-93ef-c2a8-c24a-9a81904cb04d" executionId="d8056fd5-ae54-40f3-8e01-8656b8b9e765" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9389bdc-4909-024e-7716-90a268a53d05" executionId="8034f5b7-e216-45da-89dc-a43a0ea4b092" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a8e8631-f5ee-6f12-c1ad-37b2cce2f660" executionId="1ee9f0c4-7003-46b5-976a-b1f0b4097bb3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83d2162d-54e6-b5ed-d5cb-e57462bfd581" executionId="779a411b-af04-46b0-8cc9-808b187832ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="521c4016-0306-6725-8959-9370440f0410" executionId="7d661c23-6741-4d82-8e14-2da4abd6f8f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b9d5014-1e65-df24-23fd-1793090be802" executionId="36b999c2-7915-4847-a769-9ed2df7dfc29" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32ec3836-4ed2-f95b-8a70-15ad92500edb" executionId="8c5ce26d-6e45-4376-8915-5744352aca35" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3607eb46-3f05-4da7-542a-55aeceebb77f" executionId="b0ed170d-5319-4c35-abb3-aabc76a232b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1127cfe3-4f15-9ed0-94a7-8bc497af124f" executionId="d68311eb-31f6-4358-9aee-d84ea2ed02b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="046ab4e8-22f8-4027-568b-067adc57a9a0" executionId="fa9b66bc-767f-43dc-bfd5-7f6c63aa78c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec3e9ca9-988f-3988-31b5-4673f483deb6" executionId="6175f4c1-2f64-46a4-8569-db84343e57bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1eb5ac7-34bc-8594-1d14-2f8507d66549" executionId="37508a3c-0202-493e-adb1-a5747e106b5f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10cf0243-42a0-72ea-0c38-7570a269e46d" executionId="92a57f08-cfc6-4af6-9817-415bc9f048de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3d3d94b-71d7-7dca-35cc-d3e306146c30" executionId="455dd3a7-72e0-4e08-ba14-235a5fb2cd40" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f71d6102-88a7-8c55-a3d2-1c04bd076133" executionId="a89d8703-e11a-4782-96e4-0c00bfec503e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36bafbbe-9b84-7c9e-2829-0069074b29e8" executionId="d3e8f76b-4d95-4f18-bb6e-65e8cf4408da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d37b061-c69b-3086-1dd7-effdc0fb3ece" executionId="94db9b76-0384-4640-8119-ba56868d012a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a1f4139-b1bd-3cc3-747b-ee74de78e8c1" executionId="1ffdafbd-7237-4315-b7c9-0141bac928aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edf42a63-360e-6b16-c464-baaafd07ca3c" executionId="a1486cfd-d64b-4832-8bd6-169811e3f408" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c63a242-ccad-256b-f703-aa3ff5b150ad" executionId="7e46536f-3f8f-43e4-9e30-688397e9063e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="965818de-636f-25b6-8a27-691028c6c908" executionId="f41f7978-f746-4695-a12b-b50c2743b9c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3e2406c-ffe1-f7c9-ce2b-93289ccfc08b" executionId="0efb9868-1cf4-4790-93d8-dd004d14242a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4949e668-9663-e469-e3c5-cd06f31ba4d9" executionId="a0937526-e8da-41c8-977e-a341702d3704" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9fbba8d-66ba-9b92-a022-9f62f9a57510" executionId="55a1ab72-a305-4de4-8a61-a3061df3d4dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f23290f7-229e-4793-1916-d2cc41b486ec" executionId="38609bc4-09fb-4232-b461-da7cd23ffe72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca579311-023e-ba8e-d054-9bf182173459" executionId="b3a10ec0-4b31-4156-a01a-4439e5b8ef4e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a3cd7924-968b-ee22-c156-c6e1fdc18589" executionId="87c013d0-0feb-42b5-8ab5-9fb91acac957" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3e794a6-5f51-0afa-f988-a7d15373651c" executionId="5cc1f3d5-729e-4465-94f2-eec9150b5e51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d55bfc1a-65ca-8e75-e6bc-8d5e180c8536" executionId="2b2cb62e-dfb2-4d95-ba89-f61b8408481d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69b361bc-9708-a643-e299-af97120fda6e" executionId="57cd4b9d-acb3-4a50-9d25-0521927aeffb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2d5f988-34dc-103c-1f2f-de3d1cede265" executionId="8c6fc053-0bb0-4b96-b6d0-8b2c94d04524" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c8017cfd-ea14-b1cf-24f4-f2df31946eae" executionId="814edb22-6b48-450e-89b4-910a69527093" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bac88f1e-a46d-f783-4a7b-9f63f59e478a" executionId="032f3ef6-7d67-4e53-923d-09afe0a51b1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b841c043-f805-46d4-2103-4dd7eb173d3d" executionId="466c962e-93c1-4e7a-a0dc-5b3bb1fe26e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d312ab28-499a-a45a-25c2-e3ef28587764" executionId="9d6ed121-2182-4143-981f-f521bf451d62" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b1a1931b-59e1-d0d7-aaae-1ec50a2f0a2d" executionId="8ac079a9-0af3-48ae-a65e-667542664108" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e09a13ba-be7b-98d4-efe1-ee5ccbad5f76" executionId="72370c25-3b49-48e9-a240-74ff8d45ed94" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4e82bc9-d707-750c-c704-0ac45520c74d" executionId="85fb9213-e32d-4ef7-93ce-bc3d3025ec22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46a7346f-0f47-59d1-b5ea-d0c0dddcb294" executionId="d73dcea9-252d-4b1a-9841-9443a35e8299" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="47" executed="47" passed="47" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6405117c-c0f3-4870-a224-cc4cd73a4e95" name="tfsmladm@TFSBUILD11 2015-09-28 09:43:30" runUser="REDMOND\tfsmladm" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2015-09-28T09:43:30.8123585-07:00" queuing="2015-09-28T09:43:30.8123585-07:00" start="2015-09-28T09:43:30.8123585-07:00" finish="2015-09-28T09:43:30.8592366-07:00" />
+  <TestSettings name="default" id="7aadc6c3-0275-4f14-a449-328bacb92006">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="tfsmladm_TFSBUILD11 2015-09-28 09_43_30" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="b81e2b2b-480b-41ed-8dc8-5caa0b337ad2" testId="37192aaa-0ee5-4aa1-2459-80e86212469e" testName="TestAvatarImageCacheGetAvatarForEmail" computerName="TFSBUILD11" duration="00:00:00.2276637" startTime="2015-09-28T09:43:30.4060802-07:00" endTime="2015-09-28T09:43:30.6717238-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b81e2b2b-480b-41ed-8dc8-5caa0b337ad2" />
+    <UnitTestResult executionId="5fcbca7a-1391-4bd7-9c1f-708f503257eb" testId="7d807332-1926-74b5-accc-56ce51b43ed2" testName="TestAvatarImageCacheGetAvatarForIdentity" computerName="TFSBUILD11" duration="00:00:00.0061357" startTime="2015-09-28T09:43:30.6873496-07:00" endTime="2015-09-28T09:43:30.6873496-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5fcbca7a-1391-4bd7-9c1f-708f503257eb" />
+    <UnitTestResult executionId="76ab73f0-1be7-4a08-a30c-68fca70fc36c" testId="31f670f2-fe72-fd9f-e1b4-46345e05208b" testName="TestAvatarImageCacheGetAvatarForIdentityString" computerName="TFSBUILD11" duration="00:00:00.0050508" startTime="2015-09-28T09:43:30.6873496-07:00" endTime="2015-09-28T09:43:30.6873496-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76ab73f0-1be7-4a08-a30c-68fca70fc36c" />
+    <UnitTestResult executionId="13827169-c5f4-4caa-9d68-4562bb4f0fe8" testId="0fb5d39e-7ff0-39bb-4ec4-0ccc9a0c5e1b" testName="TestAvatarImageCacheGetAvatarForAccountName" computerName="TFSBUILD11" duration="00:00:00.0062887" startTime="2015-09-28T09:43:30.6873496-07:00" endTime="2015-09-28T09:43:30.7029755-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13827169-c5f4-4caa-9d68-4562bb4f0fe8" />
+    <UnitTestResult executionId="8233bada-98cc-4355-9d3d-dd2ae6d67439" testId="ce907c29-d866-09bf-9dfb-af8568abba0d" testName="TestAvatarImageCacheBadParams" computerName="TFSBUILD11" duration="00:00:00.0025841" startTime="2015-09-28T09:43:30.7029755-07:00" endTime="2015-09-28T09:43:30.7029755-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8233bada-98cc-4355-9d3d-dd2ae6d67439" />
+    <UnitTestResult executionId="61ac205e-5a2b-4eec-bf44-821611f2e5fb" testId="b96917e6-233a-4884-ca51-7d1445d5a1fb" testName="TestAvatarServiceGetImageCacheMiss" computerName="TFSBUILD11" duration="00:00:00.0514411" startTime="2015-09-28T09:43:30.7029755-07:00" endTime="2015-09-28T09:43:30.7498538-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61ac205e-5a2b-4eec-bf44-821611f2e5fb" />
+    <UnitTestResult executionId="87cd5a15-4555-4b35-bd9d-a3acef067616" testId="8308971b-93d9-f3e8-ecf6-8639c481ab10" testName="TestAvatarServiceGetImageCacheHitValidImage" computerName="TFSBUILD11" duration="00:00:00.0047880" startTime="2015-09-28T09:43:30.7498538-07:00" endTime="2015-09-28T09:43:30.7654805-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87cd5a15-4555-4b35-bd9d-a3acef067616" />
+    <UnitTestResult executionId="fb1cebce-b1fd-4552-a2ef-e698826e63ef" testId="b8f15676-1f70-5b1b-99c7-4ed44a6c9fde" testName="TestAvatarServiceGetImageCacheHitExpiredImageNotUpdatedOnServer" computerName="TFSBUILD11" duration="00:00:00.0055014" startTime="2015-09-28T09:43:30.7654805-07:00" endTime="2015-09-28T09:43:30.7654805-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb1cebce-b1fd-4552-a2ef-e698826e63ef" />
+    <UnitTestResult executionId="4ec35a85-aa2e-4b2c-9c8d-81f9ffcefe0a" testId="6b87fa5e-85fa-2003-aa59-325b731c7a7f" testName="TestAvatarServiceGetImageCacheHitExpiredImageUpdatedOnServer" computerName="TFSBUILD11" duration="00:00:00.0050372" startTime="2015-09-28T09:43:30.7654805-07:00" endTime="2015-09-28T09:43:30.7654805-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ec35a85-aa2e-4b2c-9c8d-81f9ffcefe0a" />
+    <UnitTestResult executionId="1bc5bcd6-6acb-40ef-b94c-57087b4bb176" testId="27f83b10-843a-f2a2-f219-947892976156" testName="TestAvatarServiceGetImageFromGravatar" computerName="TFSBUILD11" duration="00:00:00.0058822" startTime="2015-09-28T09:43:30.7811060-07:00" endTime="2015-09-28T09:43:30.7811060-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1bc5bcd6-6acb-40ef-b94c-57087b4bb176" />
+    <UnitTestResult executionId="67debd7f-d7ef-4b22-b45c-b891b20d785e" testId="0c5c46e2-e7dc-220b-f4f4-0644dc17f59a" testName="TestAvatarServiceGetImageNoImageAvailable" computerName="TFSBUILD11" duration="00:00:00.0065120" startTime="2015-09-28T09:43:30.7811060-07:00" endTime="2015-09-28T09:43:30.7967324-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67debd7f-d7ef-4b22-b45c-b891b20d785e" />
+    <UnitTestResult executionId="274bcdb4-53db-4cad-a66c-81d72406301a" testId="c61c0775-3ce4-d515-e2dd-fdc9053dca66" testName="TestAvatarServiceDisposedMethodsFail" computerName="TFSBUILD11" duration="00:00:00.0009375" startTime="2015-09-28T09:43:30.7967324-07:00" endTime="2015-09-28T09:43:30.7967324-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="274bcdb4-53db-4cad-a66c-81d72406301a" />
+    <UnitTestResult executionId="87ec39c6-0131-46db-bb87-5ddac26797a5" testId="14eb5840-2619-8f5a-8cc5-3d6834a5a041" testName="TestAvatarServiceClearCache" computerName="TFSBUILD11" duration="00:00:00.0059798" startTime="2015-09-28T09:43:30.7967324-07:00" endTime="2015-09-28T09:43:30.7967324-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87ec39c6-0131-46db-bb87-5ddac26797a5" />
+    <UnitTestResult executionId="71e8ad13-fb5d-438d-bc49-aa1bd691c4e5" testId="987fc2dd-ffd9-52dd-1411-6a38e4797fd5" testName="TestCacheLookupWithNonExistentCacheFile" computerName="TFSBUILD11" duration="00:00:00.0007264" startTime="2015-09-28T09:43:30.7967324-07:00" endTime="2015-09-28T09:43:30.7967324-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71e8ad13-fb5d-438d-bc49-aa1bd691c4e5" />
+    <UnitTestResult executionId="992ab07d-5217-410d-b8e6-8ebf2866ca0a" testId="f5c09626-53e3-2248-a3f9-5c20fad75d54" testName="TestCacheLookupWithValidCacheFile" computerName="TFSBUILD11" duration="00:00:00.0004394" startTime="2015-09-28T09:43:30.7967324-07:00" endTime="2015-09-28T09:43:30.7967324-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="992ab07d-5217-410d-b8e6-8ebf2866ca0a" />
+    <UnitTestResult executionId="e3cab160-94fb-4c23-ab20-b3ddb0426ef9" testId="cc04840f-89d5-5736-22a7-a72f908ed868" testName="TestCacheLookupWithExpiredCacheFile" computerName="TFSBUILD11" duration="00:00:00.0004155" startTime="2015-09-28T09:43:30.7967324-07:00" endTime="2015-09-28T09:43:30.7967324-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3cab160-94fb-4c23-ab20-b3ddb0426ef9" />
+    <UnitTestResult executionId="d2a2e196-eca7-4f2c-b89f-c56ef1d36324" testId="1e55f299-d9ed-5c88-f973-069db6707cb5" testName="TestCacheResetTimeToLiveOnExipiredItem" computerName="TFSBUILD11" duration="00:00:00.0003288" startTime="2015-09-28T09:43:30.7967324-07:00" endTime="2015-09-28T09:43:30.7967324-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2a2e196-eca7-4f2c-b89f-c56ef1d36324" />
+    <UnitTestResult executionId="c82eb7dd-fdb7-4f1f-8163-88180d74a7cf" testId="3adbb0a4-e17b-0058-2673-aebf560802a3" testName="TestCacheLookupWithCorruptedImageId" computerName="TFSBUILD11" duration="00:00:00.0088143" startTime="2015-09-28T09:43:30.7967324-07:00" endTime="2015-09-28T09:43:30.8123585-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c82eb7dd-fdb7-4f1f-8163-88180d74a7cf" />
+    <UnitTestResult executionId="793e5446-cadb-4bcd-941d-39c6f4d67864" testId="ea5fc974-e880-757a-dde3-078f77b3b250" testName="TestResetTimeToLiveOnNonExistentItem" computerName="TFSBUILD11" duration="00:00:00.0002904" startTime="2015-09-28T09:43:30.8123585-07:00" endTime="2015-09-28T09:43:30.8123585-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="793e5446-cadb-4bcd-941d-39c6f4d67864" />
+    <UnitTestResult executionId="9731c717-3281-4512-bbfd-51497920f4e0" testId="75c9fe50-3d7c-3e9f-a7e2-f0975004e80a" testName="TestClearCache" computerName="TFSBUILD11" duration="00:00:00.0009921" startTime="2015-09-28T09:43:30.8123585-07:00" endTime="2015-09-28T09:43:30.8123585-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9731c717-3281-4512-bbfd-51497920f4e0" />
+    <UnitTestResult executionId="78f4ed24-4e34-43b3-8a76-b7a3d445154a" testId="dc74121d-996c-9036-fa43-03a1475dd177" testName="TestStoreNewImage" computerName="TFSBUILD11" duration="00:00:00.0009966" startTime="2015-09-28T09:43:30.8123585-07:00" endTime="2015-09-28T09:43:30.8123585-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78f4ed24-4e34-43b3-8a76-b7a3d445154a" />
+    <UnitTestResult executionId="d6d81585-bf90-46d0-8b34-d2d5c4d4189c" testId="9fb90380-9985-25a7-e638-8145dedfd5ed" testName="TestCacheStoreNewImageWithoutImageId" computerName="TFSBUILD11" duration="00:00:00.0012484" startTime="2015-09-28T09:43:30.8123585-07:00" endTime="2015-09-28T09:43:30.8123585-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6d81585-bf90-46d0-8b34-d2d5c4d4189c" />
+    <UnitTestResult executionId="87817f71-6d07-41b8-8b1f-bbab92a1e532" testId="97a2b01b-5347-2ef0-bfdc-fca582fa389d" testName="TestBuidingCanonicalPath" computerName="TFSBUILD11" duration="00:00:00.0004721" startTime="2015-09-28T09:43:30.8123585-07:00" endTime="2015-09-28T09:43:30.8123585-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87817f71-6d07-41b8-8b1f-bbab92a1e532" />
+    <UnitTestResult executionId="6ef92029-dd58-448d-a1e9-9ae2a8a7566f" testId="c0b35435-e733-1fa6-934d-18727d2f5070" testName="TestCacheInvalidParams" computerName="TFSBUILD11" duration="00:00:00.0005711" startTime="2015-09-28T09:43:30.8123585-07:00" endTime="2015-09-28T09:43:30.8123585-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ef92029-dd58-448d-a1e9-9ae2a8a7566f" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestAvatarImageCacheGetAvatarForEmail" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="37192aaa-0ee5-4aa1-2459-80e86212469e">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="b81e2b2b-480b-41ed-8dc8-5caa0b337ad2" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarImageCacheTests" name="TestAvatarImageCacheGetAvatarForEmail" />
+    </UnitTest>
+    <UnitTest name="TestAvatarImageCacheGetAvatarForIdentity" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="7d807332-1926-74b5-accc-56ce51b43ed2">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="5fcbca7a-1391-4bd7-9c1f-708f503257eb" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarImageCacheTests" name="TestAvatarImageCacheGetAvatarForIdentity" />
+    </UnitTest>
+    <UnitTest name="TestAvatarImageCacheGetAvatarForIdentityString" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="31f670f2-fe72-fd9f-e1b4-46345e05208b">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="76ab73f0-1be7-4a08-a30c-68fca70fc36c" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarImageCacheTests" name="TestAvatarImageCacheGetAvatarForIdentityString" />
+    </UnitTest>
+    <UnitTest name="TestAvatarImageCacheGetAvatarForAccountName" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="0fb5d39e-7ff0-39bb-4ec4-0ccc9a0c5e1b">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="13827169-c5f4-4caa-9d68-4562bb4f0fe8" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarImageCacheTests" name="TestAvatarImageCacheGetAvatarForAccountName" />
+    </UnitTest>
+    <UnitTest name="TestAvatarImageCacheBadParams" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="ce907c29-d866-09bf-9dfb-af8568abba0d">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="8233bada-98cc-4355-9d3d-dd2ae6d67439" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarImageCacheTests" name="TestAvatarImageCacheBadParams" />
+    </UnitTest>
+    <UnitTest name="TestAvatarServiceGetImageCacheMiss" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="b96917e6-233a-4884-ca51-7d1445d5a1fb">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="61ac205e-5a2b-4eec-bf44-821611f2e5fb" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarServiceTests" name="TestAvatarServiceGetImageCacheMiss" />
+    </UnitTest>
+    <UnitTest name="TestAvatarServiceGetImageCacheHitValidImage" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="8308971b-93d9-f3e8-ecf6-8639c481ab10">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="87cd5a15-4555-4b35-bd9d-a3acef067616" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarServiceTests" name="TestAvatarServiceGetImageCacheHitValidImage" />
+    </UnitTest>
+    <UnitTest name="TestAvatarServiceGetImageCacheHitExpiredImageNotUpdatedOnServer" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="b8f15676-1f70-5b1b-99c7-4ed44a6c9fde">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="fb1cebce-b1fd-4552-a2ef-e698826e63ef" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarServiceTests" name="TestAvatarServiceGetImageCacheHitExpiredImageNotUpdatedOnServer" />
+    </UnitTest>
+    <UnitTest name="TestAvatarServiceGetImageCacheHitExpiredImageUpdatedOnServer" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="6b87fa5e-85fa-2003-aa59-325b731c7a7f">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="4ec35a85-aa2e-4b2c-9c8d-81f9ffcefe0a" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarServiceTests" name="TestAvatarServiceGetImageCacheHitExpiredImageUpdatedOnServer" />
+    </UnitTest>
+    <UnitTest name="TestAvatarServiceGetImageFromGravatar" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="27f83b10-843a-f2a2-f219-947892976156">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="1bc5bcd6-6acb-40ef-b94c-57087b4bb176" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarServiceTests" name="TestAvatarServiceGetImageFromGravatar" />
+    </UnitTest>
+    <UnitTest name="TestAvatarServiceGetImageNoImageAvailable" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="0c5c46e2-e7dc-220b-f4f4-0644dc17f59a">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="67debd7f-d7ef-4b22-b45c-b891b20d785e" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarServiceTests" name="TestAvatarServiceGetImageNoImageAvailable" />
+    </UnitTest>
+    <UnitTest name="TestAvatarServiceDisposedMethodsFail" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="c61c0775-3ce4-d515-e2dd-fdc9053dca66">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="274bcdb4-53db-4cad-a66c-81d72406301a" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarServiceTests" name="TestAvatarServiceDisposedMethodsFail" />
+    </UnitTest>
+    <UnitTest name="TestAvatarServiceClearCache" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="14eb5840-2619-8f5a-8cc5-3d6834a5a041">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="87ec39c6-0131-46db-bb87-5ddac26797a5" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarServiceTests" name="TestAvatarServiceClearCache" />
+    </UnitTest>
+    <UnitTest name="TestCacheLookupWithNonExistentCacheFile" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="987fc2dd-ffd9-52dd-1411-6a38e4797fd5">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="71e8ad13-fb5d-438d-bc49-aa1bd691c4e5" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarImageFileCacheTests" name="TestCacheLookupWithNonExistentCacheFile" />
+    </UnitTest>
+    <UnitTest name="TestCacheLookupWithValidCacheFile" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="f5c09626-53e3-2248-a3f9-5c20fad75d54">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="992ab07d-5217-410d-b8e6-8ebf2866ca0a" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarImageFileCacheTests" name="TestCacheLookupWithValidCacheFile" />
+    </UnitTest>
+    <UnitTest name="TestCacheLookupWithExpiredCacheFile" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="cc04840f-89d5-5736-22a7-a72f908ed868">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="e3cab160-94fb-4c23-ab20-b3ddb0426ef9" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarImageFileCacheTests" name="TestCacheLookupWithExpiredCacheFile" />
+    </UnitTest>
+    <UnitTest name="TestCacheResetTimeToLiveOnExipiredItem" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="1e55f299-d9ed-5c88-f973-069db6707cb5">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="d2a2e196-eca7-4f2c-b89f-c56ef1d36324" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarImageFileCacheTests" name="TestCacheResetTimeToLiveOnExipiredItem" />
+    </UnitTest>
+    <UnitTest name="TestCacheLookupWithCorruptedImageId" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="3adbb0a4-e17b-0058-2673-aebf560802a3">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="c82eb7dd-fdb7-4f1f-8163-88180d74a7cf" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarImageFileCacheTests" name="TestCacheLookupWithCorruptedImageId" />
+    </UnitTest>
+    <UnitTest name="TestResetTimeToLiveOnNonExistentItem" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="ea5fc974-e880-757a-dde3-078f77b3b250">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="793e5446-cadb-4bcd-941d-39c6f4d67864" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarImageFileCacheTests" name="TestResetTimeToLiveOnNonExistentItem" />
+    </UnitTest>
+    <UnitTest name="TestClearCache" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="75c9fe50-3d7c-3e9f-a7e2-f0975004e80a">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="9731c717-3281-4512-bbfd-51497920f4e0" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarImageFileCacheTests" name="TestClearCache" />
+    </UnitTest>
+    <UnitTest name="TestStoreNewImage" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="dc74121d-996c-9036-fa43-03a1475dd177">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="78f4ed24-4e34-43b3-8a76-b7a3d445154a" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarImageFileCacheTests" name="TestStoreNewImage" />
+    </UnitTest>
+    <UnitTest name="TestCacheStoreNewImageWithoutImageId" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="9fb90380-9985-25a7-e638-8145dedfd5ed">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="d6d81585-bf90-46d0-8b34-d2d5c4d4189c" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarImageFileCacheTests" name="TestCacheStoreNewImageWithoutImageId" />
+    </UnitTest>
+    <UnitTest name="TestBuidingCanonicalPath" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="97a2b01b-5347-2ef0-bfdc-fca582fa389d">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="87817f71-6d07-41b8-8b1f-bbab92a1e532" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarImageFileCacheTests" name="TestBuidingCanonicalPath" />
+    </UnitTest>
+    <UnitTest name="TestCacheInvalidParams" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.controls.l0.tests\ms.tf.controls.l0.tests.dll" id="c0b35435-e733-1fa6-934d-18727d2f5070">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="6ef92029-dd58-448d-a1e9-9ae2a8a7566f" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Controls.L0.Tests\MS.TF.Controls.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Controls.L0.Tests.AvatarImageFileCacheTests" name="TestCacheInvalidParams" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="37192aaa-0ee5-4aa1-2459-80e86212469e" executionId="b81e2b2b-480b-41ed-8dc8-5caa0b337ad2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d807332-1926-74b5-accc-56ce51b43ed2" executionId="5fcbca7a-1391-4bd7-9c1f-708f503257eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="31f670f2-fe72-fd9f-e1b4-46345e05208b" executionId="76ab73f0-1be7-4a08-a30c-68fca70fc36c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0fb5d39e-7ff0-39bb-4ec4-0ccc9a0c5e1b" executionId="13827169-c5f4-4caa-9d68-4562bb4f0fe8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce907c29-d866-09bf-9dfb-af8568abba0d" executionId="8233bada-98cc-4355-9d3d-dd2ae6d67439" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b96917e6-233a-4884-ca51-7d1445d5a1fb" executionId="61ac205e-5a2b-4eec-bf44-821611f2e5fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8308971b-93d9-f3e8-ecf6-8639c481ab10" executionId="87cd5a15-4555-4b35-bd9d-a3acef067616" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8f15676-1f70-5b1b-99c7-4ed44a6c9fde" executionId="fb1cebce-b1fd-4552-a2ef-e698826e63ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b87fa5e-85fa-2003-aa59-325b731c7a7f" executionId="4ec35a85-aa2e-4b2c-9c8d-81f9ffcefe0a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="27f83b10-843a-f2a2-f219-947892976156" executionId="1bc5bcd6-6acb-40ef-b94c-57087b4bb176" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0c5c46e2-e7dc-220b-f4f4-0644dc17f59a" executionId="67debd7f-d7ef-4b22-b45c-b891b20d785e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c61c0775-3ce4-d515-e2dd-fdc9053dca66" executionId="274bcdb4-53db-4cad-a66c-81d72406301a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14eb5840-2619-8f5a-8cc5-3d6834a5a041" executionId="87ec39c6-0131-46db-bb87-5ddac26797a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="987fc2dd-ffd9-52dd-1411-6a38e4797fd5" executionId="71e8ad13-fb5d-438d-bc49-aa1bd691c4e5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5c09626-53e3-2248-a3f9-5c20fad75d54" executionId="992ab07d-5217-410d-b8e6-8ebf2866ca0a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc04840f-89d5-5736-22a7-a72f908ed868" executionId="e3cab160-94fb-4c23-ab20-b3ddb0426ef9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e55f299-d9ed-5c88-f973-069db6707cb5" executionId="d2a2e196-eca7-4f2c-b89f-c56ef1d36324" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3adbb0a4-e17b-0058-2673-aebf560802a3" executionId="c82eb7dd-fdb7-4f1f-8163-88180d74a7cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ea5fc974-e880-757a-dde3-078f77b3b250" executionId="793e5446-cadb-4bcd-941d-39c6f4d67864" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75c9fe50-3d7c-3e9f-a7e2-f0975004e80a" executionId="9731c717-3281-4512-bbfd-51497920f4e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc74121d-996c-9036-fa43-03a1475dd177" executionId="78f4ed24-4e34-43b3-8a76-b7a3d445154a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9fb90380-9985-25a7-e638-8145dedfd5ed" executionId="d6d81585-bf90-46d0-8b34-d2d5c4d4189c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97a2b01b-5347-2ef0-bfdc-fca582fa389d" executionId="87817f71-6d07-41b8-8b1f-bbab92a1e532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0b35435-e733-1fa6-934d-18727d2f5070" executionId="6ef92029-dd58-448d-a1e9-9ae2a8a7566f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="24" executed="24" passed="24" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b378a76d-5aaf-44e9-9770-46e6ff07eb71" name="tfsmladm@TFSBUILD11 2015-09-28 09:43:34" runUser="REDMOND\tfsmladm" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2015-09-28T09:43:34.9376518-07:00" queuing="2015-09-28T09:43:34.9376518-07:00" start="2015-09-28T09:43:34.9376518-07:00" finish="2015-09-28T09:43:35.7658354-07:00" />
+  <TestSettings name="default" id="b0584793-c64f-4672-9737-e6133a80b791">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="tfsmladm_TFSBUILD11 2015-09-28 09_43_34" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="fa69a1e8-9a17-415d-8ecf-ba72fc3e050b" testId="15396bfa-3a94-7372-0a56-84290809c85e" testName="WillSendNotificationForChatMessageUserMention" computerName="TFSBUILD11" duration="00:00:00.6155231" startTime="2015-09-28T09:43:33.8125713-07:00" endTime="2015-09-28T09:43:34.4688685-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa69a1e8-9a17-415d-8ecf-ba72fc3e050b" />
+    <UnitTestResult executionId="f30b0abf-ddb2-40a2-87ef-a8618bb269c6" testId="12311e63-0b5d-1403-1382-dc8fb2892d08" testName="WillSendMultipleNotificationsToDifferentRooms" computerName="TFSBUILD11" duration="00:00:00.0160807" startTime="2015-09-28T09:43:34.4844943-07:00" endTime="2015-09-28T09:43:34.5001207-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f30b0abf-ddb2-40a2-87ef-a8618bb269c6" />
+    <UnitTestResult executionId="26bc5683-abdf-41fc-8bfe-7cd2d3e21a80" testId="10cccfdb-c1da-bb1a-f993-cb37b8d13480" testName="WillFilterOutNonChatMentions" computerName="TFSBUILD11" duration="00:00:00.0233889" startTime="2015-09-28T09:43:34.5001207-07:00" endTime="2015-09-28T09:43:34.5313724-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26bc5683-abdf-41fc-8bfe-7cd2d3e21a80" />
+    <UnitTestResult executionId="88e40c31-1944-4ae5-9fb1-ba4cd9edb674" testId="1342d425-2cd5-ed90-1e1b-a28c8a30ad6f" testName="WillNotSendNotificationIfNotChatMessage" computerName="TFSBUILD11" duration="00:00:00.0169488" startTime="2015-09-28T09:43:34.5313724-07:00" endTime="2015-09-28T09:43:34.5469985-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="88e40c31-1944-4ae5-9fb1-ba4cd9edb674" />
+    <UnitTestResult executionId="4bd66439-19ba-40d1-be77-116bf61b1206" testId="2f0f4cd8-95ca-c7d9-bd6b-ac36a41c11a7" testName="WillNotSendNotificationIfChatMessageIsNotFound" computerName="TFSBUILD11" duration="00:00:00.0094677" startTime="2015-09-28T09:43:34.5469985-07:00" endTime="2015-09-28T09:43:34.5626249-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4bd66439-19ba-40d1-be77-116bf61b1206" />
+    <UnitTestResult executionId="b1d4209a-8918-4a3f-8ebb-5248900301e6" testId="924a1e33-3e90-820e-2b7d-e17008b8d7d5" testName="WillThrowWhenPassedNullRequestContext" computerName="TFSBUILD11" duration="00:00:00.0104976" startTime="2015-09-28T09:43:34.5626249-07:00" endTime="2015-09-28T09:43:34.5626249-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1d4209a-8918-4a3f-8ebb-5248900301e6" />
+    <UnitTestResult executionId="9ae4d712-5e97-4b24-ba44-28f22febd27b" testId="ae996d9e-7e72-11c5-7df3-42658521e85b" testName="WillThrowWhenPassedNullCommitList" computerName="TFSBUILD11" duration="00:00:00.0027070" startTime="2015-09-28T09:43:34.5626249-07:00" endTime="2015-09-28T09:43:34.5626249-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ae4d712-5e97-4b24-ba44-28f22febd27b" />
+    <UnitTestResult executionId="8f013212-f04d-4036-951a-c3934327f7c3" testId="77d81af9-1246-d4d1-59ef-4c8cbc62cf5c" testName="WillProcessCommitsIntoTheMentionService" computerName="TFSBUILD11" duration="00:00:00.2934672" startTime="2015-09-28T09:43:34.5626249-07:00" endTime="2015-09-28T09:43:34.8595213-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f013212-f04d-4036-951a-c3934327f7c3" />
+    <UnitTestResult executionId="0fcae2e5-0589-47c6-88c3-5390f4c348e5" testId="d88d4f0b-325e-5e51-acb0-d98e3af9ee92" testName="WillProcessCommitsWithEmptyCommentsIntoTheMentionService" computerName="TFSBUILD11" duration="00:00:00.0120689" startTime="2015-09-28T09:43:34.8595213-07:00" endTime="2015-09-28T09:43:34.8751483-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0fcae2e5-0589-47c6-88c3-5390f4c348e5" />
+    <UnitTestResult executionId="8c3022ea-be91-44e5-86e2-f54876e8e201" testId="eceed866-2cd1-9830-9737-a5691de0229e" testName="WillProcessCommitsWithEmptyNotesIntoTheMentionService" computerName="TFSBUILD11" duration="00:00:00.0117102" startTime="2015-09-28T09:43:34.8751483-07:00" endTime="2015-09-28T09:43:34.8907732-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c3022ea-be91-44e5-86e2-f54876e8e201" />
+    <UnitTestResult executionId="f8929954-3895-48d1-9aa5-66521c230fa6" testId="6136680c-d26f-9520-9a0c-639ecb531821" testName="WillGroupCommitsBasedOnPusherId" computerName="TFSBUILD11" duration="00:00:00.0260923" startTime="2015-09-28T09:43:34.8907732-07:00" endTime="2015-09-28T09:43:34.9220263-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f8929954-3895-48d1-9aa5-66521c230fa6" />
+    <UnitTestResult executionId="6b5d9041-4ed7-4f85-a562-ed9752ec20eb" testId="69411e75-c7f4-257d-342a-76724264cab2" testName="WillGroupCommitsByPusherIdIntoTheMentionService" computerName="TFSBUILD11" duration="00:00:00.0230931" startTime="2015-09-28T09:43:34.9220263-07:00" endTime="2015-09-28T09:43:34.9532780-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b5d9041-4ed7-4f85-a562-ed9752ec20eb" />
+    <UnitTestResult executionId="a3867a95-bf83-480a-ac43-6237f6caedef" testId="5eb6d97f-3f28-1b44-a56f-f73ab998516c" testName="WillFailIfMentionProcessingFails" computerName="TFSBUILD11" duration="00:00:00.0134274" startTime="2015-09-28T09:43:34.9532780-07:00" endTime="2015-09-28T09:43:34.9689044-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3867a95-bf83-480a-ac43-6237f6caedef" />
+    <UnitTestResult executionId="9b1c887b-9363-4337-b5a3-d616010d7d3f" testId="0c1b927c-b459-8200-fb3b-74ccbf4a8934" testName="WillThrowIfRequestContextIsNull" computerName="TFSBUILD11" duration="00:00:00.0049146" startTime="2015-09-28T09:43:34.9689044-07:00" endTime="2015-09-28T09:43:34.9689044-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b1c887b-9363-4337-b5a3-d616010d7d3f" />
+    <UnitTestResult executionId="ee988a9b-1755-4fd6-adbf-c39456501bd2" testId="cd911cea-b533-c31d-01a6-0c060cb52c98" testName="WillThrowIfMentionIsNull" computerName="TFSBUILD11" duration="00:00:00.0029704" startTime="2015-09-28T09:43:34.9689044-07:00" endTime="2015-09-28T09:43:34.9689044-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee988a9b-1755-4fd6-adbf-c39456501bd2" />
+    <UnitTestResult executionId="4c0b0b4d-f595-4d6e-8c4c-f9faecb6fcab" testId="1f9c8845-0c8b-961e-255b-c6e7d59ab43a" testName="WillSaveResolvedMention" computerName="TFSBUILD11" duration="00:00:00.2042713" startTime="2015-09-28T09:43:34.9689044-07:00" endTime="2015-09-28T09:43:35.1720432-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c0b0b4d-f595-4d6e-8c4c-f9faecb6fcab" />
+    <UnitTestResult executionId="862932dc-d7e4-4d8a-98d3-6c2a521e93bb" testId="887de492-19cf-9bbe-7909-f4f99ce3e426" testName="WillThrowIfContextIsNull" computerName="TFSBUILD11" duration="00:00:00.0120481" startTime="2015-09-28T09:43:35.1720432-07:00" endTime="2015-09-28T09:43:35.1876699-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="862932dc-d7e4-4d8a-98d3-6c2a521e93bb" />
+    <UnitTestResult executionId="84cc293a-15f6-42d5-afd3-bea337deacc8" testId="4c0450fb-149b-a2c6-f1d1-4d86a7b82850" testName="WillThrowIfCandidateIsNull" computerName="TFSBUILD11" duration="00:00:00.0035342" startTime="2015-09-28T09:43:35.1876699-07:00" endTime="2015-09-28T09:43:35.1876699-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84cc293a-15f6-42d5-afd3-bea337deacc8" />
+    <UnitTestResult executionId="00450644-a168-4933-afbc-d4fe1a00f76e" testId="f0831e66-20ed-f59e-4002-36725d1133c2" testName="WillReturnNoMentionsIfCandidateTextIsNullOrEmpty" computerName="TFSBUILD11" duration="00:00:00.0143086" startTime="2015-09-28T09:43:35.1876699-07:00" endTime="2015-09-28T09:43:35.2032954-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00450644-a168-4933-afbc-d4fe1a00f76e" />
+    <UnitTestResult executionId="b93ccfa8-c7a0-47fe-a02f-b4a92818aa78" testId="b5651562-9ff2-82c8-9f0e-f29adf3254ba" testName="WillReturnNoMentionsIfNoneFound" computerName="TFSBUILD11" duration="00:00:00.0183307" startTime="2015-09-28T09:43:35.2032954-07:00" endTime="2015-09-28T09:43:35.2189218-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b93ccfa8-c7a0-47fe-a02f-b4a92818aa78" />
+    <UnitTestResult executionId="bb589bb5-dd7a-41b9-ac6c-81da9dca4dcc" testId="89444754-a08c-0574-79b9-13541ba32b62" testName="WillFindUserMention" computerName="TFSBUILD11" duration="00:00:00.0123243" startTime="2015-09-28T09:43:35.2189218-07:00" endTime="2015-09-28T09:43:35.2345482-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb589bb5-dd7a-41b9-ac6c-81da9dca4dcc" />
+    <UnitTestResult executionId="48c4560a-3cad-44fc-8def-702c210ede32" testId="fee990e4-e56f-745f-82a6-6a59a639b820" testName="WillNotParseDuplicateUserMentions" computerName="TFSBUILD11" duration="00:00:00.0061806" startTime="2015-09-28T09:43:35.2345482-07:00" endTime="2015-09-28T09:43:35.2501741-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48c4560a-3cad-44fc-8def-702c210ede32" />
+    <UnitTestResult executionId="bf3edae1-91aa-4901-a37b-92948b2a3e27" testId="5ab26127-6eac-4978-5133-2b23b18472ea" testName="WillParseUserMentionsWithDifferentCasing" computerName="TFSBUILD11" duration="00:00:00.0052616" startTime="2015-09-28T09:43:35.2501741-07:00" endTime="2015-09-28T09:43:35.2501741-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf3edae1-91aa-4901-a37b-92948b2a3e27" />
+    <UnitTestResult executionId="41e141fe-07e3-4713-96d3-eef675a72bd7" testId="c9c64f5d-7eb6-1972-5cfa-633d0f50cf7c" testName="WillParseMentionIfEndByPunctuations" computerName="TFSBUILD11" duration="00:00:00.0048005" startTime="2015-09-28T09:43:35.2501741-07:00" endTime="2015-09-28T09:43:35.2501741-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="41e141fe-07e3-4713-96d3-eef675a72bd7" />
+    <UnitTestResult executionId="6a8daad7-1baf-4082-87ce-934b20f3a08d" testId="a2894c7d-fe91-da5a-e8f1-b797d72019e4" testName="WillFindMentionAtBeginning" computerName="TFSBUILD11" duration="00:00:00.0046281" startTime="2015-09-28T09:43:35.2501741-07:00" endTime="2015-09-28T09:43:35.2658007-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a8daad7-1baf-4082-87ce-934b20f3a08d" />
+    <UnitTestResult executionId="3e1b9d04-e7f6-449b-a21e-8aa9f34beadf" testId="63ebf2b1-a41d-b171-5944-9ccfb26320d5" testName="WillParseTillEndOfString" computerName="TFSBUILD11" duration="00:00:00.0051649" startTime="2015-09-28T09:43:35.2658007-07:00" endTime="2015-09-28T09:43:35.2658007-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e1b9d04-e7f6-449b-a21e-8aa9f34beadf" />
+    <UnitTestResult executionId="c7f8779d-287e-4cf9-ad32-6729f442112e" testId="a62bd432-dbe0-8a91-697c-506c7edc0747" testName="WillFindMentionAtEndWithMultipleNewLines" computerName="TFSBUILD11" duration="00:00:00.0052417" startTime="2015-09-28T09:43:35.2658007-07:00" endTime="2015-09-28T09:43:35.2658007-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7f8779d-287e-4cf9-ad32-6729f442112e" />
+    <UnitTestResult executionId="2f1b996f-8454-4ab6-a431-c13bd4091932" testId="15e6c799-148e-aaa1-f769-d3cf7679cdba" testName="WillParseEmailIdsAsUserNames" computerName="TFSBUILD11" duration="00:00:00.0064756" startTime="2015-09-28T09:43:35.2658007-07:00" endTime="2015-09-28T09:43:35.2814260-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f1b996f-8454-4ab6-a431-c13bd4091932" />
+    <UnitTestResult executionId="0b3f3d8a-7bc7-4704-a670-460a87ad37ff" testId="bcf1aa34-1e2f-a707-1727-544e1efeaf20" testName="FindMentionsWithInternationalCharactersInComment" computerName="TFSBUILD11" duration="00:00:00.0067600" startTime="2015-09-28T09:43:35.2814260-07:00" endTime="2015-09-28T09:43:35.2814260-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b3f3d8a-7bc7-4704-a670-460a87ad37ff" />
+    <UnitTestResult executionId="b938138f-ec92-4dc9-848b-b876fd2eb39b" testId="27a8a4ed-67e1-55c4-a2da-8cf21cbd1ea9" testName="WillFindMultipleMentions" computerName="TFSBUILD11" duration="00:00:00.0072777" startTime="2015-09-28T09:43:35.2814260-07:00" endTime="2015-09-28T09:43:35.2970524-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b938138f-ec92-4dc9-848b-b876fd2eb39b" />
+    <UnitTestResult executionId="fa98e151-f346-4141-9b8b-d4bf30491f53" testId="430e7c18-e5dd-9a23-60cd-514d864531d3" testName="WillThrowIfRequestContextIsNull" computerName="TFSBUILD11" duration="00:00:00.0359235" startTime="2015-09-28T09:43:35.2970524-07:00" endTime="2015-09-28T09:43:35.3283041-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa98e151-f346-4141-9b8b-d4bf30491f53" />
+    <UnitTestResult executionId="21a2dffb-697a-4b9b-928a-2f316464511c" testId="83bd4355-967d-c0f5-f26b-53ae7b0b3783" testName="WillThrowIfMentionIsNull" computerName="TFSBUILD11" duration="00:00:00.0153460" startTime="2015-09-28T09:43:35.3283041-07:00" endTime="2015-09-28T09:43:35.3439302-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21a2dffb-697a-4b9b-928a-2f316464511c" />
+    <UnitTestResult executionId="4ac30293-ffd0-4b99-9ffe-f2d789171af3" testId="e52f0b13-1fd0-71ba-7c49-a5cd1d59ce55" testName="WillUpdateHistoryOfWorkItemForActionHistory" computerName="TFSBUILD11" duration="00:00:00.0669430" startTime="2015-09-28T09:43:35.3439302-07:00" endTime="2015-09-28T09:43:35.4064360-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ac30293-ffd0-4b99-9ffe-f2d789171af3" />
+    <UnitTestResult executionId="2c2dbac2-50fd-4489-9801-980f668e40ea" testId="e0fc72e1-223a-486f-408d-77ce18c78864" testName="WillContinueNextUpdateHistoryOfWorkItemWhenFailedForActionHistory" computerName="TFSBUILD11" duration="00:00:00.0226201" startTime="2015-09-28T09:43:35.4064360-07:00" endTime="2015-09-28T09:43:35.4376871-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c2dbac2-50fd-4489-9801-980f668e40ea" />
+    <UnitTestResult executionId="3c594084-4dcc-43e0-b478-fa138f7b82e3" testId="6788f822-fa6b-7e11-2cda-0b1cda9eb385" testName="WillUpdateHistoryOfWorkItem" computerName="TFSBUILD11" duration="00:00:00.0657034" startTime="2015-09-28T09:43:35.4376871-07:00" endTime="2015-09-28T09:43:35.5001916-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c594084-4dcc-43e0-b478-fa138f7b82e3" />
+    <UnitTestResult executionId="610073ec-6050-4049-b003-29b082066bb7" testId="6ecf09be-e2ca-7835-8837-80ff576779d6" testName="WillAddResourceLinkToWorkItemIfSourceContextIsLinkable" computerName="TFSBUILD11" duration="00:00:00.0090936" startTime="2015-09-28T09:43:35.5001916-07:00" endTime="2015-09-28T09:43:35.5001916-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="610073ec-6050-4049-b003-29b082066bb7" />
+    <UnitTestResult executionId="c5d2f82f-89c6-4ef6-9aad-7dae852da185" testId="86eacf85-294f-5f3f-c590-898cc1558578" testName="WillNotUpdateWorkItemIfArtifactTypeIsNotWorkItemType" computerName="TFSBUILD11" duration="00:00:00.0052741" startTime="2015-09-28T09:43:35.5001916-07:00" endTime="2015-09-28T09:43:35.5158180-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5d2f82f-89c6-4ef6-9aad-7dae852da185" />
+    <UnitTestResult executionId="478576b8-a5dc-4c22-907d-693e33867868" testId="090d3af1-98ca-6545-dc84-765780e906eb" testName="WillNotUpdateWorkItemIfCommitLinkAlreadyExisted" computerName="TFSBUILD11" duration="00:00:00.0080446" startTime="2015-09-28T09:43:35.5158180-07:00" endTime="2015-09-28T09:43:35.5158180-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="478576b8-a5dc-4c22-907d-693e33867868" />
+    <UnitTestResult executionId="4e0c4d16-d917-459a-ab9f-ddc2c2692b10" testId="e6de81f3-8fd0-5665-aff0-c28ebb14df15" testName="WillThrowIfContextIsNull" computerName="TFSBUILD11" duration="00:00:00.0027778" startTime="2015-09-28T09:43:35.5158180-07:00" endTime="2015-09-28T09:43:35.5314435-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e0c4d16-d917-459a-ab9f-ddc2c2692b10" />
+    <UnitTestResult executionId="4200c532-a150-4dd3-ae87-ded32ae0eba7" testId="81853f97-6747-157c-bd6e-dab60eb179b1" testName="WillThrowIfCandidateIsNull" computerName="TFSBUILD11" duration="00:00:00.0034730" startTime="2015-09-28T09:43:35.5314435-07:00" endTime="2015-09-28T09:43:35.5314435-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4200c532-a150-4dd3-ae87-ded32ae0eba7" />
+    <UnitTestResult executionId="03792589-89f9-4f02-9a94-bc43c10d46a1" testId="2cdf645c-d54c-fe97-8557-d147f908d469" testName="WillReturnNoMentionsIfCandidateTextIsNullOrEmpty" computerName="TFSBUILD11" duration="00:00:00.0056638" startTime="2015-09-28T09:43:35.5314435-07:00" endTime="2015-09-28T09:43:35.5314435-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03792589-89f9-4f02-9a94-bc43c10d46a1" />
+    <UnitTestResult executionId="79fa798e-25b9-4b11-af6c-edac6521f651" testId="84f031b4-6da4-900b-c589-79e55c9a1ed7" testName="WillFindWorkItemMention" computerName="TFSBUILD11" duration="00:00:00.0077434" startTime="2015-09-28T09:43:35.5314435-07:00" endTime="2015-09-28T09:43:35.5470702-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79fa798e-25b9-4b11-af6c-edac6521f651" />
+    <UnitTestResult executionId="8cf316d6-19d0-46d7-acef-bcac39cfae38" testId="f9584de4-74cd-cf05-7b80-9f12416d138b" testName="WillNotParseDuplicateWorkItemIdsWithSameAction" computerName="TFSBUILD11" duration="00:00:00.0034801" startTime="2015-09-28T09:43:35.5470702-07:00" endTime="2015-09-28T09:43:35.5470702-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8cf316d6-19d0-46d7-acef-bcac39cfae38" />
+    <UnitTestResult executionId="0cac7a2c-3b5e-4c17-a14f-b08ddb2e0360" testId="6d9c4bda-0e1b-7a21-4631-2d7c6551d030" testName="WillHandleExceptionThrownByDAL" computerName="TFSBUILD11" duration="00:00:00.0060950" startTime="2015-09-28T09:43:35.5470702-07:00" endTime="2015-09-28T09:43:35.5470702-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0cac7a2c-3b5e-4c17-a14f-b08ddb2e0360" />
+    <UnitTestResult executionId="2f0f769d-8839-4a1a-bfd7-9124c5e9190e" testId="213e4d04-4014-5fff-a160-3aa716007bd3" testName="WillFindMultipleMentions" computerName="TFSBUILD11" duration="00:00:00.0031724" startTime="2015-09-28T09:43:35.5470702-07:00" endTime="2015-09-28T09:43:35.5626963-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f0f769d-8839-4a1a-bfd7-9124c5e9190e" />
+    <UnitTestResult executionId="2b32cca9-a0f4-4580-8c17-c97c9e8124b1" testId="1da953cb-605b-b275-acd8-830bd198c5c9" testName="WillFindMultipleMentionsIgnoringPunctuations" computerName="TFSBUILD11" duration="00:00:00.0034642" startTime="2015-09-28T09:43:35.5626963-07:00" endTime="2015-09-28T09:43:35.5626963-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b32cca9-a0f4-4580-8c17-c97c9e8124b1" />
+    <UnitTestResult executionId="b81b2279-e580-4d14-86dc-e33e210a6f60" testId="f1532b2d-3ee6-bb71-716e-2674bb32b1a7" testName="WillFindMentionAtBeginning" computerName="TFSBUILD11" duration="00:00:00.0030131" startTime="2015-09-28T09:43:35.5626963-07:00" endTime="2015-09-28T09:43:35.5626963-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b81b2279-e580-4d14-86dc-e33e210a6f60" />
+    <UnitTestResult executionId="cef56d59-38ad-4bc7-8bfc-b745c869a4ea" testId="66dbb78e-c76f-b920-28ac-a5b9c06d262a" testName="WillFindMentionAtEnd" computerName="TFSBUILD11" duration="00:00:00.0030865" startTime="2015-09-28T09:43:35.5626963-07:00" endTime="2015-09-28T09:43:35.5626963-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cef56d59-38ad-4bc7-8bfc-b745c869a4ea" />
+    <UnitTestResult executionId="bb05c6c1-58b8-46c1-bc75-266a7e9a248d" testId="0112e5b7-404c-cccd-f504-7e814864d273" testName="WillFindMentionAtEndWithMultipleNewLines" computerName="TFSBUILD11" duration="00:00:00.0031331" startTime="2015-09-28T09:43:35.5626963-07:00" endTime="2015-09-28T09:43:35.5626963-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb05c6c1-58b8-46c1-bc75-266a7e9a248d" />
+    <UnitTestResult executionId="eb7353fd-ac1c-4e1b-a31f-b96a82e03f20" testId="15419e7e-bdbd-1ee1-9cb1-3ff99572b4e8" testName="WillFindLimitedMentionsPerCandidate" computerName="TFSBUILD11" duration="00:00:00.0030583" startTime="2015-09-28T09:43:35.5626963-07:00" endTime="2015-09-28T09:43:35.5783227-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb7353fd-ac1c-4e1b-a31f-b96a82e03f20" />
+    <UnitTestResult executionId="762811ba-f750-4524-9432-cc060cbbf8a5" testId="76b6f37e-3273-d4c5-e28d-9340da8ab939" testName="WillNotReturnMentionIfTrailingSymbolsArePresent" computerName="TFSBUILD11" duration="00:00:00.0029385" startTime="2015-09-28T09:43:35.5783227-07:00" endTime="2015-09-28T09:43:35.5783227-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="762811ba-f750-4524-9432-cc060cbbf8a5" />
+    <UnitTestResult executionId="ed960c05-2538-4059-9294-2d07ce5f14e5" testId="df785bbc-d690-98c4-406b-696ab4cbe9b7" testName="WillNotResolveAWorkItemThatDoesNotExists" computerName="TFSBUILD11" duration="00:00:00.0045513" startTime="2015-09-28T09:43:35.5783227-07:00" endTime="2015-09-28T09:43:35.5783227-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed960c05-2538-4059-9294-2d07ce5f14e5" />
+    <UnitTestResult executionId="f3443fba-a30c-464d-b391-cbe3fc3bf7cf" testId="be60df1d-8e22-d1a6-ef0a-cda27ad4ab6e" testName="WillResolveAWorkItemThatExistsAndSetUrl" computerName="TFSBUILD11" duration="00:00:00.0046472" startTime="2015-09-28T09:43:35.5783227-07:00" endTime="2015-09-28T09:43:35.5783227-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3443fba-a30c-464d-b391-cbe3fc3bf7cf" />
+    <UnitTestResult executionId="ec61cd19-5f83-41c2-89b7-f6f5bd99e0e5" testId="dbdab891-9ff2-5e15-f7d2-7aeba5bddcff" testName="WillReturnNoMentionsIfNoMentionFoundInComment" computerName="TFSBUILD11" duration="00:00:00.0029772" startTime="2015-09-28T09:43:35.5783227-07:00" endTime="2015-09-28T09:43:35.5939485-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec61cd19-5f83-41c2-89b7-f6f5bd99e0e5" />
+    <UnitTestResult executionId="246628b0-93d5-4ced-ac78-ab64825d92be" testId="ff99a679-1cc1-65a0-19c7-1a4aa03a751e" testName="WillParseMultipleMentionsWithTabDelimiter" computerName="TFSBUILD11" duration="00:00:00.0033564" startTime="2015-09-28T09:43:35.5939485-07:00" endTime="2015-09-28T09:43:35.5939485-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="246628b0-93d5-4ced-ac78-ab64825d92be" />
+    <UnitTestResult executionId="4f1f8e73-7c54-434e-9faa-d663f3ade997" testId="6d480138-3ccf-a079-d4b0-7c69aa657e35" testName="WillReturnMentionsIfDelimitersPresent" computerName="TFSBUILD11" duration="00:00:00.0041659" startTime="2015-09-28T09:43:35.5939485-07:00" endTime="2015-09-28T09:43:35.5939485-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f1f8e73-7c54-434e-9faa-d663f3ade997" />
+    <UnitTestResult executionId="cc12f888-2475-44ee-a9af-35d7812e1cd1" testId="752531cb-20c6-aff0-fbea-09efeb8da496" testName="WillReturnNoMentionsIfTooBigNumberMentioned" computerName="TFSBUILD11" duration="00:00:00.0031314" startTime="2015-09-28T09:43:35.5939485-07:00" endTime="2015-09-28T09:43:35.5939485-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc12f888-2475-44ee-a9af-35d7812e1cd1" />
+    <UnitTestResult executionId="4b943fe6-c93b-48f6-9aca-a8a70d855237" testId="93c8f22a-9946-7027-0736-7048b8d53ce0" testName="FindMentionsWithInternationalCharactersInComment" computerName="TFSBUILD11" duration="00:00:00.0032068" startTime="2015-09-28T09:43:35.5939485-07:00" endTime="2015-09-28T09:43:35.6095746-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b943fe6-c93b-48f6-9aca-a8a70d855237" />
+    <UnitTestResult executionId="4bc32769-3fe4-480b-bda0-e0d4d455f55a" testId="f4c19d08-9c3a-5de3-cd9a-7fe49285478b" testName="WillThrowIfContextIsNull" computerName="TFSBUILD11" duration="00:00:00.0019919" startTime="2015-09-28T09:43:35.6095746-07:00" endTime="2015-09-28T09:43:35.6095746-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4bc32769-3fe4-480b-bda0-e0d4d455f55a" />
+    <UnitTestResult executionId="6c3e4558-78e4-4b56-85b6-75786b4f4512" testId="fc725888-7586-53e8-1094-0cd6477a81fe" testName="WillThrowIfCandidateIsNull" computerName="TFSBUILD11" duration="00:00:00.0038965" startTime="2015-09-28T09:43:35.6095746-07:00" endTime="2015-09-28T09:43:35.6095746-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c3e4558-78e4-4b56-85b6-75786b4f4512" />
+    <UnitTestResult executionId="146d8994-5545-4112-8b29-1804bfa82220" testId="62be60a8-d2c6-07be-3264-956d053d288b" testName="WillReturnNoMentionsIfCandidateTextIsNullOrEmpty" computerName="TFSBUILD11" duration="00:00:00.0058293" startTime="2015-09-28T09:43:35.6095746-07:00" endTime="2015-09-28T09:43:35.6095746-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="146d8994-5545-4112-8b29-1804bfa82220" />
+    <UnitTestResult executionId="fca0bb7c-0142-41c5-8591-4136f7bf407a" testId="9099cb7b-b322-9687-c5fe-382dbf1e8256" testName="WillFindWorkItemMention" computerName="TFSBUILD11" duration="00:00:00.0110483" startTime="2015-09-28T09:43:35.6095746-07:00" endTime="2015-09-28T09:43:35.6252010-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fca0bb7c-0142-41c5-8591-4136f7bf407a" />
+    <UnitTestResult executionId="fe016a48-7dcf-41a2-a906-434aa954c5e4" testId="900c9b30-7274-c39f-d44d-153716dac08a" testName="WillNotParseDuplicateWorkItemIdsWithSameAction" computerName="TFSBUILD11" duration="00:00:00.0039668" startTime="2015-09-28T09:43:35.6252010-07:00" endTime="2015-09-28T09:43:35.6252010-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe016a48-7dcf-41a2-a906-434aa954c5e4" />
+    <UnitTestResult executionId="b3dcfb9b-90e5-4a25-bb08-d13e59617b7f" testId="dce344a9-de51-3cc4-e5f7-4785657b1af8" testName="RemoveDuplicateActionsWithDifferentCasing" computerName="TFSBUILD11" duration="00:00:00.0034167" startTime="2015-09-28T09:43:35.6252010-07:00" endTime="2015-09-28T09:43:35.6408271-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3dcfb9b-90e5-4a25-bb08-d13e59617b7f" />
+    <UnitTestResult executionId="93c2f539-c96d-4a6b-b6fb-d91a8f04276c" testId="43ec992e-ba47-9a9c-d3df-79dce6880ed4" testName="WillParseSpacesBetweenActionsAndId" computerName="TFSBUILD11" duration="00:00:00.0036804" startTime="2015-09-28T09:43:35.6408271-07:00" endTime="2015-09-28T09:43:35.6408271-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="93c2f539-c96d-4a6b-b6fb-d91a8f04276c" />
+    <UnitTestResult executionId="906feb9a-6ab2-4065-9a11-e3c2ddea05ab" testId="7ce123da-5f75-f0cb-3681-c5390a28e6d9" testName="WillNormalizeActionName" computerName="TFSBUILD11" duration="00:00:00.0112690" startTime="2015-09-28T09:43:35.6408271-07:00" endTime="2015-09-28T09:43:35.6564527-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="906feb9a-6ab2-4065-9a11-e3c2ddea05ab" />
+    <UnitTestResult executionId="435c8b6f-197e-40cb-959a-3193ad946ec3" testId="88f559d8-ced3-23f1-1128-32af17b26caf" testName="WillParseDuplicateWorkItemIdsWithDifferentAction" computerName="TFSBUILD11" duration="00:00:00.0038727" startTime="2015-09-28T09:43:35.6564527-07:00" endTime="2015-09-28T09:43:35.6564527-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="435c8b6f-197e-40cb-959a-3193ad946ec3" />
+    <UnitTestResult executionId="9e9e3cc2-af20-4dfa-be78-2121bd20552b" testId="ddd7dafe-b2fb-c262-c551-1586298c4cff" testName="WillHandleExceptionThrownByDAL" computerName="TFSBUILD11" duration="00:00:00.0055224" startTime="2015-09-28T09:43:35.6564527-07:00" endTime="2015-09-28T09:43:35.6564527-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e9e3cc2-af20-4dfa-be78-2121bd20552b" />
+    <UnitTestResult executionId="413ae4f5-2218-460e-a991-515fba439a7d" testId="c3379185-11d9-f768-e51b-ced08801f932" testName="WillFindWorkItemMentionWithAction" computerName="TFSBUILD11" duration="00:00:00.0034468" startTime="2015-09-28T09:43:35.6564527-07:00" endTime="2015-09-28T09:43:35.6720796-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="413ae4f5-2218-460e-a991-515fba439a7d" />
+    <UnitTestResult executionId="eeb06c09-6f7b-4b52-98dc-a0954c62a0d7" testId="4619181b-6784-4b30-0c55-a0376fa3bc5f" testName="WillFindWorkItemMentionWithCaseInsensitiveAction" computerName="TFSBUILD11" duration="00:00:00.0047718" startTime="2015-09-28T09:43:35.6720796-07:00" endTime="2015-09-28T09:43:35.6720796-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eeb06c09-6f7b-4b52-98dc-a0954c62a0d7" />
+    <UnitTestResult executionId="d49bb854-9b71-4762-8d08-fddc50048307" testId="9b08b60a-c394-e9bd-cb83-4ebcffc2bb06" testName="WillNotFindWorkItemMentionsIfPreceededByUnknownAction" computerName="TFSBUILD11" duration="00:00:00.0031234" startTime="2015-09-28T09:43:35.6720796-07:00" endTime="2015-09-28T09:43:35.6720796-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d49bb854-9b71-4762-8d08-fddc50048307" />
+    <UnitTestResult executionId="ab2b794e-a8a7-4ef8-878b-b4cf864ee4dc" testId="51c09a51-5bd3-462d-4883-9cd49ca84c03" testName="WillFindMultipleMentions" computerName="TFSBUILD11" duration="00:00:00.0035276" startTime="2015-09-28T09:43:35.6720796-07:00" endTime="2015-09-28T09:43:35.6720796-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab2b794e-a8a7-4ef8-878b-b4cf864ee4dc" />
+    <UnitTestResult executionId="221e73eb-a188-4211-a56e-429e796dfc1f" testId="6d5f214a-a966-fa9a-aaa9-2c60f814ca54" testName="WillFindMultipleMentionsIgnoringPunctuations" computerName="TFSBUILD11" duration="00:00:00.0064449" startTime="2015-09-28T09:43:35.6720796-07:00" endTime="2015-09-28T09:43:35.6877052-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="221e73eb-a188-4211-a56e-429e796dfc1f" />
+    <UnitTestResult executionId="aef08e13-c7d5-4197-8d7a-5613f7ca4a2d" testId="e0b7b965-4569-4221-15b7-33070e6e0095" testName="WillFindMentionAtBeginning" computerName="TFSBUILD11" duration="00:00:00.0063809" startTime="2015-09-28T09:43:35.6877052-07:00" endTime="2015-09-28T09:43:35.6877052-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aef08e13-c7d5-4197-8d7a-5613f7ca4a2d" />
+    <UnitTestResult executionId="23272d5e-c0fe-4df3-adb1-99caf81e7a21" testId="2daf946a-c3a9-7e56-77f8-dbebd37d6a88" testName="WillFindMentionAtEnd" computerName="TFSBUILD11" duration="00:00:00.0043027" startTime="2015-09-28T09:43:35.6877052-07:00" endTime="2015-09-28T09:43:35.7033310-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23272d5e-c0fe-4df3-adb1-99caf81e7a21" />
+    <UnitTestResult executionId="4dc0ad2e-6856-47bf-9796-4e03c090b3d3" testId="821124d7-d450-1290-2ae0-89f8ad287beb" testName="WillFindMentionAtEndWithMultipleNewLines" computerName="TFSBUILD11" duration="00:00:00.0032534" startTime="2015-09-28T09:43:35.7033310-07:00" endTime="2015-09-28T09:43:35.7033310-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4dc0ad2e-6856-47bf-9796-4e03c090b3d3" />
+    <UnitTestResult executionId="5165baae-7796-4686-a567-0adb199f8bca" testId="4efacda3-8e70-b03e-4e43-89da192e869f" testName="WillFindLimitedMentionsPerCandidate" computerName="TFSBUILD11" duration="00:00:00.0032756" startTime="2015-09-28T09:43:35.7033310-07:00" endTime="2015-09-28T09:43:35.7033310-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5165baae-7796-4686-a567-0adb199f8bca" />
+    <UnitTestResult executionId="62adde4e-7b6a-4965-90d6-7cae341cfc07" testId="93ff774b-0586-790f-59c8-6244e3541584" testName="WillNotReturnMentionIfTrailingSymbolsArePresent" computerName="TFSBUILD11" duration="00:00:00.0029673" startTime="2015-09-28T09:43:35.7033310-07:00" endTime="2015-09-28T09:43:35.7033310-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62adde4e-7b6a-4965-90d6-7cae341cfc07" />
+    <UnitTestResult executionId="1c89fd98-50c5-4064-8871-92f019aab964" testId="573d4932-1e19-bbf2-5083-26f6dd03779a" testName="WillNotResolveAWorkItemThatDoesNotExists" computerName="TFSBUILD11" duration="00:00:00.0043386" startTime="2015-09-28T09:43:35.7033310-07:00" endTime="2015-09-28T09:43:35.7033310-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c89fd98-50c5-4064-8871-92f019aab964" />
+    <UnitTestResult executionId="6ae59450-ef60-45ed-aa4a-cac495599ca8" testId="b0d16215-6f1d-085c-54cd-c36b139ffbf9" testName="WillResolveAWorkItemThatExistsAndSetUrl" computerName="TFSBUILD11" duration="00:00:00.0047081" startTime="2015-09-28T09:43:35.7033310-07:00" endTime="2015-09-28T09:43:35.7189574-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ae59450-ef60-45ed-aa4a-cac495599ca8" />
+    <UnitTestResult executionId="98343ca3-3ba3-4d48-ae7c-7d6267a4aa12" testId="866ddc02-f80e-7332-491a-ce7531dbf31f" testName="WillReturnNoMentionsIfNoMentionFoundInComment" computerName="TFSBUILD11" duration="00:00:00.0030296" startTime="2015-09-28T09:43:35.7189574-07:00" endTime="2015-09-28T09:43:35.7189574-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98343ca3-3ba3-4d48-ae7c-7d6267a4aa12" />
+    <UnitTestResult executionId="acdc212c-88c4-4646-8b0f-49b6dbd5fded" testId="f509043e-a37d-c702-b7e3-9b351afe6f54" testName="WillParseMultipleMentionsWithTabDelimiter" computerName="TFSBUILD11" duration="00:00:00.0033749" startTime="2015-09-28T09:43:35.7189574-07:00" endTime="2015-09-28T09:43:35.7189574-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="acdc212c-88c4-4646-8b0f-49b6dbd5fded" />
+    <UnitTestResult executionId="e4b6f7af-67c1-48c9-9d83-b12158d99753" testId="3497735b-c3c4-fef8-5ac0-e74b2479637b" testName="WillReturnMentionsIfDelimitersPresent" computerName="TFSBUILD11" duration="00:00:00.0043588" startTime="2015-09-28T09:43:35.7189574-07:00" endTime="2015-09-28T09:43:35.7345835-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4b6f7af-67c1-48c9-9d83-b12158d99753" />
+    <UnitTestResult executionId="14f77ef3-9f95-4c82-bf20-d7073ff5bec5" testId="a9e6292b-4dd4-847e-76ab-e134c68b7a1a" testName="WillReturnNoMentionsIfTooBigNumberMentioned" computerName="TFSBUILD11" duration="00:00:00.0033535" startTime="2015-09-28T09:43:35.7345835-07:00" endTime="2015-09-28T09:43:35.7345835-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14f77ef3-9f95-4c82-bf20-d7073ff5bec5" />
+    <UnitTestResult executionId="3bf6cc85-6dd0-4aeb-b4dc-7f972cda9d44" testId="992f4042-cce7-e0a5-73e4-b22b572d7e52" testName="FindMentionsWithInternationalCharactersInComment" computerName="TFSBUILD11" duration="00:00:00.0033399" startTime="2015-09-28T09:43:35.7345835-07:00" endTime="2015-09-28T09:43:35.7345835-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3bf6cc85-6dd0-4aeb-b4dc-7f972cda9d44" />
+    <UnitTestResult executionId="6401f2c2-ad90-4af5-957e-0cf6336edbab" testId="9c0b745d-5df9-1b11-8f0e-e816b9b1e980" testName="WillCreateAnUpdatePackage" computerName="TFSBUILD11" duration="00:00:00.0068724" startTime="2015-09-28T09:43:35.7345835-07:00" endTime="2015-09-28T09:43:35.7345835-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6401f2c2-ad90-4af5-957e-0cf6336edbab" />
+    <UnitTestResult executionId="3a7c1d6d-cb95-484b-b05b-8e914c566397" testId="ec51a838-f62c-df0e-0f06-941901dc5a0d" testName="WillCreateAnUpdatePackageWhichIncludesALink" computerName="TFSBUILD11" duration="00:00:00.0033820" startTime="2015-09-28T09:43:35.7345835-07:00" endTime="2015-09-28T09:43:35.7502102-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a7c1d6d-cb95-484b-b05b-8e914c566397" />
+    <UnitTestResult executionId="16f531a3-7a6e-44af-b392-df60eb440d75" testId="a2948c66-97bd-f816-ec84-500cb6277015" testName="WillGroupUpdatesToSameWorkItemTogether" computerName="TFSBUILD11" duration="00:00:00.0014503" startTime="2015-09-28T09:43:35.7502102-07:00" endTime="2015-09-28T09:43:35.7502102-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16f531a3-7a6e-44af-b392-df60eb440d75" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="WillSendNotificationForChatMessageUserMention" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="15396bfa-3a94-7372-0a56-84290809c85e">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="fa69a1e8-9a17-415d-8ecf-ba72fc3e050b" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Mention.Server.NotificationActionTests+PerformAction" name="WillSendNotificationForChatMessageUserMention" />
+    </UnitTest>
+    <UnitTest name="WillSendMultipleNotificationsToDifferentRooms" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="12311e63-0b5d-1403-1382-dc8fb2892d08">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="f30b0abf-ddb2-40a2-87ef-a8618bb269c6" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Mention.Server.NotificationActionTests+PerformAction" name="WillSendMultipleNotificationsToDifferentRooms" />
+    </UnitTest>
+    <UnitTest name="WillFilterOutNonChatMentions" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="10cccfdb-c1da-bb1a-f993-cb37b8d13480">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="26bc5683-abdf-41fc-8bfe-7cd2d3e21a80" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Mention.Server.NotificationActionTests+PerformAction" name="WillFilterOutNonChatMentions" />
+    </UnitTest>
+    <UnitTest name="WillNotSendNotificationIfNotChatMessage" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="1342d425-2cd5-ed90-1e1b-a28c8a30ad6f">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="88e40c31-1944-4ae5-9fb1-ba4cd9edb674" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Mention.Server.NotificationActionTests+PerformAction" name="WillNotSendNotificationIfNotChatMessage" />
+    </UnitTest>
+    <UnitTest name="WillNotSendNotificationIfChatMessageIsNotFound" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="2f0f4cd8-95ca-c7d9-bd6b-ac36a41c11a7">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="4bd66439-19ba-40d1-be77-116bf61b1206" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Mention.Server.NotificationActionTests+PerformAction" name="WillNotSendNotificationIfChatMessageIsNotFound" />
+    </UnitTest>
+    <UnitTest name="WillThrowWhenPassedNullRequestContext" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="924a1e33-3e90-820e-2b7d-e17008b8d7d5">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="b1d4209a-8918-4a3f-8ebb-5248900301e6" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GitCommitMentionsProcessorJobTests+ProcessMentions" name="WillThrowWhenPassedNullRequestContext" />
+    </UnitTest>
+    <UnitTest name="WillThrowWhenPassedNullCommitList" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="ae996d9e-7e72-11c5-7df3-42658521e85b">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="9ae4d712-5e97-4b24-ba44-28f22febd27b" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GitCommitMentionsProcessorJobTests+ProcessMentions" name="WillThrowWhenPassedNullCommitList" />
+    </UnitTest>
+    <UnitTest name="WillProcessCommitsIntoTheMentionService" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="77d81af9-1246-d4d1-59ef-4c8cbc62cf5c">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="8f013212-f04d-4036-951a-c3934327f7c3" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GitCommitMentionsProcessorJobTests+ProcessMentions" name="WillProcessCommitsIntoTheMentionService" />
+    </UnitTest>
+    <UnitTest name="WillProcessCommitsWithEmptyCommentsIntoTheMentionService" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="d88d4f0b-325e-5e51-acb0-d98e3af9ee92">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="0fcae2e5-0589-47c6-88c3-5390f4c348e5" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GitCommitMentionsProcessorJobTests+ProcessMentions" name="WillProcessCommitsWithEmptyCommentsIntoTheMentionService" />
+    </UnitTest>
+    <UnitTest name="WillProcessCommitsWithEmptyNotesIntoTheMentionService" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="eceed866-2cd1-9830-9737-a5691de0229e">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="8c3022ea-be91-44e5-86e2-f54876e8e201" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GitCommitMentionsProcessorJobTests+ProcessMentions" name="WillProcessCommitsWithEmptyNotesIntoTheMentionService" />
+    </UnitTest>
+    <UnitTest name="WillGroupCommitsBasedOnPusherId" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="6136680c-d26f-9520-9a0c-639ecb531821">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="f8929954-3895-48d1-9aa5-66521c230fa6" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GitCommitMentionsProcessorJobTests+ProcessMentions" name="WillGroupCommitsBasedOnPusherId" />
+    </UnitTest>
+    <UnitTest name="WillGroupCommitsByPusherIdIntoTheMentionService" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="69411e75-c7f4-257d-342a-76724264cab2">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="6b5d9041-4ed7-4f85-a562-ed9752ec20eb" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GitCommitMentionsProcessorJobTests+ProcessMentions" name="WillGroupCommitsByPusherIdIntoTheMentionService" />
+    </UnitTest>
+    <UnitTest name="WillFailIfMentionProcessingFails" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="5eb6d97f-3f28-1b44-a56f-f73ab998516c">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="a3867a95-bf83-480a-ac43-6237f6caedef" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GitCommitMentionsProcessorJobTests+ProcessMentions" name="WillFailIfMentionProcessingFails" />
+    </UnitTest>
+    <UnitTest name="WillThrowIfRequestContextIsNull" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="0c1b927c-b459-8200-fb3b-74ccbf4a8934">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="9b1c887b-9363-4337-b5a3-d616010d7d3f" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.SaveMentionActionTests+PerformAction" name="WillThrowIfRequestContextIsNull" />
+    </UnitTest>
+    <UnitTest name="WillThrowIfMentionIsNull" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="cd911cea-b533-c31d-01a6-0c060cb52c98">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="ee988a9b-1755-4fd6-adbf-c39456501bd2" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.SaveMentionActionTests+PerformAction" name="WillThrowIfMentionIsNull" />
+    </UnitTest>
+    <UnitTest name="WillSaveResolvedMention" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="1f9c8845-0c8b-961e-255b-c6e7d59ab43a">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="4c0b0b4d-f595-4d6e-8c4c-f9faecb6fcab" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.SaveMentionActionTests+PerformAction" name="WillSaveResolvedMention" />
+    </UnitTest>
+    <UnitTest name="WillThrowIfContextIsNull" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="887de492-19cf-9bbe-7909-f4f99ce3e426">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="862932dc-d7e4-4d8a-98d3-6c2a521e93bb" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.UserMentionParserTests+FindMentions" name="WillThrowIfContextIsNull" />
+    </UnitTest>
+    <UnitTest name="WillThrowIfCandidateIsNull" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="4c0450fb-149b-a2c6-f1d1-4d86a7b82850">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="84cc293a-15f6-42d5-afd3-bea337deacc8" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.UserMentionParserTests+FindMentions" name="WillThrowIfCandidateIsNull" />
+    </UnitTest>
+    <UnitTest name="WillReturnNoMentionsIfCandidateTextIsNullOrEmpty" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="f0831e66-20ed-f59e-4002-36725d1133c2">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="00450644-a168-4933-afbc-d4fe1a00f76e" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.UserMentionParserTests+FindMentions" name="WillReturnNoMentionsIfCandidateTextIsNullOrEmpty" />
+    </UnitTest>
+    <UnitTest name="WillReturnNoMentionsIfNoneFound" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="b5651562-9ff2-82c8-9f0e-f29adf3254ba">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="b93ccfa8-c7a0-47fe-a02f-b4a92818aa78" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.UserMentionParserTests+FindMentions" name="WillReturnNoMentionsIfNoneFound" />
+    </UnitTest>
+    <UnitTest name="WillFindUserMention" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="89444754-a08c-0574-79b9-13541ba32b62">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="bb589bb5-dd7a-41b9-ac6c-81da9dca4dcc" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.UserMentionParserTests+FindMentions" name="WillFindUserMention" />
+    </UnitTest>
+    <UnitTest name="WillNotParseDuplicateUserMentions" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="fee990e4-e56f-745f-82a6-6a59a639b820">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="48c4560a-3cad-44fc-8def-702c210ede32" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.UserMentionParserTests+FindMentions" name="WillNotParseDuplicateUserMentions" />
+    </UnitTest>
+    <UnitTest name="WillParseUserMentionsWithDifferentCasing" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="5ab26127-6eac-4978-5133-2b23b18472ea">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="bf3edae1-91aa-4901-a37b-92948b2a3e27" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.UserMentionParserTests+FindMentions" name="WillParseUserMentionsWithDifferentCasing" />
+    </UnitTest>
+    <UnitTest name="WillParseMentionIfEndByPunctuations" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="c9c64f5d-7eb6-1972-5cfa-633d0f50cf7c">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="41e141fe-07e3-4713-96d3-eef675a72bd7" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.UserMentionParserTests+FindMentions" name="WillParseMentionIfEndByPunctuations" />
+    </UnitTest>
+    <UnitTest name="WillFindMentionAtBeginning" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="a2894c7d-fe91-da5a-e8f1-b797d72019e4">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="6a8daad7-1baf-4082-87ce-934b20f3a08d" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.UserMentionParserTests+FindMentions" name="WillFindMentionAtBeginning" />
+    </UnitTest>
+    <UnitTest name="WillParseTillEndOfString" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="63ebf2b1-a41d-b171-5944-9ccfb26320d5">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="3e1b9d04-e7f6-449b-a21e-8aa9f34beadf" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.UserMentionParserTests+FindMentions" name="WillParseTillEndOfString" />
+    </UnitTest>
+    <UnitTest name="WillFindMentionAtEndWithMultipleNewLines" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="a62bd432-dbe0-8a91-697c-506c7edc0747">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="c7f8779d-287e-4cf9-ad32-6729f442112e" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.UserMentionParserTests+FindMentions" name="WillFindMentionAtEndWithMultipleNewLines" />
+    </UnitTest>
+    <UnitTest name="WillParseEmailIdsAsUserNames" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="15e6c799-148e-aaa1-f769-d3cf7679cdba">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="2f1b996f-8454-4ab6-a431-c13bd4091932" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.UserMentionParserTests+FindMentions" name="WillParseEmailIdsAsUserNames" />
+    </UnitTest>
+    <UnitTest name="FindMentionsWithInternationalCharactersInComment" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="bcf1aa34-1e2f-a707-1727-544e1efeaf20">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="0b3f3d8a-7bc7-4704-a670-460a87ad37ff" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.UserMentionParserTests+FindMentions" name="FindMentionsWithInternationalCharactersInComment" />
+    </UnitTest>
+    <UnitTest name="WillFindMultipleMentions" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="27a8a4ed-67e1-55c4-a2da-8cf21cbd1ea9">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="b938138f-ec92-4dc9-848b-b876fd2eb39b" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.UserMentionParserTests+FindMentions" name="WillFindMultipleMentions" />
+    </UnitTest>
+    <UnitTest name="WillThrowIfRequestContextIsNull" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="430e7c18-e5dd-9a23-60cd-514d864531d3">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="fa98e151-f346-4141-9b8b-d4bf30491f53" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitActionsTests+PerformAction" name="WillThrowIfRequestContextIsNull" />
+    </UnitTest>
+    <UnitTest name="WillThrowIfMentionIsNull" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="83bd4355-967d-c0f5-f26b-53ae7b0b3783">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="21a2dffb-697a-4b9b-928a-2f316464511c" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitActionsTests+PerformAction" name="WillThrowIfMentionIsNull" />
+    </UnitTest>
+    <UnitTest name="WillUpdateHistoryOfWorkItemForActionHistory" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="e52f0b13-1fd0-71ba-7c49-a5cd1d59ce55">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="4ac30293-ffd0-4b99-9ffe-f2d789171af3" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitActionsTests+PerformAction" name="WillUpdateHistoryOfWorkItemForActionHistory" />
+    </UnitTest>
+    <UnitTest name="WillContinueNextUpdateHistoryOfWorkItemWhenFailedForActionHistory" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="e0fc72e1-223a-486f-408d-77ce18c78864">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="2c2dbac2-50fd-4489-9801-980f668e40ea" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitActionsTests+PerformAction" name="WillContinueNextUpdateHistoryOfWorkItemWhenFailedForActionHistory" />
+    </UnitTest>
+    <UnitTest name="WillUpdateHistoryOfWorkItem" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="6788f822-fa6b-7e11-2cda-0b1cda9eb385">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="3c594084-4dcc-43e0-b478-fa138f7b82e3" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitActionsTests+PerformAction" name="WillUpdateHistoryOfWorkItem" />
+    </UnitTest>
+    <UnitTest name="WillAddResourceLinkToWorkItemIfSourceContextIsLinkable" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="6ecf09be-e2ca-7835-8837-80ff576779d6">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="610073ec-6050-4049-b003-29b082066bb7" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitActionsTests+PerformAction" name="WillAddResourceLinkToWorkItemIfSourceContextIsLinkable" />
+    </UnitTest>
+    <UnitTest name="WillNotUpdateWorkItemIfArtifactTypeIsNotWorkItemType" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="86eacf85-294f-5f3f-c590-898cc1558578">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="c5d2f82f-89c6-4ef6-9aad-7dae852da185" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitActionsTests+PerformAction" name="WillNotUpdateWorkItemIfArtifactTypeIsNotWorkItemType" />
+    </UnitTest>
+    <UnitTest name="WillNotUpdateWorkItemIfCommitLinkAlreadyExisted" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="090d3af1-98ca-6545-dc84-765780e906eb">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="478576b8-a5dc-4c22-907d-693e33867868" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitActionsTests+PerformAction" name="WillNotUpdateWorkItemIfCommitLinkAlreadyExisted" />
+    </UnitTest>
+    <UnitTest name="WillThrowIfContextIsNull" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="e6de81f3-8fd0-5665-aff0-c28ebb14df15">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="4e0c4d16-d917-459a-ab9f-ddc2c2692b10" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GenericWitMentionParserTests+FindMentions" name="WillThrowIfContextIsNull" />
+    </UnitTest>
+    <UnitTest name="WillThrowIfCandidateIsNull" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="81853f97-6747-157c-bd6e-dab60eb179b1">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="4200c532-a150-4dd3-ae87-ded32ae0eba7" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GenericWitMentionParserTests+FindMentions" name="WillThrowIfCandidateIsNull" />
+    </UnitTest>
+    <UnitTest name="WillReturnNoMentionsIfCandidateTextIsNullOrEmpty" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="2cdf645c-d54c-fe97-8557-d147f908d469">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="03792589-89f9-4f02-9a94-bc43c10d46a1" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GenericWitMentionParserTests+FindMentions" name="WillReturnNoMentionsIfCandidateTextIsNullOrEmpty" />
+    </UnitTest>
+    <UnitTest name="WillFindWorkItemMention" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="84f031b4-6da4-900b-c589-79e55c9a1ed7">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="79fa798e-25b9-4b11-af6c-edac6521f651" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GenericWitMentionParserTests+FindMentions" name="WillFindWorkItemMention" />
+    </UnitTest>
+    <UnitTest name="WillNotParseDuplicateWorkItemIdsWithSameAction" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="f9584de4-74cd-cf05-7b80-9f12416d138b">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="8cf316d6-19d0-46d7-acef-bcac39cfae38" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GenericWitMentionParserTests+FindMentions" name="WillNotParseDuplicateWorkItemIdsWithSameAction" />
+    </UnitTest>
+    <UnitTest name="WillHandleExceptionThrownByDAL" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="6d9c4bda-0e1b-7a21-4631-2d7c6551d030">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="0cac7a2c-3b5e-4c17-a14f-b08ddb2e0360" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GenericWitMentionParserTests+FindMentions" name="WillHandleExceptionThrownByDAL" />
+    </UnitTest>
+    <UnitTest name="WillFindMultipleMentions" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="213e4d04-4014-5fff-a160-3aa716007bd3">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="2f0f769d-8839-4a1a-bfd7-9124c5e9190e" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GenericWitMentionParserTests+FindMentions" name="WillFindMultipleMentions" />
+    </UnitTest>
+    <UnitTest name="WillFindMultipleMentionsIgnoringPunctuations" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="1da953cb-605b-b275-acd8-830bd198c5c9">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="2b32cca9-a0f4-4580-8c17-c97c9e8124b1" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GenericWitMentionParserTests+FindMentions" name="WillFindMultipleMentionsIgnoringPunctuations" />
+    </UnitTest>
+    <UnitTest name="WillFindMentionAtBeginning" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="f1532b2d-3ee6-bb71-716e-2674bb32b1a7">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="b81b2279-e580-4d14-86dc-e33e210a6f60" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GenericWitMentionParserTests+FindMentions" name="WillFindMentionAtBeginning" />
+    </UnitTest>
+    <UnitTest name="WillFindMentionAtEnd" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="66dbb78e-c76f-b920-28ac-a5b9c06d262a">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="cef56d59-38ad-4bc7-8bfc-b745c869a4ea" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GenericWitMentionParserTests+FindMentions" name="WillFindMentionAtEnd" />
+    </UnitTest>
+    <UnitTest name="WillFindMentionAtEndWithMultipleNewLines" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="0112e5b7-404c-cccd-f504-7e814864d273">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="bb05c6c1-58b8-46c1-bc75-266a7e9a248d" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GenericWitMentionParserTests+FindMentions" name="WillFindMentionAtEndWithMultipleNewLines" />
+    </UnitTest>
+    <UnitTest name="WillFindLimitedMentionsPerCandidate" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="15419e7e-bdbd-1ee1-9cb1-3ff99572b4e8">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="eb7353fd-ac1c-4e1b-a31f-b96a82e03f20" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GenericWitMentionParserTests+FindMentions" name="WillFindLimitedMentionsPerCandidate" />
+    </UnitTest>
+    <UnitTest name="WillNotReturnMentionIfTrailingSymbolsArePresent" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="76b6f37e-3273-d4c5-e28d-9340da8ab939">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="762811ba-f750-4524-9432-cc060cbbf8a5" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GenericWitMentionParserTests+FindMentions" name="WillNotReturnMentionIfTrailingSymbolsArePresent" />
+    </UnitTest>
+    <UnitTest name="WillNotResolveAWorkItemThatDoesNotExists" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="df785bbc-d690-98c4-406b-696ab4cbe9b7">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="ed960c05-2538-4059-9294-2d07ce5f14e5" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GenericWitMentionParserTests+FindMentions" name="WillNotResolveAWorkItemThatDoesNotExists" />
+    </UnitTest>
+    <UnitTest name="WillResolveAWorkItemThatExistsAndSetUrl" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="be60df1d-8e22-d1a6-ef0a-cda27ad4ab6e">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="f3443fba-a30c-464d-b391-cbe3fc3bf7cf" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GenericWitMentionParserTests+FindMentions" name="WillResolveAWorkItemThatExistsAndSetUrl" />
+    </UnitTest>
+    <UnitTest name="WillReturnNoMentionsIfNoMentionFoundInComment" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="dbdab891-9ff2-5e15-f7d2-7aeba5bddcff">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="ec61cd19-5f83-41c2-89b7-f6f5bd99e0e5" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GenericWitMentionParserTests+FindMentions" name="WillReturnNoMentionsIfNoMentionFoundInComment" />
+    </UnitTest>
+    <UnitTest name="WillParseMultipleMentionsWithTabDelimiter" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="ff99a679-1cc1-65a0-19c7-1a4aa03a751e">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="246628b0-93d5-4ced-ac78-ab64825d92be" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GenericWitMentionParserTests+FindMentions" name="WillParseMultipleMentionsWithTabDelimiter" />
+    </UnitTest>
+    <UnitTest name="WillReturnMentionsIfDelimitersPresent" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="6d480138-3ccf-a079-d4b0-7c69aa657e35">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="4f1f8e73-7c54-434e-9faa-d663f3ade997" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GenericWitMentionParserTests+FindMentions" name="WillReturnMentionsIfDelimitersPresent" />
+    </UnitTest>
+    <UnitTest name="WillReturnNoMentionsIfTooBigNumberMentioned" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="752531cb-20c6-aff0-fbea-09efeb8da496">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="cc12f888-2475-44ee-a9af-35d7812e1cd1" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GenericWitMentionParserTests+FindMentions" name="WillReturnNoMentionsIfTooBigNumberMentioned" />
+    </UnitTest>
+    <UnitTest name="FindMentionsWithInternationalCharactersInComment" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="93c8f22a-9946-7027-0736-7048b8d53ce0">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="4b943fe6-c93b-48f6-9aca-a8a70d855237" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.GenericWitMentionParserTests+FindMentions" name="FindMentionsWithInternationalCharactersInComment" />
+    </UnitTest>
+    <UnitTest name="WillThrowIfContextIsNull" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="f4c19d08-9c3a-5de3-cd9a-7fe49285478b">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="4bc32769-3fe4-480b-bda0-e0d4d455f55a" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillThrowIfContextIsNull" />
+    </UnitTest>
+    <UnitTest name="WillThrowIfCandidateIsNull" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="fc725888-7586-53e8-1094-0cd6477a81fe">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="6c3e4558-78e4-4b56-85b6-75786b4f4512" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillThrowIfCandidateIsNull" />
+    </UnitTest>
+    <UnitTest name="WillReturnNoMentionsIfCandidateTextIsNullOrEmpty" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="62be60a8-d2c6-07be-3264-956d053d288b">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="146d8994-5545-4112-8b29-1804bfa82220" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillReturnNoMentionsIfCandidateTextIsNullOrEmpty" />
+    </UnitTest>
+    <UnitTest name="WillFindWorkItemMention" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="9099cb7b-b322-9687-c5fe-382dbf1e8256">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="fca0bb7c-0142-41c5-8591-4136f7bf407a" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillFindWorkItemMention" />
+    </UnitTest>
+    <UnitTest name="WillNotParseDuplicateWorkItemIdsWithSameAction" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="900c9b30-7274-c39f-d44d-153716dac08a">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="fe016a48-7dcf-41a2-a906-434aa954c5e4" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillNotParseDuplicateWorkItemIdsWithSameAction" />
+    </UnitTest>
+    <UnitTest name="RemoveDuplicateActionsWithDifferentCasing" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="dce344a9-de51-3cc4-e5f7-4785657b1af8">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="b3dcfb9b-90e5-4a25-bb08-d13e59617b7f" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="RemoveDuplicateActionsWithDifferentCasing" />
+    </UnitTest>
+    <UnitTest name="WillParseSpacesBetweenActionsAndId" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="43ec992e-ba47-9a9c-d3df-79dce6880ed4">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="93c2f539-c96d-4a6b-b6fb-d91a8f04276c" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillParseSpacesBetweenActionsAndId" />
+    </UnitTest>
+    <UnitTest name="WillNormalizeActionName" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="7ce123da-5f75-f0cb-3681-c5390a28e6d9">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="906feb9a-6ab2-4065-9a11-e3c2ddea05ab" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillNormalizeActionName" />
+    </UnitTest>
+    <UnitTest name="WillParseDuplicateWorkItemIdsWithDifferentAction" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="88f559d8-ced3-23f1-1128-32af17b26caf">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="435c8b6f-197e-40cb-959a-3193ad946ec3" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillParseDuplicateWorkItemIdsWithDifferentAction" />
+    </UnitTest>
+    <UnitTest name="WillHandleExceptionThrownByDAL" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="ddd7dafe-b2fb-c262-c551-1586298c4cff">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="9e9e3cc2-af20-4dfa-be78-2121bd20552b" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillHandleExceptionThrownByDAL" />
+    </UnitTest>
+    <UnitTest name="WillFindWorkItemMentionWithAction" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="c3379185-11d9-f768-e51b-ced08801f932">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="413ae4f5-2218-460e-a991-515fba439a7d" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillFindWorkItemMentionWithAction" />
+    </UnitTest>
+    <UnitTest name="WillFindWorkItemMentionWithCaseInsensitiveAction" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="4619181b-6784-4b30-0c55-a0376fa3bc5f">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="eeb06c09-6f7b-4b52-98dc-a0954c62a0d7" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillFindWorkItemMentionWithCaseInsensitiveAction" />
+    </UnitTest>
+    <UnitTest name="WillNotFindWorkItemMentionsIfPreceededByUnknownAction" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="9b08b60a-c394-e9bd-cb83-4ebcffc2bb06">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="d49bb854-9b71-4762-8d08-fddc50048307" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillNotFindWorkItemMentionsIfPreceededByUnknownAction" />
+    </UnitTest>
+    <UnitTest name="WillFindMultipleMentions" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="51c09a51-5bd3-462d-4883-9cd49ca84c03">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="ab2b794e-a8a7-4ef8-878b-b4cf864ee4dc" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillFindMultipleMentions" />
+    </UnitTest>
+    <UnitTest name="WillFindMultipleMentionsIgnoringPunctuations" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="6d5f214a-a966-fa9a-aaa9-2c60f814ca54">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="221e73eb-a188-4211-a56e-429e796dfc1f" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillFindMultipleMentionsIgnoringPunctuations" />
+    </UnitTest>
+    <UnitTest name="WillFindMentionAtBeginning" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="e0b7b965-4569-4221-15b7-33070e6e0095">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="aef08e13-c7d5-4197-8d7a-5613f7ca4a2d" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillFindMentionAtBeginning" />
+    </UnitTest>
+    <UnitTest name="WillFindMentionAtEnd" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="2daf946a-c3a9-7e56-77f8-dbebd37d6a88">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="23272d5e-c0fe-4df3-adb1-99caf81e7a21" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillFindMentionAtEnd" />
+    </UnitTest>
+    <UnitTest name="WillFindMentionAtEndWithMultipleNewLines" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="821124d7-d450-1290-2ae0-89f8ad287beb">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="4dc0ad2e-6856-47bf-9796-4e03c090b3d3" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillFindMentionAtEndWithMultipleNewLines" />
+    </UnitTest>
+    <UnitTest name="WillFindLimitedMentionsPerCandidate" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="4efacda3-8e70-b03e-4e43-89da192e869f">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="5165baae-7796-4686-a567-0adb199f8bca" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillFindLimitedMentionsPerCandidate" />
+    </UnitTest>
+    <UnitTest name="WillNotReturnMentionIfTrailingSymbolsArePresent" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="93ff774b-0586-790f-59c8-6244e3541584">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="62adde4e-7b6a-4965-90d6-7cae341cfc07" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillNotReturnMentionIfTrailingSymbolsArePresent" />
+    </UnitTest>
+    <UnitTest name="WillNotResolveAWorkItemThatDoesNotExists" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="573d4932-1e19-bbf2-5083-26f6dd03779a">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="1c89fd98-50c5-4064-8871-92f019aab964" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillNotResolveAWorkItemThatDoesNotExists" />
+    </UnitTest>
+    <UnitTest name="WillResolveAWorkItemThatExistsAndSetUrl" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="b0d16215-6f1d-085c-54cd-c36b139ffbf9">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="6ae59450-ef60-45ed-aa4a-cac495599ca8" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillResolveAWorkItemThatExistsAndSetUrl" />
+    </UnitTest>
+    <UnitTest name="WillReturnNoMentionsIfNoMentionFoundInComment" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="866ddc02-f80e-7332-491a-ce7531dbf31f">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="98343ca3-3ba3-4d48-ae7c-7d6267a4aa12" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillReturnNoMentionsIfNoMentionFoundInComment" />
+    </UnitTest>
+    <UnitTest name="WillParseMultipleMentionsWithTabDelimiter" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="f509043e-a37d-c702-b7e3-9b351afe6f54">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="acdc212c-88c4-4646-8b0f-49b6dbd5fded" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillParseMultipleMentionsWithTabDelimiter" />
+    </UnitTest>
+    <UnitTest name="WillReturnMentionsIfDelimitersPresent" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="3497735b-c3c4-fef8-5ac0-e74b2479637b">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="e4b6f7af-67c1-48c9-9d83-b12158d99753" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillReturnMentionsIfDelimitersPresent" />
+    </UnitTest>
+    <UnitTest name="WillReturnNoMentionsIfTooBigNumberMentioned" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="a9e6292b-4dd4-847e-76ab-e134c68b7a1a">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="14f77ef3-9f95-4c82-bf20-d7073ff5bec5" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="WillReturnNoMentionsIfTooBigNumberMentioned" />
+    </UnitTest>
+    <UnitTest name="FindMentionsWithInternationalCharactersInComment" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="992f4042-cce7-e0a5-73e4-b22b572d7e52">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="3bf6cc85-6dd0-4aeb-b4dc-7f972cda9d44" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WitMentionParserTests+FindMentions" name="FindMentionsWithInternationalCharactersInComment" />
+    </UnitTest>
+    <UnitTest name="WillCreateAnUpdatePackage" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="9c0b745d-5df9-1b11-8f0e-e816b9b1e980">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="6401f2c2-ad90-4af5-957e-0cf6336edbab" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WorkItemHelperTests+CreateUpdatePackage" name="WillCreateAnUpdatePackage" />
+    </UnitTest>
+    <UnitTest name="WillCreateAnUpdatePackageWhichIncludesALink" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="ec51a838-f62c-df0e-0f06-941901dc5a0d">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="3a7c1d6d-cb95-484b-b05b-8e914c566397" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WorkItemHelperTests+CreateUpdatePackage" name="WillCreateAnUpdatePackageWhichIncludesALink" />
+    </UnitTest>
+    <UnitTest name="WillGroupUpdatesToSameWorkItemTogether" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.mention.plugins.l0.tests\ms.tf.mention.plugins.l0.tests.dll" id="a2948c66-97bd-f816-ec84-500cb6277015">
+      <Owners>
+        <Owner name="colinthodirects" />
+      </Owners>
+      <Execution id="16f531a3-7a6e-44af-b392-df60eb440d75" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Mention.Plugins.L0.Tests\MS.TF.Mention.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Mention.Plugins.L0.Tests.WorkItemHelperTests+CreateUpdatePackage" name="WillGroupUpdatesToSameWorkItemTogether" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="15396bfa-3a94-7372-0a56-84290809c85e" executionId="fa69a1e8-9a17-415d-8ecf-ba72fc3e050b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="12311e63-0b5d-1403-1382-dc8fb2892d08" executionId="f30b0abf-ddb2-40a2-87ef-a8618bb269c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10cccfdb-c1da-bb1a-f993-cb37b8d13480" executionId="26bc5683-abdf-41fc-8bfe-7cd2d3e21a80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1342d425-2cd5-ed90-1e1b-a28c8a30ad6f" executionId="88e40c31-1944-4ae5-9fb1-ba4cd9edb674" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2f0f4cd8-95ca-c7d9-bd6b-ac36a41c11a7" executionId="4bd66439-19ba-40d1-be77-116bf61b1206" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="924a1e33-3e90-820e-2b7d-e17008b8d7d5" executionId="b1d4209a-8918-4a3f-8ebb-5248900301e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae996d9e-7e72-11c5-7df3-42658521e85b" executionId="9ae4d712-5e97-4b24-ba44-28f22febd27b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77d81af9-1246-d4d1-59ef-4c8cbc62cf5c" executionId="8f013212-f04d-4036-951a-c3934327f7c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d88d4f0b-325e-5e51-acb0-d98e3af9ee92" executionId="0fcae2e5-0589-47c6-88c3-5390f4c348e5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eceed866-2cd1-9830-9737-a5691de0229e" executionId="8c3022ea-be91-44e5-86e2-f54876e8e201" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6136680c-d26f-9520-9a0c-639ecb531821" executionId="f8929954-3895-48d1-9aa5-66521c230fa6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69411e75-c7f4-257d-342a-76724264cab2" executionId="6b5d9041-4ed7-4f85-a562-ed9752ec20eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5eb6d97f-3f28-1b44-a56f-f73ab998516c" executionId="a3867a95-bf83-480a-ac43-6237f6caedef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0c1b927c-b459-8200-fb3b-74ccbf4a8934" executionId="9b1c887b-9363-4337-b5a3-d616010d7d3f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd911cea-b533-c31d-01a6-0c060cb52c98" executionId="ee988a9b-1755-4fd6-adbf-c39456501bd2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f9c8845-0c8b-961e-255b-c6e7d59ab43a" executionId="4c0b0b4d-f595-4d6e-8c4c-f9faecb6fcab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="887de492-19cf-9bbe-7909-f4f99ce3e426" executionId="862932dc-d7e4-4d8a-98d3-6c2a521e93bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4c0450fb-149b-a2c6-f1d1-4d86a7b82850" executionId="84cc293a-15f6-42d5-afd3-bea337deacc8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0831e66-20ed-f59e-4002-36725d1133c2" executionId="00450644-a168-4933-afbc-d4fe1a00f76e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5651562-9ff2-82c8-9f0e-f29adf3254ba" executionId="b93ccfa8-c7a0-47fe-a02f-b4a92818aa78" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89444754-a08c-0574-79b9-13541ba32b62" executionId="bb589bb5-dd7a-41b9-ac6c-81da9dca4dcc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fee990e4-e56f-745f-82a6-6a59a639b820" executionId="48c4560a-3cad-44fc-8def-702c210ede32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ab26127-6eac-4978-5133-2b23b18472ea" executionId="bf3edae1-91aa-4901-a37b-92948b2a3e27" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9c64f5d-7eb6-1972-5cfa-633d0f50cf7c" executionId="41e141fe-07e3-4713-96d3-eef675a72bd7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2894c7d-fe91-da5a-e8f1-b797d72019e4" executionId="6a8daad7-1baf-4082-87ce-934b20f3a08d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="63ebf2b1-a41d-b171-5944-9ccfb26320d5" executionId="3e1b9d04-e7f6-449b-a21e-8aa9f34beadf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a62bd432-dbe0-8a91-697c-506c7edc0747" executionId="c7f8779d-287e-4cf9-ad32-6729f442112e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="15e6c799-148e-aaa1-f769-d3cf7679cdba" executionId="2f1b996f-8454-4ab6-a431-c13bd4091932" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bcf1aa34-1e2f-a707-1727-544e1efeaf20" executionId="0b3f3d8a-7bc7-4704-a670-460a87ad37ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="27a8a4ed-67e1-55c4-a2da-8cf21cbd1ea9" executionId="b938138f-ec92-4dc9-848b-b876fd2eb39b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="430e7c18-e5dd-9a23-60cd-514d864531d3" executionId="fa98e151-f346-4141-9b8b-d4bf30491f53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83bd4355-967d-c0f5-f26b-53ae7b0b3783" executionId="21a2dffb-697a-4b9b-928a-2f316464511c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e52f0b13-1fd0-71ba-7c49-a5cd1d59ce55" executionId="4ac30293-ffd0-4b99-9ffe-f2d789171af3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0fc72e1-223a-486f-408d-77ce18c78864" executionId="2c2dbac2-50fd-4489-9801-980f668e40ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6788f822-fa6b-7e11-2cda-0b1cda9eb385" executionId="3c594084-4dcc-43e0-b478-fa138f7b82e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ecf09be-e2ca-7835-8837-80ff576779d6" executionId="610073ec-6050-4049-b003-29b082066bb7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="86eacf85-294f-5f3f-c590-898cc1558578" executionId="c5d2f82f-89c6-4ef6-9aad-7dae852da185" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="090d3af1-98ca-6545-dc84-765780e906eb" executionId="478576b8-a5dc-4c22-907d-693e33867868" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6de81f3-8fd0-5665-aff0-c28ebb14df15" executionId="4e0c4d16-d917-459a-ab9f-ddc2c2692b10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81853f97-6747-157c-bd6e-dab60eb179b1" executionId="4200c532-a150-4dd3-ae87-ded32ae0eba7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2cdf645c-d54c-fe97-8557-d147f908d469" executionId="03792589-89f9-4f02-9a94-bc43c10d46a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84f031b4-6da4-900b-c589-79e55c9a1ed7" executionId="79fa798e-25b9-4b11-af6c-edac6521f651" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9584de4-74cd-cf05-7b80-9f12416d138b" executionId="8cf316d6-19d0-46d7-acef-bcac39cfae38" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d9c4bda-0e1b-7a21-4631-2d7c6551d030" executionId="0cac7a2c-3b5e-4c17-a14f-b08ddb2e0360" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="213e4d04-4014-5fff-a160-3aa716007bd3" executionId="2f0f769d-8839-4a1a-bfd7-9124c5e9190e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1da953cb-605b-b275-acd8-830bd198c5c9" executionId="2b32cca9-a0f4-4580-8c17-c97c9e8124b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1532b2d-3ee6-bb71-716e-2674bb32b1a7" executionId="b81b2279-e580-4d14-86dc-e33e210a6f60" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="66dbb78e-c76f-b920-28ac-a5b9c06d262a" executionId="cef56d59-38ad-4bc7-8bfc-b745c869a4ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0112e5b7-404c-cccd-f504-7e814864d273" executionId="bb05c6c1-58b8-46c1-bc75-266a7e9a248d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="15419e7e-bdbd-1ee1-9cb1-3ff99572b4e8" executionId="eb7353fd-ac1c-4e1b-a31f-b96a82e03f20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76b6f37e-3273-d4c5-e28d-9340da8ab939" executionId="762811ba-f750-4524-9432-cc060cbbf8a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df785bbc-d690-98c4-406b-696ab4cbe9b7" executionId="ed960c05-2538-4059-9294-2d07ce5f14e5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be60df1d-8e22-d1a6-ef0a-cda27ad4ab6e" executionId="f3443fba-a30c-464d-b391-cbe3fc3bf7cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dbdab891-9ff2-5e15-f7d2-7aeba5bddcff" executionId="ec61cd19-5f83-41c2-89b7-f6f5bd99e0e5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff99a679-1cc1-65a0-19c7-1a4aa03a751e" executionId="246628b0-93d5-4ced-ac78-ab64825d92be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d480138-3ccf-a079-d4b0-7c69aa657e35" executionId="4f1f8e73-7c54-434e-9faa-d663f3ade997" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="752531cb-20c6-aff0-fbea-09efeb8da496" executionId="cc12f888-2475-44ee-a9af-35d7812e1cd1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93c8f22a-9946-7027-0736-7048b8d53ce0" executionId="4b943fe6-c93b-48f6-9aca-a8a70d855237" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4c19d08-9c3a-5de3-cd9a-7fe49285478b" executionId="4bc32769-3fe4-480b-bda0-e0d4d455f55a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc725888-7586-53e8-1094-0cd6477a81fe" executionId="6c3e4558-78e4-4b56-85b6-75786b4f4512" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="62be60a8-d2c6-07be-3264-956d053d288b" executionId="146d8994-5545-4112-8b29-1804bfa82220" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9099cb7b-b322-9687-c5fe-382dbf1e8256" executionId="fca0bb7c-0142-41c5-8591-4136f7bf407a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="900c9b30-7274-c39f-d44d-153716dac08a" executionId="fe016a48-7dcf-41a2-a906-434aa954c5e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dce344a9-de51-3cc4-e5f7-4785657b1af8" executionId="b3dcfb9b-90e5-4a25-bb08-d13e59617b7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43ec992e-ba47-9a9c-d3df-79dce6880ed4" executionId="93c2f539-c96d-4a6b-b6fb-d91a8f04276c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ce123da-5f75-f0cb-3681-c5390a28e6d9" executionId="906feb9a-6ab2-4065-9a11-e3c2ddea05ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="88f559d8-ced3-23f1-1128-32af17b26caf" executionId="435c8b6f-197e-40cb-959a-3193ad946ec3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ddd7dafe-b2fb-c262-c551-1586298c4cff" executionId="9e9e3cc2-af20-4dfa-be78-2121bd20552b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3379185-11d9-f768-e51b-ced08801f932" executionId="413ae4f5-2218-460e-a991-515fba439a7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4619181b-6784-4b30-0c55-a0376fa3bc5f" executionId="eeb06c09-6f7b-4b52-98dc-a0954c62a0d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b08b60a-c394-e9bd-cb83-4ebcffc2bb06" executionId="d49bb854-9b71-4762-8d08-fddc50048307" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51c09a51-5bd3-462d-4883-9cd49ca84c03" executionId="ab2b794e-a8a7-4ef8-878b-b4cf864ee4dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d5f214a-a966-fa9a-aaa9-2c60f814ca54" executionId="221e73eb-a188-4211-a56e-429e796dfc1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0b7b965-4569-4221-15b7-33070e6e0095" executionId="aef08e13-c7d5-4197-8d7a-5613f7ca4a2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2daf946a-c3a9-7e56-77f8-dbebd37d6a88" executionId="23272d5e-c0fe-4df3-adb1-99caf81e7a21" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="821124d7-d450-1290-2ae0-89f8ad287beb" executionId="4dc0ad2e-6856-47bf-9796-4e03c090b3d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4efacda3-8e70-b03e-4e43-89da192e869f" executionId="5165baae-7796-4686-a567-0adb199f8bca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93ff774b-0586-790f-59c8-6244e3541584" executionId="62adde4e-7b6a-4965-90d6-7cae341cfc07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="573d4932-1e19-bbf2-5083-26f6dd03779a" executionId="1c89fd98-50c5-4064-8871-92f019aab964" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0d16215-6f1d-085c-54cd-c36b139ffbf9" executionId="6ae59450-ef60-45ed-aa4a-cac495599ca8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="866ddc02-f80e-7332-491a-ce7531dbf31f" executionId="98343ca3-3ba3-4d48-ae7c-7d6267a4aa12" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f509043e-a37d-c702-b7e3-9b351afe6f54" executionId="acdc212c-88c4-4646-8b0f-49b6dbd5fded" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3497735b-c3c4-fef8-5ac0-e74b2479637b" executionId="e4b6f7af-67c1-48c9-9d83-b12158d99753" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9e6292b-4dd4-847e-76ab-e134c68b7a1a" executionId="14f77ef3-9f95-4c82-bf20-d7073ff5bec5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="992f4042-cce7-e0a5-73e4-b22b572d7e52" executionId="3bf6cc85-6dd0-4aeb-b4dc-7f972cda9d44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c0b745d-5df9-1b11-8f0e-e816b9b1e980" executionId="6401f2c2-ad90-4af5-957e-0cf6336edbab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec51a838-f62c-df0e-0f06-941901dc5a0d" executionId="3a7c1d6d-cb95-484b-b05b-8e914c566397" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2948c66-97bd-f816-ec84-500cb6277015" executionId="16f531a3-7a6e-44af-b392-df60eb440d75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="88" executed="88" passed="88" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bf98b75d-a1d9-4607-bbd1-72fc2b926e55" name="tfsmladm@TFSBUILD11 2015-09-28 09:43:27" runUser="REDMOND\tfsmladm" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2015-09-28T09:43:27.6715102-07:00" queuing="2015-09-28T09:43:27.6715102-07:00" start="2015-09-28T09:43:27.6715102-07:00" finish="2015-09-28T09:43:27.7652668-07:00" />
+  <TestSettings name="default" id="f5c1f594-d86a-4540-818e-11d2e9c397b8">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="tfsmladm_TFSBUILD11 2015-09-28 09_43_27" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="b9d0e874-27d9-4934-9681-1cacfe61786f" testId="37133a28-0355-5fae-2c6e-1a7cd36846e3" testName="InternetExplorerTests" computerName="TFSBUILD11" duration="00:00:00.1588778" startTime="2015-09-28T09:43:27.1558482-07:00" endTime="2015-09-28T09:43:27.3589880-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9d0e874-27d9-4934-9681-1cacfe61786f" />
+    <UnitTestResult executionId="9d460dae-005f-4608-b55d-aa8d2bfd0afe" testId="9ccd6ca5-b4af-9e4a-11ec-5704865b4cee" testName="InternetExplorerMobileTests" computerName="TFSBUILD11" duration="00:00:00.0075869" startTime="2015-09-28T09:43:27.3589880-07:00" endTime="2015-09-28T09:43:27.3746138-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d460dae-005f-4608-b55d-aa8d2bfd0afe" />
+    <UnitTestResult executionId="2b365014-f0e9-42cc-9dc3-a8e65f17b212" testId="b6940574-ad2c-49cc-d1ac-186538649267" testName="ChromeTests" computerName="TFSBUILD11" duration="00:00:00.0236364" startTime="2015-09-28T09:43:27.3746138-07:00" endTime="2015-09-28T09:43:27.4058666-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b365014-f0e9-42cc-9dc3-a8e65f17b212" />
+    <UnitTestResult executionId="1aed0f15-a043-46e7-a9ba-95bb008bac24" testId="c287d2ff-2a3b-2bce-43de-256f83aa523f" testName="ChromeMobileTests" computerName="TFSBUILD11" duration="00:00:00.0063140" startTime="2015-09-28T09:43:27.4058666-07:00" endTime="2015-09-28T09:43:27.4058666-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1aed0f15-a043-46e7-a9ba-95bb008bac24" />
+    <UnitTestResult executionId="8147196d-0110-4709-998c-d251ac866238" testId="70e8966c-b207-670f-f63a-d0315569a47b" testName="FirefoxTests" computerName="TFSBUILD11" duration="00:00:00.0269203" startTime="2015-09-28T09:43:27.4058666-07:00" endTime="2015-09-28T09:43:27.4371185-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8147196d-0110-4709-998c-d251ac866238" />
+    <UnitTestResult executionId="c294646f-ef03-4c71-ac40-ae6017582186" testId="a2b780f6-453b-beb8-4515-437eb089d0b3" testName="FirefoxMobileTests" computerName="TFSBUILD11" duration="00:00:00.0062634" startTime="2015-09-28T09:43:27.4371185-07:00" endTime="2015-09-28T09:43:27.4371185-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c294646f-ef03-4c71-ac40-ae6017582186" />
+    <UnitTestResult executionId="e2025ff2-1910-4fb8-9d39-a7f5fa9db37a" testId="2e669e47-a372-d4e2-690c-3e126b3ca319" testName="SafariTests" computerName="TFSBUILD11" duration="00:00:00.1073587" startTime="2015-09-28T09:43:27.4371185-07:00" endTime="2015-09-28T09:43:27.5465013-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2025ff2-1910-4fb8-9d39-a7f5fa9db37a" />
+    <UnitTestResult executionId="64f0e09c-9ba4-46b6-97aa-2c6fe1281ab4" testId="af34fb18-33d2-36c7-63f9-b9e84f560aef" testName="SafariMobileTests" computerName="TFSBUILD11" duration="00:00:00.0299539" startTime="2015-09-28T09:43:27.5465013-07:00" endTime="2015-09-28T09:43:27.5777535-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64f0e09c-9ba4-46b6-97aa-2c6fe1281ab4" />
+    <UnitTestResult executionId="17e91163-a460-406a-a9cc-662dbb3e4a0a" testId="50037982-efe7-7b9f-f20f-a4a8aef9360f" testName="OperaTests" computerName="TFSBUILD11" duration="00:00:00.0588258" startTime="2015-09-28T09:43:27.5777535-07:00" endTime="2015-09-28T09:43:27.6402582-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="17e91163-a460-406a-a9cc-662dbb3e4a0a" />
+    <UnitTestResult executionId="9df34fd7-a774-4be8-bc68-b8f879f2ab40" testId="b4de94dd-fcd2-adcd-0bba-304d4d5185ff" testName="OperaMobileTests" computerName="TFSBUILD11" duration="00:00:00.0537359" startTime="2015-09-28T09:43:27.6402582-07:00" endTime="2015-09-28T09:43:27.6871357-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9df34fd7-a774-4be8-bc68-b8f879f2ab40" />
+    <UnitTestResult executionId="80219d11-477d-4af3-ac92-c05a62dc6d3a" testId="26d1cd68-3d7a-6972-9168-25460f0bab76" testName="SpartanTests" computerName="TFSBUILD11" duration="00:00:00.0011653" startTime="2015-09-28T09:43:27.6871357-07:00" endTime="2015-09-28T09:43:27.7027621-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80219d11-477d-4af3-ac92-c05a62dc6d3a" />
+    <UnitTestResult executionId="151fde36-edd2-458f-93ef-eda934b23fbe" testId="4a314e65-5e0b-4b76-8b05-5242f6437ce4" testName="TeeClientTests" computerName="TFSBUILD11" duration="00:00:00.0435492" startTime="2015-09-28T09:43:27.7027621-07:00" endTime="2015-09-28T09:43:27.7340149-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="151fde36-edd2-458f-93ef-eda934b23fbe" />
+    <UnitTestResult executionId="dec94e89-015f-4445-a2c5-8838f7ab17a9" testId="47718e6f-b770-0799-f61f-9fe5bb120c7a" testName="SoapClientTests" computerName="TFSBUILD11" duration="00:00:00.0015795" startTime="2015-09-28T09:43:27.7340149-07:00" endTime="2015-09-28T09:43:27.7340149-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dec94e89-015f-4445-a2c5-8838f7ab17a9" />
+    <UnitTestResult executionId="fbd2e25a-cb50-47fb-9a44-3164852f09ee" testId="512f0638-31c5-83e2-ab80-f14fa6ba0ff7" testName="GitClientTests" computerName="TFSBUILD11" duration="00:00:00.0022695" startTime="2015-09-28T09:43:27.7340149-07:00" endTime="2015-09-28T09:43:27.7496405-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fbd2e25a-cb50-47fb-9a44-3164852f09ee" />
+    <UnitTestResult executionId="3ee721a9-db3e-4581-9e34-0bb6c9a2f087" testId="db35029a-d73e-2dbd-a4b2-a48ee70db7c6" testName="RestClientTests" computerName="TFSBUILD11" duration="00:00:00.0002178" startTime="2015-09-28T09:43:27.7496405-07:00" endTime="2015-09-28T09:43:27.7496405-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ee721a9-db3e-4581-9e34-0bb6c9a2f087" />
+    <UnitTestResult executionId="9a7c3547-1ec5-42db-b80f-6292562bbe7f" testId="9ae7fc96-df3e-ed69-f5c1-48fd4cdc14f9" testName="EqualityTests" computerName="TFSBUILD11" duration="00:00:00.0036417" startTime="2015-09-28T09:43:27.7496405-07:00" endTime="2015-09-28T09:43:27.7496405-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a7c3547-1ec5-42db-b80f-6292562bbe7f">
+      <Output>
+        <StdOut>Statistics - 170 parses 499 elapsed 2 avg</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="InternetExplorerTests" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.admin.jobs.l0.tests\ms.tf.admin.jobs.l0.tests.dll" priority="2" id="37133a28-0355-5fae-2c6e-1a7cd36846e3">
+      <Owners>
+        <Owner name="prachis" />
+      </Owners>
+      <Execution id="b9d0e874-27d9-4934-9681-1cacfe61786f" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Admin.Jobs.L0.Tests\MS.TF.Admin.Jobs.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Admin.Jobs.L0.Tests.UserAgentParsingTests" name="InternetExplorerTests" />
+    </UnitTest>
+    <UnitTest name="InternetExplorerMobileTests" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.admin.jobs.l0.tests\ms.tf.admin.jobs.l0.tests.dll" priority="2" id="9ccd6ca5-b4af-9e4a-11ec-5704865b4cee">
+      <Owners>
+        <Owner name="prachis" />
+      </Owners>
+      <Execution id="9d460dae-005f-4608-b55d-aa8d2bfd0afe" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Admin.Jobs.L0.Tests\MS.TF.Admin.Jobs.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Admin.Jobs.L0.Tests.UserAgentParsingTests" name="InternetExplorerMobileTests" />
+    </UnitTest>
+    <UnitTest name="ChromeTests" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.admin.jobs.l0.tests\ms.tf.admin.jobs.l0.tests.dll" priority="2" id="b6940574-ad2c-49cc-d1ac-186538649267">
+      <Owners>
+        <Owner name="prachis" />
+      </Owners>
+      <Execution id="2b365014-f0e9-42cc-9dc3-a8e65f17b212" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Admin.Jobs.L0.Tests\MS.TF.Admin.Jobs.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Admin.Jobs.L0.Tests.UserAgentParsingTests" name="ChromeTests" />
+    </UnitTest>
+    <UnitTest name="ChromeMobileTests" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.admin.jobs.l0.tests\ms.tf.admin.jobs.l0.tests.dll" priority="2" id="c287d2ff-2a3b-2bce-43de-256f83aa523f">
+      <Owners>
+        <Owner name="prachis" />
+      </Owners>
+      <Execution id="1aed0f15-a043-46e7-a9ba-95bb008bac24" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Admin.Jobs.L0.Tests\MS.TF.Admin.Jobs.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Admin.Jobs.L0.Tests.UserAgentParsingTests" name="ChromeMobileTests" />
+    </UnitTest>
+    <UnitTest name="FirefoxTests" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.admin.jobs.l0.tests\ms.tf.admin.jobs.l0.tests.dll" priority="2" id="70e8966c-b207-670f-f63a-d0315569a47b">
+      <Owners>
+        <Owner name="prachis" />
+      </Owners>
+      <Execution id="8147196d-0110-4709-998c-d251ac866238" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Admin.Jobs.L0.Tests\MS.TF.Admin.Jobs.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Admin.Jobs.L0.Tests.UserAgentParsingTests" name="FirefoxTests" />
+    </UnitTest>
+    <UnitTest name="FirefoxMobileTests" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.admin.jobs.l0.tests\ms.tf.admin.jobs.l0.tests.dll" priority="2" id="a2b780f6-453b-beb8-4515-437eb089d0b3">
+      <Owners>
+        <Owner name="prachis" />
+      </Owners>
+      <Execution id="c294646f-ef03-4c71-ac40-ae6017582186" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Admin.Jobs.L0.Tests\MS.TF.Admin.Jobs.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Admin.Jobs.L0.Tests.UserAgentParsingTests" name="FirefoxMobileTests" />
+    </UnitTest>
+    <UnitTest name="SafariTests" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.admin.jobs.l0.tests\ms.tf.admin.jobs.l0.tests.dll" priority="2" id="2e669e47-a372-d4e2-690c-3e126b3ca319">
+      <Owners>
+        <Owner name="prachis" />
+      </Owners>
+      <Execution id="e2025ff2-1910-4fb8-9d39-a7f5fa9db37a" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Admin.Jobs.L0.Tests\MS.TF.Admin.Jobs.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Admin.Jobs.L0.Tests.UserAgentParsingTests" name="SafariTests" />
+    </UnitTest>
+    <UnitTest name="SafariMobileTests" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.admin.jobs.l0.tests\ms.tf.admin.jobs.l0.tests.dll" priority="2" id="af34fb18-33d2-36c7-63f9-b9e84f560aef">
+      <Owners>
+        <Owner name="prachis" />
+      </Owners>
+      <Execution id="64f0e09c-9ba4-46b6-97aa-2c6fe1281ab4" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Admin.Jobs.L0.Tests\MS.TF.Admin.Jobs.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Admin.Jobs.L0.Tests.UserAgentParsingTests" name="SafariMobileTests" />
+    </UnitTest>
+    <UnitTest name="OperaTests" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.admin.jobs.l0.tests\ms.tf.admin.jobs.l0.tests.dll" priority="2" id="50037982-efe7-7b9f-f20f-a4a8aef9360f">
+      <Owners>
+        <Owner name="prachis" />
+      </Owners>
+      <Execution id="17e91163-a460-406a-a9cc-662dbb3e4a0a" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Admin.Jobs.L0.Tests\MS.TF.Admin.Jobs.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Admin.Jobs.L0.Tests.UserAgentParsingTests" name="OperaTests" />
+    </UnitTest>
+    <UnitTest name="OperaMobileTests" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.admin.jobs.l0.tests\ms.tf.admin.jobs.l0.tests.dll" priority="2" id="b4de94dd-fcd2-adcd-0bba-304d4d5185ff">
+      <Owners>
+        <Owner name="prachis" />
+      </Owners>
+      <Execution id="9df34fd7-a774-4be8-bc68-b8f879f2ab40" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Admin.Jobs.L0.Tests\MS.TF.Admin.Jobs.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Admin.Jobs.L0.Tests.UserAgentParsingTests" name="OperaMobileTests" />
+    </UnitTest>
+    <UnitTest name="SpartanTests" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.admin.jobs.l0.tests\ms.tf.admin.jobs.l0.tests.dll" id="26d1cd68-3d7a-6972-9168-25460f0bab76">
+      <Execution id="80219d11-477d-4af3-ac92-c05a62dc6d3a" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Admin.Jobs.L0.Tests\MS.TF.Admin.Jobs.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Admin.Jobs.L0.Tests.UserAgentParsingTests" name="SpartanTests" />
+    </UnitTest>
+    <UnitTest name="TeeClientTests" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.admin.jobs.l0.tests\ms.tf.admin.jobs.l0.tests.dll" id="4a314e65-5e0b-4b76-8b05-5242f6437ce4">
+      <Execution id="151fde36-edd2-458f-93ef-eda934b23fbe" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Admin.Jobs.L0.Tests\MS.TF.Admin.Jobs.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Admin.Jobs.L0.Tests.UserAgentParsingTests" name="TeeClientTests" />
+    </UnitTest>
+    <UnitTest name="SoapClientTests" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.admin.jobs.l0.tests\ms.tf.admin.jobs.l0.tests.dll" id="47718e6f-b770-0799-f61f-9fe5bb120c7a">
+      <Execution id="dec94e89-015f-4445-a2c5-8838f7ab17a9" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Admin.Jobs.L0.Tests\MS.TF.Admin.Jobs.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Admin.Jobs.L0.Tests.UserAgentParsingTests" name="SoapClientTests" />
+    </UnitTest>
+    <UnitTest name="GitClientTests" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.admin.jobs.l0.tests\ms.tf.admin.jobs.l0.tests.dll" id="512f0638-31c5-83e2-ab80-f14fa6ba0ff7">
+      <Execution id="fbd2e25a-cb50-47fb-9a44-3164852f09ee" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Admin.Jobs.L0.Tests\MS.TF.Admin.Jobs.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Admin.Jobs.L0.Tests.UserAgentParsingTests" name="GitClientTests" />
+    </UnitTest>
+    <UnitTest name="RestClientTests" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.admin.jobs.l0.tests\ms.tf.admin.jobs.l0.tests.dll" id="db35029a-d73e-2dbd-a4b2-a48ee70db7c6">
+      <Execution id="3ee721a9-db3e-4581-9e34-0bb6c9a2f087" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Admin.Jobs.L0.Tests\MS.TF.Admin.Jobs.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Admin.Jobs.L0.Tests.UserAgentParsingTests" name="RestClientTests" />
+    </UnitTest>
+    <UnitTest name="EqualityTests" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.admin.jobs.l0.tests\ms.tf.admin.jobs.l0.tests.dll" id="9ae7fc96-df3e-ed69-f5c1-48fd4cdc14f9">
+      <Execution id="9a7c3547-1ec5-42db-b80f-6292562bbe7f" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Admin.Jobs.L0.Tests\MS.TF.Admin.Jobs.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Admin.Jobs.L0.Tests.UserAgentParsingTests" name="EqualityTests" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="37133a28-0355-5fae-2c6e-1a7cd36846e3" executionId="b9d0e874-27d9-4934-9681-1cacfe61786f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ccd6ca5-b4af-9e4a-11ec-5704865b4cee" executionId="9d460dae-005f-4608-b55d-aa8d2bfd0afe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6940574-ad2c-49cc-d1ac-186538649267" executionId="2b365014-f0e9-42cc-9dc3-a8e65f17b212" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c287d2ff-2a3b-2bce-43de-256f83aa523f" executionId="1aed0f15-a043-46e7-a9ba-95bb008bac24" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70e8966c-b207-670f-f63a-d0315569a47b" executionId="8147196d-0110-4709-998c-d251ac866238" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2b780f6-453b-beb8-4515-437eb089d0b3" executionId="c294646f-ef03-4c71-ac40-ae6017582186" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e669e47-a372-d4e2-690c-3e126b3ca319" executionId="e2025ff2-1910-4fb8-9d39-a7f5fa9db37a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af34fb18-33d2-36c7-63f9-b9e84f560aef" executionId="64f0e09c-9ba4-46b6-97aa-2c6fe1281ab4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50037982-efe7-7b9f-f20f-a4a8aef9360f" executionId="17e91163-a460-406a-a9cc-662dbb3e4a0a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b4de94dd-fcd2-adcd-0bba-304d4d5185ff" executionId="9df34fd7-a774-4be8-bc68-b8f879f2ab40" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="26d1cd68-3d7a-6972-9168-25460f0bab76" executionId="80219d11-477d-4af3-ac92-c05a62dc6d3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a314e65-5e0b-4b76-8b05-5242f6437ce4" executionId="151fde36-edd2-458f-93ef-eda934b23fbe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47718e6f-b770-0799-f61f-9fe5bb120c7a" executionId="dec94e89-015f-4445-a2c5-8838f7ab17a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="512f0638-31c5-83e2-ab80-f14fa6ba0ff7" executionId="fbd2e25a-cb50-47fb-9a44-3164852f09ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db35029a-d73e-2dbd-a4b2-a48ee70db7c6" executionId="3ee721a9-db3e-4581-9e34-0bb6c9a2f087" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ae7fc96-df3e-ed69-f5c1-48fd4cdc14f9" executionId="9a7c3547-1ec5-42db-b80f-6292562bbe7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="16" executed="16" passed="16" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

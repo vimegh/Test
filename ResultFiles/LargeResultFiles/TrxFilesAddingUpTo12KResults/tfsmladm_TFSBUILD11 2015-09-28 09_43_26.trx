@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2977534d-fcb4-42f5-9e12-d0f1004786c9" name="tfsmladm@TFSBUILD11 2015-09-28 09:43:26" runUser="REDMOND\tfsmladm" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2015-09-28T09:43:26.2964121-07:00" queuing="2015-09-28T09:43:26.2964121-07:00" start="2015-09-28T09:43:26.3120382-07:00" finish="2015-09-28T09:43:26.3589169-07:00" />
+  <TestSettings name="default" id="318a53a8-b668-42d2-8bde-ae2388f71815">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="tfsmladm_TFSBUILD11 2015-09-28 09_43_26" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="0deb31ba-1bac-40f3-8d5d-ed7ad8342a1d" testId="66e5d919-c0f0-52bd-b2fd-43495163dcac" testName="NormalMetadataRules" computerName="TFSBUILD11" duration="00:00:00.1609255" startTime="2015-09-28T09:43:26.0463946-07:00" endTime="2015-09-28T09:43:26.2339082-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0deb31ba-1bac-40f3-8d5d-ed7ad8342a1d" />
+    <UnitTestResult executionId="b32d3dce-4265-4bf1-8e9f-b9601599b01b" testId="d7296a29-af9b-5fd4-6144-19f988923076" testName="HandleConstantSetsTableLoop" computerName="TFSBUILD11" duration="00:00:00.0024100" startTime="2015-09-28T09:43:26.2495344-07:00" endTime="2015-09-28T09:43:26.2495344-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b32d3dce-4265-4bf1-8e9f-b9601599b01b" />
+    <UnitTestResult executionId="13344c11-179a-4e75-8e41-c48643ac33d5" testId="3a53f209-5083-5dd0-41de-3978a4da54f7" testName="SingleFieldWithMultipleRules" computerName="TFSBUILD11" duration="00:00:00.0019034" startTime="2015-09-28T09:43:26.2495344-07:00" endTime="2015-09-28T09:43:26.2495344-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13344c11-179a-4e75-8e41-c48643ac33d5" />
+    <UnitTestResult executionId="b9564da3-1ac3-49b3-8e32-9b29b51dd678" testId="414e4dd6-0d01-2d92-5ee1-cd0abc512c73" testName="HandleWellKnownIdentityGroups" computerName="TFSBUILD11" duration="00:00:00.0020147" startTime="2015-09-28T09:43:26.2495344-07:00" endTime="2015-09-28T09:43:26.2651599-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9564da3-1ac3-49b3-8e32-9b29b51dd678" />
+    <UnitTestResult executionId="dce9e55c-2216-4e56-b13f-843e7a7c8b3f" testId="0b2abf95-c5d0-a31a-b426-2d44544112a8" testName="HostedNonAADInput" computerName="TFSBUILD11" duration="00:00:00.0035268" startTime="2015-09-28T09:43:26.2651599-07:00" endTime="2015-09-28T09:43:26.2651599-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dce9e55c-2216-4e56-b13f-843e7a7c8b3f" />
+    <UnitTestResult executionId="4e0c6a2d-fda2-432e-9e09-f2e96a67d148" testId="6bacf29f-14b2-a704-5c11-98022234c3f5" testName="HostedAADInput" computerName="TFSBUILD11" duration="00:00:00.0001078" startTime="2015-09-28T09:43:26.2651599-07:00" endTime="2015-09-28T09:43:26.2651599-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e0c6a2d-fda2-432e-9e09-f2e96a67d148" />
+    <UnitTestResult executionId="41b7bc4a-3647-4717-a3cb-e33b6c5f9c15" testId="ff2cd1ce-e34a-e9b3-9b5f-42d4c8bc2eca" testName="HostedServiceAccountInput" computerName="TFSBUILD11" duration="00:00:00.0001023" startTime="2015-09-28T09:43:26.2651599-07:00" endTime="2015-09-28T09:43:26.2651599-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="41b7bc4a-3647-4717-a3cb-e33b6c5f9c15" />
+    <UnitTestResult executionId="dd1e8bfb-e50b-497b-b20f-7e207067e8fd" testId="5e048ae9-e4b5-827d-7a11-6c8832654ca7" testName="OnPremUserInput" computerName="TFSBUILD11" duration="00:00:00.0001086" startTime="2015-09-28T09:43:26.2651599-07:00" endTime="2015-09-28T09:43:26.2651599-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd1e8bfb-e50b-497b-b20f-7e207067e8fd" />
+    <UnitTestResult executionId="70fcc049-5450-4a6c-a77b-6d7c3d816f82" testId="17a342dd-b78d-57e5-4717-eb1bda45cac4" testName="TFAccountInput" computerName="TFSBUILD11" duration="00:00:00.0001032" startTime="2015-09-28T09:43:26.2651599-07:00" endTime="2015-09-28T09:43:26.2651599-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70fcc049-5450-4a6c-a77b-6d7c3d816f82" />
+    <UnitTestResult executionId="40c81809-7a61-4c15-98fd-63adfae77a8d" testId="cfa333e7-6c43-0e8b-5e30-2eadbd6ecb05" testName="NonIdentityConstantInput" computerName="TFSBUILD11" duration="00:00:00.0002989" startTime="2015-09-28T09:43:26.2651599-07:00" endTime="2015-09-28T09:43:26.2651599-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40c81809-7a61-4c15-98fd-63adfae77a8d" />
+    <UnitTestResult executionId="bf7ebd61-5419-4a34-a847-fe13f74dafe4" testId="1e8cac32-e3a0-3bc6-c442-a5e56f091324" testName="IdentityGroupComparerConstructorWithNullCulture" computerName="TFSBUILD11" duration="00:00:00.0043286" startTime="2015-09-28T09:43:26.2651599-07:00" endTime="2015-09-28T09:43:26.2807857-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf7ebd61-5419-4a34-a847-fe13f74dafe4" />
+    <UnitTestResult executionId="e30758cc-7a75-4736-81fe-7b198819e37c" testId="e66126bd-33b1-600b-895e-f8aa7fa481f8" testName="IdentityGroupComparerWithNoGroups" computerName="TFSBUILD11" duration="00:00:00.0007614" startTime="2015-09-28T09:43:26.2807857-07:00" endTime="2015-09-28T09:43:26.2807857-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e30758cc-7a75-4736-81fe-7b198819e37c" />
+    <UnitTestResult executionId="1e27f4eb-d1a1-42b4-8e5c-9ad839af6a4a" testId="100f8ba2-0fa3-6586-d5a3-9799d2c5ecc1" testName="IdentityGroupComparerOrdered" computerName="TFSBUILD11" duration="00:00:00.0005796" startTime="2015-09-28T09:43:26.2807857-07:00" endTime="2015-09-28T09:43:26.2807857-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e27f4eb-d1a1-42b4-8e5c-9ad839af6a4a" />
+    <UnitTestResult executionId="3bb7da30-370f-4197-bc09-7bce3f6f4eb6" testId="61c4896e-e0b9-a268-45ef-fcbaca1cdeef" testName="IdentityGroupComparerReverseOrdered" computerName="TFSBUILD11" duration="00:00:00.0005734" startTime="2015-09-28T09:43:26.2807857-07:00" endTime="2015-09-28T09:43:26.2807857-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3bb7da30-370f-4197-bc09-7bce3f6f4eb6" />
+    <UnitTestResult executionId="ff5cad99-de78-4f7b-bc5e-825de567f906" testId="174945a7-4916-2657-26db-c02281178002" testName="IdentityGroupComparerUnOrdered" computerName="TFSBUILD11" duration="00:00:00.0005720" startTime="2015-09-28T09:43:26.2807857-07:00" endTime="2015-09-28T09:43:26.2807857-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff5cad99-de78-4f7b-bc5e-825de567f906" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="NormalMetadataRules" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.extendedclient\ms.tf.workitemtracking.client.l0.tests\ms.tf.workitemtracking.client.l0.tests.dll" id="66e5d919-c0f0-52bd-b2fd-43495163dcac">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="0deb31ba-1bac-40f3-8d5d-ed7ad8342a1d" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.ExtendedClient\MS.TF.WorkItemTracking.Client.L0.Tests\MS.TF.WorkItemTracking.Client.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.WorkItemTracking.Client.L0.Tests.FieldClassifierTests" name="NormalMetadataRules" />
+    </UnitTest>
+    <UnitTest name="HandleConstantSetsTableLoop" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.extendedclient\ms.tf.workitemtracking.client.l0.tests\ms.tf.workitemtracking.client.l0.tests.dll" id="d7296a29-af9b-5fd4-6144-19f988923076">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="b32d3dce-4265-4bf1-8e9f-b9601599b01b" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.ExtendedClient\MS.TF.WorkItemTracking.Client.L0.Tests\MS.TF.WorkItemTracking.Client.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.WorkItemTracking.Client.L0.Tests.FieldClassifierTests" name="HandleConstantSetsTableLoop" />
+    </UnitTest>
+    <UnitTest name="SingleFieldWithMultipleRules" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.extendedclient\ms.tf.workitemtracking.client.l0.tests\ms.tf.workitemtracking.client.l0.tests.dll" id="3a53f209-5083-5dd0-41de-3978a4da54f7">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="13344c11-179a-4e75-8e41-c48643ac33d5" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.ExtendedClient\MS.TF.WorkItemTracking.Client.L0.Tests\MS.TF.WorkItemTracking.Client.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.WorkItemTracking.Client.L0.Tests.FieldClassifierTests" name="SingleFieldWithMultipleRules" />
+    </UnitTest>
+    <UnitTest name="HandleWellKnownIdentityGroups" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.extendedclient\ms.tf.workitemtracking.client.l0.tests\ms.tf.workitemtracking.client.l0.tests.dll" id="414e4dd6-0d01-2d92-5ee1-cd0abc512c73">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="b9564da3-1ac3-49b3-8e32-9b29b51dd678" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.ExtendedClient\MS.TF.WorkItemTracking.Client.L0.Tests\MS.TF.WorkItemTracking.Client.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.WorkItemTracking.Client.L0.Tests.FieldClassifierTests" name="HandleWellKnownIdentityGroups" />
+    </UnitTest>
+    <UnitTest name="HostedNonAADInput" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.extendedclient\ms.tf.workitemtracking.client.l0.tests\ms.tf.workitemtracking.client.l0.tests.dll" id="0b2abf95-c5d0-a31a-b426-2d44544112a8">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="dce9e55c-2216-4e56-b13f-843e7a7c8b3f" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.ExtendedClient\MS.TF.WorkItemTracking.Client.L0.Tests\MS.TF.WorkItemTracking.Client.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.WorkItemTracking.Client.L0.Tests.IdentityFieldValueTests" name="HostedNonAADInput" />
+    </UnitTest>
+    <UnitTest name="HostedAADInput" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.extendedclient\ms.tf.workitemtracking.client.l0.tests\ms.tf.workitemtracking.client.l0.tests.dll" id="6bacf29f-14b2-a704-5c11-98022234c3f5">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="4e0c6a2d-fda2-432e-9e09-f2e96a67d148" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.ExtendedClient\MS.TF.WorkItemTracking.Client.L0.Tests\MS.TF.WorkItemTracking.Client.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.WorkItemTracking.Client.L0.Tests.IdentityFieldValueTests" name="HostedAADInput" />
+    </UnitTest>
+    <UnitTest name="HostedServiceAccountInput" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.extendedclient\ms.tf.workitemtracking.client.l0.tests\ms.tf.workitemtracking.client.l0.tests.dll" id="ff2cd1ce-e34a-e9b3-9b5f-42d4c8bc2eca">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="41b7bc4a-3647-4717-a3cb-e33b6c5f9c15" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.ExtendedClient\MS.TF.WorkItemTracking.Client.L0.Tests\MS.TF.WorkItemTracking.Client.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.WorkItemTracking.Client.L0.Tests.IdentityFieldValueTests" name="HostedServiceAccountInput" />
+    </UnitTest>
+    <UnitTest name="OnPremUserInput" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.extendedclient\ms.tf.workitemtracking.client.l0.tests\ms.tf.workitemtracking.client.l0.tests.dll" id="5e048ae9-e4b5-827d-7a11-6c8832654ca7">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="dd1e8bfb-e50b-497b-b20f-7e207067e8fd" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.ExtendedClient\MS.TF.WorkItemTracking.Client.L0.Tests\MS.TF.WorkItemTracking.Client.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.WorkItemTracking.Client.L0.Tests.IdentityFieldValueTests" name="OnPremUserInput" />
+    </UnitTest>
+    <UnitTest name="TFAccountInput" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.extendedclient\ms.tf.workitemtracking.client.l0.tests\ms.tf.workitemtracking.client.l0.tests.dll" id="17a342dd-b78d-57e5-4717-eb1bda45cac4">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="70fcc049-5450-4a6c-a77b-6d7c3d816f82" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.ExtendedClient\MS.TF.WorkItemTracking.Client.L0.Tests\MS.TF.WorkItemTracking.Client.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.WorkItemTracking.Client.L0.Tests.IdentityFieldValueTests" name="TFAccountInput" />
+    </UnitTest>
+    <UnitTest name="NonIdentityConstantInput" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.extendedclient\ms.tf.workitemtracking.client.l0.tests\ms.tf.workitemtracking.client.l0.tests.dll" id="cfa333e7-6c43-0e8b-5e30-2eadbd6ecb05">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="40c81809-7a61-4c15-98fd-63adfae77a8d" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.ExtendedClient\MS.TF.WorkItemTracking.Client.L0.Tests\MS.TF.WorkItemTracking.Client.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.WorkItemTracking.Client.L0.Tests.IdentityFieldValueTests" name="NonIdentityConstantInput" />
+    </UnitTest>
+    <UnitTest name="IdentityGroupComparerConstructorWithNullCulture" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.extendedclient\ms.tf.workitemtracking.client.l0.tests\ms.tf.workitemtracking.client.l0.tests.dll" id="1e8cac32-e3a0-3bc6-c442-a5e56f091324">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="bf7ebd61-5419-4a34-a847-fe13f74dafe4" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.ExtendedClient\MS.TF.WorkItemTracking.Client.L0.Tests\MS.TF.WorkItemTracking.Client.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.WorkItemTracking.Client.L0.Tests.IdentityGroupComparerTests" name="IdentityGroupComparerConstructorWithNullCulture" />
+    </UnitTest>
+    <UnitTest name="IdentityGroupComparerWithNoGroups" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.extendedclient\ms.tf.workitemtracking.client.l0.tests\ms.tf.workitemtracking.client.l0.tests.dll" id="e66126bd-33b1-600b-895e-f8aa7fa481f8">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="e30758cc-7a75-4736-81fe-7b198819e37c" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.ExtendedClient\MS.TF.WorkItemTracking.Client.L0.Tests\MS.TF.WorkItemTracking.Client.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.WorkItemTracking.Client.L0.Tests.IdentityGroupComparerTests" name="IdentityGroupComparerWithNoGroups" />
+    </UnitTest>
+    <UnitTest name="IdentityGroupComparerOrdered" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.extendedclient\ms.tf.workitemtracking.client.l0.tests\ms.tf.workitemtracking.client.l0.tests.dll" id="100f8ba2-0fa3-6586-d5a3-9799d2c5ecc1">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="1e27f4eb-d1a1-42b4-8e5c-9ad839af6a4a" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.ExtendedClient\MS.TF.WorkItemTracking.Client.L0.Tests\MS.TF.WorkItemTracking.Client.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.WorkItemTracking.Client.L0.Tests.IdentityGroupComparerTests" name="IdentityGroupComparerOrdered" />
+    </UnitTest>
+    <UnitTest name="IdentityGroupComparerReverseOrdered" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.extendedclient\ms.tf.workitemtracking.client.l0.tests\ms.tf.workitemtracking.client.l0.tests.dll" id="61c4896e-e0b9-a268-45ef-fcbaca1cdeef">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="3bb7da30-370f-4197-bc09-7bce3f6f4eb6" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.ExtendedClient\MS.TF.WorkItemTracking.Client.L0.Tests\MS.TF.WorkItemTracking.Client.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.WorkItemTracking.Client.L0.Tests.IdentityGroupComparerTests" name="IdentityGroupComparerReverseOrdered" />
+    </UnitTest>
+    <UnitTest name="IdentityGroupComparerUnOrdered" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.extendedclient\ms.tf.workitemtracking.client.l0.tests\ms.tf.workitemtracking.client.l0.tests.dll" id="174945a7-4916-2657-26db-c02281178002">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="ff5cad99-de78-4f7b-bc5e-825de567f906" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.ExtendedClient\MS.TF.WorkItemTracking.Client.L0.Tests\MS.TF.WorkItemTracking.Client.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.WorkItemTracking.Client.L0.Tests.IdentityGroupComparerTests" name="IdentityGroupComparerUnOrdered" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="66e5d919-c0f0-52bd-b2fd-43495163dcac" executionId="0deb31ba-1bac-40f3-8d5d-ed7ad8342a1d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7296a29-af9b-5fd4-6144-19f988923076" executionId="b32d3dce-4265-4bf1-8e9f-b9601599b01b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3a53f209-5083-5dd0-41de-3978a4da54f7" executionId="13344c11-179a-4e75-8e41-c48643ac33d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="414e4dd6-0d01-2d92-5ee1-cd0abc512c73" executionId="b9564da3-1ac3-49b3-8e32-9b29b51dd678" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0b2abf95-c5d0-a31a-b426-2d44544112a8" executionId="dce9e55c-2216-4e56-b13f-843e7a7c8b3f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6bacf29f-14b2-a704-5c11-98022234c3f5" executionId="4e0c6a2d-fda2-432e-9e09-f2e96a67d148" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff2cd1ce-e34a-e9b3-9b5f-42d4c8bc2eca" executionId="41b7bc4a-3647-4717-a3cb-e33b6c5f9c15" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e048ae9-e4b5-827d-7a11-6c8832654ca7" executionId="dd1e8bfb-e50b-497b-b20f-7e207067e8fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17a342dd-b78d-57e5-4717-eb1bda45cac4" executionId="70fcc049-5450-4a6c-a77b-6d7c3d816f82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cfa333e7-6c43-0e8b-5e30-2eadbd6ecb05" executionId="40c81809-7a61-4c15-98fd-63adfae77a8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e8cac32-e3a0-3bc6-c442-a5e56f091324" executionId="bf7ebd61-5419-4a34-a847-fe13f74dafe4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e66126bd-33b1-600b-895e-f8aa7fa481f8" executionId="e30758cc-7a75-4736-81fe-7b198819e37c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="100f8ba2-0fa3-6586-d5a3-9799d2c5ecc1" executionId="1e27f4eb-d1a1-42b4-8e5c-9ad839af6a4a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61c4896e-e0b9-a268-45ef-fcbaca1cdeef" executionId="3bb7da30-370f-4197-bc09-7bce3f6f4eb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="174945a7-4916-2657-26db-c02281178002" executionId="ff5cad99-de78-4f7b-bc5e-825de567f906" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="15" executed="15" passed="15" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e66bf456-c2cc-4e37-a195-91e5cc0254e4" name="tfsmladm@TFSBUILD11 2015-09-28 09:43:46" runUser="REDMOND\tfsmladm" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2015-09-28T09:43:46.6728607-07:00" queuing="2015-09-28T09:43:46.6728607-07:00" start="2015-09-28T09:43:46.6728607-07:00" finish="2015-09-28T09:43:46.7197393-07:00" />
+  <TestSettings name="default" id="20bf9fd2-97bc-4de1-9b28-2259cb840efb">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="tfsmladm_TFSBUILD11 2015-09-28 09_43_46" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="f06d45c5-e0e3-4b7e-8097-03491e6708d8" testId="18740a5c-57dd-3263-9b0b-d740cc710f8b" testName="FirewallHandler_FirewallException" computerName="TFSBUILD11" duration="00:00:00.1367483" startTime="2015-09-28T09:43:46.4384696-07:00" endTime="2015-09-28T09:43:46.6103563-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f06d45c5-e0e3-4b7e-8097-03491e6708d8" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="FirewallHandler_FirewallException" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\vssf.sdk\ms.vs.services.configuration.l0.tests\ms.vs.services.configuration.l0.tests.dll" priority="2" id="18740a5c-57dd-3263-9b0b-d740cc710f8b">
+      <Owners>
+        <Owner name="vlkhvost" />
+      </Owners>
+      <Execution id="f06d45c5-e0e3-4b7e-8097-03491e6708d8" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Vssf.Sdk\MS.VS.Services.Configuration.L0.Tests\MS.VS.Services.Configuration.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="Microsoft.VisualStudio.Services.Configuration.L0.Tests.FirewallHandlerTests" name="FirewallHandler_FirewallException" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="18740a5c-57dd-3263-9b0b-d740cc710f8b" executionId="f06d45c5-e0e3-4b7e-8097-03491e6708d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

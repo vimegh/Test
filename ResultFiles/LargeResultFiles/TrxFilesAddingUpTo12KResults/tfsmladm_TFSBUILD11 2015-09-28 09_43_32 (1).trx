@@ -1,0 +1,951 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="91ef2a96-b3a3-4d79-b22c-aad63afdb9a5" name="tfsmladm@TFSBUILD11 2015-09-28 09:43:32" runUser="REDMOND\tfsmladm" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2015-09-28T09:43:32.4687260-07:00" queuing="2015-09-28T09:43:32.4687260-07:00" start="2015-09-28T09:43:32.4687260-07:00" finish="2015-09-28T09:43:35.6408271-07:00" />
+  <TestSettings name="default" id="a0a722b5-8481-4e34-861e-9c48fef069c1">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="tfsmladm_TFSBUILD11 2015-09-28 09_43_32" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="69fc7069-b4c5-4564-bbfd-b53c17148ca8" testId="f35dc333-305e-a22d-63d9-cdddef53189a" testName="CanRetrieveProjectsByState" computerName="TFSBUILD11" duration="00:00:00.1053676" startTime="2015-09-28T09:43:32.2187085-07:00" endTime="2015-09-28T09:43:32.3749702-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69fc7069-b4c5-4564-bbfd-b53c17148ca8" />
+    <UnitTestResult executionId="0ccbab17-04d2-4a0e-90e4-d4b9118fbbac" testId="0dd4d4ce-b013-ec92-0617-0caec3a37b8f" testName="CanRetrieveAllProjects" computerName="TFSBUILD11" duration="00:00:00.0019433" startTime="2015-09-28T09:43:32.3905957-07:00" endTime="2015-09-28T09:43:32.3905957-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ccbab17-04d2-4a0e-90e4-d4b9118fbbac" />
+    <UnitTestResult executionId="7e20df6c-204d-4a43-902b-2c3f8bb0c5ae" testId="2169dd54-2505-f9e0-19a1-1025b8f37b59" testName="QueryingNonExistentStateReturnsEmptyArray" computerName="TFSBUILD11" duration="00:00:00.0003757" startTime="2015-09-28T09:43:32.3905957-07:00" endTime="2015-09-28T09:43:32.3905957-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e20df6c-204d-4a43-902b-2c3f8bb0c5ae" />
+    <UnitTestResult executionId="0852cfaf-2ee4-40aa-910c-fb16e57246fe" testId="870d1cfc-c0aa-76fc-eba1-b778cc834a05" testName="CanRetrieveProjectByNameAfterNameIsTransferred" computerName="TFSBUILD11" duration="00:00:00.0042768" startTime="2015-09-28T09:43:32.3905957-07:00" endTime="2015-09-28T09:43:32.3905957-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0852cfaf-2ee4-40aa-910c-fb16e57246fe" />
+    <UnitTestResult executionId="ba15dbb1-726d-4d41-bcce-051833a52c5d" testId="ea58d87c-c7b7-9630-91f4-24b4bd2ffc9c" testName="AllProjectInfoFieldsAreAccounted" computerName="TFSBUILD11" duration="00:00:00.0008536" startTime="2015-09-28T09:43:32.3905957-07:00" endTime="2015-09-28T09:43:32.3905957-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba15dbb1-726d-4d41-bcce-051833a52c5d" />
+    <UnitTestResult executionId="eb9a2e0c-1034-49a5-8a4d-e320a706345b" testId="1e797f7c-b1a1-9c88-954e-f66a6f15ad55" testName="CanUseEqualsForAllComparedFields" computerName="TFSBUILD11" duration="00:00:00.0011033" startTime="2015-09-28T09:43:32.3905957-07:00" endTime="2015-09-28T09:43:32.3905957-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb9a2e0c-1034-49a5-8a4d-e320a706345b" />
+    <UnitTestResult executionId="e2bd7fe5-dfd8-4432-a6d4-3c90630117df" testId="0162dce2-90f6-716a-67a7-1dd774f3258c" testName="ProjectDiffAcceptsNullReferences" computerName="TFSBUILD11" duration="00:00:00.0041417" startTime="2015-09-28T09:43:32.3905957-07:00" endTime="2015-09-28T09:43:32.4062216-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2bd7fe5-dfd8-4432-a6d4-3c90630117df" />
+    <UnitTestResult executionId="60602344-1f78-4811-9157-6638c049b631" testId="aae5e549-4c4f-0fd9-d20a-39125d7c2f3c" testName="ProjectDiffReturnsEmptyDiffForEqualProjects" computerName="TFSBUILD11" duration="00:00:00.0004164" startTime="2015-09-28T09:43:32.4062216-07:00" endTime="2015-09-28T09:43:32.4062216-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60602344-1f78-4811-9157-6638c049b631" />
+    <UnitTestResult executionId="8132f984-3c9d-428d-8fde-698b1af322a8" testId="59c2e6bd-684e-b948-a673-5210cf65ef0c" testName="ProjectDiffReturnsChangedFieldsOnly" computerName="TFSBUILD11" duration="00:00:00.0013792" startTime="2015-09-28T09:43:32.4062216-07:00" endTime="2015-09-28T09:43:32.4062216-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8132f984-3c9d-428d-8fde-698b1af322a8" />
+    <UnitTestResult executionId="49199a7e-9aac-47a4-8adb-a28504456d37" testId="2955c525-6a1b-6886-742f-ec8b75db6dd3" testName="ProjectDiffTracksRename" computerName="TFSBUILD11" duration="00:00:00.0011522" startTime="2015-09-28T09:43:32.4062216-07:00" endTime="2015-09-28T09:43:32.4062216-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49199a7e-9aac-47a4-8adb-a28504456d37" />
+    <UnitTestResult executionId="a491d369-5df9-4dd8-97af-a0c893a07bf1" testId="da35c900-a29c-05a0-e4a9-125ce0114c7a" testName="MethodologyUpload_VerifyUnauthorizedExceptionsHandled" computerName="TFSBUILD11" duration="00:00:00.6234372" startTime="2015-09-28T09:43:32.4062216-07:00" endTime="2015-09-28T09:43:33.2344057-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a491d369-5df9-4dd8-97af-a0c893a07bf1" />
+    <UnitTestResult executionId="209af773-e97d-44e5-ba2b-a99a4566dc5c" testId="ed9bbb87-b130-5ccc-993c-8a7e1fc37b55" testName="MethodologyUpload_VerifyArbitraryExceptionsUnhandled" computerName="TFSBUILD11" duration="00:00:00.0081660" startTime="2015-09-28T09:43:33.2344057-07:00" endTime="2015-09-28T09:43:33.2500324-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="209af773-e97d-44e5-ba2b-a99a4566dc5c" />
+    <UnitTestResult executionId="b8b0e29f-f67b-4d36-a1cf-4ab6a2ae4873" testId="8121f9fe-144d-96ba-cb9b-9e88c7a1306a" testName="MethodologyUpload_VerifyNormalFlow" computerName="TFSBUILD11" duration="00:00:00.0067700" startTime="2015-09-28T09:43:33.2500324-07:00" endTime="2015-09-28T09:43:33.2500324-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8b0e29f-f67b-4d36-a1cf-4ab6a2ae4873" />
+    <UnitTestResult executionId="d0aa0ccb-9edd-4a10-8f9a-2de7d05c5488" testId="400f4cf3-092f-6694-d77d-a6b11a2e30b7" testName="MethodologyUpload_NoFileIsNop" computerName="TFSBUILD11" duration="00:00:00.0064611" startTime="2015-09-28T09:43:33.2500324-07:00" endTime="2015-09-28T09:43:33.2656577-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0aa0ccb-9edd-4a10-8f9a-2de7d05c5488" />
+    <UnitTestResult executionId="36ed40d2-b1d5-40ec-984c-2ed931c3c751" testId="455cfd16-450a-5f71-afb8-d212aade67cb" testName="UploadProcessTemplate_NullRequestContext" computerName="TFSBUILD11" duration="00:00:00.3098728" startTime="2015-09-28T09:43:33.2656577-07:00" endTime="2015-09-28T09:43:33.5781799-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36ed40d2-b1d5-40ec-984c-2ed931c3c751" />
+    <UnitTestResult executionId="4fc9db6b-e317-4589-9c60-dde7d5957bae" testId="dd0b27fc-88a0-e41e-6f4e-9499af82ab22" testName="UploadProcessTemplate_NullName" computerName="TFSBUILD11" duration="00:00:00.0169360" startTime="2015-09-28T09:43:33.5781799-07:00" endTime="2015-09-28T09:43:33.5938060-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4fc9db6b-e317-4589-9c60-dde7d5957bae" />
+    <UnitTestResult executionId="4126dfe6-b81c-4483-8eea-f07ead6e8649" testId="d1aa6e87-0e71-02fa-5681-f95f645be200" testName="UploadProcessTemplate_NullDescription" computerName="TFSBUILD11" duration="00:00:00.0178508" startTime="2015-09-28T09:43:33.5938060-07:00" endTime="2015-09-28T09:43:33.6094318-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4126dfe6-b81c-4483-8eea-f07ead6e8649" />
+    <UnitTestResult executionId="a30504ab-e2d5-47ae-9df4-dbf593007812" testId="73d3eaa3-aba4-88e2-309b-de199ebe933a" testName="UploadProcessTemplate_NullMetadata" computerName="TFSBUILD11" duration="00:00:00.0165040" startTime="2015-09-28T09:43:33.6094318-07:00" endTime="2015-09-28T09:43:33.6250588-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a30504ab-e2d5-47ae-9df4-dbf593007812" />
+    <UnitTestResult executionId="f660cef2-2253-4a49-a3ce-bdfcd6bb209c" testId="7e7b8108-94f3-e8de-4065-3480a413a28c" testName="UploadProcessTemplate_NullZipContentStream" computerName="TFSBUILD11" duration="00:00:00.0184168" startTime="2015-09-28T09:43:33.6250588-07:00" endTime="2015-09-28T09:43:33.6406841-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f660cef2-2253-4a49-a3ce-bdfcd6bb209c" />
+    <UnitTestResult executionId="99e69ab9-6919-4e1b-86a5-13258bbc74ef" testId="0efdfaf9-8f85-25cb-b899-ca71df700817" testName="UploadProcessTemplate_ProcessLimitExceeded" computerName="TFSBUILD11" duration="00:00:00.1439268" startTime="2015-09-28T09:43:33.6406841-07:00" endTime="2015-09-28T09:43:33.7813205-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99e69ab9-6919-4e1b-86a5-13258bbc74ef" />
+    <UnitTestResult executionId="0da78d53-d9d4-4e60-90f1-8c40e33ef5c4" testId="b3d41268-aae8-e206-b10c-97f9a9c63aff" testName="UploadProcessTemplate_OnPrem_NoProcessLimit" computerName="TFSBUILD11" duration="00:00:00.0758367" startTime="2015-09-28T09:43:33.7813205-07:00" endTime="2015-09-28T09:43:33.8594499-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0da78d53-d9d4-4e60-90f1-8c40e33ef5c4" />
+    <UnitTestResult executionId="7cabea38-1006-4b4e-a7e0-1ac36b2aa084" testId="f4d7ec0e-f676-a2e7-a903-05f4f4e05ded" testName="UploadProcessTemplate_UploadFileSizeLimitExceeded" computerName="TFSBUILD11" duration="00:00:00.0394446" startTime="2015-09-28T09:43:33.8594499-07:00" endTime="2015-09-28T09:43:33.9063285-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7cabea38-1006-4b4e-a7e0-1ac36b2aa084" />
+    <UnitTestResult executionId="b5f47893-db7d-4569-ad24-78fb0dcdafea" testId="c14e1009-2b33-9088-0522-483110a7d66a" testName="UploadProcessTemplate_OnPrem_NoUploadFileSizeLimit" computerName="TFSBUILD11" duration="00:00:00.0177552" startTime="2015-09-28T09:43:33.9063285-07:00" endTime="2015-09-28T09:43:33.9219543-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5f47893-db7d-4569-ad24-78fb0dcdafea" />
+    <UnitTestResult executionId="a86ee89e-9a74-4593-a51d-00f00c90a748" testId="cc4dc45b-cedf-7409-4868-86aad9994a58" testName="UploadProcessTemplate_DescriptionTooLong" computerName="TFSBUILD11" duration="00:00:00.0190492" startTime="2015-09-28T09:43:33.9219543-07:00" endTime="2015-09-28T09:43:33.9375807-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a86ee89e-9a74-4593-a51d-00f00c90a748" />
+    <UnitTestResult executionId="735a7a42-6bc9-4f7a-9cf8-1f2fe09f9063" testId="484888b5-5353-04bd-f775-aeea68c82a0d" testName="UploadProcessTemplate_NoManagePermissions" computerName="TFSBUILD11" duration="00:00:00.0249571" startTime="2015-09-28T09:43:33.9375807-07:00" endTime="2015-09-28T09:43:33.9688324-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="735a7a42-6bc9-4f7a-9cf8-1f2fe09f9063" />
+    <UnitTestResult executionId="5fc16f88-a749-431e-9320-42139c67f00b" testId="19fc4bf1-147f-356e-dc9d-9f12ef0e4571" testName="UploadProcessTemplate_NoWitProvisionPermissions" computerName="TFSBUILD11" duration="00:00:00.0209271" startTime="2015-09-28T09:43:33.9688324-07:00" endTime="2015-09-28T09:43:33.9844594-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5fc16f88-a749-431e-9320-42139c67f00b" />
+    <UnitTestResult executionId="b3591434-67b7-4fb5-b35b-c69b7738e027" testId="a955f879-3415-63af-cf00-063abdf42ffe" testName="UploadProcessTemplate_NoWitProvisionPermissions_AsTpcAdmin" computerName="TFSBUILD11" duration="00:00:00.0206369" startTime="2015-09-28T09:43:33.9844594-07:00" endTime="2015-09-28T09:43:34.0000849-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3591434-67b7-4fb5-b35b-c69b7738e027" />
+    <UnitTestResult executionId="0ff49458-487b-4b90-8d28-f7065ac483e6" testId="8ba66ea4-901b-9311-64c6-d13f0f5a2faa" testName="UploadProcessTemplate_DeploymentLevelNotJobAgent" computerName="TFSBUILD11" duration="00:00:00.0194522" startTime="2015-09-28T09:43:34.0000849-07:00" endTime="2015-09-28T09:43:34.0313371-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ff49458-487b-4b90-8d28-f7065ac483e6" />
+    <UnitTestResult executionId="f02ef311-3af4-438b-ae73-7bb3d33671be" testId="ad831efb-4106-b6c7-f37f-6a9e018bbc0b" testName="UploadProcessTemplate_InvalidOverride" computerName="TFSBUILD11" duration="00:00:00.0299124" startTime="2015-09-28T09:43:34.0313371-07:00" endTime="2015-09-28T09:43:34.0625893-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f02ef311-3af4-438b-ae73-7bb3d33671be" />
+    <UnitTestResult executionId="48563e8e-1d34-4aac-8826-61c2abf746ff" testId="db8782b1-ac0e-33d4-a26d-2639f5fc5072" testName="UploadProcessTemplate_NameConflict" computerName="TFSBUILD11" duration="00:00:00.0188463" startTime="2015-09-28T09:43:34.0625893-07:00" endTime="2015-09-28T09:43:34.0782163-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48563e8e-1d34-4aac-8826-61c2abf746ff" />
+    <UnitTestResult executionId="fb5a20f7-85ec-43ef-8e62-f099635a94ab" testId="17e4f4e3-80ee-ac36-4786-840377f569cf" testName="UploadProcessTemplate_Success" computerName="TFSBUILD11" duration="00:00:00.0195051" startTime="2015-09-28T09:43:34.0782163-07:00" endTime="2015-09-28T09:43:34.0938421-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb5a20f7-85ec-43ef-8e62-f099635a94ab" />
+    <UnitTestResult executionId="bcfd3dad-8e85-4e10-b139-8968ed59d885" testId="a37a3ca1-59ac-03b2-7066-bcb95b418f0e" testName="UploadProcessTemplate_DeploymentLevelJobAgent" computerName="TFSBUILD11" duration="00:00:00.0173752" startTime="2015-09-28T09:43:34.0938421-07:00" endTime="2015-09-28T09:43:34.1094685-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bcfd3dad-8e85-4e10-b139-8968ed59d885" />
+    <UnitTestResult executionId="155094c8-662a-4bab-ad39-718abe925614" testId="ae5bdf76-d805-d935-23c8-3a9aeb08be75" testName="GetProcessTemplateDescriptorIdByIntegerId_IdNotFound" computerName="TFSBUILD11" duration="00:00:00.0192443" startTime="2015-09-28T09:43:34.1094685-07:00" endTime="2015-09-28T09:43:34.1250938-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="155094c8-662a-4bab-ad39-718abe925614" />
+    <UnitTestResult executionId="9f141b3f-5378-4de3-99ae-02b5249a7e0c" testId="c7f354b9-8870-2fa1-db88-1e634617bac1" testName="GetProcessTemplateDescriptorIdByIntegerId_NoReadPermission" computerName="TFSBUILD11" duration="00:00:00.0209871" startTime="2015-09-28T09:43:34.1250938-07:00" endTime="2015-09-28T09:43:34.1563463-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f141b3f-5378-4de3-99ae-02b5249a7e0c" />
+    <UnitTestResult executionId="48c0f4e4-e3a4-4da1-9ba0-acc5fbca2701" testId="16c068ca-351a-71a5-0e6c-c04f56363546" testName="GetProcessTemplateDescriptorIdByIntegerId_Success" computerName="TFSBUILD11" duration="00:00:00.0176426" startTime="2015-09-28T09:43:34.1563463-07:00" endTime="2015-09-28T09:43:34.1719724-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48c0f4e4-e3a4-4da1-9ba0-acc5fbca2701" />
+    <UnitTestResult executionId="0f58aaa8-90c6-46d1-8f5b-8b182feddda7" testId="2aefc7ed-f3b1-9da7-964b-8f1eaec67326" testName="TryGetProcessTemplateDescriptorIdByIntegerId_IdNotFound" computerName="TFSBUILD11" duration="00:00:00.0173308" startTime="2015-09-28T09:43:34.1719724-07:00" endTime="2015-09-28T09:43:34.1875985-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f58aaa8-90c6-46d1-8f5b-8b182feddda7" />
+    <UnitTestResult executionId="fc0908c9-d1fe-44aa-a376-ce8d13cbec65" testId="4bb31874-2cc2-09d4-cd7e-4fb99aed2132" testName="TryGetProcessTemplateDescriptorIdByIntegerId_NoReadPermissions" computerName="TFSBUILD11" duration="00:00:00.0253840" startTime="2015-09-28T09:43:34.1875985-07:00" endTime="2015-09-28T09:43:34.2188502-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc0908c9-d1fe-44aa-a376-ce8d13cbec65" />
+    <UnitTestResult executionId="f28c6721-eb00-41e6-805b-7aa7cd3a4027" testId="08acf37c-7864-7d49-b22d-6dba6c6045ba" testName="TryGetProcessTemplateDescriptorIdByIntegerId_Success" computerName="TFSBUILD11" duration="00:00:00.0170367" startTime="2015-09-28T09:43:34.2188502-07:00" endTime="2015-09-28T09:43:34.2344768-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f28c6721-eb00-41e6-805b-7aa7cd3a4027" />
+    <UnitTestResult executionId="a9a6657b-f178-44cd-8205-a7fc53929104" testId="0795014f-4611-8825-c527-bb9058f78fc7" testName="GetProcessTemplateDescriptorIdByVersion_IdNotFound" computerName="TFSBUILD11" duration="00:00:00.0188091" startTime="2015-09-28T09:43:34.2344768-07:00" endTime="2015-09-28T09:43:34.2501030-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9a6657b-f178-44cd-8205-a7fc53929104" />
+    <UnitTestResult executionId="73b46fa2-f4a1-4cc2-bef2-eb09e69f2f1f" testId="cab9a7df-a122-685b-624f-e8503f8c2363" testName="GetProcessTemplateDescriptorIdByVersion_NoReadPermission" computerName="TFSBUILD11" duration="00:00:00.0197833" startTime="2015-09-28T09:43:34.2501030-07:00" endTime="2015-09-28T09:43:34.2657296-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73b46fa2-f4a1-4cc2-bef2-eb09e69f2f1f" />
+    <UnitTestResult executionId="d740d684-ba3f-4fd1-a13e-b380e6be4065" testId="46462701-2f51-b597-afb6-6d66656ed0d2" testName="GetProcessTemplateDescriptorIdByVersion_Success" computerName="TFSBUILD11" duration="00:00:00.0169485" startTime="2015-09-28T09:43:34.2657296-07:00" endTime="2015-09-28T09:43:34.2813552-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d740d684-ba3f-4fd1-a13e-b380e6be4065" />
+    <UnitTestResult executionId="3a05ef30-cfd8-4acd-8ce3-f482c6ba6626" testId="16faabc8-8fbe-c122-59eb-acbf80aa9869" testName="TryGetProcessTemplateDescriptorIdByVersion_IdNotFound" computerName="TFSBUILD11" duration="00:00:00.0171178" startTime="2015-09-28T09:43:34.2813552-07:00" endTime="2015-09-28T09:43:34.3126083-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a05ef30-cfd8-4acd-8ce3-f482c6ba6626" />
+    <UnitTestResult executionId="e405c614-e1e9-4944-b494-7e2dc49f1c77" testId="5a0906b5-4045-8c90-28ac-0f03a80954be" testName="TryGetProcessTemplateDescriptorIdByVersion_NoReadPermissions" computerName="TFSBUILD11" duration="00:00:00.0194949" startTime="2015-09-28T09:43:34.3126083-07:00" endTime="2015-09-28T09:43:34.3282335-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e405c614-e1e9-4944-b494-7e2dc49f1c77" />
+    <UnitTestResult executionId="609f9a47-f073-4ced-9b10-00b306444b1e" testId="9c1733c0-4fc3-1aa1-fe04-e23304a71ddb" testName="TryGetProcessTemplateDescriptorIdByVersion_Success" computerName="TFSBUILD11" duration="00:00:00.0160281" startTime="2015-09-28T09:43:34.3282335-07:00" endTime="2015-09-28T09:43:34.3438593-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="609f9a47-f073-4ced-9b10-00b306444b1e" />
+    <UnitTestResult executionId="3daf5167-3167-4e30-9d4c-acbf1dcc772d" testId="74e539fa-fbf9-d090-0416-40bad99b4d64" testName="GetActiveProcessTemplateDescriptors_NoReadPermissions" computerName="TFSBUILD11" duration="00:00:00.0204748" startTime="2015-09-28T09:43:34.3438593-07:00" endTime="2015-09-28T09:43:34.3594852-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3daf5167-3167-4e30-9d4c-acbf1dcc772d" />
+    <UnitTestResult executionId="bee18401-5dd9-4f36-84c4-364a83391f65" testId="7a9d12bf-4e72-15b6-27fe-505eff667a00" testName="GetActiveProcessTemplateDescriptors_Success" computerName="TFSBUILD11" duration="00:00:00.0179313" startTime="2015-09-28T09:43:34.3594852-07:00" endTime="2015-09-28T09:43:34.3907380-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bee18401-5dd9-4f36-84c4-364a83391f65" />
+    <UnitTestResult executionId="1a880de8-fae3-4d45-b90b-dd3230089e9b" testId="55cfbdf7-7cb6-ae5d-4edc-41458eba4dcf" testName="GetActiveEnabledProcess" computerName="TFSBUILD11" duration="00:00:00.0176969" startTime="2015-09-28T09:43:34.3907380-07:00" endTime="2015-09-28T09:43:34.4063644-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a880de8-fae3-4d45-b90b-dd3230089e9b" />
+    <UnitTestResult executionId="2b066471-f68a-49ef-a65a-39a8bf6a3998" testId="aa34d73a-553d-07e4-375b-1ae745e6f4b8" testName="TryGetActiveProcessTemplateDescriptors_NoReadPermissions" computerName="TFSBUILD11" duration="00:00:00.0221132" startTime="2015-09-28T09:43:34.4063644-07:00" endTime="2015-09-28T09:43:34.4219905-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b066471-f68a-49ef-a65a-39a8bf6a3998" />
+    <UnitTestResult executionId="0d10fda6-6f23-4814-bfa0-eb6f083c9d80" testId="de823e40-d4d4-507a-b29c-df67346d8d5f" testName="TryGetActiveProcessTemplateDescriptors_Success" computerName="TFSBUILD11" duration="00:00:00.0173436" startTime="2015-09-28T09:43:34.4219905-07:00" endTime="2015-09-28T09:43:34.4376166-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d10fda6-6f23-4814-bfa0-eb6f083c9d80" />
+    <UnitTestResult executionId="01979096-3492-44e6-b80a-ea3e4bce4e59" testId="0064d288-62ba-f804-c9c9-21dee65ce2e1" testName="TransferTemplateFileContentForInheritedProcessThrows" computerName="TFSBUILD11" duration="00:00:00.0216217" startTime="2015-09-28T09:43:34.4376166-07:00" endTime="2015-09-28T09:43:34.4688685-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01979096-3492-44e6-b80a-ea3e4bce4e59" />
+    <UnitTestResult executionId="7d623a57-efe7-4c7b-bc78-9afaf84ac22d" testId="a0141fcb-0661-98a3-9b0c-e7739236d8cf" testName="AddInheritProcessValid" computerName="TFSBUILD11" duration="00:00:00.0210149" startTime="2015-09-28T09:43:34.4688685-07:00" endTime="2015-09-28T09:43:34.4844943-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d623a57-efe7-4c7b-bc78-9afaf84ac22d" />
+    <UnitTestResult executionId="f6a3bab9-e3a0-4a63-a9ee-74025a7ec548" testId="592d230c-e6de-d70e-bcbd-de65d1359022" testName="AddInheritProcessNameConflict" computerName="TFSBUILD11" duration="00:00:00.0249713" startTime="2015-09-28T09:43:34.4844943-07:00" endTime="2015-09-28T09:43:34.5157474-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f6a3bab9-e3a0-4a63-a9ee-74025a7ec548" />
+    <UnitTestResult executionId="cb735272-97fa-4e82-99cd-28c086be4987" testId="63aa3ffa-4e25-ce45-c56e-f37b6a60b8c9" testName="AddInheritProcessRefNameConflict" computerName="TFSBUILD11" duration="00:00:00.0190910" startTime="2015-09-28T09:43:34.5157474-07:00" endTime="2015-09-28T09:43:34.5313724-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb735272-97fa-4e82-99cd-28c086be4987" />
+    <UnitTestResult executionId="9c4ccca1-3cfc-489f-97a2-b6c40f2a508e" testId="f437b580-3054-bd88-5c9d-f1dbbe4aeb50" testName="AddInheritProcessNameEmpty" computerName="TFSBUILD11" duration="00:00:00.0194647" startTime="2015-09-28T09:43:34.5313724-07:00" endTime="2015-09-28T09:43:34.5469985-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c4ccca1-3cfc-489f-97a2-b6c40f2a508e" />
+    <UnitTestResult executionId="ff9ffc7c-61fb-49ed-8db3-d50e6cd08f38" testId="c2240ced-96f3-9b0a-6651-a2cb118e9842" testName="AddInheritProcessNameTooBig" computerName="TFSBUILD11" duration="00:00:00.0197037" startTime="2015-09-28T09:43:34.5469985-07:00" endTime="2015-09-28T09:43:34.5626249-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff9ffc7c-61fb-49ed-8db3-d50e6cd08f38" />
+    <UnitTestResult executionId="16de3014-931d-4762-9f61-b3743f4a886b" testId="84d3976b-9351-7a3a-d901-ccc1824b6f73" testName="AddInheritProcessNameIllegalchars" computerName="TFSBUILD11" duration="00:00:00.0172640" startTime="2015-09-28T09:43:34.5626249-07:00" endTime="2015-09-28T09:43:34.5938777-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16de3014-931d-4762-9f61-b3743f4a886b" />
+    <UnitTestResult executionId="1e7a4307-f36f-4e3c-968b-76fdd11917b2" testId="279b9b57-2557-92d0-c3d6-002df46808e8" testName="AddInheritProcessRefNameEmpty" computerName="TFSBUILD11" duration="00:00:00.0169539" startTime="2015-09-28T09:43:34.5938777-07:00" endTime="2015-09-28T09:43:34.6095041-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e7a4307-f36f-4e3c-968b-76fdd11917b2" />
+    <UnitTestResult executionId="f618add4-99e2-4592-9924-d36ccb08244b" testId="de6961e5-3bae-5834-61d1-6a4a68416e9c" testName="AddInheritProcessRefNameTooBig" computerName="TFSBUILD11" duration="00:00:00.0169303" startTime="2015-09-28T09:43:34.6095041-07:00" endTime="2015-09-28T09:43:34.6251296-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f618add4-99e2-4592-9924-d36ccb08244b" />
+    <UnitTestResult executionId="0004a1ae-758c-4189-a768-056a23df932e" testId="ac67edb0-72b5-9a06-13c4-0364681725e7" testName="AddInheritProcessRefNameIllegalChar1" computerName="TFSBUILD11" duration="00:00:00.0168976" startTime="2015-09-28T09:43:34.6251296-07:00" endTime="2015-09-28T09:43:34.6407560-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0004a1ae-758c-4189-a768-056a23df932e" />
+    <UnitTestResult executionId="97c2065f-e3ed-4666-a0c9-0c41d728baec" testId="b078b58c-5325-48c0-f881-02afc88be483" testName="AddInheritProcessRefNameIllegalChar2" computerName="TFSBUILD11" duration="00:00:00.0170734" startTime="2015-09-28T09:43:34.6407560-07:00" endTime="2015-09-28T09:43:34.6563816-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97c2065f-e3ed-4666-a0c9-0c41d728baec" />
+    <UnitTestResult executionId="be7d0061-1824-4f69-8a1a-e87a94ee0314" testId="54da0128-1bf5-b3d6-52fd-a1589e51c46e" testName="AddInheritProcessDescriptionLengthExeceeded" computerName="TFSBUILD11" duration="00:00:00.0220165" startTime="2015-09-28T09:43:34.6563816-07:00" endTime="2015-09-28T09:43:34.6720077-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be7d0061-1824-4f69-8a1a-e87a94ee0314" />
+    <UnitTestResult executionId="aefbac79-918a-491c-9e2c-5d0157c4b6d3" testId="149181ef-1c2f-58f3-a525-5f1e70a96676" testName="AddInheritProcessLimitExeceeded" computerName="TFSBUILD11" duration="00:00:00.0171772" startTime="2015-09-28T09:43:34.6720077-07:00" endTime="2015-09-28T09:43:34.7032602-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aefbac79-918a-491c-9e2c-5d0157c4b6d3" />
+    <UnitTestResult executionId="f07bc5ad-2715-4c49-8e80-c224724dfdcc" testId="41fa0438-90f2-0697-f634-75739f1f1148" testName="AddInheritProcessParentIsNotSystem" computerName="TFSBUILD11" duration="00:00:00.0181480" startTime="2015-09-28T09:43:34.7032602-07:00" endTime="2015-09-28T09:43:34.7188863-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f07bc5ad-2715-4c49-8e80-c224724dfdcc" />
+    <UnitTestResult executionId="1783aec1-7cfb-4abc-8f29-447b353f9671" testId="2198257b-5efc-7483-d101-71bc892e79ca" testName="AddInheritProcessOneLevelHierarchyEnforced" computerName="TFSBUILD11" duration="00:00:00.0181239" startTime="2015-09-28T09:43:34.7188863-07:00" endTime="2015-09-28T09:43:34.7345124-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1783aec1-7cfb-4abc-8f29-447b353f9671" />
+    <UnitTestResult executionId="73bf39fa-5e0d-4f56-8617-43229a06bb1c" testId="6367e93e-7547-9a95-434a-75c26f566d57" testName="UpdateChildProcessNothingToUpdate" computerName="TFSBUILD11" duration="00:00:00.0209396" startTime="2015-09-28T09:43:34.7345124-07:00" endTime="2015-09-28T09:43:34.7501379-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73bf39fa-5e0d-4f56-8617-43229a06bb1c" />
+    <UnitTestResult executionId="bf3e0793-8ac6-4b53-ac2d-fc1e5cd42fdb" testId="dc57d5e7-a7a7-736d-8673-8cdd1fade340" testName="UpdateChildProcessIllegalCharInName" computerName="TFSBUILD11" duration="00:00:00.0183218" startTime="2015-09-28T09:43:34.7501379-07:00" endTime="2015-09-28T09:43:34.7657649-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf3e0793-8ac6-4b53-ac2d-fc1e5cd42fdb" />
+    <UnitTestResult executionId="73162e47-77c3-4263-860d-1b68c924ea06" testId="137e92f8-f2af-5c99-dac7-bc62903463c2" testName="UpdateChildProcessNameConflict" computerName="TFSBUILD11" duration="00:00:00.0179003" startTime="2015-09-28T09:43:34.7657649-07:00" endTime="2015-09-28T09:43:34.7970171-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73162e47-77c3-4263-860d-1b68c924ea06" />
+    <UnitTestResult executionId="937e1009-7341-4bd8-847d-1ca990bd6070" testId="6597ac15-fa47-7dde-a2a4-f1fa5bc32f7c" testName="UpdateChildProcessSameName" computerName="TFSBUILD11" duration="00:00:00.0224582" startTime="2015-09-28T09:43:34.7970171-07:00" endTime="2015-09-28T09:43:34.8126427-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="937e1009-7341-4bd8-847d-1ca990bd6070" />
+    <UnitTestResult executionId="af6f1f13-ec00-4a56-b10c-962fe938f404" testId="e9b19787-cfd8-da18-7f43-dca8fa173701" testName="UpdateChildProcessDescriptionSize" computerName="TFSBUILD11" duration="00:00:00.0192121" startTime="2015-09-28T09:43:34.8126427-07:00" endTime="2015-09-28T09:43:34.8282691-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af6f1f13-ec00-4a56-b10c-962fe938f404" />
+    <UnitTestResult executionId="8c235c29-8ca0-491c-8ad8-26b6c7de1dd7" testId="07e99490-bf71-bbd3-5d03-7618165f4a10" testName="MigrateProjectsProcessBadTemplateId" computerName="TFSBUILD11" duration="00:00:00.0642675" startTime="2015-09-28T09:43:34.8282691-07:00" endTime="2015-09-28T09:43:34.8907732-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c235c29-8ca0-491c-8ad8-26b6c7de1dd7" />
+    <UnitTestResult executionId="1f4c85b1-c931-4c9f-9772-2674fa53d2f0" testId="1d6e7325-5fed-9af4-2f56-74ffe13bd884" testName="MigrateProjectsProcessBadNewTemplateId" computerName="TFSBUILD11" duration="00:00:00.0282168" startTime="2015-09-28T09:43:34.8907732-07:00" endTime="2015-09-28T09:43:34.9220263-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f4c85b1-c931-4c9f-9772-2674fa53d2f0" />
+    <UnitTestResult executionId="1c31606b-2d60-46df-ae24-7099fff50bc0" testId="f2bd548f-f615-b4fa-57b5-3599279c8840" testName="MigrateProjectsProcessInvalidMigrationParentToDifferentChild" computerName="TFSBUILD11" duration="00:00:00.0200143" startTime="2015-09-28T09:43:34.9220263-07:00" endTime="2015-09-28T09:43:34.9532780-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c31606b-2d60-46df-ae24-7099fff50bc0" />
+    <UnitTestResult executionId="b61b340b-0b02-4516-9c04-901b4de89b59" testId="0307998f-11f8-c511-5c5b-7ce1818b5642" testName="MigrateProjectProcessInvalidMigrationChildToDifferentParent" computerName="TFSBUILD11" duration="00:00:00.0226036" startTime="2015-09-28T09:43:34.9532780-07:00" endTime="2015-09-28T09:43:34.9689044-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b61b340b-0b02-4516-9c04-901b4de89b59" />
+    <UnitTestResult executionId="4c98449b-f59f-40e3-9f18-cad3b32121fe" testId="b19a16cd-5c77-ec42-f60a-41d00ae1206e" testName="UpdateEnabledProcessPropertiesForValidTemplateId" computerName="TFSBUILD11" duration="00:00:00.0562968" startTime="2015-09-28T09:43:34.9689044-07:00" endTime="2015-09-28T09:43:35.0314094-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c98449b-f59f-40e3-9f18-cad3b32121fe" />
+    <UnitTestResult executionId="29fa3417-b068-45ec-8764-18f42f6f1335" testId="adb798e8-780e-7d45-1275-4bec72d93e4d" testName="GetProcessPropertiesForInvalidTemplateId" computerName="TFSBUILD11" duration="00:00:00.0184328" startTime="2015-09-28T09:43:35.0314094-07:00" endTime="2015-09-28T09:43:35.0470346-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29fa3417-b068-45ec-8764-18f42f6f1335" />
+    <UnitTestResult executionId="8a695dbf-3252-4f4c-af13-b83688595bc0" testId="bc4dfb0b-88dd-1a9e-be5c-bdf95c0b6b10" testName="DisableDefaultProcess" computerName="TFSBUILD11" duration="00:00:00.0268594" startTime="2015-09-28T09:43:35.0470346-07:00" endTime="2015-09-28T09:43:35.0782868-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a695dbf-3252-4f4c-af13-b83688595bc0" />
+    <UnitTestResult executionId="ef69c55f-ca5c-4f60-8bab-ab208e48f31a" testId="286137ac-6835-1b11-b126-edbd656bc12e" testName="SetDisabledProcessAsDefault" computerName="TFSBUILD11" duration="00:00:00.0196078" startTime="2015-09-28T09:43:35.0782868-07:00" endTime="2015-09-28T09:43:35.0939127-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef69c55f-ca5c-4f60-8bab-ab208e48f31a" />
+    <UnitTestResult executionId="c9317507-74b9-4e47-b51e-48b23d0e8c93" testId="6268b12d-edc0-d13f-295c-2802e75a66f7" testName="EqualsAndHashCode_NullOther" computerName="TFSBUILD11" duration="00:00:00.0002949" startTime="2015-09-28T09:43:35.0939127-07:00" endTime="2015-09-28T09:43:35.0939127-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9317507-74b9-4e47-b51e-48b23d0e8c93" />
+    <UnitTestResult executionId="7b0442a5-ebee-4d4a-b6e1-6a3016d46ca7" testId="56a5e38e-480f-1dd0-7e97-4111b35e834c" testName="EqualsAndHashCode_DifferentScope" computerName="TFSBUILD11" duration="00:00:00.0008083" startTime="2015-09-28T09:43:35.0939127-07:00" endTime="2015-09-28T09:43:35.0939127-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b0442a5-ebee-4d4a-b6e1-6a3016d46ca7" />
+    <UnitTestResult executionId="6fdde7ef-f1c4-46f9-8245-d7032e211e10" testId="4fa0dd44-c331-d8be-a8ff-61136eca9946" testName="EqualsAndHashCode_DifferentType" computerName="TFSBUILD11" duration="00:00:00.0003598" startTime="2015-09-28T09:43:35.0939127-07:00" endTime="2015-09-28T09:43:35.0939127-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6fdde7ef-f1c4-46f9-8245-d7032e211e10" />
+    <UnitTestResult executionId="55cbcd79-88bd-4360-91af-fee0c6068b2d" testId="871ec6a2-4f3d-e0fa-00e6-7f797f4f2bad" testName="EqualsAndHashCode_DifferentMajor" computerName="TFSBUILD11" duration="00:00:00.0003854" startTime="2015-09-28T09:43:35.0939127-07:00" endTime="2015-09-28T09:43:35.0939127-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55cbcd79-88bd-4360-91af-fee0c6068b2d" />
+    <UnitTestResult executionId="b9634657-bfc0-4752-a011-ac98b0268540" testId="2c77371e-b3e3-5218-1415-b0e3c1e65696" testName="EqualsAndHashCode_DifferentMinor" computerName="TFSBUILD11" duration="00:00:00.0004525" startTime="2015-09-28T09:43:35.0939127-07:00" endTime="2015-09-28T09:43:35.0939127-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9634657-bfc0-4752-a011-ac98b0268540" />
+    <UnitTestResult executionId="e540dc89-f04e-4a38-9af3-04bdfa0c9016" testId="ef857bc1-79a3-9fbc-2f82-d3363edef69d" testName="EqualsAndHashCode_EqualVersions" computerName="TFSBUILD11" duration="00:00:00.0007162" startTime="2015-09-28T09:43:35.0939127-07:00" endTime="2015-09-28T09:43:35.0939127-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e540dc89-f04e-4a38-9af3-04bdfa0c9016" />
+    <UnitTestResult executionId="a7d65932-f7e5-43f7-a911-30d81efa0888" testId="d05383cd-66e6-6431-9cae-a18c234fd8a1" testName="Parse_NullMetadataNode" computerName="TFSBUILD11" duration="00:00:00.0004081" startTime="2015-09-28T09:43:35.0939127-07:00" endTime="2015-09-28T09:43:35.0939127-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7d65932-f7e5-43f7-a911-30d81efa0888" />
+    <UnitTestResult executionId="a6ce324b-8354-4941-8749-76713cfabd9f" testId="753fa1b1-3310-c01b-6122-272db8bf5a90" testName="Parse_EmptyMetadata" computerName="TFSBUILD11" duration="00:00:00.0004684" startTime="2015-09-28T09:43:35.0939127-07:00" endTime="2015-09-28T09:43:35.0939127-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6ce324b-8354-4941-8749-76713cfabd9f" />
+    <UnitTestResult executionId="8d519cd6-9598-485f-bc74-515916ab2a67" testId="fad4ac91-6cd4-15e6-978e-c4e800d35bd2" testName="Parse_MissingSomeMetadata" computerName="TFSBUILD11" duration="00:00:00.0007643" startTime="2015-09-28T09:43:35.0939127-07:00" endTime="2015-09-28T09:43:35.0939127-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d519cd6-9598-485f-bc74-515916ab2a67" />
+    <UnitTestResult executionId="e6948bd1-bc39-4189-8b1b-fcd8191b3494" testId="480852dc-7b64-d7f0-04d2-267c19b2f072" testName="Parse_BadlyFormedMetadata" computerName="TFSBUILD11" duration="00:00:00.0008234" startTime="2015-09-28T09:43:35.0939127-07:00" endTime="2015-09-28T09:43:35.0939127-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6948bd1-bc39-4189-8b1b-fcd8191b3494" />
+    <UnitTestResult executionId="6305b768-ce61-45b9-b6c1-05bf1e89b895" testId="a2817a89-d229-2adc-8056-4e37b3ce1003" testName="Parse_WellFormedMetadata" computerName="TFSBUILD11" duration="00:00:00.0004670" startTime="2015-09-28T09:43:35.0939127-07:00" endTime="2015-09-28T09:43:35.0939127-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6305b768-ce61-45b9-b6c1-05bf1e89b895" />
+    <UnitTestResult executionId="1489eb50-1544-4215-bdf2-aaaaa735389d" testId="5faaf44e-c45f-8f0f-9f88-338a8e5ac05f" testName="CanUpdateZipStreamWithFieldRename" computerName="TFSBUILD11" duration="00:00:00.0172737" startTime="2015-09-28T09:43:35.0939127-07:00" endTime="2015-09-28T09:43:35.1095394-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1489eb50-1544-4215-bdf2-aaaaa735389d" />
+    <UnitTestResult executionId="7c5aeb7f-5cf6-4d62-a94d-09ef264dccae" testId="dc7adc94-bb81-45c3-bf49-f8bb0f3a1197" testName="StreamIsSetToStartAfterUpdate" computerName="TFSBUILD11" duration="00:00:00.0010350" startTime="2015-09-28T09:43:35.1095394-07:00" endTime="2015-09-28T09:43:35.1251649-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c5aeb7f-5cf6-4d62-a94d-09ef264dccae" />
+    <UnitTestResult executionId="592506b1-5e0a-4a77-a51f-e90aa0497db0" testId="35464621-e02b-da4a-59f7-8f9f6016949a" testName="ValidateDefaultPluginAddAndReplace" computerName="TFSBUILD11" duration="00:00:00.0093957" startTime="2015-09-28T09:43:35.1251649-07:00" endTime="2015-09-28T09:43:35.1251649-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="592506b1-5e0a-4a77-a51f-e90aa0497db0" />
+    <UnitTestResult executionId="2ef7cd0f-6a91-495e-a3e0-d4816d221770" testId="f21d10f1-08e4-27e5-6c40-195c2c6dfb4b" testName="ZipPackageYieldsXmlFileByPath" computerName="TFSBUILD11" duration="00:00:00.0007751" startTime="2015-09-28T09:43:35.1251649-07:00" endTime="2015-09-28T09:43:35.1251649-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ef7cd0f-6a91-495e-a3e0-d4816d221770" />
+    <UnitTestResult executionId="c9a9db03-5403-4ef9-be94-8cecf707d309" testId="97db732b-595f-7da3-a895-e146c85d8cdd" testName="ZipPackageYieldsXmlFileByPathWithLineNumbersAvailable" computerName="TFSBUILD11" duration="00:00:00.0007441" startTime="2015-09-28T09:43:35.1251649-07:00" endTime="2015-09-28T09:43:35.1251649-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9a9db03-5403-4ef9-be94-8cecf707d309" />
+    <UnitTestResult executionId="2437b2e5-e3d7-4a0a-9d29-924c835ca89b" testId="5bdcdade-728b-1b05-9084-031f46b9ecbb" testName="ZipPackageYieldsXmlFileByPathDifferingInCaseOnly" computerName="TFSBUILD11" duration="00:00:00.0007497" startTime="2015-09-28T09:43:35.1251649-07:00" endTime="2015-09-28T09:43:35.1251649-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2437b2e5-e3d7-4a0a-9d29-924c835ca89b" />
+    <UnitTestResult executionId="3de9a0bb-fea7-4929-ba16-61324c821ae9" testId="f064d68d-0ac5-ea1d-3afb-921922eb6548" testName="ZipPackageYieldNullForFileNotInArchive" computerName="TFSBUILD11" duration="00:00:00.0006519" startTime="2015-09-28T09:43:35.1251649-07:00" endTime="2015-09-28T09:43:35.1251649-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3de9a0bb-fea7-4929-ba16-61324c821ae9" />
+    <UnitTestResult executionId="48b12fac-0623-428d-84c1-6a9368a5c1ad" testId="faf916ba-37a0-9c94-41b1-faa00f5adf48" testName="ZipPackageThrowsForUnparseableFile" computerName="TFSBUILD11" duration="00:00:00.0007901" startTime="2015-09-28T09:43:35.1251649-07:00" endTime="2015-09-28T09:43:35.1251649-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48b12fac-0623-428d-84c1-6a9368a5c1ad" />
+    <UnitTestResult executionId="1a5a7a80-03fb-4de9-8539-4c74bb3d07f1" testId="53dc4f8f-f4ba-c96d-bb74-3e38c994a687" testName="ZipPackageReturnsDocumentStoredWithUnixSlashesButRequestedWithWindowsSlashes" computerName="TFSBUILD11" duration="00:00:00.0007608" startTime="2015-09-28T09:43:35.1251649-07:00" endTime="2015-09-28T09:43:35.1407919-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a5a7a80-03fb-4de9-8539-4c74bb3d07f1" />
+    <UnitTestResult executionId="49b3dab8-3148-4aab-9f1d-fb1290b3911c" testId="5ae80eb8-9901-0dd3-92b8-f0f0ee9fa87b" testName="ZipPackageUpdatesDocumentInArchive" computerName="TFSBUILD11" duration="00:00:00.0035143" startTime="2015-09-28T09:43:35.1407919-07:00" endTime="2015-09-28T09:43:35.1407919-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49b3dab8-3148-4aab-9f1d-fb1290b3911c" />
+    <UnitTestResult executionId="c4bbc806-7315-4a02-b6a1-3e441e391565" testId="c53c1e0a-fd13-be00-d141-0c555e9d709d" testName="ZipPackageUpdatesDocumentInArchiveAndPreservesUnixSlashesIfPassedWindowsSlashes" computerName="TFSBUILD11" duration="00:00:00.0011505" startTime="2015-09-28T09:43:35.1407919-07:00" endTime="2015-09-28T09:43:35.1407919-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4bbc806-7315-4a02-b6a1-3e441e391565" />
+    <UnitTestResult executionId="b94395fa-6204-4e60-8875-8aeb7afa784b" testId="ece71502-14e2-ae21-97f1-91aa5da33f68" testName="ZipPackageThrowsForUpdateRequestToFileThatDoesNotExistInArchive" computerName="TFSBUILD11" duration="00:00:00.0011172" startTime="2015-09-28T09:43:35.1407919-07:00" endTime="2015-09-28T09:43:35.1407919-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b94395fa-6204-4e60-8875-8aeb7afa784b" />
+    <UnitTestResult executionId="79aa8187-27cf-4e01-af40-afc6971a529c" testId="5a6e557a-4621-7a0c-e2e8-cdeacf9089df" testName="TestGetProcesses" computerName="TFSBUILD11" duration="00:00:00.2015677" startTime="2015-09-28T09:43:35.1407919-07:00" endTime="2015-09-28T09:43:35.3439302-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79aa8187-27cf-4e01-af40-afc6971a529c" />
+    <UnitTestResult executionId="9485df18-9bcd-444c-854b-817ee54a0742" testId="04a6ba8e-7cb5-4f74-71fa-54afa3c60795" testName="TestGetProcess" computerName="TFSBUILD11" duration="00:00:00.0190375" startTime="2015-09-28T09:43:35.3439302-07:00" endTime="2015-09-28T09:43:35.3595566-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9485df18-9bcd-444c-854b-817ee54a0742" />
+    <UnitTestResult executionId="0a49866d-66c1-40f3-8f9d-aa8976ad99dd" testId="91eb5b45-78b2-35c1-fe66-4f852a519412" testName="ServiceStart_InvalidHostType" computerName="TFSBUILD11" duration="00:00:00.1414946" startTime="2015-09-28T09:43:35.3595566-07:00" endTime="2015-09-28T09:43:35.5001916-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a49866d-66c1-40f3-8f9d-aa8976ad99dd" />
+    <UnitTestResult executionId="c131d302-7a28-47a6-90bb-d02eea975029" testId="08e28b08-6fea-edc5-ce49-c1a994652538" testName="GetSecurityToken" computerName="TFSBUILD11" duration="00:00:00.0721420" startTime="2015-09-28T09:43:35.5001916-07:00" endTime="2015-09-28T09:43:35.5783227-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c131d302-7a28-47a6-90bb-d02eea975029" />
+    <UnitTestResult executionId="5d189248-253f-434d-94f3-1a975f25945d" testId="17a10efe-8b10-dd03-3dbd-025ecf9593af" testName="FilterProjectsBasedOnPermissions" computerName="TFSBUILD11" duration="00:00:00.0244553" startTime="2015-09-28T09:43:35.5783227-07:00" endTime="2015-09-28T09:43:35.5939485-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d189248-253f-434d-94f3-1a975f25945d" />
+    <UnitTestResult executionId="056a6b7d-674b-458a-a247-18136aabaf9b" testId="a2819826-9fb2-6197-99df-de9f0ec935db" testName="FilterProjectsBasedOnPermissions_NullParams" computerName="TFSBUILD11" duration="00:00:00.0053213" startTime="2015-09-28T09:43:35.5939485-07:00" endTime="2015-09-28T09:43:35.6095746-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="056a6b7d-674b-458a-a247-18136aabaf9b" />
+    <UnitTestResult executionId="f37b6135-8608-4b53-97ba-195810218ced" testId="6f521d3b-e902-c0d9-1d0c-657570815c20" testName="FilterProjectProperties_NullParams" computerName="TFSBUILD11" duration="00:00:00.0027898" startTime="2015-09-28T09:43:35.6095746-07:00" endTime="2015-09-28T09:43:35.6095746-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f37b6135-8608-4b53-97ba-195810218ced" />
+    <UnitTestResult executionId="969dcce3-87af-45c4-9f65-32f089b93911" testId="2e15e0db-6b86-f356-0b9b-be6350c48e08" testName="FilterProjectProperties_All" computerName="TFSBUILD11" duration="00:00:00.0038118" startTime="2015-09-28T09:43:35.6095746-07:00" endTime="2015-09-28T09:43:35.6095746-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="969dcce3-87af-45c4-9f65-32f089b93911" />
+    <UnitTestResult executionId="dce3004c-ea2b-4a66-bb83-2b6334f33252" testId="f1093b2d-731a-be79-20dc-b7323f69f45e" testName="FilterProjectProperties_SpecificFilter" computerName="TFSBUILD11" duration="00:00:00.0030438" startTime="2015-09-28T09:43:35.6095746-07:00" endTime="2015-09-28T09:43:35.6095746-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dce3004c-ea2b-4a66-bb83-2b6334f33252" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="CanRetrieveProjectsByState" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="f35dc333-305e-a22d-63d9-cdddef53189a">
+      <Owners>
+        <Owner name="paveli" />
+      </Owners>
+      <Execution id="69fc7069-b4c5-4564-bbfd-b53c17148ca8" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Project.ProjectCacheTests" name="CanRetrieveProjectsByState" />
+    </UnitTest>
+    <UnitTest name="CanRetrieveAllProjects" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="0dd4d4ce-b013-ec92-0617-0caec3a37b8f">
+      <Owners>
+        <Owner name="paveli" />
+      </Owners>
+      <Execution id="0ccbab17-04d2-4a0e-90e4-d4b9118fbbac" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Project.ProjectCacheTests" name="CanRetrieveAllProjects" />
+    </UnitTest>
+    <UnitTest name="QueryingNonExistentStateReturnsEmptyArray" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="2169dd54-2505-f9e0-19a1-1025b8f37b59">
+      <Owners>
+        <Owner name="paveli" />
+      </Owners>
+      <Execution id="7e20df6c-204d-4a43-902b-2c3f8bb0c5ae" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Project.ProjectCacheTests" name="QueryingNonExistentStateReturnsEmptyArray" />
+    </UnitTest>
+    <UnitTest name="CanRetrieveProjectByNameAfterNameIsTransferred" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="870d1cfc-c0aa-76fc-eba1-b778cc834a05">
+      <Owners>
+        <Owner name="paveli" />
+      </Owners>
+      <Execution id="0852cfaf-2ee4-40aa-910c-fb16e57246fe" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Project.ProjectCacheTests" name="CanRetrieveProjectByNameAfterNameIsTransferred" />
+    </UnitTest>
+    <UnitTest name="AllProjectInfoFieldsAreAccounted" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="ea58d87c-c7b7-9630-91f4-24b4bd2ffc9c">
+      <Owners>
+        <Owner name="paveli" />
+      </Owners>
+      <Execution id="ba15dbb1-726d-4d41-bcce-051833a52c5d" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Project.ProjectDiffTests" name="AllProjectInfoFieldsAreAccounted" />
+    </UnitTest>
+    <UnitTest name="CanUseEqualsForAllComparedFields" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="1e797f7c-b1a1-9c88-954e-f66a6f15ad55">
+      <Owners>
+        <Owner name="paveli" />
+      </Owners>
+      <Execution id="eb9a2e0c-1034-49a5-8a4d-e320a706345b" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Project.ProjectDiffTests" name="CanUseEqualsForAllComparedFields" />
+    </UnitTest>
+    <UnitTest name="ProjectDiffAcceptsNullReferences" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="0162dce2-90f6-716a-67a7-1dd774f3258c">
+      <Owners>
+        <Owner name="paveli" />
+      </Owners>
+      <Execution id="e2bd7fe5-dfd8-4432-a6d4-3c90630117df" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Project.ProjectDiffTests" name="ProjectDiffAcceptsNullReferences" />
+    </UnitTest>
+    <UnitTest name="ProjectDiffReturnsEmptyDiffForEqualProjects" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="aae5e549-4c4f-0fd9-d20a-39125d7c2f3c">
+      <Owners>
+        <Owner name="paveli" />
+      </Owners>
+      <Execution id="60602344-1f78-4811-9157-6638c049b631" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Project.ProjectDiffTests" name="ProjectDiffReturnsEmptyDiffForEqualProjects" />
+    </UnitTest>
+    <UnitTest name="ProjectDiffReturnsChangedFieldsOnly" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="59c2e6bd-684e-b948-a673-5210cf65ef0c">
+      <Owners>
+        <Owner name="paveli" />
+      </Owners>
+      <Execution id="8132f984-3c9d-428d-8fde-698b1af322a8" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Project.ProjectDiffTests" name="ProjectDiffReturnsChangedFieldsOnly" />
+    </UnitTest>
+    <UnitTest name="ProjectDiffTracksRename" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="2955c525-6a1b-6886-742f-ec8b75db6dd3">
+      <Owners>
+        <Owner name="paveli" />
+      </Owners>
+      <Execution id="49199a7e-9aac-47a4-8adb-a28504456d37" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Project.ProjectDiffTests" name="ProjectDiffTracksRename" />
+    </UnitTest>
+    <UnitTest name="MethodologyUpload_VerifyUnauthorizedExceptionsHandled" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="da35c900-a29c-05a0-e4a9-125ce0114c7a">
+      <Execution id="a491d369-5df9-4dd8-97af-a0c893a07bf1" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.MethodologyUploadHandlerTests" name="MethodologyUpload_VerifyUnauthorizedExceptionsHandled" />
+    </UnitTest>
+    <UnitTest name="MethodologyUpload_VerifyArbitraryExceptionsUnhandled" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="ed9bbb87-b130-5ccc-993c-8a7e1fc37b55">
+      <Execution id="209af773-e97d-44e5-ba2b-a99a4566dc5c" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.MethodologyUploadHandlerTests" name="MethodologyUpload_VerifyArbitraryExceptionsUnhandled" />
+    </UnitTest>
+    <UnitTest name="MethodologyUpload_VerifyNormalFlow" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="8121f9fe-144d-96ba-cb9b-9e88c7a1306a">
+      <Execution id="b8b0e29f-f67b-4d36-a1cf-4ab6a2ae4873" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.MethodologyUploadHandlerTests" name="MethodologyUpload_VerifyNormalFlow" />
+    </UnitTest>
+    <UnitTest name="MethodologyUpload_NoFileIsNop" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="400f4cf3-092f-6694-d77d-a6b11a2e30b7">
+      <Execution id="d0aa0ccb-9edd-4a10-8f9a-2de7d05c5488" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.MethodologyUploadHandlerTests" name="MethodologyUpload_NoFileIsNop" />
+    </UnitTest>
+    <UnitTest name="UploadProcessTemplate_NullRequestContext" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="455cfd16-450a-5f71-afb8-d212aade67cb">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="36ed40d2-b1d5-40ec-984c-2ed931c3c751" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UploadProcessTemplate_NullRequestContext" />
+    </UnitTest>
+    <UnitTest name="UploadProcessTemplate_NullName" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="dd0b27fc-88a0-e41e-6f4e-9499af82ab22">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="4fc9db6b-e317-4589-9c60-dde7d5957bae" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UploadProcessTemplate_NullName" />
+    </UnitTest>
+    <UnitTest name="UploadProcessTemplate_NullDescription" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="d1aa6e87-0e71-02fa-5681-f95f645be200">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="4126dfe6-b81c-4483-8eea-f07ead6e8649" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UploadProcessTemplate_NullDescription" />
+    </UnitTest>
+    <UnitTest name="UploadProcessTemplate_NullMetadata" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="73d3eaa3-aba4-88e2-309b-de199ebe933a">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="a30504ab-e2d5-47ae-9df4-dbf593007812" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UploadProcessTemplate_NullMetadata" />
+    </UnitTest>
+    <UnitTest name="UploadProcessTemplate_NullZipContentStream" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="7e7b8108-94f3-e8de-4065-3480a413a28c">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="f660cef2-2253-4a49-a3ce-bdfcd6bb209c" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UploadProcessTemplate_NullZipContentStream" />
+    </UnitTest>
+    <UnitTest name="UploadProcessTemplate_ProcessLimitExceeded" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="0efdfaf9-8f85-25cb-b899-ca71df700817">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="99e69ab9-6919-4e1b-86a5-13258bbc74ef" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UploadProcessTemplate_ProcessLimitExceeded" />
+    </UnitTest>
+    <UnitTest name="UploadProcessTemplate_OnPrem_NoProcessLimit" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="b3d41268-aae8-e206-b10c-97f9a9c63aff">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="0da78d53-d9d4-4e60-90f1-8c40e33ef5c4" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UploadProcessTemplate_OnPrem_NoProcessLimit" />
+    </UnitTest>
+    <UnitTest name="UploadProcessTemplate_UploadFileSizeLimitExceeded" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="f4d7ec0e-f676-a2e7-a903-05f4f4e05ded">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="7cabea38-1006-4b4e-a7e0-1ac36b2aa084" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UploadProcessTemplate_UploadFileSizeLimitExceeded" />
+    </UnitTest>
+    <UnitTest name="UploadProcessTemplate_OnPrem_NoUploadFileSizeLimit" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="c14e1009-2b33-9088-0522-483110a7d66a">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="b5f47893-db7d-4569-ad24-78fb0dcdafea" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UploadProcessTemplate_OnPrem_NoUploadFileSizeLimit" />
+    </UnitTest>
+    <UnitTest name="UploadProcessTemplate_DescriptionTooLong" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="cc4dc45b-cedf-7409-4868-86aad9994a58">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="a86ee89e-9a74-4593-a51d-00f00c90a748" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UploadProcessTemplate_DescriptionTooLong" />
+    </UnitTest>
+    <UnitTest name="UploadProcessTemplate_NoManagePermissions" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="484888b5-5353-04bd-f775-aeea68c82a0d">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="735a7a42-6bc9-4f7a-9cf8-1f2fe09f9063" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UploadProcessTemplate_NoManagePermissions" />
+    </UnitTest>
+    <UnitTest name="UploadProcessTemplate_NoWitProvisionPermissions" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="19fc4bf1-147f-356e-dc9d-9f12ef0e4571">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="5fc16f88-a749-431e-9320-42139c67f00b" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UploadProcessTemplate_NoWitProvisionPermissions" />
+    </UnitTest>
+    <UnitTest name="UploadProcessTemplate_NoWitProvisionPermissions_AsTpcAdmin" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="a955f879-3415-63af-cf00-063abdf42ffe">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="b3591434-67b7-4fb5-b35b-c69b7738e027" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UploadProcessTemplate_NoWitProvisionPermissions_AsTpcAdmin" />
+    </UnitTest>
+    <UnitTest name="UploadProcessTemplate_DeploymentLevelNotJobAgent" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="8ba66ea4-901b-9311-64c6-d13f0f5a2faa">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="0ff49458-487b-4b90-8d28-f7065ac483e6" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UploadProcessTemplate_DeploymentLevelNotJobAgent" />
+    </UnitTest>
+    <UnitTest name="UploadProcessTemplate_InvalidOverride" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="ad831efb-4106-b6c7-f37f-6a9e018bbc0b">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="f02ef311-3af4-438b-ae73-7bb3d33671be" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UploadProcessTemplate_InvalidOverride" />
+    </UnitTest>
+    <UnitTest name="UploadProcessTemplate_NameConflict" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="db8782b1-ac0e-33d4-a26d-2639f5fc5072">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="48563e8e-1d34-4aac-8826-61c2abf746ff" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UploadProcessTemplate_NameConflict" />
+    </UnitTest>
+    <UnitTest name="UploadProcessTemplate_Success" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="17e4f4e3-80ee-ac36-4786-840377f569cf">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="fb5a20f7-85ec-43ef-8e62-f099635a94ab" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UploadProcessTemplate_Success" />
+    </UnitTest>
+    <UnitTest name="UploadProcessTemplate_DeploymentLevelJobAgent" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="a37a3ca1-59ac-03b2-7066-bcb95b418f0e">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="bcfd3dad-8e85-4e10-b139-8968ed59d885" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UploadProcessTemplate_DeploymentLevelJobAgent" />
+    </UnitTest>
+    <UnitTest name="GetProcessTemplateDescriptorIdByIntegerId_IdNotFound" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="ae5bdf76-d805-d935-23c8-3a9aeb08be75">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="155094c8-662a-4bab-ad39-718abe925614" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="GetProcessTemplateDescriptorIdByIntegerId_IdNotFound" />
+    </UnitTest>
+    <UnitTest name="GetProcessTemplateDescriptorIdByIntegerId_NoReadPermission" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="c7f354b9-8870-2fa1-db88-1e634617bac1">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="9f141b3f-5378-4de3-99ae-02b5249a7e0c" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="GetProcessTemplateDescriptorIdByIntegerId_NoReadPermission" />
+    </UnitTest>
+    <UnitTest name="GetProcessTemplateDescriptorIdByIntegerId_Success" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="16c068ca-351a-71a5-0e6c-c04f56363546">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="48c0f4e4-e3a4-4da1-9ba0-acc5fbca2701" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="GetProcessTemplateDescriptorIdByIntegerId_Success" />
+    </UnitTest>
+    <UnitTest name="TryGetProcessTemplateDescriptorIdByIntegerId_IdNotFound" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="2aefc7ed-f3b1-9da7-964b-8f1eaec67326">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="0f58aaa8-90c6-46d1-8f5b-8b182feddda7" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="TryGetProcessTemplateDescriptorIdByIntegerId_IdNotFound" />
+    </UnitTest>
+    <UnitTest name="TryGetProcessTemplateDescriptorIdByIntegerId_NoReadPermissions" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="4bb31874-2cc2-09d4-cd7e-4fb99aed2132">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="fc0908c9-d1fe-44aa-a376-ce8d13cbec65" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="TryGetProcessTemplateDescriptorIdByIntegerId_NoReadPermissions" />
+    </UnitTest>
+    <UnitTest name="TryGetProcessTemplateDescriptorIdByIntegerId_Success" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="08acf37c-7864-7d49-b22d-6dba6c6045ba">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="f28c6721-eb00-41e6-805b-7aa7cd3a4027" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="TryGetProcessTemplateDescriptorIdByIntegerId_Success" />
+    </UnitTest>
+    <UnitTest name="GetProcessTemplateDescriptorIdByVersion_IdNotFound" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="0795014f-4611-8825-c527-bb9058f78fc7">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="a9a6657b-f178-44cd-8205-a7fc53929104" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="GetProcessTemplateDescriptorIdByVersion_IdNotFound" />
+    </UnitTest>
+    <UnitTest name="GetProcessTemplateDescriptorIdByVersion_NoReadPermission" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="cab9a7df-a122-685b-624f-e8503f8c2363">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="73b46fa2-f4a1-4cc2-bef2-eb09e69f2f1f" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="GetProcessTemplateDescriptorIdByVersion_NoReadPermission" />
+    </UnitTest>
+    <UnitTest name="GetProcessTemplateDescriptorIdByVersion_Success" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="46462701-2f51-b597-afb6-6d66656ed0d2">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="d740d684-ba3f-4fd1-a13e-b380e6be4065" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="GetProcessTemplateDescriptorIdByVersion_Success" />
+    </UnitTest>
+    <UnitTest name="TryGetProcessTemplateDescriptorIdByVersion_IdNotFound" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="16faabc8-8fbe-c122-59eb-acbf80aa9869">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="3a05ef30-cfd8-4acd-8ce3-f482c6ba6626" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="TryGetProcessTemplateDescriptorIdByVersion_IdNotFound" />
+    </UnitTest>
+    <UnitTest name="TryGetProcessTemplateDescriptorIdByVersion_NoReadPermissions" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="5a0906b5-4045-8c90-28ac-0f03a80954be">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="e405c614-e1e9-4944-b494-7e2dc49f1c77" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="TryGetProcessTemplateDescriptorIdByVersion_NoReadPermissions" />
+    </UnitTest>
+    <UnitTest name="TryGetProcessTemplateDescriptorIdByVersion_Success" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="9c1733c0-4fc3-1aa1-fe04-e23304a71ddb">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="609f9a47-f073-4ced-9b10-00b306444b1e" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="TryGetProcessTemplateDescriptorIdByVersion_Success" />
+    </UnitTest>
+    <UnitTest name="GetActiveProcessTemplateDescriptors_NoReadPermissions" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="74e539fa-fbf9-d090-0416-40bad99b4d64">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="3daf5167-3167-4e30-9d4c-acbf1dcc772d" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="GetActiveProcessTemplateDescriptors_NoReadPermissions" />
+    </UnitTest>
+    <UnitTest name="GetActiveProcessTemplateDescriptors_Success" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="7a9d12bf-4e72-15b6-27fe-505eff667a00">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="bee18401-5dd9-4f36-84c4-364a83391f65" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="GetActiveProcessTemplateDescriptors_Success" />
+    </UnitTest>
+    <UnitTest name="GetActiveEnabledProcess" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="55cfbdf7-7cb6-ae5d-4edc-41458eba4dcf">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="1a880de8-fae3-4d45-b90b-dd3230089e9b" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="GetActiveEnabledProcess" />
+    </UnitTest>
+    <UnitTest name="TryGetActiveProcessTemplateDescriptors_NoReadPermissions" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="aa34d73a-553d-07e4-375b-1ae745e6f4b8">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="2b066471-f68a-49ef-a65a-39a8bf6a3998" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="TryGetActiveProcessTemplateDescriptors_NoReadPermissions" />
+    </UnitTest>
+    <UnitTest name="TryGetActiveProcessTemplateDescriptors_Success" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="de823e40-d4d4-507a-b29c-df67346d8d5f">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="0d10fda6-6f23-4814-bfa0-eb6f083c9d80" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="TryGetActiveProcessTemplateDescriptors_Success" />
+    </UnitTest>
+    <UnitTest name="TransferTemplateFileContentForInheritedProcessThrows" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="0064d288-62ba-f804-c9c9-21dee65ce2e1">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="01979096-3492-44e6-b80a-ea3e4bce4e59" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="TransferTemplateFileContentForInheritedProcessThrows" />
+    </UnitTest>
+    <UnitTest name="AddInheritProcessValid" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="a0141fcb-0661-98a3-9b0c-e7739236d8cf">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="7d623a57-efe7-4c7b-bc78-9afaf84ac22d" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="AddInheritProcessValid" />
+    </UnitTest>
+    <UnitTest name="AddInheritProcessNameConflict" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="592d230c-e6de-d70e-bcbd-de65d1359022">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="f6a3bab9-e3a0-4a63-a9ee-74025a7ec548" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="AddInheritProcessNameConflict" />
+    </UnitTest>
+    <UnitTest name="AddInheritProcessRefNameConflict" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="63aa3ffa-4e25-ce45-c56e-f37b6a60b8c9">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="cb735272-97fa-4e82-99cd-28c086be4987" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="AddInheritProcessRefNameConflict" />
+    </UnitTest>
+    <UnitTest name="AddInheritProcessNameEmpty" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="f437b580-3054-bd88-5c9d-f1dbbe4aeb50">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="9c4ccca1-3cfc-489f-97a2-b6c40f2a508e" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="AddInheritProcessNameEmpty" />
+    </UnitTest>
+    <UnitTest name="AddInheritProcessNameTooBig" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="c2240ced-96f3-9b0a-6651-a2cb118e9842">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="ff9ffc7c-61fb-49ed-8db3-d50e6cd08f38" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="AddInheritProcessNameTooBig" />
+    </UnitTest>
+    <UnitTest name="AddInheritProcessNameIllegalchars" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="84d3976b-9351-7a3a-d901-ccc1824b6f73">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="16de3014-931d-4762-9f61-b3743f4a886b" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="AddInheritProcessNameIllegalchars" />
+    </UnitTest>
+    <UnitTest name="AddInheritProcessRefNameEmpty" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="279b9b57-2557-92d0-c3d6-002df46808e8">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="1e7a4307-f36f-4e3c-968b-76fdd11917b2" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="AddInheritProcessRefNameEmpty" />
+    </UnitTest>
+    <UnitTest name="AddInheritProcessRefNameTooBig" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="de6961e5-3bae-5834-61d1-6a4a68416e9c">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="f618add4-99e2-4592-9924-d36ccb08244b" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="AddInheritProcessRefNameTooBig" />
+    </UnitTest>
+    <UnitTest name="AddInheritProcessRefNameIllegalChar1" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="ac67edb0-72b5-9a06-13c4-0364681725e7">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="0004a1ae-758c-4189-a768-056a23df932e" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="AddInheritProcessRefNameIllegalChar1" />
+    </UnitTest>
+    <UnitTest name="AddInheritProcessRefNameIllegalChar2" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="b078b58c-5325-48c0-f881-02afc88be483">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="97c2065f-e3ed-4666-a0c9-0c41d728baec" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="AddInheritProcessRefNameIllegalChar2" />
+    </UnitTest>
+    <UnitTest name="AddInheritProcessDescriptionLengthExeceeded" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="54da0128-1bf5-b3d6-52fd-a1589e51c46e">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="be7d0061-1824-4f69-8a1a-e87a94ee0314" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="AddInheritProcessDescriptionLengthExeceeded" />
+    </UnitTest>
+    <UnitTest name="AddInheritProcessLimitExeceeded" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="149181ef-1c2f-58f3-a525-5f1e70a96676">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="aefbac79-918a-491c-9e2c-5d0157c4b6d3" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="AddInheritProcessLimitExeceeded" />
+    </UnitTest>
+    <UnitTest name="AddInheritProcessParentIsNotSystem" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="41fa0438-90f2-0697-f634-75739f1f1148">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="f07bc5ad-2715-4c49-8e80-c224724dfdcc" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="AddInheritProcessParentIsNotSystem" />
+    </UnitTest>
+    <UnitTest name="AddInheritProcessOneLevelHierarchyEnforced" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="2198257b-5efc-7483-d101-71bc892e79ca">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="1783aec1-7cfb-4abc-8f29-447b353f9671" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="AddInheritProcessOneLevelHierarchyEnforced" />
+    </UnitTest>
+    <UnitTest name="UpdateChildProcessNothingToUpdate" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="6367e93e-7547-9a95-434a-75c26f566d57">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="73bf39fa-5e0d-4f56-8617-43229a06bb1c" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UpdateChildProcessNothingToUpdate" />
+    </UnitTest>
+    <UnitTest name="UpdateChildProcessIllegalCharInName" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="dc57d5e7-a7a7-736d-8673-8cdd1fade340">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="bf3e0793-8ac6-4b53-ac2d-fc1e5cd42fdb" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UpdateChildProcessIllegalCharInName" />
+    </UnitTest>
+    <UnitTest name="UpdateChildProcessNameConflict" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="137e92f8-f2af-5c99-dac7-bc62903463c2">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="73162e47-77c3-4263-860d-1b68c924ea06" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UpdateChildProcessNameConflict" />
+    </UnitTest>
+    <UnitTest name="UpdateChildProcessSameName" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="6597ac15-fa47-7dde-a2a4-f1fa5bc32f7c">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="937e1009-7341-4bd8-847d-1ca990bd6070" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UpdateChildProcessSameName" />
+    </UnitTest>
+    <UnitTest name="UpdateChildProcessDescriptionSize" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="e9b19787-cfd8-da18-7f43-dca8fa173701">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="af6f1f13-ec00-4a56-b10c-962fe938f404" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UpdateChildProcessDescriptionSize" />
+    </UnitTest>
+    <UnitTest name="MigrateProjectsProcessBadTemplateId" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="07e99490-bf71-bbd3-5d03-7618165f4a10">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="8c235c29-8ca0-491c-8ad8-26b6c7de1dd7" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="MigrateProjectsProcessBadTemplateId" />
+    </UnitTest>
+    <UnitTest name="MigrateProjectsProcessBadNewTemplateId" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="1d6e7325-5fed-9af4-2f56-74ffe13bd884">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="1f4c85b1-c931-4c9f-9772-2674fa53d2f0" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="MigrateProjectsProcessBadNewTemplateId" />
+    </UnitTest>
+    <UnitTest name="MigrateProjectsProcessInvalidMigrationParentToDifferentChild" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="f2bd548f-f615-b4fa-57b5-3599279c8840">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="1c31606b-2d60-46df-ae24-7099fff50bc0" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="MigrateProjectsProcessInvalidMigrationParentToDifferentChild" />
+    </UnitTest>
+    <UnitTest name="MigrateProjectProcessInvalidMigrationChildToDifferentParent" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="0307998f-11f8-c511-5c5b-7ce1818b5642">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="b61b340b-0b02-4516-9c04-901b4de89b59" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="MigrateProjectProcessInvalidMigrationChildToDifferentParent" />
+    </UnitTest>
+    <UnitTest name="UpdateEnabledProcessPropertiesForValidTemplateId" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="b19a16cd-5c77-ec42-f60a-41d00ae1206e">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="4c98449b-f59f-40e3-9f18-cad3b32121fe" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="UpdateEnabledProcessPropertiesForValidTemplateId" />
+    </UnitTest>
+    <UnitTest name="GetProcessPropertiesForInvalidTemplateId" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="adb798e8-780e-7d45-1275-4bec72d93e4d">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="29fa3417-b068-45ec-8764-18f42f6f1335" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="GetProcessPropertiesForInvalidTemplateId" />
+    </UnitTest>
+    <UnitTest name="DisableDefaultProcess" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="bc4dfb0b-88dd-1a9e-be5c-bdf95c0b6b10">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="8a695dbf-3252-4f4c-af13-b83688595bc0" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="DisableDefaultProcess" />
+    </UnitTest>
+    <UnitTest name="SetDisabledProcessAsDefault" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="286137ac-6835-1b11-b126-edbd656bc12e">
+      <Owners>
+        <Owner name="mwit" />
+      </Owners>
+      <Execution id="ef69c55f-ca5c-4f60-8bab-ab208e48f31a" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateServiceTests" name="SetDisabledProcessAsDefault" />
+    </UnitTest>
+    <UnitTest name="EqualsAndHashCode_NullOther" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="6268b12d-edc0-d13f-295c-2802e75a66f7">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="c9317507-74b9-4e47-b51e-48b23d0e8c93" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateVersionTests" name="EqualsAndHashCode_NullOther" />
+    </UnitTest>
+    <UnitTest name="EqualsAndHashCode_DifferentScope" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="56a5e38e-480f-1dd0-7e97-4111b35e834c">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="7b0442a5-ebee-4d4a-b6e1-6a3016d46ca7" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateVersionTests" name="EqualsAndHashCode_DifferentScope" />
+    </UnitTest>
+    <UnitTest name="EqualsAndHashCode_DifferentType" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="4fa0dd44-c331-d8be-a8ff-61136eca9946">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="6fdde7ef-f1c4-46f9-8245-d7032e211e10" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateVersionTests" name="EqualsAndHashCode_DifferentType" />
+    </UnitTest>
+    <UnitTest name="EqualsAndHashCode_DifferentMajor" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="871ec6a2-4f3d-e0fa-00e6-7f797f4f2bad">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="55cbcd79-88bd-4360-91af-fee0c6068b2d" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateVersionTests" name="EqualsAndHashCode_DifferentMajor" />
+    </UnitTest>
+    <UnitTest name="EqualsAndHashCode_DifferentMinor" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="2c77371e-b3e3-5218-1415-b0e3c1e65696">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="b9634657-bfc0-4752-a011-ac98b0268540" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateVersionTests" name="EqualsAndHashCode_DifferentMinor" />
+    </UnitTest>
+    <UnitTest name="EqualsAndHashCode_EqualVersions" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="ef857bc1-79a3-9fbc-2f82-d3363edef69d">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="e540dc89-f04e-4a38-9af3-04bdfa0c9016" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateVersionTests" name="EqualsAndHashCode_EqualVersions" />
+    </UnitTest>
+    <UnitTest name="Parse_NullMetadataNode" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="d05383cd-66e6-6431-9cae-a18c234fd8a1">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="a7d65932-f7e5-43f7-a911-30d81efa0888" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateVersionTests" name="Parse_NullMetadataNode" />
+    </UnitTest>
+    <UnitTest name="Parse_EmptyMetadata" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="753fa1b1-3310-c01b-6122-272db8bf5a90">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="a6ce324b-8354-4941-8749-76713cfabd9f" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateVersionTests" name="Parse_EmptyMetadata" />
+    </UnitTest>
+    <UnitTest name="Parse_MissingSomeMetadata" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="fad4ac91-6cd4-15e6-978e-c4e800d35bd2">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="8d519cd6-9598-485f-bc74-515916ab2a67" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateVersionTests" name="Parse_MissingSomeMetadata" />
+    </UnitTest>
+    <UnitTest name="Parse_BadlyFormedMetadata" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="480852dc-7b64-d7f0-04d2-267c19b2f072">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="e6948bd1-bc39-4189-8b1b-fcd8191b3494" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateVersionTests" name="Parse_BadlyFormedMetadata" />
+    </UnitTest>
+    <UnitTest name="Parse_WellFormedMetadata" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="a2817a89-d229-2adc-8056-4e37b3ce1003">
+      <Owners>
+        <Owner name="witiq" />
+      </Owners>
+      <Execution id="6305b768-ce61-45b9-b6c1-05bf1e89b895" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ProcessTemplateVersionTests" name="Parse_WellFormedMetadata" />
+    </UnitTest>
+    <UnitTest name="CanUpdateZipStreamWithFieldRename" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="5faaf44e-c45f-8f0f-9f88-338a8e5ac05f">
+      <Execution id="1489eb50-1544-4215-bdf2-aaaaa735389d" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.TeamFoundationProcessTemplateServiceTests" name="CanUpdateZipStreamWithFieldRename" />
+    </UnitTest>
+    <UnitTest name="StreamIsSetToStartAfterUpdate" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="dc7adc94-bb81-45c3-bf49-f8bb0f3a1197">
+      <Execution id="7c5aeb7f-5cf6-4d62-a94d-09ef264dccae" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.TeamFoundationProcessTemplateServiceTests" name="StreamIsSetToStartAfterUpdate" />
+    </UnitTest>
+    <UnitTest name="ValidateDefaultPluginAddAndReplace" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="35464621-e02b-da4a-59f7-8f9f6016949a">
+      <Execution id="592506b1-5e0a-4a77-a51f-e90aa0497db0" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.TeamFoundationProcessTemplateServiceTests" name="ValidateDefaultPluginAddAndReplace" />
+    </UnitTest>
+    <UnitTest name="ZipPackageYieldsXmlFileByPath" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="f21d10f1-08e4-27e5-6c40-195c2c6dfb4b">
+      <Execution id="2ef7cd0f-6a91-495e-a3e0-d4816d221770" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ZipArchiveProcessTemplatePackageTests" name="ZipPackageYieldsXmlFileByPath" />
+    </UnitTest>
+    <UnitTest name="ZipPackageYieldsXmlFileByPathWithLineNumbersAvailable" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="97db732b-595f-7da3-a895-e146c85d8cdd">
+      <Execution id="c9a9db03-5403-4ef9-be94-8cecf707d309" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ZipArchiveProcessTemplatePackageTests" name="ZipPackageYieldsXmlFileByPathWithLineNumbersAvailable" />
+    </UnitTest>
+    <UnitTest name="ZipPackageYieldsXmlFileByPathDifferingInCaseOnly" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="5bdcdade-728b-1b05-9084-031f46b9ecbb">
+      <Execution id="2437b2e5-e3d7-4a0a-9d29-924c835ca89b" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ZipArchiveProcessTemplatePackageTests" name="ZipPackageYieldsXmlFileByPathDifferingInCaseOnly" />
+    </UnitTest>
+    <UnitTest name="ZipPackageYieldNullForFileNotInArchive" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="f064d68d-0ac5-ea1d-3afb-921922eb6548">
+      <Execution id="3de9a0bb-fea7-4929-ba16-61324c821ae9" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ZipArchiveProcessTemplatePackageTests" name="ZipPackageYieldNullForFileNotInArchive" />
+    </UnitTest>
+    <UnitTest name="ZipPackageThrowsForUnparseableFile" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="faf916ba-37a0-9c94-41b1-faa00f5adf48">
+      <Execution id="48b12fac-0623-428d-84c1-6a9368a5c1ad" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ZipArchiveProcessTemplatePackageTests" name="ZipPackageThrowsForUnparseableFile" />
+    </UnitTest>
+    <UnitTest name="ZipPackageReturnsDocumentStoredWithUnixSlashesButRequestedWithWindowsSlashes" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="53dc4f8f-f4ba-c96d-bb74-3e38c994a687">
+      <Execution id="1a5a7a80-03fb-4de9-8539-4c74bb3d07f1" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ZipArchiveProcessTemplatePackageTests" name="ZipPackageReturnsDocumentStoredWithUnixSlashesButRequestedWithWindowsSlashes" />
+    </UnitTest>
+    <UnitTest name="ZipPackageUpdatesDocumentInArchive" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="5ae80eb8-9901-0dd3-92b8-f0f0ee9fa87b">
+      <Execution id="49b3dab8-3148-4aab-9f1d-fb1290b3911c" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ZipArchiveProcessTemplatePackageTests" name="ZipPackageUpdatesDocumentInArchive" />
+    </UnitTest>
+    <UnitTest name="ZipPackageUpdatesDocumentInArchiveAndPreservesUnixSlashesIfPassedWindowsSlashes" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="c53c1e0a-fd13-be00-d141-0c555e9d709d">
+      <Execution id="c4bbc806-7315-4a02-b6a1-3e441e391565" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ZipArchiveProcessTemplatePackageTests" name="ZipPackageUpdatesDocumentInArchiveAndPreservesUnixSlashesIfPassedWindowsSlashes" />
+    </UnitTest>
+    <UnitTest name="ZipPackageThrowsForUpdateRequestToFileThatDoesNotExistInArchive" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="ece71502-14e2-ae21-97f1-91aa5da33f68">
+      <Execution id="b94395fa-6204-4e60-8875-8aeb7afa784b" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.ZipArchiveProcessTemplatePackageTests" name="ZipPackageThrowsForUpdateRequestToFileThatDoesNotExistInArchive" />
+    </UnitTest>
+    <UnitTest name="TestGetProcesses" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="5a6e557a-4621-7a0c-e2e8-cdeacf9089df">
+      <Execution id="79aa8187-27cf-4e01-af40-afc6971a529c" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.WebServer.ProcessControllerTests" name="TestGetProcesses" />
+    </UnitTest>
+    <UnitTest name="TestGetProcess" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="04a6ba8e-7cb5-4f74-71fa-54afa3c60795">
+      <Execution id="9485df18-9bcd-444c-854b-817ee54a0742" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Process.WebServer.ProcessControllerTests" name="TestGetProcess" />
+    </UnitTest>
+    <UnitTest name="ServiceStart_InvalidHostType" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="91eb5b45-78b2-35c1-fe66-4f852a519412">
+      <Owners>
+        <Owner name="willhi" />
+      </Owners>
+      <Execution id="0a49866d-66c1-40f3-8f9d-aa8976ad99dd" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Project.ProjectServiceSecurity+PlatformProjectServiceTests" name="ServiceStart_InvalidHostType" />
+    </UnitTest>
+    <UnitTest name="GetSecurityToken" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="08e28b08-6fea-edc5-ce49-c1a994652538">
+      <Owners>
+        <Owner name="willhi" />
+      </Owners>
+      <Execution id="c131d302-7a28-47a6-90bb-d02eea975029" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Project.ProjectServiceSecurity+ProjectSecurity" name="GetSecurityToken" />
+    </UnitTest>
+    <UnitTest name="FilterProjectsBasedOnPermissions" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="17a10efe-8b10-dd03-3dbd-025ecf9593af">
+      <Owners>
+        <Owner name="willhi" />
+      </Owners>
+      <Execution id="5d189248-253f-434d-94f3-1a975f25945d" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Project.ProjectServiceSecurity+ProjectSecurity" name="FilterProjectsBasedOnPermissions" />
+    </UnitTest>
+    <UnitTest name="FilterProjectsBasedOnPermissions_NullParams" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="a2819826-9fb2-6197-99df-de9f0ec935db">
+      <Owners>
+        <Owner name="willhi" />
+      </Owners>
+      <Execution id="056a6b7d-674b-458a-a247-18136aabaf9b" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Project.ProjectServiceSecurity+ProjectSecurity" name="FilterProjectsBasedOnPermissions_NullParams" />
+    </UnitTest>
+    <UnitTest name="FilterProjectProperties_NullParams" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="6f521d3b-e902-c0d9-1d0c-657570815c20">
+      <Owners>
+        <Owner name="willhi" />
+      </Owners>
+      <Execution id="f37b6135-8608-4b53-97ba-195810218ced" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Project.ProjectServiceSecurity+ProjectSecurity" name="FilterProjectProperties_NullParams" />
+    </UnitTest>
+    <UnitTest name="FilterProjectProperties_All" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="2e15e0db-6b86-f356-0b9b-be6350c48e08">
+      <Owners>
+        <Owner name="willhi" />
+      </Owners>
+      <Execution id="969dcce3-87af-45c4-9f65-32f089b93911" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Project.ProjectServiceSecurity+ProjectSecurity" name="FilterProjectProperties_All" />
+    </UnitTest>
+    <UnitTest name="FilterProjectProperties_SpecificFilter" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.core.l0.tests\ms.tf.servercore.l0.tests.dll" id="f1093b2d-731a-be79-20dc-b7323f69f45e">
+      <Owners>
+        <Owner name="willhi" />
+      </Owners>
+      <Execution id="dce3004c-ea2b-4a66-bb83-2b6334f33252" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.Core.L0.Tests\MS.TF.ServerCore.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.ServerCore.L0.Tests.Project.ProjectServiceSecurity+ProjectSecurity" name="FilterProjectProperties_SpecificFilter" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="f35dc333-305e-a22d-63d9-cdddef53189a" executionId="69fc7069-b4c5-4564-bbfd-b53c17148ca8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0dd4d4ce-b013-ec92-0617-0caec3a37b8f" executionId="0ccbab17-04d2-4a0e-90e4-d4b9118fbbac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2169dd54-2505-f9e0-19a1-1025b8f37b59" executionId="7e20df6c-204d-4a43-902b-2c3f8bb0c5ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="870d1cfc-c0aa-76fc-eba1-b778cc834a05" executionId="0852cfaf-2ee4-40aa-910c-fb16e57246fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ea58d87c-c7b7-9630-91f4-24b4bd2ffc9c" executionId="ba15dbb1-726d-4d41-bcce-051833a52c5d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e797f7c-b1a1-9c88-954e-f66a6f15ad55" executionId="eb9a2e0c-1034-49a5-8a4d-e320a706345b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0162dce2-90f6-716a-67a7-1dd774f3258c" executionId="e2bd7fe5-dfd8-4432-a6d4-3c90630117df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aae5e549-4c4f-0fd9-d20a-39125d7c2f3c" executionId="60602344-1f78-4811-9157-6638c049b631" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59c2e6bd-684e-b948-a673-5210cf65ef0c" executionId="8132f984-3c9d-428d-8fde-698b1af322a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2955c525-6a1b-6886-742f-ec8b75db6dd3" executionId="49199a7e-9aac-47a4-8adb-a28504456d37" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da35c900-a29c-05a0-e4a9-125ce0114c7a" executionId="a491d369-5df9-4dd8-97af-a0c893a07bf1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed9bbb87-b130-5ccc-993c-8a7e1fc37b55" executionId="209af773-e97d-44e5-ba2b-a99a4566dc5c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8121f9fe-144d-96ba-cb9b-9e88c7a1306a" executionId="b8b0e29f-f67b-4d36-a1cf-4ab6a2ae4873" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="400f4cf3-092f-6694-d77d-a6b11a2e30b7" executionId="d0aa0ccb-9edd-4a10-8f9a-2de7d05c5488" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="455cfd16-450a-5f71-afb8-d212aade67cb" executionId="36ed40d2-b1d5-40ec-984c-2ed931c3c751" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd0b27fc-88a0-e41e-6f4e-9499af82ab22" executionId="4fc9db6b-e317-4589-9c60-dde7d5957bae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1aa6e87-0e71-02fa-5681-f95f645be200" executionId="4126dfe6-b81c-4483-8eea-f07ead6e8649" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73d3eaa3-aba4-88e2-309b-de199ebe933a" executionId="a30504ab-e2d5-47ae-9df4-dbf593007812" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e7b8108-94f3-e8de-4065-3480a413a28c" executionId="f660cef2-2253-4a49-a3ce-bdfcd6bb209c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0efdfaf9-8f85-25cb-b899-ca71df700817" executionId="99e69ab9-6919-4e1b-86a5-13258bbc74ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b3d41268-aae8-e206-b10c-97f9a9c63aff" executionId="0da78d53-d9d4-4e60-90f1-8c40e33ef5c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4d7ec0e-f676-a2e7-a903-05f4f4e05ded" executionId="7cabea38-1006-4b4e-a7e0-1ac36b2aa084" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c14e1009-2b33-9088-0522-483110a7d66a" executionId="b5f47893-db7d-4569-ad24-78fb0dcdafea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc4dc45b-cedf-7409-4868-86aad9994a58" executionId="a86ee89e-9a74-4593-a51d-00f00c90a748" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="484888b5-5353-04bd-f775-aeea68c82a0d" executionId="735a7a42-6bc9-4f7a-9cf8-1f2fe09f9063" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19fc4bf1-147f-356e-dc9d-9f12ef0e4571" executionId="5fc16f88-a749-431e-9320-42139c67f00b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a955f879-3415-63af-cf00-063abdf42ffe" executionId="b3591434-67b7-4fb5-b35b-c69b7738e027" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ba66ea4-901b-9311-64c6-d13f0f5a2faa" executionId="0ff49458-487b-4b90-8d28-f7065ac483e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad831efb-4106-b6c7-f37f-6a9e018bbc0b" executionId="f02ef311-3af4-438b-ae73-7bb3d33671be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db8782b1-ac0e-33d4-a26d-2639f5fc5072" executionId="48563e8e-1d34-4aac-8826-61c2abf746ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17e4f4e3-80ee-ac36-4786-840377f569cf" executionId="fb5a20f7-85ec-43ef-8e62-f099635a94ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a37a3ca1-59ac-03b2-7066-bcb95b418f0e" executionId="bcfd3dad-8e85-4e10-b139-8968ed59d885" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae5bdf76-d805-d935-23c8-3a9aeb08be75" executionId="155094c8-662a-4bab-ad39-718abe925614" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7f354b9-8870-2fa1-db88-1e634617bac1" executionId="9f141b3f-5378-4de3-99ae-02b5249a7e0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="16c068ca-351a-71a5-0e6c-c04f56363546" executionId="48c0f4e4-e3a4-4da1-9ba0-acc5fbca2701" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2aefc7ed-f3b1-9da7-964b-8f1eaec67326" executionId="0f58aaa8-90c6-46d1-8f5b-8b182feddda7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4bb31874-2cc2-09d4-cd7e-4fb99aed2132" executionId="fc0908c9-d1fe-44aa-a376-ce8d13cbec65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="08acf37c-7864-7d49-b22d-6dba6c6045ba" executionId="f28c6721-eb00-41e6-805b-7aa7cd3a4027" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0795014f-4611-8825-c527-bb9058f78fc7" executionId="a9a6657b-f178-44cd-8205-a7fc53929104" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cab9a7df-a122-685b-624f-e8503f8c2363" executionId="73b46fa2-f4a1-4cc2-bef2-eb09e69f2f1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46462701-2f51-b597-afb6-6d66656ed0d2" executionId="d740d684-ba3f-4fd1-a13e-b380e6be4065" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="16faabc8-8fbe-c122-59eb-acbf80aa9869" executionId="3a05ef30-cfd8-4acd-8ce3-f482c6ba6626" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a0906b5-4045-8c90-28ac-0f03a80954be" executionId="e405c614-e1e9-4944-b494-7e2dc49f1c77" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c1733c0-4fc3-1aa1-fe04-e23304a71ddb" executionId="609f9a47-f073-4ced-9b10-00b306444b1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74e539fa-fbf9-d090-0416-40bad99b4d64" executionId="3daf5167-3167-4e30-9d4c-acbf1dcc772d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a9d12bf-4e72-15b6-27fe-505eff667a00" executionId="bee18401-5dd9-4f36-84c4-364a83391f65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="55cfbdf7-7cb6-ae5d-4edc-41458eba4dcf" executionId="1a880de8-fae3-4d45-b90b-dd3230089e9b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa34d73a-553d-07e4-375b-1ae745e6f4b8" executionId="2b066471-f68a-49ef-a65a-39a8bf6a3998" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de823e40-d4d4-507a-b29c-df67346d8d5f" executionId="0d10fda6-6f23-4814-bfa0-eb6f083c9d80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0064d288-62ba-f804-c9c9-21dee65ce2e1" executionId="01979096-3492-44e6-b80a-ea3e4bce4e59" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a0141fcb-0661-98a3-9b0c-e7739236d8cf" executionId="7d623a57-efe7-4c7b-bc78-9afaf84ac22d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="592d230c-e6de-d70e-bcbd-de65d1359022" executionId="f6a3bab9-e3a0-4a63-a9ee-74025a7ec548" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="63aa3ffa-4e25-ce45-c56e-f37b6a60b8c9" executionId="cb735272-97fa-4e82-99cd-28c086be4987" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f437b580-3054-bd88-5c9d-f1dbbe4aeb50" executionId="9c4ccca1-3cfc-489f-97a2-b6c40f2a508e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2240ced-96f3-9b0a-6651-a2cb118e9842" executionId="ff9ffc7c-61fb-49ed-8db3-d50e6cd08f38" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84d3976b-9351-7a3a-d901-ccc1824b6f73" executionId="16de3014-931d-4762-9f61-b3743f4a886b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="279b9b57-2557-92d0-c3d6-002df46808e8" executionId="1e7a4307-f36f-4e3c-968b-76fdd11917b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de6961e5-3bae-5834-61d1-6a4a68416e9c" executionId="f618add4-99e2-4592-9924-d36ccb08244b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac67edb0-72b5-9a06-13c4-0364681725e7" executionId="0004a1ae-758c-4189-a768-056a23df932e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b078b58c-5325-48c0-f881-02afc88be483" executionId="97c2065f-e3ed-4666-a0c9-0c41d728baec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="54da0128-1bf5-b3d6-52fd-a1589e51c46e" executionId="be7d0061-1824-4f69-8a1a-e87a94ee0314" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="149181ef-1c2f-58f3-a525-5f1e70a96676" executionId="aefbac79-918a-491c-9e2c-5d0157c4b6d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41fa0438-90f2-0697-f634-75739f1f1148" executionId="f07bc5ad-2715-4c49-8e80-c224724dfdcc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2198257b-5efc-7483-d101-71bc892e79ca" executionId="1783aec1-7cfb-4abc-8f29-447b353f9671" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6367e93e-7547-9a95-434a-75c26f566d57" executionId="73bf39fa-5e0d-4f56-8617-43229a06bb1c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc57d5e7-a7a7-736d-8673-8cdd1fade340" executionId="bf3e0793-8ac6-4b53-ac2d-fc1e5cd42fdb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="137e92f8-f2af-5c99-dac7-bc62903463c2" executionId="73162e47-77c3-4263-860d-1b68c924ea06" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6597ac15-fa47-7dde-a2a4-f1fa5bc32f7c" executionId="937e1009-7341-4bd8-847d-1ca990bd6070" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9b19787-cfd8-da18-7f43-dca8fa173701" executionId="af6f1f13-ec00-4a56-b10c-962fe938f404" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="07e99490-bf71-bbd3-5d03-7618165f4a10" executionId="8c235c29-8ca0-491c-8ad8-26b6c7de1dd7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d6e7325-5fed-9af4-2f56-74ffe13bd884" executionId="1f4c85b1-c931-4c9f-9772-2674fa53d2f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2bd548f-f615-b4fa-57b5-3599279c8840" executionId="1c31606b-2d60-46df-ae24-7099fff50bc0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0307998f-11f8-c511-5c5b-7ce1818b5642" executionId="b61b340b-0b02-4516-9c04-901b4de89b59" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b19a16cd-5c77-ec42-f60a-41d00ae1206e" executionId="4c98449b-f59f-40e3-9f18-cad3b32121fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="adb798e8-780e-7d45-1275-4bec72d93e4d" executionId="29fa3417-b068-45ec-8764-18f42f6f1335" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bc4dfb0b-88dd-1a9e-be5c-bdf95c0b6b10" executionId="8a695dbf-3252-4f4c-af13-b83688595bc0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="286137ac-6835-1b11-b126-edbd656bc12e" executionId="ef69c55f-ca5c-4f60-8bab-ab208e48f31a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6268b12d-edc0-d13f-295c-2802e75a66f7" executionId="c9317507-74b9-4e47-b51e-48b23d0e8c93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56a5e38e-480f-1dd0-7e97-4111b35e834c" executionId="7b0442a5-ebee-4d4a-b6e1-6a3016d46ca7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4fa0dd44-c331-d8be-a8ff-61136eca9946" executionId="6fdde7ef-f1c4-46f9-8245-d7032e211e10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="871ec6a2-4f3d-e0fa-00e6-7f797f4f2bad" executionId="55cbcd79-88bd-4360-91af-fee0c6068b2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c77371e-b3e3-5218-1415-b0e3c1e65696" executionId="b9634657-bfc0-4752-a011-ac98b0268540" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef857bc1-79a3-9fbc-2f82-d3363edef69d" executionId="e540dc89-f04e-4a38-9af3-04bdfa0c9016" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d05383cd-66e6-6431-9cae-a18c234fd8a1" executionId="a7d65932-f7e5-43f7-a911-30d81efa0888" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="753fa1b1-3310-c01b-6122-272db8bf5a90" executionId="a6ce324b-8354-4941-8749-76713cfabd9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fad4ac91-6cd4-15e6-978e-c4e800d35bd2" executionId="8d519cd6-9598-485f-bc74-515916ab2a67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="480852dc-7b64-d7f0-04d2-267c19b2f072" executionId="e6948bd1-bc39-4189-8b1b-fcd8191b3494" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2817a89-d229-2adc-8056-4e37b3ce1003" executionId="6305b768-ce61-45b9-b6c1-05bf1e89b895" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5faaf44e-c45f-8f0f-9f88-338a8e5ac05f" executionId="1489eb50-1544-4215-bdf2-aaaaa735389d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc7adc94-bb81-45c3-bf49-f8bb0f3a1197" executionId="7c5aeb7f-5cf6-4d62-a94d-09ef264dccae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35464621-e02b-da4a-59f7-8f9f6016949a" executionId="592506b1-5e0a-4a77-a51f-e90aa0497db0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f21d10f1-08e4-27e5-6c40-195c2c6dfb4b" executionId="2ef7cd0f-6a91-495e-a3e0-d4816d221770" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97db732b-595f-7da3-a895-e146c85d8cdd" executionId="c9a9db03-5403-4ef9-be94-8cecf707d309" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5bdcdade-728b-1b05-9084-031f46b9ecbb" executionId="2437b2e5-e3d7-4a0a-9d29-924c835ca89b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f064d68d-0ac5-ea1d-3afb-921922eb6548" executionId="3de9a0bb-fea7-4929-ba16-61324c821ae9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="faf916ba-37a0-9c94-41b1-faa00f5adf48" executionId="48b12fac-0623-428d-84c1-6a9368a5c1ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="53dc4f8f-f4ba-c96d-bb74-3e38c994a687" executionId="1a5a7a80-03fb-4de9-8539-4c74bb3d07f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ae80eb8-9901-0dd3-92b8-f0f0ee9fa87b" executionId="49b3dab8-3148-4aab-9f1d-fb1290b3911c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c53c1e0a-fd13-be00-d141-0c555e9d709d" executionId="c4bbc806-7315-4a02-b6a1-3e441e391565" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ece71502-14e2-ae21-97f1-91aa5da33f68" executionId="b94395fa-6204-4e60-8875-8aeb7afa784b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a6e557a-4621-7a0c-e2e8-cdeacf9089df" executionId="79aa8187-27cf-4e01-af40-afc6971a529c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="04a6ba8e-7cb5-4f74-71fa-54afa3c60795" executionId="9485df18-9bcd-444c-854b-817ee54a0742" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91eb5b45-78b2-35c1-fe66-4f852a519412" executionId="0a49866d-66c1-40f3-8f9d-aa8976ad99dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="08e28b08-6fea-edc5-ce49-c1a994652538" executionId="c131d302-7a28-47a6-90bb-d02eea975029" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17a10efe-8b10-dd03-3dbd-025ecf9593af" executionId="5d189248-253f-434d-94f3-1a975f25945d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2819826-9fb2-6197-99df-de9f0ec935db" executionId="056a6b7d-674b-458a-a247-18136aabaf9b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f521d3b-e902-c0d9-1d0c-657570815c20" executionId="f37b6135-8608-4b53-97ba-195810218ced" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e15e0db-6b86-f356-0b9b-be6350c48e08" executionId="969dcce3-87af-45c4-9f65-32f089b93911" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1093b2d-731a-be79-20dc-b7323f69f45e" executionId="dce3004c-ea2b-4a66-bb83-2b6334f33252" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="109" executed="109" passed="109" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

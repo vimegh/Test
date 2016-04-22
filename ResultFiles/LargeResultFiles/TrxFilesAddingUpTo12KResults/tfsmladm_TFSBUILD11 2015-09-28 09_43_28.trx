@@ -1,0 +1,1299 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="38f81c4a-4bf4-4f12-8829-22c809b4778d" name="tfsmladm@TFSBUILD11 2015-09-28 09:43:28" runUser="REDMOND\tfsmladm" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2015-09-28T09:43:28.9841035-07:00" queuing="2015-09-28T09:43:28.9841035-07:00" start="2015-09-28T09:43:28.9841035-07:00" finish="2015-09-28T09:43:42.9850985-07:00" />
+  <TestSettings name="default" id="6d2ecf4e-2049-42fc-9c42-dbd37f5547e4">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="tfsmladm_TFSBUILD11 2015-09-28 09_43_28" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="495fb94f-fb50-42fa-9590-ec1c9fe97eb5" testId="31d59e23-694c-6019-49da-0ba0b8a9aa9b" testName="GetTeamDaysOff" computerName="TFSBUILD11" duration="00:00:01.2320069" startTime="2015-09-28T09:43:27.6402582-07:00" endTime="2015-09-28T09:43:28.9372249-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="495fb94f-fb50-42fa-9590-ec1c9fe97eb5" />
+    <UnitTestResult executionId="131de204-c2d3-43a3-84b5-0f50ac20ab47" testId="442bf967-bde7-d596-662f-eabde0241814" testName="GetTeamDaysOffWithInvalidIterationId" computerName="TFSBUILD11" duration="00:00:00.0937740" startTime="2015-09-28T09:43:28.9528510-07:00" endTime="2015-09-28T09:43:29.0466080-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="131de204-c2d3-43a3-84b5-0f50ac20ab47" />
+    <UnitTestResult executionId="3e505638-cb42-4856-b055-228376e405ea" testId="f774d5dd-52ff-dfe6-6665-31de9cf2877b" testName="UpdateBoardCardRulesRouting" computerName="TFSBUILD11" duration="00:00:02.0320101" startTime="2015-09-28T09:43:29.0466080-07:00" endTime="2015-09-28T09:43:31.0780024-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e505638-cb42-4856-b055-228376e405ea" />
+    <UnitTestResult executionId="90e1ae28-5639-4b65-aa23-5774bcb8db4f" testId="67919514-f219-6d85-d73d-64aedf975942" testName="UpdateBoardCardRuleSettingsForDefaultTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0693636" startTime="2015-09-28T09:43:31.0780024-07:00" endTime="2015-09-28T09:43:31.1405068-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90e1ae28-5639-4b65-aa23-5774bcb8db4f" />
+    <UnitTestResult executionId="91fd280f-5684-44d1-a412-794fd724dcc6" testId="0a429744-7694-5edd-f4e4-66e91539d1e7" testName="VerifyBoardCardRuleSettingsAndBoardColumnVersion" computerName="TFSBUILD11" duration="00:00:00.1691784" startTime="2015-09-28T09:43:31.1561327-07:00" endTime="2015-09-28T09:43:31.3123952-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91fd280f-5684-44d1-a412-794fd724dcc6" />
+    <UnitTestResult executionId="5ca3e229-bb59-4dfb-934e-7fe88e488cc7" testId="d012fcea-6172-88fc-5597-f6bc0f76947a" testName="UpdateBoardCardSettingsRouting" computerName="TFSBUILD11" duration="00:00:00.0943187" startTime="2015-09-28T09:43:31.3123952-07:00" endTime="2015-09-28T09:43:31.4061510-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ca3e229-bb59-4dfb-934e-7fe88e488cc7" />
+    <UnitTestResult executionId="92a0cb89-61ac-4dea-b860-c883b0f4ed33" testId="9060120b-c68f-5c06-e69e-d8a2d21f8360" testName="UpdateBoardCardSettingsForDefaultTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0708836" startTime="2015-09-28T09:43:31.4061510-07:00" endTime="2015-09-28T09:43:31.4842816-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92a0cb89-61ac-4dea-b860-c883b0f4ed33" />
+    <UnitTestResult executionId="8d244e45-a6d2-43c4-b4b0-e6a9a75b2741" testId="ac42bcff-a2ce-9d19-c5de-59a5b63723df" testName="VerifyBoardCardSettingsAndBoardColumnVersion" computerName="TFSBUILD11" duration="00:00:00.1270465" startTime="2015-09-28T09:43:31.4842816-07:00" endTime="2015-09-28T09:43:31.6092902-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d244e45-a6d2-43c4-b4b0-e6a9a75b2741" />
+    <UnitTestResult executionId="8d90a69f-d109-4e5a-81f1-1d2760576082" testId="31ded74e-6506-b1dd-ecd3-21a337efc791" testName="GetBoardChartsWithTeamRouting" computerName="TFSBUILD11" duration="00:00:00.1006265" startTime="2015-09-28T09:43:31.6092902-07:00" endTime="2015-09-28T09:43:31.7186738-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d90a69f-d109-4e5a-81f1-1d2760576082" />
+    <UnitTestResult executionId="f011d062-b788-46cc-b7a7-a7458c0066d3" testId="992abff4-b6a0-0a57-4606-11ee45cc52fa" testName="GeBoardChartsWithDefaultTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0643895" startTime="2015-09-28T09:43:31.7186738-07:00" endTime="2015-09-28T09:43:31.7811774-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f011d062-b788-46cc-b7a7-a7458c0066d3" />
+    <UnitTestResult executionId="52e5eb73-22ea-4c05-93db-f5c57e81f448" testId="b757686e-78c1-79de-1efc-8ed6a7af8d3b" testName="GetSpecificBoardChartWithTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0662976" startTime="2015-09-28T09:43:31.7811774-07:00" endTime="2015-09-28T09:43:31.8436816-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="52e5eb73-22ea-4c05-93db-f5c57e81f448" />
+    <UnitTestResult executionId="a0c59e85-a505-4318-a354-a856db3163ef" testId="fc11ad29-577d-8a0a-f7cd-db5d20e256c4" testName="GetSpecificBoardChartWithDefaultTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0644208" startTime="2015-09-28T09:43:31.8436816-07:00" endTime="2015-09-28T09:43:31.9061863-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0c59e85-a505-4318-a354-a856db3163ef" />
+    <UnitTestResult executionId="1662146c-49b7-4ba7-820d-17c59f304910" testId="1522d37c-5f3f-c0a7-538a-050d96b071c6" testName="UpdateBoardChartSettingsRouting" computerName="TFSBUILD11" duration="00:00:00.0666176" startTime="2015-09-28T09:43:31.9061863-07:00" endTime="2015-09-28T09:43:31.9686919-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1662146c-49b7-4ba7-820d-17c59f304910" />
+    <UnitTestResult executionId="1e7204d5-5a79-4e16-b393-8ab5e6c36e79" testId="3cae1f48-84f2-cac7-faf1-0a4fec09ed0e" testName="UpdateBoardChartSettingsForDefaultTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0623839" startTime="2015-09-28T09:43:31.9686919-07:00" endTime="2015-09-28T09:43:32.0311949-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e7204d5-5a79-4e16-b393-8ab5e6c36e79" />
+    <UnitTestResult executionId="3be3f85e-7b67-453e-9f00-f95df849e1b6" testId="dd6ac1a8-5921-0778-4aed-bbf82cad4574" testName="GetBoardColumnSuggestedValues" computerName="TFSBUILD11" duration="00:00:00.1560865" startTime="2015-09-28T09:43:32.0311949-07:00" endTime="2015-09-28T09:43:32.1874563-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3be3f85e-7b67-453e-9f00-f95df849e1b6" />
+    <UnitTestResult executionId="4a40cc16-689a-426e-9931-bbebbf522024" testId="f154ba00-3f29-91bc-4756-4568b8a4ac77" testName="GetBoardRowSuggestedValues" computerName="TFSBUILD11" duration="00:00:00.1604436" startTime="2015-09-28T09:43:32.1874563-07:00" endTime="2015-09-28T09:43:32.3593435-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a40cc16-689a-426e-9931-bbebbf522024" />
+    <UnitTestResult executionId="3f64b988-7f03-4492-9055-ba2a34517b23" testId="5acf29b3-9389-b81b-f660-e5941ceacddf" testName="UpdateBoardRowSettingsRouting" computerName="TFSBUILD11" duration="00:00:00.1033990" startTime="2015-09-28T09:43:32.3593435-07:00" endTime="2015-09-28T09:43:32.4531002-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f64b988-7f03-4492-9055-ba2a34517b23" />
+    <UnitTestResult executionId="78f7b70e-285d-4508-af7c-924dd3613ce4" testId="fea00926-b0b1-82fd-baba-39b81b28ba25" testName="UpdateBoardRowSettingsForDefaultTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0636696" startTime="2015-09-28T09:43:32.4531002-07:00" endTime="2015-09-28T09:43:32.5156052-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78f7b70e-285d-4508-af7c-924dd3613ce4" />
+    <UnitTestResult executionId="01422e40-1432-49cd-95f2-04c381cef425" testId="5cbfe690-7006-4a45-ef78-f18bc5e0af35" testName="UpdateBoardColumnSettingsRouting" computerName="TFSBUILD11" duration="00:00:00.0628953" startTime="2015-09-28T09:43:32.5156052-07:00" endTime="2015-09-28T09:43:32.5781088-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01422e40-1432-49cd-95f2-04c381cef425" />
+    <UnitTestResult executionId="3c422a48-cd2b-4a28-958f-57854501ffed" testId="4ff1b195-6392-e762-5c27-596b0a52c535" testName="UpdateBoardColumnSettingsForDefaultTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0608223" startTime="2015-09-28T09:43:32.5781088-07:00" endTime="2015-09-28T09:43:32.6406138-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c422a48-cd2b-4a28-958f-57854501ffed" />
+    <UnitTestResult executionId="90a3ac89-2ea0-4f28-b2b7-9e8602f716a4" testId="6944ecd6-48cf-9347-8ea3-a673b82b1c1d" testName="GetBoardsWithTeamRouting" computerName="TFSBUILD11" duration="00:00:00.1074000" startTime="2015-09-28T09:43:32.6406138-07:00" endTime="2015-09-28T09:43:32.7499960-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90a3ac89-2ea0-4f28-b2b7-9e8602f716a4" />
+    <UnitTestResult executionId="caa3ce5f-ef93-458b-b429-9ced88830e88" testId="3f0dad5d-5336-3824-4c89-60a99f33a439" testName="GetBoardsWithDefaultTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0625514" startTime="2015-09-28T09:43:32.7499960-07:00" endTime="2015-09-28T09:43:32.8125010-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="caa3ce5f-ef93-458b-b429-9ced88830e88" />
+    <UnitTestResult executionId="98d8007b-bd5d-42ca-8440-7396f4b5144e" testId="81f4aa29-e1ac-b8ff-15a6-054b16844e01" testName="GetSpecificBoardWithTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0627798" startTime="2015-09-28T09:43:32.8125010-07:00" endTime="2015-09-28T09:43:32.8750066-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98d8007b-bd5d-42ca-8440-7396f4b5144e" />
+    <UnitTestResult executionId="14a702ff-1ab4-4f3d-a252-fa091c55e587" testId="e3c81434-c6eb-23df-c04e-938b1edc83d6" testName="GetSpecificBoardWithDefaultTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0629582" startTime="2015-09-28T09:43:32.8750066-07:00" endTime="2015-09-28T09:43:32.9375105-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14a702ff-1ab4-4f3d-a252-fa091c55e587" />
+    <UnitTestResult executionId="6ad4fdb6-21bc-49b1-85b3-1ab7f248cfeb" testId="2382b1f7-77e0-a96d-593d-99223f6c6b5b" testName="GetTeamSettingssWithTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0963744" startTime="2015-09-28T09:43:32.9375105-07:00" endTime="2015-09-28T09:43:33.0468918-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ad4fdb6-21bc-49b1-85b3-1ab7f248cfeb" />
+    <UnitTestResult executionId="d939a467-54a3-4ecf-8508-63a2a01f67a5" testId="e95be798-215a-5620-ce56-3ebb3b8f957a" testName="PatchTeamSettingssWithTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0711815" startTime="2015-09-28T09:43:33.0468918-07:00" endTime="2015-09-28T09:43:33.1093966-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d939a467-54a3-4ecf-8508-63a2a01f67a5" />
+    <UnitTestResult executionId="12b26772-9d9a-48c4-8e86-c05d31e3fe3f" testId="aee644e0-5669-89eb-fa70-16160d8bfa1c" testName="GetTeamFieldValuesWithTeamRouting" computerName="TFSBUILD11" duration="00:00:00.1053907" startTime="2015-09-28T09:43:33.1093966-07:00" endTime="2015-09-28T09:43:33.2187805-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12b26772-9d9a-48c4-8e86-c05d31e3fe3f" />
+    <UnitTestResult executionId="75b46737-4d5d-4d2f-a635-56d4aeee9c65" testId="4b93076f-63be-7e0c-654e-298fa08d8405" testName="GetTeamFieldValuesWithDefaultTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0645391" startTime="2015-09-28T09:43:33.2187805-07:00" endTime="2015-09-28T09:43:33.2812838-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75b46737-4d5d-4d2f-a635-56d4aeee9c65" />
+    <UnitTestResult executionId="e4ce45e9-c90a-42a6-911f-3c22c56fcf6c" testId="f488fe97-1de7-78a9-03e0-9adb5d388b9f" testName="PatchTeamFieldValuesWithTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0637859" startTime="2015-09-28T09:43:33.2812838-07:00" endTime="2015-09-28T09:43:33.3437879-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4ce45e9-c90a-42a6-911f-3c22c56fcf6c" />
+    <UnitTestResult executionId="54c063f1-c178-47e4-8833-97dea827ea5a" testId="bee2e645-57c8-846f-daa8-f9118ac2d06c" testName="PatchTeamFieldValuesWithDefaultTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0627036" startTime="2015-09-28T09:43:33.3437879-07:00" endTime="2015-09-28T09:43:33.4062927-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54c063f1-c178-47e4-8833-97dea827ea5a" />
+    <UnitTestResult executionId="eaa092fe-3744-41ce-b945-b2633874d446" testId="0390ae7c-da85-3193-2ff5-030c7ce5ca97" testName="GetTeamIterationsWithTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0929431" startTime="2015-09-28T09:43:33.4062927-07:00" endTime="2015-09-28T09:43:33.5000502-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eaa092fe-3744-41ce-b945-b2633874d446" />
+    <UnitTestResult executionId="a94f7ddb-98c3-4be6-82e3-ff81992de421" testId="1626e321-46a8-d33a-5173-ef6d9e9098b2" testName="GetTeamIterationsWithDefaultTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0669933" startTime="2015-09-28T09:43:33.5000502-07:00" endTime="2015-09-28T09:43:33.5625541-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a94f7ddb-98c3-4be6-82e3-ff81992de421" />
+    <UnitTestResult executionId="3543a54c-ff79-4202-a2ce-9589a5e93460" testId="9945bace-2728-66a6-eb5f-92cccc061769" testName="GetSpecificTeamIterationWithTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0636935" startTime="2015-09-28T09:43:33.5625541-07:00" endTime="2015-09-28T09:43:33.6406841-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3543a54c-ff79-4202-a2ce-9589a5e93460" />
+    <UnitTestResult executionId="3b17769f-6f80-4c01-b692-4a8245d8b7d0" testId="3e1efbc1-20f0-b75f-ac4d-6f98db9379d5" testName="GetSpecificTeamIterationWithDefaultTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0607316" startTime="2015-09-28T09:43:33.6406841-07:00" endTime="2015-09-28T09:43:33.6875630-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b17769f-6f80-4c01-b692-4a8245d8b7d0" />
+    <UnitTestResult executionId="278d9b47-197c-46c0-b8c5-4503f109276f" testId="58a58f59-e3c4-ed67-d090-4d98ba3e06b2" testName="GetTeamDaysOffWithTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0967951" startTime="2015-09-28T09:43:33.6875630-07:00" endTime="2015-09-28T09:43:33.7969460-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="278d9b47-197c-46c0-b8c5-4503f109276f" />
+    <UnitTestResult executionId="8ad171dd-d941-4f2b-9a9f-b812d4b1b90d" testId="c9657f94-81e7-4b11-d48d-a7b2f6d791d3" testName="PostTeamIterationsWithTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0637384" startTime="2015-09-28T09:43:33.7969460-07:00" endTime="2015-09-28T09:43:33.8594499-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ad171dd-d941-4f2b-9a9f-b812d4b1b90d" />
+    <UnitTestResult executionId="723a086f-4975-4063-8376-475d4c13bfa9" testId="82d78faa-f899-66fe-b06c-7ee9d9800c4c" testName="PostTeamIterationsWithDefaultTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0641938" startTime="2015-09-28T09:43:33.8594499-07:00" endTime="2015-09-28T09:43:33.9219543-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="723a086f-4975-4063-8376-475d4c13bfa9" />
+    <UnitTestResult executionId="cc33c895-926d-4ebf-893c-76a20e574adf" testId="142c5f67-6a37-2f3b-4929-609983eec37a" testName="DeleteTeamIterationsWithTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0625913" startTime="2015-09-28T09:43:33.9219543-07:00" endTime="2015-09-28T09:43:33.9844594-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc33c895-926d-4ebf-893c-76a20e574adf" />
+    <UnitTestResult executionId="f6d8ff02-067e-44e8-8ab7-68d508861139" testId="f28b5418-1c7c-382b-9106-2a6c7f39874d" testName="DeleteTeamIterationsWithDefaultTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0632947" startTime="2015-09-28T09:43:33.9844594-07:00" endTime="2015-09-28T09:43:34.0469635-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f6d8ff02-067e-44e8-8ab7-68d508861139" />
+    <UnitTestResult executionId="d1bcaa68-ca74-4ed8-896b-7784b0925cfa" testId="f0a1585d-ca57-e9a2-971b-aaef34ed8848" testName="GetCapacitiesWithTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0935976" startTime="2015-09-28T09:43:34.0469635-07:00" endTime="2015-09-28T09:43:34.1407205-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1bcaa68-ca74-4ed8-896b-7784b0925cfa" />
+    <UnitTestResult executionId="c203f3da-b4e8-46f5-b942-ee76e40c0879" testId="b9961ddc-cf37-2723-8998-4e16eef8d032" testName="GetCapacitiesWithDefaultTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0634531" startTime="2015-09-28T09:43:34.1407205-07:00" endTime="2015-09-28T09:43:34.2032255-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c203f3da-b4e8-46f5-b942-ee76e40c0879" />
+    <UnitTestResult executionId="6325d9b8-f515-4477-8335-17f7e334cb61" testId="64e8f007-a81d-710a-6cec-e39c7851c044" testName="GetCapacityWithTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0653128" startTime="2015-09-28T09:43:34.2032255-07:00" endTime="2015-09-28T09:43:34.2657296-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6325d9b8-f515-4477-8335-17f7e334cb61" />
+    <UnitTestResult executionId="abec3eb0-5b29-404f-a599-b99de7c3ccb0" testId="ab344dd4-b851-3c88-1248-5541cbc0cf09" testName="GetCapacityWithDefaultTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0606741" startTime="2015-09-28T09:43:34.2657296-07:00" endTime="2015-09-28T09:43:34.3282335-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="abec3eb0-5b29-404f-a599-b99de7c3ccb0" />
+    <UnitTestResult executionId="28ad75d2-ce88-4f14-9532-5e7641d776fb" testId="419de113-c4cf-d38d-14d7-0b360b074ed0" testName="PatchCapacityWithTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0631070" startTime="2015-09-28T09:43:34.3282335-07:00" endTime="2015-09-28T09:43:34.3907380-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28ad75d2-ce88-4f14-9532-5e7641d776fb" />
+    <UnitTestResult executionId="9592fef3-f0ab-4de5-a790-5de0879a0749" testId="452c430a-ffb5-a3b9-78e8-f6d3c511bc68" testName="PatchCapacityWithDefaultTeamRouting" computerName="TFSBUILD11" duration="00:00:00.0626240" startTime="2015-09-28T09:43:34.3907380-07:00" endTime="2015-09-28T09:43:34.4532421-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9592fef3-f0ab-4de5-a790-5de0879a0749" />
+    <UnitTestResult executionId="8bfbf83a-63f2-4205-b138-99905aefcede" testId="7cf28076-9e92-fcc0-df47-6efc576591ed" testName="GetTeamSettingPropertyInBoolean" computerName="TFSBUILD11" duration="00:00:00.0185454" startTime="2015-09-28T09:43:34.4532421-07:00" endTime="2015-09-28T09:43:34.4688685-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8bfbf83a-63f2-4205-b138-99905aefcede" />
+    <UnitTestResult executionId="3fa58410-9f8e-4552-82e2-31bfbd58b24b" testId="faa36999-e7be-c9b1-98c8-c8f63cb90130" testName="GetTeamSettingPropertyInDateTime" computerName="TFSBUILD11" duration="00:00:00.0164729" startTime="2015-09-28T09:43:34.4688685-07:00" endTime="2015-09-28T09:43:34.4844943-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3fa58410-9f8e-4552-82e2-31bfbd58b24b" />
+    <UnitTestResult executionId="08c3826f-d08e-4e55-847d-9aae9feac7ec" testId="1222102c-dc35-e84e-94c7-02786d5c6aba" testName="SaveTeamSettingPropertyInDateTime" computerName="TFSBUILD11" duration="00:00:00.0043275" startTime="2015-09-28T09:43:34.4844943-07:00" endTime="2015-09-28T09:43:34.5001207-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08c3826f-d08e-4e55-847d-9aae9feac7ec" />
+    <UnitTestResult executionId="35dc22ae-4b5d-40bf-a3ba-78370d1dcd2c" testId="e1fb2995-5a01-5afe-ee0d-3857e6df7196" testName="SaveTeamSettingPropertyInDateTime_exceptions" computerName="TFSBUILD11" duration="00:00:00.0039059" startTime="2015-09-28T09:43:34.5001207-07:00" endTime="2015-09-28T09:43:34.5001207-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="35dc22ae-4b5d-40bf-a3ba-78370d1dcd2c" />
+    <UnitTestResult executionId="7ea616ef-7596-4de0-82a9-0bb1cff7ccc5" testId="20e49ee0-8584-3bcf-d5c6-90bea9ab6126" testName="SaveTeamSettingPropertyInBoolean" computerName="TFSBUILD11" duration="00:00:00.0020206" startTime="2015-09-28T09:43:34.5001207-07:00" endTime="2015-09-28T09:43:34.5001207-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ea616ef-7596-4de0-82a9-0bb1cff7ccc5" />
+    <UnitTestResult executionId="d5a8f00e-32db-40f9-b61d-dac3d1cf11b2" testId="2b4fbe9b-8644-f8b3-9501-8f36ac3af5ef" testName="SaveTeamSettingPropertyInBoolean_exceptions" computerName="TFSBUILD11" duration="00:00:00.0018426" startTime="2015-09-28T09:43:34.5001207-07:00" endTime="2015-09-28T09:43:34.5001207-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5a8f00e-32db-40f9-b61d-dac3d1cf11b2" />
+    <UnitTestResult executionId="964bfd68-f854-4fc3-8cc6-52c0a3f2239d" testId="d8ed99ee-df5b-8cb9-1fd5-3d851041b0d9" testName="CalculateBoardColumnSettingsChange_NoChange" computerName="TFSBUILD11" duration="00:00:00.0150957" startTime="2015-09-28T09:43:34.5001207-07:00" endTime="2015-09-28T09:43:34.5157474-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="964bfd68-f854-4fc3-8cc6-52c0a3f2239d" />
+    <UnitTestResult executionId="9be4f9f0-9583-41fc-8407-30263fcefdef" testId="50e7b889-058e-3da1-5f82-d587f279b696" testName="CalculateBoardColumnSettingsChange_GeneralUpdates" computerName="TFSBUILD11" duration="00:00:00.0027676" startTime="2015-09-28T09:43:34.5157474-07:00" endTime="2015-09-28T09:43:34.5313724-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9be4f9f0-9583-41fc-8407-30263fcefdef" />
+    <UnitTestResult executionId="d32d1977-737d-4386-aab3-8e20f3c7fa1e" testId="208d7534-dec3-1a30-6ec8-d5afa41475ce" testName="CalculateBoardColumnSettingsChange_StateMappingUpdates" computerName="TFSBUILD11" duration="00:00:00.0030583" startTime="2015-09-28T09:43:34.5313724-07:00" endTime="2015-09-28T09:43:34.5313724-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d32d1977-737d-4386-aab3-8e20f3c7fa1e" />
+    <UnitTestResult executionId="68d058f1-93db-4872-89db-e0f1deda3dad" testId="c7e77dec-144e-7645-3479-7a8c991f0d2f" testName="CalculateBoardColumnSettingsChange_AddDeleteColumns" computerName="TFSBUILD11" duration="00:00:00.0004855" startTime="2015-09-28T09:43:34.5313724-07:00" endTime="2015-09-28T09:43:34.5313724-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68d058f1-93db-4872-89db-e0f1deda3dad" />
+    <UnitTestResult executionId="ff13e373-62f1-4cc2-894c-1ada016783d3" testId="e362cfd1-e9e5-58bc-4985-5e2598325f06" testName="CalculateBoardColumnSettingsChange_Reorder" computerName="TFSBUILD11" duration="00:00:00.0012287" startTime="2015-09-28T09:43:34.5313724-07:00" endTime="2015-09-28T09:43:34.5313724-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff13e373-62f1-4cc2-894c-1ada016783d3" />
+    <UnitTestResult executionId="3a6fc323-d922-4d49-a51c-6776555d7f08" testId="8f721d42-aeeb-168f-af1a-506f91d3b598" testName="CalculateBoardColumnSettingsChange_NameFieldUpdates" computerName="TFSBUILD11" duration="00:00:00.0050906" startTime="2015-09-28T09:43:34.5313724-07:00" endTime="2015-09-28T09:43:34.5313724-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a6fc323-d922-4d49-a51c-6776555d7f08" />
+    <UnitTestResult executionId="25d87ab1-4121-432a-9805-677361c8c0b8" testId="17ce4002-2973-8d5e-5aae-bf24b8e53e72" testName="UpdateCardRules_GoodDay" computerName="TFSBUILD11" duration="00:00:00.5862021" startTime="2015-09-28T09:43:34.5313724-07:00" endTime="2015-09-28T09:43:35.1251649-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25d87ab1-4121-432a-9805-677361c8c0b8" />
+    <UnitTestResult executionId="98fe78ec-1e6e-4ad2-9bf7-2b2251201c10" testId="feebed48-f964-97b1-5ef9-6570b38252c5" testName="UpdateCardRules_BoardDoesNotExist" computerName="TFSBUILD11" duration="00:00:00.0315618" startTime="2015-09-28T09:43:35.1251649-07:00" endTime="2015-09-28T09:43:35.1564174-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98fe78ec-1e6e-4ad2-9bf7-2b2251201c10" />
+    <UnitTestResult executionId="586fb5b8-2b4d-4c45-87ea-7d38364a5a8a" testId="babad391-66cd-ae6d-4328-ffd45228bc2b" testName="UpdateCardRules_InvalidWiql" computerName="TFSBUILD11" duration="00:00:00.0240795" startTime="2015-09-28T09:43:35.1564174-07:00" endTime="2015-09-28T09:43:35.1720432-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="586fb5b8-2b4d-4c45-87ea-7d38364a5a8a" />
+    <UnitTestResult executionId="e440550a-8d16-4080-b70f-59a911613345" testId="a4f94ebb-cab8-24d2-83ca-39f9ab690add" testName="UpdateCardRules_BoardCardRuleSettingsNull" computerName="TFSBUILD11" duration="00:00:00.0262726" startTime="2015-09-28T09:43:35.1720432-07:00" endTime="2015-09-28T09:43:35.2032954-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e440550a-8d16-4080-b70f-59a911613345" />
+    <UnitTestResult executionId="875c6ad4-e3dd-4fbe-a7a6-e00b0e688c03" testId="dbba6115-482d-1419-20ee-a22b9b651dcd" testName="UpdateCardRules_BoardCardRulesNull" computerName="TFSBUILD11" duration="00:00:00.0223006" startTime="2015-09-28T09:43:35.2032954-07:00" endTime="2015-09-28T09:43:35.2345482-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="875c6ad4-e3dd-4fbe-a7a6-e00b0e688c03" />
+    <UnitTestResult executionId="7f8e367f-53cf-46e2-8eab-8abf7a2fb1c7" testId="7ecd520b-e136-0b86-5f97-889bfd209b26" testName="UpdateCardRules_BoardCardRulesSettingsNull" computerName="TFSBUILD11" duration="00:00:00.0226986" startTime="2015-09-28T09:43:35.2345482-07:00" endTime="2015-09-28T09:43:35.2501741-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f8e367f-53cf-46e2-8eab-8abf7a2fb1c7" />
+    <UnitTestResult executionId="d8f420f7-613b-424f-b224-e1726a32c388" testId="a2842071-48d3-3038-30c9-9dc6f14a3891" testName="UpdateCardRules_BoardCardRulesBooleanNotTrueOrFalse" computerName="TFSBUILD11" duration="00:00:00.0231591" startTime="2015-09-28T09:43:35.2501741-07:00" endTime="2015-09-28T09:43:35.2658007-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8f420f7-613b-424f-b224-e1726a32c388" />
+    <UnitTestResult executionId="4daad158-6c39-4ee2-898c-e55e60ccbb03" testId="00f12b97-ce62-ddd1-e11c-617dd0f965f2" testName="UpdateCardRules_BoardCardRulesUpdateFail" computerName="TFSBUILD11" duration="00:00:00.0297400" startTime="2015-09-28T09:43:35.2658007-07:00" endTime="2015-09-28T09:43:35.2970524-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4daad158-6c39-4ee2-898c-e55e60ccbb03" />
+    <UnitTestResult executionId="bb38788c-d33b-4f0f-8480-d4ba7fe13ef6" testId="581d07d4-3d46-f764-8f48-d574f98fbf34" testName="GetCardRules_GoodDay" computerName="TFSBUILD11" duration="00:00:00.0325910" startTime="2015-09-28T09:43:35.2970524-07:00" endTime="2015-09-28T09:43:35.3283041-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb38788c-d33b-4f0f-8480-d4ba7fe13ef6" />
+    <UnitTestResult executionId="0ef1d1ab-7ba9-46cd-8fef-7aa5bdc9754b" testId="069a98d6-edd5-e94a-12ea-238c38f635a1" testName="UpdateCards" computerName="TFSBUILD11" duration="00:00:00.1688521" startTime="2015-09-28T09:43:35.3283041-07:00" endTime="2015-09-28T09:43:35.5001916-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ef1d1ab-7ba9-46cd-8fef-7aa5bdc9754b" />
+    <UnitTestResult executionId="14efa40b-ce52-4093-8df1-9fe06c8f6f9d" testId="883c124c-fbe0-0a47-3d55-04fff15a0c47" testName="UpdateCards_invalidBoardId" computerName="TFSBUILD11" duration="00:00:00.0234370" startTime="2015-09-28T09:43:35.5001916-07:00" endTime="2015-09-28T09:43:35.5314435-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14efa40b-ce52-4093-8df1-9fe06c8f6f9d" />
+    <UnitTestResult executionId="5fa30338-982b-46ae-9d29-caf7f8c96b47" testId="2d9c8891-62f1-aae8-1b89-63efd4dfaccc" testName="UpdateCards_invalidInput" computerName="TFSBUILD11" duration="00:00:00.0334150" startTime="2015-09-28T09:43:35.5314435-07:00" endTime="2015-09-28T09:43:35.5626963-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5fa30338-982b-46ae-9d29-caf7f8c96b47" />
+    <UnitTestResult executionId="fb7dab17-7561-4e88-9177-5954fe8259e2" testId="2b642713-0281-0279-25b3-478a339b2f66" testName="GetBoardCharts" computerName="TFSBUILD11" duration="00:00:00.1770503" startTime="2015-09-28T09:43:35.5626963-07:00" endTime="2015-09-28T09:43:35.7345835-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb7dab17-7561-4e88-9177-5954fe8259e2" />
+    <UnitTestResult executionId="d647bc4d-2377-4848-94eb-a6ff83ca7aef" testId="22ff0f86-1c93-27b4-2da9-b929e5abe3f4" testName="GetIndividualChart_InvalidChart" computerName="TFSBUILD11" duration="00:00:00.0183378" startTime="2015-09-28T09:43:35.7345835-07:00" endTime="2015-09-28T09:43:35.7658354-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d647bc4d-2377-4848-94eb-a6ff83ca7aef" />
+    <UnitTestResult executionId="dea51fba-77c1-4e6b-848b-1d5ea935099f" testId="f966a865-33ab-5d7e-1bbc-8d0a0da58a24" testName="GetIndividualChart" computerName="TFSBUILD11" duration="00:00:00.0372846" startTime="2015-09-28T09:43:35.7658354-07:00" endTime="2015-09-28T09:43:35.7970922-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dea51fba-77c1-4e6b-848b-1d5ea935099f" />
+    <UnitTestResult executionId="eef0f809-939d-43b1-b218-ca59ce4b53c8" testId="73df2174-0960-88a1-5e36-ef18817148bd" testName="UpdateIndividualChart_NullInput" computerName="TFSBUILD11" duration="00:00:00.0244849" startTime="2015-09-28T09:43:35.7970922-07:00" endTime="2015-09-28T09:43:35.8283402-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eef0f809-939d-43b1-b218-ca59ce4b53c8" />
+    <UnitTestResult executionId="bd53070d-3832-41a1-82b4-f34e3dfdccab" testId="cb34ff08-f453-0a31-ae81-8e7e9fcb407b" testName="UpdateIndividualChart_InvalidChart" computerName="TFSBUILD11" duration="00:00:00.0217733" startTime="2015-09-28T09:43:35.8283402-07:00" endTime="2015-09-28T09:43:35.8439657-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd53070d-3832-41a1-82b4-f34e3dfdccab" />
+    <UnitTestResult executionId="12a45a96-f1fd-4206-b3c1-c5eeaa869c1a" testId="b24c78b4-e9ed-c158-3511-0e25340031ed" testName="UpdateCumulativeFlowChart_WithFutureDateException" computerName="TFSBUILD11" duration="00:00:00.0232788" startTime="2015-09-28T09:43:35.8439657-07:00" endTime="2015-09-28T09:43:35.8595915-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12a45a96-f1fd-4206-b3c1-c5eeaa869c1a" />
+    <UnitTestResult executionId="7ed1873f-95b7-41bf-b550-f9decd78181d" testId="8f24fb5c-3315-3145-6c3f-a6d802bd539a" testName="UpdateCumulativeFlowChartWithValidInputs" computerName="TFSBUILD11" duration="00:00:00.0215898" startTime="2015-09-28T09:43:35.8595915-07:00" endTime="2015-09-28T09:43:35.8908441-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ed1873f-95b7-41bf-b550-f9decd78181d" />
+    <UnitTestResult executionId="2e7c4201-6a7b-498c-9a96-8e6baebd7a49" testId="da1c3cea-9d8d-9164-0407-5e5c37ea334d" testName="UpdateCumulativeFlowChartWithNullSettings" computerName="TFSBUILD11" duration="00:00:00.0243350" startTime="2015-09-28T09:43:35.8908441-07:00" endTime="2015-09-28T09:43:35.9064699-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e7c4201-6a7b-498c-9a96-8e6baebd7a49" />
+    <UnitTestResult executionId="52140a7c-547a-4cc3-8d99-b341a048756e" testId="d230f6f4-4e9f-3845-b5a4-b2da5d6e89da" testName="UpdateCumulativeFlowChartWithInvalidInputs" computerName="TFSBUILD11" duration="00:00:00.0245105" startTime="2015-09-28T09:43:35.9064699-07:00" endTime="2015-09-28T09:43:35.9377227-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="52140a7c-547a-4cc3-8d99-b341a048756e" />
+    <UnitTestResult executionId="4fa31af0-4314-4f54-acc3-538cd0a77931" testId="cec05d66-3d88-fed4-a803-eb847fb58af1" testName="UpdateCumulativeFlowChartWithEmptyInputs" computerName="TFSBUILD11" duration="00:00:00.0321748" startTime="2015-09-28T09:43:35.9377227-07:00" endTime="2015-09-28T09:43:35.9689746-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4fa31af0-4314-4f54-acc3-538cd0a77931" />
+    <UnitTestResult executionId="b5c11aa3-9f8f-4b89-9d95-53a052d84caa" testId="98c0fa71-029e-42b1-d535-7238d55fad32" testName="UpdateRows_GoodDay" computerName="TFSBUILD11" duration="00:00:00.2774164" startTime="2015-09-28T09:43:35.9689746-07:00" endTime="2015-09-28T09:43:36.2502452-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5c11aa3-9f8f-4b89-9d95-53a052d84caa" />
+    <UnitTestResult executionId="44203ec7-7173-472e-b901-cc2ee023608f" testId="a77fff34-2f86-e8cf-0a23-98d68df38afb" testName="UpdateRows_BoardDoesNotExist" computerName="TFSBUILD11" duration="00:00:00.0279360" startTime="2015-09-28T09:43:36.2502452-07:00" endTime="2015-09-28T09:43:36.2814968-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44203ec7-7173-472e-b901-cc2ee023608f" />
+    <UnitTestResult executionId="60878604-d254-4e08-b7ff-eade1cd64d58" testId="9b0d98d6-30a7-4377-3078-dc74156ca131" testName="UpdateRows_DeletedRowNotEmpty" computerName="TFSBUILD11" duration="00:00:00.0284307" startTime="2015-09-28T09:43:36.2814968-07:00" endTime="2015-09-28T09:43:36.3127493-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60878604-d254-4e08-b7ff-eade1cd64d58" />
+    <UnitTestResult executionId="02e0bd5c-dce4-44ef-9904-3cebfd8bccee" testId="a9a097b0-62c3-c8a6-df24-d2d6b550bdbf" testName="UpdateRows_BoardUpdateFails" computerName="TFSBUILD11" duration="00:00:00.0281408" startTime="2015-09-28T09:43:36.3127493-07:00" endTime="2015-09-28T09:43:36.3283760-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02e0bd5c-dce4-44ef-9904-3cebfd8bccee" />
+    <UnitTestResult executionId="c8d88619-043d-4a25-9c88-4f9f7a8aea65" testId="149f682d-8a73-b4f6-5de4-2c04fdda5c0d" testName="UpdateRows_BoardValidationFails" computerName="TFSBUILD11" duration="00:00:00.0666153" startTime="2015-09-28T09:43:36.3283760-07:00" endTime="2015-09-28T09:43:36.4065057-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8d88619-043d-4a25-9c88-4f9f7a8aea65" />
+    <UnitTestResult executionId="b5fc93be-368a-43ec-9c07-d3eb9966c954" testId="37797036-b5e3-f6bf-d755-e3fc78684f01" testName="UpdateRows_NullInput" computerName="TFSBUILD11" duration="00:00:00.0286363" startTime="2015-09-28T09:43:36.4065057-07:00" endTime="2015-09-28T09:43:36.4221327-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5fc93be-368a-43ec-9c07-d3eb9966c954" />
+    <UnitTestResult executionId="45672e0b-fbf8-431d-83f5-c6e965ffe749" testId="f3e5a6d5-a923-af0b-d938-5a1a266c00ee" testName="GetRows_ByName" computerName="TFSBUILD11" duration="00:00:00.0273233" startTime="2015-09-28T09:43:36.4221327-07:00" endTime="2015-09-28T09:43:36.4533843-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45672e0b-fbf8-431d-83f5-c6e965ffe749" />
+    <UnitTestResult executionId="78ba072b-ebac-4a38-8eb9-3f28221832c7" testId="98d3e122-8b6a-6079-5777-059933e4b90d" testName="GetRows_ById" computerName="TFSBUILD11" duration="00:00:00.0283690" startTime="2015-09-28T09:43:36.4533843-07:00" endTime="2015-09-28T09:43:36.4846366-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78ba072b-ebac-4a38-8eb9-3f28221832c7" />
+    <UnitTestResult executionId="1fa13b01-3b62-42b2-bb6c-30069c0d0d81" testId="127ca055-06ce-1d97-5fad-1eeaf2d3a795" testName="GetRows_BoardDoesNotExist" computerName="TFSBUILD11" duration="00:00:00.0300714" startTime="2015-09-28T09:43:36.4846366-07:00" endTime="2015-09-28T09:43:36.5158891-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1fa13b01-3b62-42b2-bb6c-30069c0d0d81" />
+    <UnitTestResult executionId="b69479bd-62ce-48fb-b415-9dccad5e20ab" testId="4eea8cfe-839b-4fc3-2863-b3aadbaaab14" testName="UpdateColumns_GoodDay" computerName="TFSBUILD11" duration="00:00:00.2173967" startTime="2015-09-28T09:43:36.5158891-07:00" endTime="2015-09-28T09:43:36.7346546-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b69479bd-62ce-48fb-b415-9dccad5e20ab" />
+    <UnitTestResult executionId="d0b9bf00-e550-44a0-a7f5-5dd41fbc7b4f" testId="a003c9cb-3bb7-89f6-2d13-a33e8197e318" testName="UpdateColumns_BoardDoesNotExist" computerName="TFSBUILD11" duration="00:00:00.0302907" startTime="2015-09-28T09:43:36.7346546-07:00" endTime="2015-09-28T09:43:36.7659063-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0b9bf00-e550-44a0-a7f5-5dd41fbc7b4f" />
+    <UnitTestResult executionId="e279bbfe-92a2-4c3d-9baf-ce1ec38c6a19" testId="cb5f6988-e603-a150-6753-39466eeca3ce" testName="UpdateColumns_NullInput" computerName="TFSBUILD11" duration="00:00:00.0284898" startTime="2015-09-28T09:43:36.7659063-07:00" endTime="2015-09-28T09:43:36.7971588-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e279bbfe-92a2-4c3d-9baf-ce1ec38c6a19" />
+    <UnitTestResult executionId="c63c5964-cbb4-438e-9932-46770dc0c54b" testId="8fe14731-3da1-dec7-14cf-511d3ebbd52f" testName="UpdateColumns_DeletedColumnNotEmpty" computerName="TFSBUILD11" duration="00:00:00.0273361" startTime="2015-09-28T09:43:36.7971588-07:00" endTime="2015-09-28T09:43:36.8284107-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c63c5964-cbb4-438e-9932-46770dc0c54b" />
+    <UnitTestResult executionId="cacfb450-b228-41e7-a81a-9b96a0f54f45" testId="e993c393-d0b9-6209-c30e-332f8b6009eb" testName="UpdateColumns_BoardUpdateFails" computerName="TFSBUILD11" duration="00:00:00.0286904" startTime="2015-09-28T09:43:36.8284107-07:00" endTime="2015-09-28T09:43:36.8440368-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cacfb450-b228-41e7-a81a-9b96a0f54f45" />
+    <UnitTestResult executionId="e2d54834-01f0-4e13-b814-436c57e0763d" testId="344f44d1-42a7-2126-6d8e-3e5b0e386ff5" testName="UpdateColumns_BoardValidationFails" computerName="TFSBUILD11" duration="00:00:00.0380816" startTime="2015-09-28T09:43:36.8440368-07:00" endTime="2015-09-28T09:43:36.8909160-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2d54834-01f0-4e13-b814-436c57e0763d" />
+    <UnitTestResult executionId="25c263b9-a4d2-4127-ad82-e83df056eb2d" testId="d45aac95-b21e-b267-679e-435b5cbdabdb" testName="GetColumns_ByName" computerName="TFSBUILD11" duration="00:00:00.0302841" startTime="2015-09-28T09:43:36.8909160-07:00" endTime="2015-09-28T09:43:36.9221677-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25c263b9-a4d2-4127-ad82-e83df056eb2d" />
+    <UnitTestResult executionId="e6fa9b48-6267-492c-89d2-e48c44b30b70" testId="cc34f06d-3c26-5937-4e85-5d8cf241e7ec" testName="GetColumns_ById" computerName="TFSBUILD11" duration="00:00:00.0287299" startTime="2015-09-28T09:43:36.9221677-07:00" endTime="2015-09-28T09:43:36.9534202-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6fa9b48-6267-492c-89d2-e48c44b30b70" />
+    <UnitTestResult executionId="95ffc6d0-dcbb-4865-8a42-89ce930ccfc0" testId="8865cec7-d833-e89a-3ec8-5400f73da1ba" testName="GetColumns_BoardDoesNotExist" computerName="TFSBUILD11" duration="00:00:00.0287948" startTime="2015-09-28T09:43:36.9534202-07:00" endTime="2015-09-28T09:43:36.9846718-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95ffc6d0-dcbb-4865-8a42-89ce930ccfc0" />
+    <UnitTestResult executionId="120c38f4-bf10-4fa2-9ba8-7a1fd7aae74d" testId="027f7094-5ffd-1fa0-5d70-7b092335ed7a" testName="GetBoards" computerName="TFSBUILD11" duration="00:00:00.1843170" startTime="2015-09-28T09:43:36.9846718-07:00" endTime="2015-09-28T09:43:37.1565593-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="120c38f4-bf10-4fa2-9ba8-7a1fd7aae74d" />
+    <UnitTestResult executionId="c5b5d7c2-53ed-40cb-a6eb-d1a35e3f530c" testId="460bfe8f-f387-b2f5-da37-53de6710090b" testName="GetIndividualBoardById" computerName="TFSBUILD11" duration="00:00:00.0420280" startTime="2015-09-28T09:43:37.1565593-07:00" endTime="2015-09-28T09:43:37.2034380-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5b5d7c2-53ed-40cb-a6eb-d1a35e3f530c" />
+    <UnitTestResult executionId="4d2e15be-c9da-470f-9db6-7ef6c82ee038" testId="38f96d86-c1f5-ce29-74d8-bf4d9557c852" testName="GetIndividualBoardByName" computerName="TFSBUILD11" duration="00:00:00.0217753" startTime="2015-09-28T09:43:37.2034380-07:00" endTime="2015-09-28T09:43:37.2190638-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d2e15be-c9da-470f-9db6-7ef6c82ee038" />
+    <UnitTestResult executionId="bc5c9930-ed07-4e4e-b74d-b0d22cc709f9" testId="e9e51bd1-0869-aabf-58a1-7371a4bc763d" testName="BoardNotFoundByNameFromDB" computerName="TFSBUILD11" duration="00:00:00.0214510" startTime="2015-09-28T09:43:37.2190638-07:00" endTime="2015-09-28T09:43:37.2503157-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc5c9930-ed07-4e4e-b74d-b0d22cc709f9" />
+    <UnitTestResult executionId="832ab202-73b1-4714-bb90-751ba7648f98" testId="3c277845-4b85-d1ab-1cd4-171ff261baf5" testName="BoardNotFoundByNameFromConfig" computerName="TFSBUILD11" duration="00:00:00.0201818" startTime="2015-09-28T09:43:37.2503157-07:00" endTime="2015-09-28T09:43:37.2659424-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="832ab202-73b1-4714-bb90-751ba7648f98" />
+    <UnitTestResult executionId="ba84d0b0-3524-45d7-bd3e-0a3cc47e1207" testId="d4032b75-ba43-6121-6f5a-b5990cdf9218" testName="BoardNotFoundByGuid" computerName="TFSBUILD11" duration="00:00:00.0204654" startTime="2015-09-28T09:43:37.2659424-07:00" endTime="2015-09-28T09:43:37.2971943-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba84d0b0-3524-45d7-bd3e-0a3cc47e1207" />
+    <UnitTestResult executionId="c2619e67-2eb8-4749-bd12-daf03e3aa2e7" testId="fd88f309-e66b-936b-1682-0237d52d09b9" testName="GetCapacities" computerName="TFSBUILD11" duration="00:00:00.4817768" startTime="2015-09-28T09:43:37.2971943-07:00" endTime="2015-09-28T09:43:37.7659788-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2619e67-2eb8-4749-bd12-daf03e3aa2e7" />
+    <UnitTestResult executionId="a3ba40ed-37eb-4b62-9f02-570aab0e40ed" testId="b185f1ff-5234-4c51-1711-b2fd9597cf84" testName="GetCapacitiesBadIterationId" computerName="TFSBUILD11" duration="00:00:00.0749338" startTime="2015-09-28T09:43:37.7659788-07:00" endTime="2015-09-28T09:43:37.8441085-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3ba40ed-37eb-4b62-9f02-570aab0e40ed" />
+    <UnitTestResult executionId="e22e8308-3dd9-45a4-8e9f-b6a064b512e1" testId="2a652269-f72a-c8b6-30fe-8b3e94675e98" testName="ReplaceCapacities" computerName="TFSBUILD11" duration="00:00:00.0938531" startTime="2015-09-28T09:43:37.8441085-07:00" endTime="2015-09-28T09:43:37.9378652-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e22e8308-3dd9-45a4-8e9f-b6a064b512e1" />
+    <UnitTestResult executionId="bc4291c2-6efa-4ff7-91b0-34b648f804b5" testId="aa015d82-74cd-2967-f813-3bf2124f5d17" testName="ReplaceCapacitiesBadIterationId" computerName="TFSBUILD11" duration="00:00:00.0732002" startTime="2015-09-28T09:43:37.9378652-07:00" endTime="2015-09-28T09:43:38.0159957-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc4291c2-6efa-4ff7-91b0-34b648f804b5" />
+    <UnitTestResult executionId="fa653013-7ddf-4d24-999a-32e3b3b73616" testId="0fad8e0a-0703-366d-81d6-f04b4776db90" testName="ReplaceCapacitiesIsNull" computerName="TFSBUILD11" duration="00:00:00.0827324" startTime="2015-09-28T09:43:38.0159957-07:00" endTime="2015-09-28T09:43:38.0941269-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa653013-7ddf-4d24-999a-32e3b3b73616" />
+    <UnitTestResult executionId="d1b141e3-9178-4c9d-8939-85c214ef5a48" testId="e1222bf4-e73e-88ab-7695-b380beb4bac3" testName="ReplaceCapacitiesTeamMemberNotExist" computerName="TFSBUILD11" startTime="2015-09-28T09:43:38.0941269-07:00" endTime="2015-09-28T09:43:38.0941269-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1b141e3-9178-4c9d-8939-85c214ef5a48" />
+    <UnitTestResult executionId="7af270eb-b80a-4d82-bfdf-c5bed36c27e0" testId="f39e5467-ae2a-a886-a874-ccd3d4ef42fc" testName="GetCapacity" computerName="TFSBUILD11" duration="00:00:00.0817019" startTime="2015-09-28T09:43:38.0941269-07:00" endTime="2015-09-28T09:43:38.1722568-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7af270eb-b80a-4d82-bfdf-c5bed36c27e0" />
+    <UnitTestResult executionId="98c8ca06-bdee-44f1-80ac-736297caa322" testId="5194dd4d-a756-0c1e-853f-fdde731eec08" testName="GetCapacityBadIterationId" computerName="TFSBUILD11" duration="00:00:00.0796585" startTime="2015-09-28T09:43:38.1722568-07:00" endTime="2015-09-28T09:43:38.2660132-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98c8ca06-bdee-44f1-80ac-736297caa322" />
+    <UnitTestResult executionId="879f0677-f15a-4842-987c-7b8dcd463eaa" testId="6b87fa09-4a5f-8712-7622-db71aa92a7c6" testName="GetCapacityBadTeamMemberId" computerName="TFSBUILD11" duration="00:00:00.0803494" startTime="2015-09-28T09:43:38.2660132-07:00" endTime="2015-09-28T09:43:38.3441438-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="879f0677-f15a-4842-987c-7b8dcd463eaa" />
+    <UnitTestResult executionId="770aa3d2-1d80-4432-a92c-17c037646947" testId="77be053c-5c49-d994-317e-4f45dc09bd94" testName="UpdateCapacity" computerName="TFSBUILD11" duration="00:00:00.0950051" startTime="2015-09-28T09:43:38.3441438-07:00" endTime="2015-09-28T09:43:38.4379010-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="770aa3d2-1d80-4432-a92c-17c037646947" />
+    <UnitTestResult executionId="270e1563-da18-4b50-bea3-1b57a79cec53" testId="19225f92-34da-c42e-1453-8e066cef966b" testName="PatchCapacityActivityOnly" computerName="TFSBUILD11" duration="00:00:00.0778170" startTime="2015-09-28T09:43:38.4379010-07:00" endTime="2015-09-28T09:43:38.5160313-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="270e1563-da18-4b50-bea3-1b57a79cec53" />
+    <UnitTestResult executionId="0766493c-27ea-4d21-a82b-a9e90e3d940d" testId="97713f9f-5258-8ed6-068b-0e089b7728a0" testName="PatchCapacityMissingActivity" computerName="TFSBUILD11" duration="00:00:00.0907276" startTime="2015-09-28T09:43:38.5160313-07:00" endTime="2015-09-28T09:43:38.6097885-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0766493c-27ea-4d21-a82b-a9e90e3d940d" />
+    <UnitTestResult executionId="f0035f7f-a022-4f75-be67-1dcb399fd524" testId="8e8d6c16-63b1-602c-f90a-d7632942d7bb" testName="PatchCapacityMissingCapacityPerDay" computerName="TFSBUILD11" duration="00:00:00.0790776" startTime="2015-09-28T09:43:38.6097885-07:00" endTime="2015-09-28T09:43:38.6879182-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f0035f7f-a022-4f75-be67-1dcb399fd524" />
+    <UnitTestResult executionId="74f4b1b7-c75a-447c-88d3-b8146869ab86" testId="9ecafd97-c392-86f4-e4db-b59955049c29" testName="PatchCapacityDaysOffOnly" computerName="TFSBUILD11" duration="00:00:00.0814311" startTime="2015-09-28T09:43:38.6879182-07:00" endTime="2015-09-28T09:43:38.7660491-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74f4b1b7-c75a-447c-88d3-b8146869ab86" />
+    <UnitTestResult executionId="e47738d2-4db4-4ec8-8ff3-3a7a34e9f084" testId="b1ce611f-db63-c1cc-36ba-87d7c5dd059b" testName="PatchCapacityDaysOffInvalid" computerName="TFSBUILD11" startTime="2015-09-28T09:43:38.7660491-07:00" endTime="2015-09-28T09:43:38.7660491-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e47738d2-4db4-4ec8-8ff3-3a7a34e9f084" />
+    <UnitTestResult executionId="ebd8fc98-6fb4-4cd4-b727-0dc0acf04433" testId="2fcb610e-a614-7569-90b4-d60df4331f8e" testName="PatchCapacityBadIterationId" computerName="TFSBUILD11" duration="00:00:00.0859307" startTime="2015-09-28T09:43:38.7660491-07:00" endTime="2015-09-28T09:43:38.8441796-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ebd8fc98-6fb4-4cd4-b727-0dc0acf04433" />
+    <UnitTestResult executionId="6001ee15-7dd0-4de0-8924-b03afbf76780" testId="f382a944-28d2-95b7-c719-b5184eae3dde" testName="PatchCapacityNoData" computerName="TFSBUILD11" duration="00:00:00.0803024" startTime="2015-09-28T09:43:38.8441796-07:00" endTime="2015-09-28T09:43:38.9379366-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6001ee15-7dd0-4de0-8924-b03afbf76780" />
+    <UnitTestResult executionId="8c1b26a7-e496-4569-b8cc-1f6317db67f4" testId="377c2a02-33fc-f383-16ee-a6fce963e959" testName="PatchCapacityNoCapacityData" computerName="TFSBUILD11" duration="00:00:00.0865502" startTime="2015-09-28T09:43:38.9379366-07:00" endTime="2015-09-28T09:43:39.0160668-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c1b26a7-e496-4569-b8cc-1f6317db67f4" />
+    <UnitTestResult executionId="5d557ef1-bef4-491d-9b8e-065f6daf97a7" testId="ddc248eb-bc1f-87a3-3441-30166fba0a3f" testName="PatchCapacityMoreThanOneCapacityData" computerName="TFSBUILD11" duration="00:00:00.0875134" startTime="2015-09-28T09:43:39.0160668-07:00" endTime="2015-09-28T09:43:39.1098241-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d557ef1-bef4-491d-9b8e-065f6daf97a7" />
+    <UnitTestResult executionId="5528c634-99c0-475d-96e6-b91ece35e5be" testId="0a0af5da-8a58-e5bc-1aab-5184fb734f3d" testName="PatchCapacityTeamMemberNotFound" computerName="TFSBUILD11" startTime="2015-09-28T09:43:39.1098241-07:00" endTime="2015-09-28T09:43:39.1098241-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5528c634-99c0-475d-96e6-b91ece35e5be" />
+    <UnitTestResult executionId="7e2a7d91-d56d-4f50-a20e-3d75122099a9" testId="712d2edb-904d-73cd-91bc-ad8b029b5f1d" testName="GetTeamIterations" computerName="TFSBUILD11" duration="00:00:00.2819333" startTime="2015-09-28T09:43:39.1098241-07:00" endTime="2015-09-28T09:43:39.3910932-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e2a7d91-d56d-4f50-a20e-3d75122099a9" />
+    <UnitTestResult executionId="0a9c3572-0e88-4f62-a995-02ef604c895d" testId="48b0debc-6b4c-6b94-fb1d-ba692e125c66" testName="GetCurrentTeamIteration" computerName="TFSBUILD11" duration="00:00:00.1564191" startTime="2015-09-28T09:43:39.3910932-07:00" endTime="2015-09-28T09:43:39.5473541-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a9c3572-0e88-4f62-a995-02ef604c895d" />
+    <UnitTestResult executionId="a1c518e9-19a6-4ce4-8b92-088da52c6ed0" testId="ed2d6bf6-a4cc-0349-c9f9-473bc416791a" testName="GetCurrentTeamIterationWithNoCurrentIteration" computerName="TFSBUILD11" duration="00:00:00.0797000" startTime="2015-09-28T09:43:39.5473541-07:00" endTime="2015-09-28T09:43:39.6254849-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1c518e9-19a6-4ce4-8b92-088da52c6ed0" />
+    <UnitTestResult executionId="632361df-874b-4887-863a-188f7e61275a" testId="ef155c0b-7d5a-b866-b71e-422603080be7" testName="GetTeamIteration" computerName="TFSBUILD11" duration="00:00:01.5152220" startTime="2015-09-28T09:43:39.6254849-07:00" endTime="2015-09-28T09:43:41.1412180-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="632361df-874b-4887-863a-188f7e61275a" />
+    <UnitTestResult executionId="5ffa92ae-eab9-41f1-985b-ae8cecff33fc" testId="f9ff8273-ebbe-ded7-d0c1-525f3dcae411" testName="GetTeamIterationNotFound" computerName="TFSBUILD11" duration="00:00:00.0912888" startTime="2015-09-28T09:43:41.1412180-07:00" endTime="2015-09-28T09:43:41.2349752-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ffa92ae-eab9-41f1-985b-ae8cecff33fc" />
+    <UnitTestResult executionId="cb23e1c5-24f8-403e-a0ef-d0bdca91fb64" testId="630edf4a-d65a-5879-35b2-2f12a5c040dd" testName="PostTeamIteration" computerName="TFSBUILD11" duration="00:00:00.1085338" startTime="2015-09-28T09:43:41.2349752-07:00" endTime="2015-09-28T09:43:41.3443568-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb23e1c5-24f8-403e-a0ef-d0bdca91fb64" />
+    <UnitTestResult executionId="745db1b1-aac7-4ebe-8885-8e7b5d0c38db" testId="92085dea-677d-e586-11cf-9d02446f6fa7" testName="PostTeamIterationNotFound" computerName="TFSBUILD11" duration="00:00:00.0840463" startTime="2015-09-28T09:43:41.3443568-07:00" endTime="2015-09-28T09:43:41.4224888-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="745db1b1-aac7-4ebe-8885-8e7b5d0c38db" />
+    <UnitTestResult executionId="3f02f86e-a0b1-4315-98f2-e1f4655137b3" testId="5aaaf631-6e56-1d59-14b6-f851b92a5f66" testName="DeleteTeamIteration" computerName="TFSBUILD11" duration="00:00:00.0868762" startTime="2015-09-28T09:43:41.4224888-07:00" endTime="2015-09-28T09:43:41.5162446-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f02f86e-a0b1-4315-98f2-e1f4655137b3" />
+    <UnitTestResult executionId="7829f861-e273-475c-b5f4-cc6dcc2df7ca" testId="4fccc088-0599-3bfc-4080-6edf9436963b" testName="EnsureDeleteTeamIterationIsIdempotent" computerName="TFSBUILD11" duration="00:00:00.0760799" startTime="2015-09-28T09:43:41.5162446-07:00" endTime="2015-09-28T09:43:41.5943757-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7829f861-e273-475c-b5f4-cc6dcc2df7ca" />
+    <UnitTestResult executionId="49ec900d-b3e9-4278-b0ad-1990dd6fc6de" testId="1c625f7c-6b0f-5781-4b68-66c962d9d075" testName="TestGetTeamSettings" computerName="TFSBUILD11" duration="00:00:00.3454801" startTime="2015-09-28T09:43:41.5943757-07:00" endTime="2015-09-28T09:43:41.9381496-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49ec900d-b3e9-4278-b0ad-1990dd6fc6de" />
+    <UnitTestResult executionId="db8e0a4e-bcc0-4091-a7ed-c58cc2b5089e" testId="75426072-759a-5123-b856-c4a9cb31847b" testName="TestPatchTeamSettings" computerName="TFSBUILD11" duration="00:00:00.0255342" startTime="2015-09-28T09:43:41.9381496-07:00" endTime="2015-09-28T09:43:41.9537754-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db8e0a4e-bcc0-4091-a7ed-c58cc2b5089e" />
+    <UnitTestResult executionId="af51c01b-5163-4d22-9d3f-f464ed71e95c" testId="0f4e8668-bb8f-3806-af30-5c746042939b" testName="GetTeamFieldValues" computerName="TFSBUILD11" duration="00:00:00.3871321" startTime="2015-09-28T09:43:41.9537754-07:00" endTime="2015-09-28T09:43:42.3444285-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af51c01b-5163-4d22-9d3f-f464ed71e95c" />
+    <UnitTestResult executionId="800b7525-90ce-43a7-b548-035363e34e27" testId="3e312a4c-057c-e375-8ccc-4537fe5c3815" testName="GetTeamFieldValuesNonAreaPath" computerName="TFSBUILD11" duration="00:00:00.0811606" startTime="2015-09-28T09:43:42.3444285-07:00" endTime="2015-09-28T09:43:42.4225585-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="800b7525-90ce-43a7-b548-035363e34e27" />
+    <UnitTestResult executionId="3ec406ff-4d9c-4c93-b4d4-e837bb0771e5" testId="bf931903-5e06-cd1a-19dd-4ea50750192c" testName="PatchTeamFieldValues" computerName="TFSBUILD11" duration="00:00:00.0993994" startTime="2015-09-28T09:43:42.4225585-07:00" endTime="2015-09-28T09:43:42.5319418-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ec406ff-4d9c-4c93-b4d4-e837bb0771e5" />
+    <UnitTestResult executionId="05737020-7bd6-4a23-8f0c-cea8f378570b" testId="219d8438-5369-2d06-905c-06d7a228afaa" testName="PatchTeamFieldValuesMissingDefaultValue" computerName="TFSBUILD11" duration="00:00:00.0835405" startTime="2015-09-28T09:43:42.5319418-07:00" endTime="2015-09-28T09:43:42.6100721-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05737020-7bd6-4a23-8f0c-cea8f378570b" />
+    <UnitTestResult executionId="e13e5d32-8ebd-49bd-abdd-f9ede55dba9c" testId="3d46507c-8565-c6dd-e181-72b90e3dc2e7" testName="PatchTeamFieldValuesMissingValues" computerName="TFSBUILD11" duration="00:00:00.0763859" startTime="2015-09-28T09:43:42.6100721-07:00" endTime="2015-09-28T09:43:42.6882030-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e13e5d32-8ebd-49bd-abdd-f9ede55dba9c" />
+    <UnitTestResult executionId="27522c56-ef96-4f7d-8f2a-523fc7dc780f" testId="081611bb-d359-5a05-552d-340afa29f161" testName="PatchTeamFieldValuesValuesEmpty" computerName="TFSBUILD11" duration="00:00:00.1107382" startTime="2015-09-28T09:43:42.6882030-07:00" endTime="2015-09-28T09:43:42.7975857-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27522c56-ef96-4f7d-8f2a-523fc7dc780f" />
+    <UnitTestResult executionId="7b2355eb-af85-4845-863f-0f5023e65686" testId="d8dc81bd-de9a-9458-2ba2-6b9e2f6f9df7" testName="PatchTeamFieldValuesNoData" computerName="TFSBUILD11" duration="00:00:00.0818541" startTime="2015-09-28T09:43:42.7975857-07:00" endTime="2015-09-28T09:43:42.8757160-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b2355eb-af85-4845-863f-0f5023e65686" />
+    <UnitTestResult executionId="6a732a3b-d684-4d61-9f61-7968b755b088" testId="e7aa4207-a571-f1a2-edf4-35c11d3f13e8" testName="PatchTeamFieldValuesDefaultValueNotFound" computerName="TFSBUILD11" duration="00:00:00.0819545" startTime="2015-09-28T09:43:42.8757160-07:00" endTime="2015-09-28T09:43:42.9694732-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a732a3b-d684-4d61-9f61-7968b755b088" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="GetTeamDaysOff" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="31d59e23-694c-6019-49da-0ba0b8a9aa9b">
+      <Execution id="495fb94f-fb50-42fa-9590-ec1c9fe97eb5" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Agile.Web.L0.Tests.ControllersTest.TeamSettingsTeamDaysOffApiControllerTests" name="GetTeamDaysOff" />
+    </UnitTest>
+    <UnitTest name="GetTeamDaysOffWithInvalidIterationId" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="442bf967-bde7-d596-662f-eabde0241814">
+      <Execution id="131de204-c2d3-43a3-84b5-0f50ac20ab47" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Agile.Web.L0.Tests.ControllersTest.TeamSettingsTeamDaysOffApiControllerTests" name="GetTeamDaysOffWithInvalidIterationId" />
+    </UnitTest>
+    <UnitTest name="UpdateBoardCardRulesRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="f774d5dd-52ff-dfe6-6665-31de9cf2877b">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="3e505638-cb42-4856-b055-228376e405ea" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.BoardCardRulesRoutesTest" name="UpdateBoardCardRulesRouting" />
+    </UnitTest>
+    <UnitTest name="UpdateBoardCardRuleSettingsForDefaultTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="67919514-f219-6d85-d73d-64aedf975942">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="90e1ae28-5639-4b65-aa23-5774bcb8db4f" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.BoardCardRulesRoutesTest" name="UpdateBoardCardRuleSettingsForDefaultTeamRouting" />
+    </UnitTest>
+    <UnitTest name="VerifyBoardCardRuleSettingsAndBoardColumnVersion" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="0a429744-7694-5edd-f4e4-66e91539d1e7">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="91fd280f-5684-44d1-a412-794fd724dcc6" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.BoardCardRulesRoutesTest" name="VerifyBoardCardRuleSettingsAndBoardColumnVersion" />
+    </UnitTest>
+    <UnitTest name="UpdateBoardCardSettingsRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="d012fcea-6172-88fc-5597-f6bc0f76947a">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="5ca3e229-bb59-4dfb-934e-7fe88e488cc7" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.BoardCardSettingsRoutesTest" name="UpdateBoardCardSettingsRouting" />
+    </UnitTest>
+    <UnitTest name="UpdateBoardCardSettingsForDefaultTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="9060120b-c68f-5c06-e69e-d8a2d21f8360">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="92a0cb89-61ac-4dea-b860-c883b0f4ed33" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.BoardCardSettingsRoutesTest" name="UpdateBoardCardSettingsForDefaultTeamRouting" />
+    </UnitTest>
+    <UnitTest name="VerifyBoardCardSettingsAndBoardColumnVersion" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="ac42bcff-a2ce-9d19-c5de-59a5b63723df">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="8d244e45-a6d2-43c4-b4b0-e6a9a75b2741" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.BoardCardSettingsRoutesTest" name="VerifyBoardCardSettingsAndBoardColumnVersion" />
+    </UnitTest>
+    <UnitTest name="GetBoardChartsWithTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="31ded74e-6506-b1dd-ecd3-21a337efc791">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="8d90a69f-d109-4e5a-81f1-1d2760576082" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.BoardChartRoutesTest" name="GetBoardChartsWithTeamRouting" />
+    </UnitTest>
+    <UnitTest name="GeBoardChartsWithDefaultTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="992abff4-b6a0-0a57-4606-11ee45cc52fa">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="f011d062-b788-46cc-b7a7-a7458c0066d3" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.BoardChartRoutesTest" name="GeBoardChartsWithDefaultTeamRouting" />
+    </UnitTest>
+    <UnitTest name="GetSpecificBoardChartWithTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="b757686e-78c1-79de-1efc-8ed6a7af8d3b">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="52e5eb73-22ea-4c05-93db-f5c57e81f448" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.BoardChartRoutesTest" name="GetSpecificBoardChartWithTeamRouting" />
+    </UnitTest>
+    <UnitTest name="GetSpecificBoardChartWithDefaultTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="fc11ad29-577d-8a0a-f7cd-db5d20e256c4">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="a0c59e85-a505-4318-a354-a856db3163ef" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.BoardChartRoutesTest" name="GetSpecificBoardChartWithDefaultTeamRouting" />
+    </UnitTest>
+    <UnitTest name="UpdateBoardChartSettingsRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="1522d37c-5f3f-c0a7-538a-050d96b071c6">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="1662146c-49b7-4ba7-820d-17c59f304910" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.BoardChartRoutesTest" name="UpdateBoardChartSettingsRouting" />
+    </UnitTest>
+    <UnitTest name="UpdateBoardChartSettingsForDefaultTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="3cae1f48-84f2-cac7-faf1-0a4fec09ed0e">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="1e7204d5-5a79-4e16-b393-8ab5e6c36e79" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.BoardChartRoutesTest" name="UpdateBoardChartSettingsForDefaultTeamRouting" />
+    </UnitTest>
+    <UnitTest name="GetBoardColumnSuggestedValues" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="dd6ac1a8-5921-0778-4aed-bbf82cad4574">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="3be3f85e-7b67-453e-9f00-f95df849e1b6" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.BoardSuggestedValueRoutesTest" name="GetBoardColumnSuggestedValues" />
+    </UnitTest>
+    <UnitTest name="GetBoardRowSuggestedValues" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="f154ba00-3f29-91bc-4756-4568b8a4ac77">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="4a40cc16-689a-426e-9931-bbebbf522024" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.BoardSuggestedValueRoutesTest" name="GetBoardRowSuggestedValues" />
+    </UnitTest>
+    <UnitTest name="UpdateBoardRowSettingsRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="5acf29b3-9389-b81b-f660-e5941ceacddf">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="3f64b988-7f03-4492-9055-ba2a34517b23" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.BoardRowRoutesTest" name="UpdateBoardRowSettingsRouting" />
+    </UnitTest>
+    <UnitTest name="UpdateBoardRowSettingsForDefaultTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="fea00926-b0b1-82fd-baba-39b81b28ba25">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="78f7b70e-285d-4508-af7c-924dd3613ce4" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.BoardRowRoutesTest" name="UpdateBoardRowSettingsForDefaultTeamRouting" />
+    </UnitTest>
+    <UnitTest name="UpdateBoardColumnSettingsRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="5cbfe690-7006-4a45-ef78-f18bc5e0af35">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="01422e40-1432-49cd-95f2-04c381cef425" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.BoardColumnRoutesTest" name="UpdateBoardColumnSettingsRouting" />
+    </UnitTest>
+    <UnitTest name="UpdateBoardColumnSettingsForDefaultTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="4ff1b195-6392-e762-5c27-596b0a52c535">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="3c422a48-cd2b-4a28-958f-57854501ffed" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.BoardColumnRoutesTest" name="UpdateBoardColumnSettingsForDefaultTeamRouting" />
+    </UnitTest>
+    <UnitTest name="GetBoardsWithTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="6944ecd6-48cf-9347-8ea3-a673b82b1c1d">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="90a3ac89-2ea0-4f28-b2b7-9e8602f716a4" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.BoardRoutesTest" name="GetBoardsWithTeamRouting" />
+    </UnitTest>
+    <UnitTest name="GetBoardsWithDefaultTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="3f0dad5d-5336-3824-4c89-60a99f33a439">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="caa3ce5f-ef93-458b-b429-9ced88830e88" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.BoardRoutesTest" name="GetBoardsWithDefaultTeamRouting" />
+    </UnitTest>
+    <UnitTest name="GetSpecificBoardWithTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="81f4aa29-e1ac-b8ff-15a6-054b16844e01">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="98d8007b-bd5d-42ca-8440-7396f4b5144e" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.BoardRoutesTest" name="GetSpecificBoardWithTeamRouting" />
+    </UnitTest>
+    <UnitTest name="GetSpecificBoardWithDefaultTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="e3c81434-c6eb-23df-c04e-938b1edc83d6">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="14a702ff-1ab4-4f3d-a252-fa091c55e587" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.BoardRoutesTest" name="GetSpecificBoardWithDefaultTeamRouting" />
+    </UnitTest>
+    <UnitTest name="GetTeamSettingssWithTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="2382b1f7-77e0-a96d-593d-99223f6c6b5b">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="6ad4fdb6-21bc-49b1-85b3-1ab7f248cfeb" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.TeamSettingsRouteTests" name="GetTeamSettingssWithTeamRouting" />
+    </UnitTest>
+    <UnitTest name="PatchTeamSettingssWithTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="e95be798-215a-5620-ce56-3ebb3b8f957a">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="d939a467-54a3-4ecf-8508-63a2a01f67a5" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.TeamSettingsRouteTests" name="PatchTeamSettingssWithTeamRouting" />
+    </UnitTest>
+    <UnitTest name="GetTeamFieldValuesWithTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="aee644e0-5669-89eb-fa70-16160d8bfa1c">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="12b26772-9d9a-48c4-8e86-c05d31e3fe3f" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.TeamSettingsRouteTests" name="GetTeamFieldValuesWithTeamRouting" />
+    </UnitTest>
+    <UnitTest name="GetTeamFieldValuesWithDefaultTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="4b93076f-63be-7e0c-654e-298fa08d8405">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="75b46737-4d5d-4d2f-a635-56d4aeee9c65" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.TeamSettingsRouteTests" name="GetTeamFieldValuesWithDefaultTeamRouting" />
+    </UnitTest>
+    <UnitTest name="PatchTeamFieldValuesWithTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="f488fe97-1de7-78a9-03e0-9adb5d388b9f">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="e4ce45e9-c90a-42a6-911f-3c22c56fcf6c" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.TeamSettingsRouteTests" name="PatchTeamFieldValuesWithTeamRouting" />
+    </UnitTest>
+    <UnitTest name="PatchTeamFieldValuesWithDefaultTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="bee2e645-57c8-846f-daa8-f9118ac2d06c">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="54c063f1-c178-47e4-8833-97dea827ea5a" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.TeamSettingsRouteTests" name="PatchTeamFieldValuesWithDefaultTeamRouting" />
+    </UnitTest>
+    <UnitTest name="GetTeamIterationsWithTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="0390ae7c-da85-3193-2ff5-030c7ce5ca97">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="eaa092fe-3744-41ce-b945-b2633874d446" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.TeamSettingsRouteTests" name="GetTeamIterationsWithTeamRouting" />
+    </UnitTest>
+    <UnitTest name="GetTeamIterationsWithDefaultTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="1626e321-46a8-d33a-5173-ef6d9e9098b2">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="a94f7ddb-98c3-4be6-82e3-ff81992de421" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.TeamSettingsRouteTests" name="GetTeamIterationsWithDefaultTeamRouting" />
+    </UnitTest>
+    <UnitTest name="GetSpecificTeamIterationWithTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="9945bace-2728-66a6-eb5f-92cccc061769">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="3543a54c-ff79-4202-a2ce-9589a5e93460" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.TeamSettingsRouteTests" name="GetSpecificTeamIterationWithTeamRouting" />
+    </UnitTest>
+    <UnitTest name="GetSpecificTeamIterationWithDefaultTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="3e1efbc1-20f0-b75f-ac4d-6f98db9379d5">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="3b17769f-6f80-4c01-b692-4a8245d8b7d0" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.TeamSettingsRouteTests" name="GetSpecificTeamIterationWithDefaultTeamRouting" />
+    </UnitTest>
+    <UnitTest name="GetTeamDaysOffWithTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="58a58f59-e3c4-ed67-d090-4d98ba3e06b2">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="278d9b47-197c-46c0-b8c5-4503f109276f" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.TeamSettingsRouteTests" name="GetTeamDaysOffWithTeamRouting" />
+    </UnitTest>
+    <UnitTest name="PostTeamIterationsWithTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="c9657f94-81e7-4b11-d48d-a7b2f6d791d3">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="8ad171dd-d941-4f2b-9a9f-b812d4b1b90d" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.TeamSettingsRouteTests" name="PostTeamIterationsWithTeamRouting" />
+    </UnitTest>
+    <UnitTest name="PostTeamIterationsWithDefaultTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="82d78faa-f899-66fe-b06c-7ee9d9800c4c">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="723a086f-4975-4063-8376-475d4c13bfa9" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.TeamSettingsRouteTests" name="PostTeamIterationsWithDefaultTeamRouting" />
+    </UnitTest>
+    <UnitTest name="DeleteTeamIterationsWithTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="142c5f67-6a37-2f3b-4929-609983eec37a">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="cc33c895-926d-4ebf-893c-76a20e574adf" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.TeamSettingsRouteTests" name="DeleteTeamIterationsWithTeamRouting" />
+    </UnitTest>
+    <UnitTest name="DeleteTeamIterationsWithDefaultTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="f28b5418-1c7c-382b-9106-2a6c7f39874d">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="f6d8ff02-067e-44e8-8ab7-68d508861139" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.TeamSettingsRouteTests" name="DeleteTeamIterationsWithDefaultTeamRouting" />
+    </UnitTest>
+    <UnitTest name="GetCapacitiesWithTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="f0a1585d-ca57-e9a2-971b-aaef34ed8848">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="d1bcaa68-ca74-4ed8-896b-7784b0925cfa" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.TeamSettingsRouteTests" name="GetCapacitiesWithTeamRouting" />
+    </UnitTest>
+    <UnitTest name="GetCapacitiesWithDefaultTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="b9961ddc-cf37-2723-8998-4e16eef8d032">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="c203f3da-b4e8-46f5-b942-ee76e40c0879" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.TeamSettingsRouteTests" name="GetCapacitiesWithDefaultTeamRouting" />
+    </UnitTest>
+    <UnitTest name="GetCapacityWithTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="64e8f007-a81d-710a-6cec-e39c7851c044">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="6325d9b8-f515-4477-8335-17f7e334cb61" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.TeamSettingsRouteTests" name="GetCapacityWithTeamRouting" />
+    </UnitTest>
+    <UnitTest name="GetCapacityWithDefaultTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="ab344dd4-b851-3c88-1248-5541cbc0cf09">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="abec3eb0-5b29-404f-a599-b99de7c3ccb0" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.TeamSettingsRouteTests" name="GetCapacityWithDefaultTeamRouting" />
+    </UnitTest>
+    <UnitTest name="PatchCapacityWithTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="419de113-c4cf-d38d-14d7-0b360b074ed0">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="28ad75d2-ce88-4f14-9532-5e7641d776fb" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.TeamSettingsRouteTests" name="PatchCapacityWithTeamRouting" />
+    </UnitTest>
+    <UnitTest name="PatchCapacityWithDefaultTeamRouting" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="452c430a-ffb5-a3b9-78e8-f6d3c511bc68">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="9592fef3-f0ab-4de5-a790-5de0879a0749" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.RoutesTest.TeamSettingsRouteTests" name="PatchCapacityWithDefaultTeamRouting" />
+    </UnitTest>
+    <UnitTest name="GetTeamSettingPropertyInBoolean" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="7cf28076-9e92-fcc0-df47-6efc576591ed">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="8bfbf83a-63f2-4205-b138-99905aefcede" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.UtilsTest.TeamSettingUtilTests" name="GetTeamSettingPropertyInBoolean" />
+    </UnitTest>
+    <UnitTest name="GetTeamSettingPropertyInDateTime" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="faa36999-e7be-c9b1-98c8-c8f63cb90130">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="3fa58410-9f8e-4552-82e2-31bfbd58b24b" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.UtilsTest.TeamSettingUtilTests" name="GetTeamSettingPropertyInDateTime" />
+    </UnitTest>
+    <UnitTest name="SaveTeamSettingPropertyInDateTime" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="1222102c-dc35-e84e-94c7-02786d5c6aba">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="08c3826f-d08e-4e55-847d-9aae9feac7ec" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.UtilsTest.TeamSettingUtilTests" name="SaveTeamSettingPropertyInDateTime" />
+    </UnitTest>
+    <UnitTest name="SaveTeamSettingPropertyInDateTime_exceptions" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="e1fb2995-5a01-5afe-ee0d-3857e6df7196">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="35dc22ae-4b5d-40bf-a3ba-78370d1dcd2c" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.UtilsTest.TeamSettingUtilTests" name="SaveTeamSettingPropertyInDateTime_exceptions" />
+    </UnitTest>
+    <UnitTest name="SaveTeamSettingPropertyInBoolean" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="20e49ee0-8584-3bcf-d5c6-90bea9ab6126">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="7ea616ef-7596-4de0-82a9-0bb1cff7ccc5" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.UtilsTest.TeamSettingUtilTests" name="SaveTeamSettingPropertyInBoolean" />
+    </UnitTest>
+    <UnitTest name="SaveTeamSettingPropertyInBoolean_exceptions" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="2b4fbe9b-8644-f8b3-9501-8f36ac3af5ef">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="d5a8f00e-32db-40f9-b61d-dac3d1cf11b2" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.UtilsTest.TeamSettingUtilTests" name="SaveTeamSettingPropertyInBoolean_exceptions" />
+    </UnitTest>
+    <UnitTest name="CalculateBoardColumnSettingsChange_NoChange" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="d8ed99ee-df5b-8cb9-1fd5-3d851041b0d9">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="964bfd68-f854-4fc3-8cc6-52c0a3f2239d" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.UtilsTest.TelemetryUtilTests" name="CalculateBoardColumnSettingsChange_NoChange" />
+    </UnitTest>
+    <UnitTest name="CalculateBoardColumnSettingsChange_GeneralUpdates" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="50e7b889-058e-3da1-5f82-d587f279b696">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="9be4f9f0-9583-41fc-8407-30263fcefdef" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.UtilsTest.TelemetryUtilTests" name="CalculateBoardColumnSettingsChange_GeneralUpdates" />
+    </UnitTest>
+    <UnitTest name="CalculateBoardColumnSettingsChange_StateMappingUpdates" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="208d7534-dec3-1a30-6ec8-d5afa41475ce">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="d32d1977-737d-4386-aab3-8e20f3c7fa1e" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.UtilsTest.TelemetryUtilTests" name="CalculateBoardColumnSettingsChange_StateMappingUpdates" />
+    </UnitTest>
+    <UnitTest name="CalculateBoardColumnSettingsChange_AddDeleteColumns" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="c7e77dec-144e-7645-3479-7a8c991f0d2f">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="68d058f1-93db-4872-89db-e0f1deda3dad" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.UtilsTest.TelemetryUtilTests" name="CalculateBoardColumnSettingsChange_AddDeleteColumns" />
+    </UnitTest>
+    <UnitTest name="CalculateBoardColumnSettingsChange_Reorder" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="e362cfd1-e9e5-58bc-4985-5e2598325f06">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="ff13e373-62f1-4cc2-894c-1ada016783d3" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.UtilsTest.TelemetryUtilTests" name="CalculateBoardColumnSettingsChange_Reorder" />
+    </UnitTest>
+    <UnitTest name="CalculateBoardColumnSettingsChange_NameFieldUpdates" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="8f721d42-aeeb-168f-af1a-506f91d3b598">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="3a6fc323-d922-4d49-a51c-6776555d7f08" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.UtilsTest.TelemetryUtilTests" name="CalculateBoardColumnSettingsChange_NameFieldUpdates" />
+    </UnitTest>
+    <UnitTest name="UpdateCardRules_GoodDay" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="17ce4002-2973-8d5e-5aae-bf24b8e53e72">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="25d87ab1-4121-432a-9805-677361c8c0b8" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardCardRuleSettingsApiControllerTests" name="UpdateCardRules_GoodDay" />
+    </UnitTest>
+    <UnitTest name="UpdateCardRules_BoardDoesNotExist" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="feebed48-f964-97b1-5ef9-6570b38252c5">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="98fe78ec-1e6e-4ad2-9bf7-2b2251201c10" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardCardRuleSettingsApiControllerTests" name="UpdateCardRules_BoardDoesNotExist" />
+    </UnitTest>
+    <UnitTest name="UpdateCardRules_InvalidWiql" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="babad391-66cd-ae6d-4328-ffd45228bc2b">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="586fb5b8-2b4d-4c45-87ea-7d38364a5a8a" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardCardRuleSettingsApiControllerTests" name="UpdateCardRules_InvalidWiql" />
+    </UnitTest>
+    <UnitTest name="UpdateCardRules_BoardCardRuleSettingsNull" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="a4f94ebb-cab8-24d2-83ca-39f9ab690add">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="e440550a-8d16-4080-b70f-59a911613345" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardCardRuleSettingsApiControllerTests" name="UpdateCardRules_BoardCardRuleSettingsNull" />
+    </UnitTest>
+    <UnitTest name="UpdateCardRules_BoardCardRulesNull" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="dbba6115-482d-1419-20ee-a22b9b651dcd">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="875c6ad4-e3dd-4fbe-a7a6-e00b0e688c03" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardCardRuleSettingsApiControllerTests" name="UpdateCardRules_BoardCardRulesNull" />
+    </UnitTest>
+    <UnitTest name="UpdateCardRules_BoardCardRulesSettingsNull" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="7ecd520b-e136-0b86-5f97-889bfd209b26">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="7f8e367f-53cf-46e2-8eab-8abf7a2fb1c7" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardCardRuleSettingsApiControllerTests" name="UpdateCardRules_BoardCardRulesSettingsNull" />
+    </UnitTest>
+    <UnitTest name="UpdateCardRules_BoardCardRulesBooleanNotTrueOrFalse" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="a2842071-48d3-3038-30c9-9dc6f14a3891">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="d8f420f7-613b-424f-b224-e1726a32c388" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardCardRuleSettingsApiControllerTests" name="UpdateCardRules_BoardCardRulesBooleanNotTrueOrFalse" />
+    </UnitTest>
+    <UnitTest name="UpdateCardRules_BoardCardRulesUpdateFail" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="00f12b97-ce62-ddd1-e11c-617dd0f965f2">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="4daad158-6c39-4ee2-898c-e55e60ccbb03" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardCardRuleSettingsApiControllerTests" name="UpdateCardRules_BoardCardRulesUpdateFail" />
+    </UnitTest>
+    <UnitTest name="GetCardRules_GoodDay" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="581d07d4-3d46-f764-8f48-d574f98fbf34">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="bb38788c-d33b-4f0f-8480-d4ba7fe13ef6" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardCardRuleSettingsApiControllerTests" name="GetCardRules_GoodDay" />
+    </UnitTest>
+    <UnitTest name="UpdateCards" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="069a98d6-edd5-e94a-12ea-238c38f635a1">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="0ef1d1ab-7ba9-46cd-8fef-7aa5bdc9754b" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardCardSettingsApiControllerTests" name="UpdateCards" />
+    </UnitTest>
+    <UnitTest name="UpdateCards_invalidBoardId" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="883c124c-fbe0-0a47-3d55-04fff15a0c47">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="14efa40b-ce52-4093-8df1-9fe06c8f6f9d" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardCardSettingsApiControllerTests" name="UpdateCards_invalidBoardId" />
+    </UnitTest>
+    <UnitTest name="UpdateCards_invalidInput" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="2d9c8891-62f1-aae8-1b89-63efd4dfaccc">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="5fa30338-982b-46ae-9d29-caf7f8c96b47" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardCardSettingsApiControllerTests" name="UpdateCards_invalidInput" />
+    </UnitTest>
+    <UnitTest name="GetBoardCharts" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="2b642713-0281-0279-25b3-478a339b2f66">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="fb7dab17-7561-4e88-9177-5954fe8259e2" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardChartsApiControllerTests" name="GetBoardCharts" />
+    </UnitTest>
+    <UnitTest name="GetIndividualChart_InvalidChart" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="22ff0f86-1c93-27b4-2da9-b929e5abe3f4">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="d647bc4d-2377-4848-94eb-a6ff83ca7aef" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardChartsApiControllerTests" name="GetIndividualChart_InvalidChart" />
+    </UnitTest>
+    <UnitTest name="GetIndividualChart" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="f966a865-33ab-5d7e-1bbc-8d0a0da58a24">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="dea51fba-77c1-4e6b-848b-1d5ea935099f" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardChartsApiControllerTests" name="GetIndividualChart" />
+    </UnitTest>
+    <UnitTest name="UpdateIndividualChart_NullInput" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="73df2174-0960-88a1-5e36-ef18817148bd">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="eef0f809-939d-43b1-b218-ca59ce4b53c8" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardChartsApiControllerTests" name="UpdateIndividualChart_NullInput" />
+    </UnitTest>
+    <UnitTest name="UpdateIndividualChart_InvalidChart" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="cb34ff08-f453-0a31-ae81-8e7e9fcb407b">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="bd53070d-3832-41a1-82b4-f34e3dfdccab" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardChartsApiControllerTests" name="UpdateIndividualChart_InvalidChart" />
+    </UnitTest>
+    <UnitTest name="UpdateCumulativeFlowChart_WithFutureDateException" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="b24c78b4-e9ed-c158-3511-0e25340031ed">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="12a45a96-f1fd-4206-b3c1-c5eeaa869c1a" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardChartsApiControllerTests" name="UpdateCumulativeFlowChart_WithFutureDateException" />
+    </UnitTest>
+    <UnitTest name="UpdateCumulativeFlowChartWithValidInputs" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="8f24fb5c-3315-3145-6c3f-a6d802bd539a">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="7ed1873f-95b7-41bf-b550-f9decd78181d" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardChartsApiControllerTests" name="UpdateCumulativeFlowChartWithValidInputs" />
+    </UnitTest>
+    <UnitTest name="UpdateCumulativeFlowChartWithNullSettings" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="da1c3cea-9d8d-9164-0407-5e5c37ea334d">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="2e7c4201-6a7b-498c-9a96-8e6baebd7a49" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardChartsApiControllerTests" name="UpdateCumulativeFlowChartWithNullSettings" />
+    </UnitTest>
+    <UnitTest name="UpdateCumulativeFlowChartWithInvalidInputs" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="d230f6f4-4e9f-3845-b5a4-b2da5d6e89da">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="52140a7c-547a-4cc3-8d99-b341a048756e" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardChartsApiControllerTests" name="UpdateCumulativeFlowChartWithInvalidInputs" />
+    </UnitTest>
+    <UnitTest name="UpdateCumulativeFlowChartWithEmptyInputs" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="cec05d66-3d88-fed4-a803-eb847fb58af1">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="4fa31af0-4314-4f54-acc3-538cd0a77931" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardChartsApiControllerTests" name="UpdateCumulativeFlowChartWithEmptyInputs" />
+    </UnitTest>
+    <UnitTest name="UpdateRows_GoodDay" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="98c0fa71-029e-42b1-d535-7238d55fad32">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="b5c11aa3-9f8f-4b89-9d95-53a052d84caa" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardRowsApiControllerTests" name="UpdateRows_GoodDay" />
+    </UnitTest>
+    <UnitTest name="UpdateRows_BoardDoesNotExist" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="a77fff34-2f86-e8cf-0a23-98d68df38afb">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="44203ec7-7173-472e-b901-cc2ee023608f" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardRowsApiControllerTests" name="UpdateRows_BoardDoesNotExist" />
+    </UnitTest>
+    <UnitTest name="UpdateRows_DeletedRowNotEmpty" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="9b0d98d6-30a7-4377-3078-dc74156ca131">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="60878604-d254-4e08-b7ff-eade1cd64d58" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardRowsApiControllerTests" name="UpdateRows_DeletedRowNotEmpty" />
+    </UnitTest>
+    <UnitTest name="UpdateRows_BoardUpdateFails" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="a9a097b0-62c3-c8a6-df24-d2d6b550bdbf">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="02e0bd5c-dce4-44ef-9904-3cebfd8bccee" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardRowsApiControllerTests" name="UpdateRows_BoardUpdateFails" />
+    </UnitTest>
+    <UnitTest name="UpdateRows_BoardValidationFails" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="149f682d-8a73-b4f6-5de4-2c04fdda5c0d">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="c8d88619-043d-4a25-9c88-4f9f7a8aea65" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardRowsApiControllerTests" name="UpdateRows_BoardValidationFails" />
+    </UnitTest>
+    <UnitTest name="UpdateRows_NullInput" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="37797036-b5e3-f6bf-d755-e3fc78684f01">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="b5fc93be-368a-43ec-9c07-d3eb9966c954" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardRowsApiControllerTests" name="UpdateRows_NullInput" />
+    </UnitTest>
+    <UnitTest name="GetRows_ByName" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="f3e5a6d5-a923-af0b-d938-5a1a266c00ee">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="45672e0b-fbf8-431d-83f5-c6e965ffe749" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardRowsApiControllerTests" name="GetRows_ByName" />
+    </UnitTest>
+    <UnitTest name="GetRows_ById" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="98d3e122-8b6a-6079-5777-059933e4b90d">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="78ba072b-ebac-4a38-8eb9-3f28221832c7" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardRowsApiControllerTests" name="GetRows_ById" />
+    </UnitTest>
+    <UnitTest name="GetRows_BoardDoesNotExist" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="127ca055-06ce-1d97-5fad-1eeaf2d3a795">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="1fa13b01-3b62-42b2-bb6c-30069c0d0d81" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardRowsApiControllerTests" name="GetRows_BoardDoesNotExist" />
+    </UnitTest>
+    <UnitTest name="UpdateColumns_GoodDay" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="4eea8cfe-839b-4fc3-2863-b3aadbaaab14">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="b69479bd-62ce-48fb-b415-9dccad5e20ab" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardColumnsApiControllerTests" name="UpdateColumns_GoodDay" />
+    </UnitTest>
+    <UnitTest name="UpdateColumns_BoardDoesNotExist" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="a003c9cb-3bb7-89f6-2d13-a33e8197e318">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="d0b9bf00-e550-44a0-a7f5-5dd41fbc7b4f" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardColumnsApiControllerTests" name="UpdateColumns_BoardDoesNotExist" />
+    </UnitTest>
+    <UnitTest name="UpdateColumns_NullInput" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="cb5f6988-e603-a150-6753-39466eeca3ce">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="e279bbfe-92a2-4c3d-9baf-ce1ec38c6a19" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardColumnsApiControllerTests" name="UpdateColumns_NullInput" />
+    </UnitTest>
+    <UnitTest name="UpdateColumns_DeletedColumnNotEmpty" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="8fe14731-3da1-dec7-14cf-511d3ebbd52f">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="c63c5964-cbb4-438e-9932-46770dc0c54b" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardColumnsApiControllerTests" name="UpdateColumns_DeletedColumnNotEmpty" />
+    </UnitTest>
+    <UnitTest name="UpdateColumns_BoardUpdateFails" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="e993c393-d0b9-6209-c30e-332f8b6009eb">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="cacfb450-b228-41e7-a81a-9b96a0f54f45" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardColumnsApiControllerTests" name="UpdateColumns_BoardUpdateFails" />
+    </UnitTest>
+    <UnitTest name="UpdateColumns_BoardValidationFails" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="344f44d1-42a7-2126-6d8e-3e5b0e386ff5">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="e2d54834-01f0-4e13-b814-436c57e0763d" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardColumnsApiControllerTests" name="UpdateColumns_BoardValidationFails" />
+    </UnitTest>
+    <UnitTest name="GetColumns_ByName" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="d45aac95-b21e-b267-679e-435b5cbdabdb">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="25c263b9-a4d2-4127-ad82-e83df056eb2d" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardColumnsApiControllerTests" name="GetColumns_ByName" />
+    </UnitTest>
+    <UnitTest name="GetColumns_ById" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="cc34f06d-3c26-5937-4e85-5d8cf241e7ec">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="e6fa9b48-6267-492c-89d2-e48c44b30b70" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardColumnsApiControllerTests" name="GetColumns_ById" />
+    </UnitTest>
+    <UnitTest name="GetColumns_BoardDoesNotExist" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="8865cec7-d833-e89a-3ec8-5400f73da1ba">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="95ffc6d0-dcbb-4865-8a42-89ce930ccfc0" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardColumnsApiControllerTests" name="GetColumns_BoardDoesNotExist" />
+    </UnitTest>
+    <UnitTest name="GetBoards" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="027f7094-5ffd-1fa0-5d70-7b092335ed7a">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="120c38f4-bf10-4fa2-9ba8-7a1fd7aae74d" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardsControllerTests" name="GetBoards" />
+    </UnitTest>
+    <UnitTest name="GetIndividualBoardById" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="460bfe8f-f387-b2f5-da37-53de6710090b">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="c5b5d7c2-53ed-40cb-a6eb-d1a35e3f530c" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardsControllerTests" name="GetIndividualBoardById" />
+    </UnitTest>
+    <UnitTest name="GetIndividualBoardByName" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="38f96d86-c1f5-ce29-74d8-bf4d9557c852">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="4d2e15be-c9da-470f-9db6-7ef6c82ee038" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardsControllerTests" name="GetIndividualBoardByName" />
+    </UnitTest>
+    <UnitTest name="BoardNotFoundByNameFromDB" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="e9e51bd1-0869-aabf-58a1-7371a4bc763d">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="bc5c9930-ed07-4e4e-b74d-b0d22cc709f9" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardsControllerTests" name="BoardNotFoundByNameFromDB" />
+    </UnitTest>
+    <UnitTest name="BoardNotFoundByNameFromConfig" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="3c277845-4b85-d1ab-1cd4-171ff261baf5">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="832ab202-73b1-4714-bb90-751ba7648f98" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardsControllerTests" name="BoardNotFoundByNameFromConfig" />
+    </UnitTest>
+    <UnitTest name="BoardNotFoundByGuid" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="d4032b75-ba43-6121-6f5a-b5990cdf9218">
+      <Owners>
+        <Owner name="vsokanban" />
+      </Owners>
+      <Execution id="ba84d0b0-3524-45d7-bd3e-0a3cc47e1207" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.BoardsControllerTests" name="BoardNotFoundByGuid" />
+    </UnitTest>
+    <UnitTest name="GetCapacities" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="fd88f309-e66b-936b-1682-0237d52d09b9">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="c2619e67-2eb8-4749-bd12-daf03e3aa2e7" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.CapacityApiControllerTests" name="GetCapacities" />
+    </UnitTest>
+    <UnitTest name="GetCapacitiesBadIterationId" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="b185f1ff-5234-4c51-1711-b2fd9597cf84">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="a3ba40ed-37eb-4b62-9f02-570aab0e40ed" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.CapacityApiControllerTests" name="GetCapacitiesBadIterationId" />
+    </UnitTest>
+    <UnitTest name="ReplaceCapacities" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="2a652269-f72a-c8b6-30fe-8b3e94675e98">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="e22e8308-3dd9-45a4-8e9f-b6a064b512e1" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.CapacityApiControllerTests" name="ReplaceCapacities" />
+    </UnitTest>
+    <UnitTest name="ReplaceCapacitiesBadIterationId" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="aa015d82-74cd-2967-f813-3bf2124f5d17">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="bc4291c2-6efa-4ff7-91b0-34b648f804b5" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.CapacityApiControllerTests" name="ReplaceCapacitiesBadIterationId" />
+    </UnitTest>
+    <UnitTest name="ReplaceCapacitiesIsNull" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="0fad8e0a-0703-366d-81d6-f04b4776db90">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="fa653013-7ddf-4d24-999a-32e3b3b73616" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.CapacityApiControllerTests" name="ReplaceCapacitiesIsNull" />
+    </UnitTest>
+    <UnitTest name="ReplaceCapacitiesTeamMemberNotExist" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="e1222bf4-e73e-88ab-7695-b380beb4bac3">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="d1b141e3-9178-4c9d-8939-85c214ef5a48" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.CapacityApiControllerTests" name="ReplaceCapacitiesTeamMemberNotExist" />
+    </UnitTest>
+    <UnitTest name="GetCapacity" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="f39e5467-ae2a-a886-a874-ccd3d4ef42fc">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="7af270eb-b80a-4d82-bfdf-c5bed36c27e0" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.CapacityApiControllerTests" name="GetCapacity" />
+    </UnitTest>
+    <UnitTest name="GetCapacityBadIterationId" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="5194dd4d-a756-0c1e-853f-fdde731eec08">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="98c8ca06-bdee-44f1-80ac-736297caa322" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.CapacityApiControllerTests" name="GetCapacityBadIterationId" />
+    </UnitTest>
+    <UnitTest name="GetCapacityBadTeamMemberId" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="6b87fa09-4a5f-8712-7622-db71aa92a7c6">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="879f0677-f15a-4842-987c-7b8dcd463eaa" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.CapacityApiControllerTests" name="GetCapacityBadTeamMemberId" />
+    </UnitTest>
+    <UnitTest name="UpdateCapacity" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="77be053c-5c49-d994-317e-4f45dc09bd94">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="770aa3d2-1d80-4432-a92c-17c037646947" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.CapacityApiControllerTests" name="UpdateCapacity" />
+    </UnitTest>
+    <UnitTest name="PatchCapacityActivityOnly" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="19225f92-34da-c42e-1453-8e066cef966b">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="270e1563-da18-4b50-bea3-1b57a79cec53" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.CapacityApiControllerTests" name="PatchCapacityActivityOnly" />
+    </UnitTest>
+    <UnitTest name="PatchCapacityMissingActivity" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="97713f9f-5258-8ed6-068b-0e089b7728a0">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="0766493c-27ea-4d21-a82b-a9e90e3d940d" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.CapacityApiControllerTests" name="PatchCapacityMissingActivity" />
+    </UnitTest>
+    <UnitTest name="PatchCapacityMissingCapacityPerDay" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="8e8d6c16-63b1-602c-f90a-d7632942d7bb">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="f0035f7f-a022-4f75-be67-1dcb399fd524" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.CapacityApiControllerTests" name="PatchCapacityMissingCapacityPerDay" />
+    </UnitTest>
+    <UnitTest name="PatchCapacityDaysOffOnly" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="9ecafd97-c392-86f4-e4db-b59955049c29">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="74f4b1b7-c75a-447c-88d3-b8146869ab86" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.CapacityApiControllerTests" name="PatchCapacityDaysOffOnly" />
+    </UnitTest>
+    <UnitTest name="PatchCapacityDaysOffInvalid" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="b1ce611f-db63-c1cc-36ba-87d7c5dd059b">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="e47738d2-4db4-4ec8-8ff3-3a7a34e9f084" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.CapacityApiControllerTests" name="PatchCapacityDaysOffInvalid" />
+    </UnitTest>
+    <UnitTest name="PatchCapacityBadIterationId" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="2fcb610e-a614-7569-90b4-d60df4331f8e">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="ebd8fc98-6fb4-4cd4-b727-0dc0acf04433" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.CapacityApiControllerTests" name="PatchCapacityBadIterationId" />
+    </UnitTest>
+    <UnitTest name="PatchCapacityNoData" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="f382a944-28d2-95b7-c719-b5184eae3dde">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="6001ee15-7dd0-4de0-8924-b03afbf76780" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.CapacityApiControllerTests" name="PatchCapacityNoData" />
+    </UnitTest>
+    <UnitTest name="PatchCapacityNoCapacityData" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="377c2a02-33fc-f383-16ee-a6fce963e959">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="8c1b26a7-e496-4569-b8cc-1f6317db67f4" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.CapacityApiControllerTests" name="PatchCapacityNoCapacityData" />
+    </UnitTest>
+    <UnitTest name="PatchCapacityMoreThanOneCapacityData" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="ddc248eb-bc1f-87a3-3441-30166fba0a3f">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="5d557ef1-bef4-491d-9b8e-065f6daf97a7" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.CapacityApiControllerTests" name="PatchCapacityMoreThanOneCapacityData" />
+    </UnitTest>
+    <UnitTest name="PatchCapacityTeamMemberNotFound" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="0a0af5da-8a58-e5bc-1aab-5184fb734f3d">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="5528c634-99c0-475d-96e6-b91ece35e5be" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.CapacityApiControllerTests" name="PatchCapacityTeamMemberNotFound" />
+    </UnitTest>
+    <UnitTest name="GetTeamIterations" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="712d2edb-904d-73cd-91bc-ad8b029b5f1d">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="7e2a7d91-d56d-4f50-a20e-3d75122099a9" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.TeamIterationsApiControllerTests" name="GetTeamIterations" />
+    </UnitTest>
+    <UnitTest name="GetCurrentTeamIteration" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="48b0debc-6b4c-6b94-fb1d-ba692e125c66">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="0a9c3572-0e88-4f62-a995-02ef604c895d" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.TeamIterationsApiControllerTests" name="GetCurrentTeamIteration" />
+    </UnitTest>
+    <UnitTest name="GetCurrentTeamIterationWithNoCurrentIteration" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="ed2d6bf6-a4cc-0349-c9f9-473bc416791a">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="a1c518e9-19a6-4ce4-8b92-088da52c6ed0" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.TeamIterationsApiControllerTests" name="GetCurrentTeamIterationWithNoCurrentIteration" />
+    </UnitTest>
+    <UnitTest name="GetTeamIteration" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="ef155c0b-7d5a-b866-b71e-422603080be7">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="632361df-874b-4887-863a-188f7e61275a" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.TeamIterationsApiControllerTests" name="GetTeamIteration" />
+    </UnitTest>
+    <UnitTest name="GetTeamIterationNotFound" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="f9ff8273-ebbe-ded7-d0c1-525f3dcae411">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="5ffa92ae-eab9-41f1-985b-ae8cecff33fc" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.TeamIterationsApiControllerTests" name="GetTeamIterationNotFound" />
+    </UnitTest>
+    <UnitTest name="PostTeamIteration" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="630edf4a-d65a-5879-35b2-2f12a5c040dd">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="cb23e1c5-24f8-403e-a0ef-d0bdca91fb64" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.TeamIterationsApiControllerTests" name="PostTeamIteration" />
+    </UnitTest>
+    <UnitTest name="PostTeamIterationNotFound" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="92085dea-677d-e586-11cf-9d02446f6fa7">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="745db1b1-aac7-4ebe-8885-8e7b5d0c38db" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.TeamIterationsApiControllerTests" name="PostTeamIterationNotFound" />
+    </UnitTest>
+    <UnitTest name="DeleteTeamIteration" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="5aaaf631-6e56-1d59-14b6-f851b92a5f66">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="3f02f86e-a0b1-4315-98f2-e1f4655137b3" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.TeamIterationsApiControllerTests" name="DeleteTeamIteration" />
+    </UnitTest>
+    <UnitTest name="EnsureDeleteTeamIterationIsIdempotent" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="4fccc088-0599-3bfc-4080-6edf9436963b">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="7829f861-e273-475c-b5f4-cc6dcc2df7ca" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.TeamIterationsApiControllerTests" name="EnsureDeleteTeamIterationIsIdempotent" />
+    </UnitTest>
+    <UnitTest name="TestGetTeamSettings" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="1c625f7c-6b0f-5781-4b68-66c962d9d075">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="49ec900d-b3e9-4278-b0ad-1990dd6fc6de" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.TeamSettingsApiControllerTests" name="TestGetTeamSettings" />
+    </UnitTest>
+    <UnitTest name="TestPatchTeamSettings" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="75426072-759a-5123-b856-c4a9cb31847b">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="db8e0a4e-bcc0-4091-a7ed-c58cc2b5089e" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.TeamSettingsApiControllerTests" name="TestPatchTeamSettings" />
+    </UnitTest>
+    <UnitTest name="GetTeamFieldValues" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="0f4e8668-bb8f-3806-af30-5c746042939b">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="af51c01b-5163-4d22-9d3f-f464ed71e95c" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.TeamFieldValuesApiControllerTests" name="GetTeamFieldValues" />
+    </UnitTest>
+    <UnitTest name="GetTeamFieldValuesNonAreaPath" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="3e312a4c-057c-e375-8ccc-4537fe5c3815">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="800b7525-90ce-43a7-b548-035363e34e27" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.TeamFieldValuesApiControllerTests" name="GetTeamFieldValuesNonAreaPath" />
+    </UnitTest>
+    <UnitTest name="PatchTeamFieldValues" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="bf931903-5e06-cd1a-19dd-4ea50750192c">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="3ec406ff-4d9c-4c93-b4d4-e837bb0771e5" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.TeamFieldValuesApiControllerTests" name="PatchTeamFieldValues" />
+    </UnitTest>
+    <UnitTest name="PatchTeamFieldValuesMissingDefaultValue" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="219d8438-5369-2d06-905c-06d7a228afaa">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="05737020-7bd6-4a23-8f0c-cea8f378570b" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.TeamFieldValuesApiControllerTests" name="PatchTeamFieldValuesMissingDefaultValue" />
+    </UnitTest>
+    <UnitTest name="PatchTeamFieldValuesMissingValues" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="3d46507c-8565-c6dd-e181-72b90e3dc2e7">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="e13e5d32-8ebd-49bd-abdd-f9ede55dba9c" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.TeamFieldValuesApiControllerTests" name="PatchTeamFieldValuesMissingValues" />
+    </UnitTest>
+    <UnitTest name="PatchTeamFieldValuesValuesEmpty" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="081611bb-d359-5a05-552d-340afa29f161">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="27522c56-ef96-4f7d-8f2a-523fc7dc780f" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.TeamFieldValuesApiControllerTests" name="PatchTeamFieldValuesValuesEmpty" />
+    </UnitTest>
+    <UnitTest name="PatchTeamFieldValuesNoData" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="d8dc81bd-de9a-9458-2ba2-6b9e2f6f9df7">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="7b2355eb-af85-4845-863f-0f5023e65686" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.TeamFieldValuesApiControllerTests" name="PatchTeamFieldValuesNoData" />
+    </UnitTest>
+    <UnitTest name="PatchTeamFieldValuesDefaultValueNotFound" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.agile.web.l0.tests\ms.tf.agile.web.l0.tests.dll" id="e7aa4207-a571-f1a2-edf4-35c11d3f13e8">
+      <Owners>
+        <Owner name="vscsbacklogs" />
+      </Owners>
+      <Execution id="6a732a3b-d684-4d61-9f61-7968b755b088" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Agile.Web.L0.Tests\MS.TF.Agile.Web.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.Agile.Web.ControllersTest.TeamFieldValuesApiControllerTests" name="PatchTeamFieldValuesDefaultValueNotFound" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="31d59e23-694c-6019-49da-0ba0b8a9aa9b" executionId="495fb94f-fb50-42fa-9590-ec1c9fe97eb5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="442bf967-bde7-d596-662f-eabde0241814" executionId="131de204-c2d3-43a3-84b5-0f50ac20ab47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f774d5dd-52ff-dfe6-6665-31de9cf2877b" executionId="3e505638-cb42-4856-b055-228376e405ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="67919514-f219-6d85-d73d-64aedf975942" executionId="90e1ae28-5639-4b65-aa23-5774bcb8db4f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a429744-7694-5edd-f4e4-66e91539d1e7" executionId="91fd280f-5684-44d1-a412-794fd724dcc6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d012fcea-6172-88fc-5597-f6bc0f76947a" executionId="5ca3e229-bb59-4dfb-934e-7fe88e488cc7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9060120b-c68f-5c06-e69e-d8a2d21f8360" executionId="92a0cb89-61ac-4dea-b860-c883b0f4ed33" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac42bcff-a2ce-9d19-c5de-59a5b63723df" executionId="8d244e45-a6d2-43c4-b4b0-e6a9a75b2741" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="31ded74e-6506-b1dd-ecd3-21a337efc791" executionId="8d90a69f-d109-4e5a-81f1-1d2760576082" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="992abff4-b6a0-0a57-4606-11ee45cc52fa" executionId="f011d062-b788-46cc-b7a7-a7458c0066d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b757686e-78c1-79de-1efc-8ed6a7af8d3b" executionId="52e5eb73-22ea-4c05-93db-f5c57e81f448" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc11ad29-577d-8a0a-f7cd-db5d20e256c4" executionId="a0c59e85-a505-4318-a354-a856db3163ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1522d37c-5f3f-c0a7-538a-050d96b071c6" executionId="1662146c-49b7-4ba7-820d-17c59f304910" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3cae1f48-84f2-cac7-faf1-0a4fec09ed0e" executionId="1e7204d5-5a79-4e16-b393-8ab5e6c36e79" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd6ac1a8-5921-0778-4aed-bbf82cad4574" executionId="3be3f85e-7b67-453e-9f00-f95df849e1b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f154ba00-3f29-91bc-4756-4568b8a4ac77" executionId="4a40cc16-689a-426e-9931-bbebbf522024" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5acf29b3-9389-b81b-f660-e5941ceacddf" executionId="3f64b988-7f03-4492-9055-ba2a34517b23" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fea00926-b0b1-82fd-baba-39b81b28ba25" executionId="78f7b70e-285d-4508-af7c-924dd3613ce4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5cbfe690-7006-4a45-ef78-f18bc5e0af35" executionId="01422e40-1432-49cd-95f2-04c381cef425" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ff1b195-6392-e762-5c27-596b0a52c535" executionId="3c422a48-cd2b-4a28-958f-57854501ffed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6944ecd6-48cf-9347-8ea3-a673b82b1c1d" executionId="90a3ac89-2ea0-4f28-b2b7-9e8602f716a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f0dad5d-5336-3824-4c89-60a99f33a439" executionId="caa3ce5f-ef93-458b-b429-9ced88830e88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81f4aa29-e1ac-b8ff-15a6-054b16844e01" executionId="98d8007b-bd5d-42ca-8440-7396f4b5144e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e3c81434-c6eb-23df-c04e-938b1edc83d6" executionId="14a702ff-1ab4-4f3d-a252-fa091c55e587" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2382b1f7-77e0-a96d-593d-99223f6c6b5b" executionId="6ad4fdb6-21bc-49b1-85b3-1ab7f248cfeb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e95be798-215a-5620-ce56-3ebb3b8f957a" executionId="d939a467-54a3-4ecf-8508-63a2a01f67a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aee644e0-5669-89eb-fa70-16160d8bfa1c" executionId="12b26772-9d9a-48c4-8e86-c05d31e3fe3f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b93076f-63be-7e0c-654e-298fa08d8405" executionId="75b46737-4d5d-4d2f-a635-56d4aeee9c65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f488fe97-1de7-78a9-03e0-9adb5d388b9f" executionId="e4ce45e9-c90a-42a6-911f-3c22c56fcf6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bee2e645-57c8-846f-daa8-f9118ac2d06c" executionId="54c063f1-c178-47e4-8833-97dea827ea5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0390ae7c-da85-3193-2ff5-030c7ce5ca97" executionId="eaa092fe-3744-41ce-b945-b2633874d446" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1626e321-46a8-d33a-5173-ef6d9e9098b2" executionId="a94f7ddb-98c3-4be6-82e3-ff81992de421" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9945bace-2728-66a6-eb5f-92cccc061769" executionId="3543a54c-ff79-4202-a2ce-9589a5e93460" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e1efbc1-20f0-b75f-ac4d-6f98db9379d5" executionId="3b17769f-6f80-4c01-b692-4a8245d8b7d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="58a58f59-e3c4-ed67-d090-4d98ba3e06b2" executionId="278d9b47-197c-46c0-b8c5-4503f109276f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9657f94-81e7-4b11-d48d-a7b2f6d791d3" executionId="8ad171dd-d941-4f2b-9a9f-b812d4b1b90d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="82d78faa-f899-66fe-b06c-7ee9d9800c4c" executionId="723a086f-4975-4063-8376-475d4c13bfa9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="142c5f67-6a37-2f3b-4929-609983eec37a" executionId="cc33c895-926d-4ebf-893c-76a20e574adf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f28b5418-1c7c-382b-9106-2a6c7f39874d" executionId="f6d8ff02-067e-44e8-8ab7-68d508861139" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0a1585d-ca57-e9a2-971b-aaef34ed8848" executionId="d1bcaa68-ca74-4ed8-896b-7784b0925cfa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b9961ddc-cf37-2723-8998-4e16eef8d032" executionId="c203f3da-b4e8-46f5-b942-ee76e40c0879" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64e8f007-a81d-710a-6cec-e39c7851c044" executionId="6325d9b8-f515-4477-8335-17f7e334cb61" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab344dd4-b851-3c88-1248-5541cbc0cf09" executionId="abec3eb0-5b29-404f-a599-b99de7c3ccb0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="419de113-c4cf-d38d-14d7-0b360b074ed0" executionId="28ad75d2-ce88-4f14-9532-5e7641d776fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="452c430a-ffb5-a3b9-78e8-f6d3c511bc68" executionId="9592fef3-f0ab-4de5-a790-5de0879a0749" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7cf28076-9e92-fcc0-df47-6efc576591ed" executionId="8bfbf83a-63f2-4205-b138-99905aefcede" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="faa36999-e7be-c9b1-98c8-c8f63cb90130" executionId="3fa58410-9f8e-4552-82e2-31bfbd58b24b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1222102c-dc35-e84e-94c7-02786d5c6aba" executionId="08c3826f-d08e-4e55-847d-9aae9feac7ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1fb2995-5a01-5afe-ee0d-3857e6df7196" executionId="35dc22ae-4b5d-40bf-a3ba-78370d1dcd2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20e49ee0-8584-3bcf-d5c6-90bea9ab6126" executionId="7ea616ef-7596-4de0-82a9-0bb1cff7ccc5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b4fbe9b-8644-f8b3-9501-8f36ac3af5ef" executionId="d5a8f00e-32db-40f9-b61d-dac3d1cf11b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8ed99ee-df5b-8cb9-1fd5-3d851041b0d9" executionId="964bfd68-f854-4fc3-8cc6-52c0a3f2239d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50e7b889-058e-3da1-5f82-d587f279b696" executionId="9be4f9f0-9583-41fc-8407-30263fcefdef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="208d7534-dec3-1a30-6ec8-d5afa41475ce" executionId="d32d1977-737d-4386-aab3-8e20f3c7fa1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7e77dec-144e-7645-3479-7a8c991f0d2f" executionId="68d058f1-93db-4872-89db-e0f1deda3dad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e362cfd1-e9e5-58bc-4985-5e2598325f06" executionId="ff13e373-62f1-4cc2-894c-1ada016783d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f721d42-aeeb-168f-af1a-506f91d3b598" executionId="3a6fc323-d922-4d49-a51c-6776555d7f08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17ce4002-2973-8d5e-5aae-bf24b8e53e72" executionId="25d87ab1-4121-432a-9805-677361c8c0b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="feebed48-f964-97b1-5ef9-6570b38252c5" executionId="98fe78ec-1e6e-4ad2-9bf7-2b2251201c10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="babad391-66cd-ae6d-4328-ffd45228bc2b" executionId="586fb5b8-2b4d-4c45-87ea-7d38364a5a8a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a4f94ebb-cab8-24d2-83ca-39f9ab690add" executionId="e440550a-8d16-4080-b70f-59a911613345" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dbba6115-482d-1419-20ee-a22b9b651dcd" executionId="875c6ad4-e3dd-4fbe-a7a6-e00b0e688c03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ecd520b-e136-0b86-5f97-889bfd209b26" executionId="7f8e367f-53cf-46e2-8eab-8abf7a2fb1c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2842071-48d3-3038-30c9-9dc6f14a3891" executionId="d8f420f7-613b-424f-b224-e1726a32c388" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00f12b97-ce62-ddd1-e11c-617dd0f965f2" executionId="4daad158-6c39-4ee2-898c-e55e60ccbb03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="581d07d4-3d46-f764-8f48-d574f98fbf34" executionId="bb38788c-d33b-4f0f-8480-d4ba7fe13ef6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="069a98d6-edd5-e94a-12ea-238c38f635a1" executionId="0ef1d1ab-7ba9-46cd-8fef-7aa5bdc9754b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="883c124c-fbe0-0a47-3d55-04fff15a0c47" executionId="14efa40b-ce52-4093-8df1-9fe06c8f6f9d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d9c8891-62f1-aae8-1b89-63efd4dfaccc" executionId="5fa30338-982b-46ae-9d29-caf7f8c96b47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b642713-0281-0279-25b3-478a339b2f66" executionId="fb7dab17-7561-4e88-9177-5954fe8259e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22ff0f86-1c93-27b4-2da9-b929e5abe3f4" executionId="d647bc4d-2377-4848-94eb-a6ff83ca7aef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f966a865-33ab-5d7e-1bbc-8d0a0da58a24" executionId="dea51fba-77c1-4e6b-848b-1d5ea935099f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73df2174-0960-88a1-5e36-ef18817148bd" executionId="eef0f809-939d-43b1-b218-ca59ce4b53c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb34ff08-f453-0a31-ae81-8e7e9fcb407b" executionId="bd53070d-3832-41a1-82b4-f34e3dfdccab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b24c78b4-e9ed-c158-3511-0e25340031ed" executionId="12a45a96-f1fd-4206-b3c1-c5eeaa869c1a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f24fb5c-3315-3145-6c3f-a6d802bd539a" executionId="7ed1873f-95b7-41bf-b550-f9decd78181d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da1c3cea-9d8d-9164-0407-5e5c37ea334d" executionId="2e7c4201-6a7b-498c-9a96-8e6baebd7a49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d230f6f4-4e9f-3845-b5a4-b2da5d6e89da" executionId="52140a7c-547a-4cc3-8d99-b341a048756e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cec05d66-3d88-fed4-a803-eb847fb58af1" executionId="4fa31af0-4314-4f54-acc3-538cd0a77931" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98c0fa71-029e-42b1-d535-7238d55fad32" executionId="b5c11aa3-9f8f-4b89-9d95-53a052d84caa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a77fff34-2f86-e8cf-0a23-98d68df38afb" executionId="44203ec7-7173-472e-b901-cc2ee023608f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b0d98d6-30a7-4377-3078-dc74156ca131" executionId="60878604-d254-4e08-b7ff-eade1cd64d58" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9a097b0-62c3-c8a6-df24-d2d6b550bdbf" executionId="02e0bd5c-dce4-44ef-9904-3cebfd8bccee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="149f682d-8a73-b4f6-5de4-2c04fdda5c0d" executionId="c8d88619-043d-4a25-9c88-4f9f7a8aea65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37797036-b5e3-f6bf-d755-e3fc78684f01" executionId="b5fc93be-368a-43ec-9c07-d3eb9966c954" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3e5a6d5-a923-af0b-d938-5a1a266c00ee" executionId="45672e0b-fbf8-431d-83f5-c6e965ffe749" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98d3e122-8b6a-6079-5777-059933e4b90d" executionId="78ba072b-ebac-4a38-8eb9-3f28221832c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="127ca055-06ce-1d97-5fad-1eeaf2d3a795" executionId="1fa13b01-3b62-42b2-bb6c-30069c0d0d81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4eea8cfe-839b-4fc3-2863-b3aadbaaab14" executionId="b69479bd-62ce-48fb-b415-9dccad5e20ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a003c9cb-3bb7-89f6-2d13-a33e8197e318" executionId="d0b9bf00-e550-44a0-a7f5-5dd41fbc7b4f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb5f6988-e603-a150-6753-39466eeca3ce" executionId="e279bbfe-92a2-4c3d-9baf-ce1ec38c6a19" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8fe14731-3da1-dec7-14cf-511d3ebbd52f" executionId="c63c5964-cbb4-438e-9932-46770dc0c54b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e993c393-d0b9-6209-c30e-332f8b6009eb" executionId="cacfb450-b228-41e7-a81a-9b96a0f54f45" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="344f44d1-42a7-2126-6d8e-3e5b0e386ff5" executionId="e2d54834-01f0-4e13-b814-436c57e0763d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d45aac95-b21e-b267-679e-435b5cbdabdb" executionId="25c263b9-a4d2-4127-ad82-e83df056eb2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc34f06d-3c26-5937-4e85-5d8cf241e7ec" executionId="e6fa9b48-6267-492c-89d2-e48c44b30b70" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8865cec7-d833-e89a-3ec8-5400f73da1ba" executionId="95ffc6d0-dcbb-4865-8a42-89ce930ccfc0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="027f7094-5ffd-1fa0-5d70-7b092335ed7a" executionId="120c38f4-bf10-4fa2-9ba8-7a1fd7aae74d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="460bfe8f-f387-b2f5-da37-53de6710090b" executionId="c5b5d7c2-53ed-40cb-a6eb-d1a35e3f530c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38f96d86-c1f5-ce29-74d8-bf4d9557c852" executionId="4d2e15be-c9da-470f-9db6-7ef6c82ee038" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9e51bd1-0869-aabf-58a1-7371a4bc763d" executionId="bc5c9930-ed07-4e4e-b74d-b0d22cc709f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c277845-4b85-d1ab-1cd4-171ff261baf5" executionId="832ab202-73b1-4714-bb90-751ba7648f98" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4032b75-ba43-6121-6f5a-b5990cdf9218" executionId="ba84d0b0-3524-45d7-bd3e-0a3cc47e1207" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd88f309-e66b-936b-1682-0237d52d09b9" executionId="c2619e67-2eb8-4749-bd12-daf03e3aa2e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b185f1ff-5234-4c51-1711-b2fd9597cf84" executionId="a3ba40ed-37eb-4b62-9f02-570aab0e40ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a652269-f72a-c8b6-30fe-8b3e94675e98" executionId="e22e8308-3dd9-45a4-8e9f-b6a064b512e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa015d82-74cd-2967-f813-3bf2124f5d17" executionId="bc4291c2-6efa-4ff7-91b0-34b648f804b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0fad8e0a-0703-366d-81d6-f04b4776db90" executionId="fa653013-7ddf-4d24-999a-32e3b3b73616" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1222bf4-e73e-88ab-7695-b380beb4bac3" executionId="d1b141e3-9178-4c9d-8939-85c214ef5a48" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f39e5467-ae2a-a886-a874-ccd3d4ef42fc" executionId="7af270eb-b80a-4d82-bfdf-c5bed36c27e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5194dd4d-a756-0c1e-853f-fdde731eec08" executionId="98c8ca06-bdee-44f1-80ac-736297caa322" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b87fa09-4a5f-8712-7622-db71aa92a7c6" executionId="879f0677-f15a-4842-987c-7b8dcd463eaa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77be053c-5c49-d994-317e-4f45dc09bd94" executionId="770aa3d2-1d80-4432-a92c-17c037646947" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19225f92-34da-c42e-1453-8e066cef966b" executionId="270e1563-da18-4b50-bea3-1b57a79cec53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97713f9f-5258-8ed6-068b-0e089b7728a0" executionId="0766493c-27ea-4d21-a82b-a9e90e3d940d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e8d6c16-63b1-602c-f90a-d7632942d7bb" executionId="f0035f7f-a022-4f75-be67-1dcb399fd524" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ecafd97-c392-86f4-e4db-b59955049c29" executionId="74f4b1b7-c75a-447c-88d3-b8146869ab86" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b1ce611f-db63-c1cc-36ba-87d7c5dd059b" executionId="e47738d2-4db4-4ec8-8ff3-3a7a34e9f084" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2fcb610e-a614-7569-90b4-d60df4331f8e" executionId="ebd8fc98-6fb4-4cd4-b727-0dc0acf04433" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f382a944-28d2-95b7-c719-b5184eae3dde" executionId="6001ee15-7dd0-4de0-8924-b03afbf76780" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="377c2a02-33fc-f383-16ee-a6fce963e959" executionId="8c1b26a7-e496-4569-b8cc-1f6317db67f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ddc248eb-bc1f-87a3-3441-30166fba0a3f" executionId="5d557ef1-bef4-491d-9b8e-065f6daf97a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a0af5da-8a58-e5bc-1aab-5184fb734f3d" executionId="5528c634-99c0-475d-96e6-b91ece35e5be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="712d2edb-904d-73cd-91bc-ad8b029b5f1d" executionId="7e2a7d91-d56d-4f50-a20e-3d75122099a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48b0debc-6b4c-6b94-fb1d-ba692e125c66" executionId="0a9c3572-0e88-4f62-a995-02ef604c895d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed2d6bf6-a4cc-0349-c9f9-473bc416791a" executionId="a1c518e9-19a6-4ce4-8b92-088da52c6ed0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef155c0b-7d5a-b866-b71e-422603080be7" executionId="632361df-874b-4887-863a-188f7e61275a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9ff8273-ebbe-ded7-d0c1-525f3dcae411" executionId="5ffa92ae-eab9-41f1-985b-ae8cecff33fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="630edf4a-d65a-5879-35b2-2f12a5c040dd" executionId="cb23e1c5-24f8-403e-a0ef-d0bdca91fb64" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92085dea-677d-e586-11cf-9d02446f6fa7" executionId="745db1b1-aac7-4ebe-8885-8e7b5d0c38db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5aaaf631-6e56-1d59-14b6-f851b92a5f66" executionId="3f02f86e-a0b1-4315-98f2-e1f4655137b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4fccc088-0599-3bfc-4080-6edf9436963b" executionId="7829f861-e273-475c-b5f4-cc6dcc2df7ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c625f7c-6b0f-5781-4b68-66c962d9d075" executionId="49ec900d-b3e9-4278-b0ad-1990dd6fc6de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75426072-759a-5123-b856-c4a9cb31847b" executionId="db8e0a4e-bcc0-4091-a7ed-c58cc2b5089e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f4e8668-bb8f-3806-af30-5c746042939b" executionId="af51c01b-5163-4d22-9d3f-f464ed71e95c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e312a4c-057c-e375-8ccc-4537fe5c3815" executionId="800b7525-90ce-43a7-b548-035363e34e27" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf931903-5e06-cd1a-19dd-4ea50750192c" executionId="3ec406ff-4d9c-4c93-b4d4-e837bb0771e5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="219d8438-5369-2d06-905c-06d7a228afaa" executionId="05737020-7bd6-4a23-8f0c-cea8f378570b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d46507c-8565-c6dd-e181-72b90e3dc2e7" executionId="e13e5d32-8ebd-49bd-abdd-f9ede55dba9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="081611bb-d359-5a05-552d-340afa29f161" executionId="27522c56-ef96-4f7d-8f2a-523fc7dc780f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8dc81bd-de9a-9458-2ba2-6b9e2f6f9df7" executionId="7b2355eb-af85-4845-863f-0f5023e65686" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7aa4207-a571-f1a2-edf4-35c11d3f13e8" executionId="6a732a3b-d684-4d61-9f61-7968b755b088" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="142" executed="139" passed="139" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>Test 'ReplaceCapacitiesTeamMemberNotExist' was skipped in the test run.Test 'PatchCapacityDaysOffInvalid' was skipped in the test run.Test 'PatchCapacityTeamMemberNotFound' was skipped in the test run.</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

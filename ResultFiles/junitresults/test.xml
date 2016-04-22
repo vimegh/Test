@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+    <testsuite tests="192" failures="0" errors="0" time="5.892917" name="Toplevel Test Suite">
+        <testcase classname="BaseFeedViewControllerTest" name="testCellWithNoTidbit" time="0.261241">
+            <system-out>2015-06-08 15:25:46:754 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="BaseFeedViewControllerTest" name="testCellWithPreviewImage" time="0.115128">
+            <system-out>2015-06-08 15:25:47:014 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="BaseFeedViewControllerTest" name="testCellWithPreviewImageWithNoHeight" time="0.112417">
+            <system-out>2015-06-08 15:25:47:129 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="BaseFeedViewControllerTest" name="testCellWithTidbit" time="0.113475">
+            <system-out>2015-06-08 15:25:47:242 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="BaseFeedViewControllerTest" name="testDataCreation" time="0.111419">
+            <system-out>2015-06-08 15:25:47:355 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="BaseFeedViewControllerTest" name="testDocumentIsHighlightedAndUnhiglightedAndEndsWithNavigationToDocumentWhenDocumentTapped" time="0.635052">
+            <system-out>2015-06-08 15:25:47:467 Delve[72899:70b] Upgrading db from 0 to 30
+2015-06-08 15:25:47.788 Delve[72899:1400468] Radius: &lt;DocumentCardView: 0x7b228a00; baseClass = UICollectionViewCell; frame = (10 10; 145 158); layer = &lt;CALayer: 0x7fc47470&gt;&gt;
+</system-out>
+        </testcase>
+        <testcase classname="BaseFeedViewControllerTest" name="testDocumentIsHighlightedAndUnhiglightedAndEndsWithNavigationToPersonWhenMugshotTapped" time="0.623826">
+            <system-out>2015-06-08 15:25:48:102 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="BaseFeedViewControllerTest" name="testNavBarTypeNormalIfNoDocuments" time="0.008318">
+            <system-out>2015-06-08 15:25:48:726 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="BaseFeedViewControllerTest" name="testNavigationBarIsVisibleAndHasItems" time="0.008051">
+            <system-out>2015-06-08 15:25:48:735 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="BaseFeedViewControllerTest" name="testNoResultsProvided" time="0.111500">
+            <system-out>2015-06-08 15:25:48:743 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="BaseFeedViewControllerTest" name="testNumberOfItemsInSectionReturnsZeroWhenNoItems" time="0.015501">
+            <system-out>2015-06-08 15:25:48:855 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="BaseFeedViewControllerTest" name="testPreliminaryCellCreation" time="0.117269">
+            <system-out>2015-06-08 15:25:48:870 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="BaseFeedViewControllerTest" name="testRefreshContent" time="0.088109">
+            <system-out>2015-06-08 15:25:48:988 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="CacheTests" name="testGetDocumentsForRelatedToSenderReturnsDocuments" time="0.204857">
+            <system-out>2015-06-08 15:25:49:076 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="CacheTests" name="testGetDocumentsForWorkedOnBySenderReturnsEmptyResultItemsWhenDocumentsAreNil" time="0.001958">
+            <system-out>2015-06-08 15:25:49:283 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="CacheTests" name="testGetItemsForQuery_NoPersistedFeedAndRemoteFeedFails_DelveDataFetchErrorFired" time="0.000554">
+            <system-out>2015-06-08 15:25:49:283 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="CacheTests" name="testGetItemsForQuery_WhenOnlyRemoteDocuments_FiresNewFeedEventDataWitnDocuments" time="0.204970">
+            <system-out>2015-06-08 15:25:49:284 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="CacheTests" name="testGetItemsForQuery_WhenPersistedFeedAndRemoteFeed_FiresNewFeedEventAndReturnsResultsForPesistedDataAndRemoteData" time="0.203059">
+            <system-out>2015-06-08 15:25:49:489 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="CacheTests" name="testGetItemsForQueryAndSender_WhenCorrectQuery_ReturnsDocuments" time="0.206277">
+            <system-out>2015-06-08 15:25:49:692 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="CacheTests" name="testGetItemsForQueryAndSender_WhenNoPersistentDataAndNoRemoteData_FiresNewFeedEventWithNoItems" time="0.202196">
+            <system-out>2015-06-08 15:25:49:899 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="CacheTests" name="testGetItemsForQueryWithDataHandlerBlock_WhenNewDocumentsAndOldDocumentsProvided_ShouldReturnSameDocuments" time="0.204566">
+            <system-out>2015-06-08 15:25:50:102 Delve[72899:70b] Upgrading db from 0 to 30
+2015-06-08 15:25:50:305 Delve[72899:70b] Fetch data for getNewDocuments with status 1
+</system-out>
+        </testcase>
+        <testcase classname="ContentItemActivityTests" name="testIsFullyEqual" time="0.001041">
+            <system-out>2015-06-08 15:25:50:307 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="ContentItemActivityTests" name="testPerformanceExample" time="0.295957">
+            <system-out>2015-06-08 15:25:50:308 Delve[72899:70b] Upgrading db from 0 to 30
+/Users/delveci/Documents/CI/vso-agent/_work/build/59ca63a210484a223c061ee3e5295b4e56f5fb256da0454f20004f85d2e05187/repo/ios/delveFeedApp/delveFeedAppTests/models/ContentItemActivityTests.m:45: Test Case '-[ContentItemActivityTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 113.990%, values: [0.000009, 0.000002, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+</system-out>
+        </testcase>
+        <testcase classname="ContentItemCountsTests" name="testHasEqualProperties" time="0.000435"></testcase>
+        <testcase classname="ContentItemPreviewInfoTests" name="testHasEqualProperties" time="0.000379"></testcase>
+        <testcase classname="ContentItemPreviewInfoTests" name="testPerformanceExample" time="0.256756">
+            <system-out>2015-06-08 15:25:50:605 Delve[72899:70b] Upgrading db from 0 to 30
+/Users/delveci/Documents/CI/vso-agent/_work/build/59ca63a210484a223c061ee3e5295b4e56f5fb256da0454f20004f85d2e05187/repo/ios/delveFeedApp/delveFeedAppTests/models/ContentItemPreviewInfoTests.m:63: Test Case '-[ContentItemPreviewInfoTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 126.702%, values: [0.000005, 0.000001, 0.000013, 0.000002, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+</system-out>
+        </testcase>
+        <testcase classname="ContentItemTests" name="testIsEqual" time="0.000732"></testcase>
+        <testcase classname="ContentItemTests" name="testIsFullyEqual" time="0.000475"></testcase>
+        <testcase classname="ContentItemTests" name="testOfficeClientUrlExcel" time="0.000417"></testcase>
+        <testcase classname="ContentItemTests" name="testOfficeClientUrlPpt" time="0.000419"></testcase>
+        <testcase classname="ContentItemTests" name="testOfficeClientUrlWord" time="0.000417"></testcase>
+        <testcase classname="ContentItemTypeTests" name="testGetAppUrlProtocolForItem" time="0.000140"></testcase>
+        <testcase classname="DataProviderTests" name="testEventsAsync" time="0.001104">
+            <system-out>2015-06-08 15:25:50:866 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="DocumentsRelationInfoTests" name="testCorrectDocumentsRelationInfoSetups" time="0.002458">
+            <system-out>2015-06-08 15:25:50:867 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="DocumentsRelationInfoTests" name="testIncorrectDocumentsRelationInfoSetups" time="0.000606">
+            <system-out>2015-06-08 15:25:50:870 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="DocumentsRelationInfoTests" name="testInitCreatesAnDocumentsRelationInfoObject" time="0.000351"></testcase>
+        <testcase classname="DocumentsRelationInfoTests" name="testInitWithArgumentsCreatesAndSetObject" time="0.000306"></testcase>
+        <testcase classname="DocumentsRelationInfoTests" name="testInitWithDocumentsRelationInfoObjectCreatesAndSetObject" time="0.000313"></testcase>
+        <testcase classname="DocumentsRelationInfoTests" name="testIsDocumentsRelatedToColleaguesReturnsFalseWhenObjectIsNotRelatedToColleagues" time="0.000300"></testcase>
+        <testcase classname="DocumentsRelationInfoTests" name="testIsDocumentsRelatedToColleaguesReturnsTrueWhenObjectIsRelatedToColleagues" time="0.000280"></testcase>
+        <testcase classname="DocumentsRelationInfoTests" name="testIsDocumentsRelatedToPersonReturnsFalseWhenObjectIsNotRelatedToPerson" time="0.000281"></testcase>
+        <testcase classname="DocumentsRelationInfoTests" name="testIsDocumentsRelatedToPersonReturnsTrueWhenObjectIsRelatedToPerson" time="0.000288"></testcase>
+        <testcase classname="DocumentsRelationInfoTests" name="testIsDocumentsWorkedOnByColleaguesReturnsFalseWhenObjectIsNotWorkedOnByColleagues" time="0.000281"></testcase>
+        <testcase classname="DocumentsRelationInfoTests" name="testIsDocumentsWorkedOnByColleaguesReturnsTrueWhenObjectIsWorkedOnByColleagues" time="0.000279"></testcase>
+        <testcase classname="DocumentsRelationInfoTests" name="testIsDocumentsWorkedOnByPersonReturnsFalseWhenObjectIsNotWorkedOnByPerson" time="0.000279"></testcase>
+        <testcase classname="DocumentsRelationInfoTests" name="testIsDocumentsWorkedOnByPersonReturnsTrueWhenObjectIsWorkedOnByPerson" time="0.000273"></testcase>
+        <testcase classname="DocumentsRelationInfoTests" name="testIsEqualReturnsFalseWhenObjectIsDifferent" time="0.000314">
+            <system-out>2015-06-08 15:25:50:875 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="DocumentsRelationInfoTests" name="testIsEqualReturnsTrueWhenObjectIsEqual" time="0.000321"></testcase>
+        <testcase classname="EmbeddableFeedViewControllerTests" name="testContainerViewDidChangeFrameSetToThePassedFrame" time="0.011286">
+            <system-out>2015-06-08 15:25:50:876 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="EmbeddableFeedViewControllerTests" name="testEmbeddableFeedViewControllerAsksForDataOnLoad" time="0.008997">
+            <system-out>2015-06-08 15:25:50:888 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="EmbeddableFeedViewControllerTests" name="testEmbeddableFeedViewControllerHasNavBarTypeNone" time="0.010655">
+            <system-out>2015-06-08 15:25:50:897 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="EmbeddableFeedViewControllerTests" name="testEmbeddableFeedViewControllerIsCreated" time="0.010376">
+            <system-out>2015-06-08 15:25:50:908 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="EmbeddableFeedViewControllerTests" name="testUserHasNoDataMessage" time="0.014339">
+            <system-out>2015-06-08 15:25:50:918 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="EmbeddableFeedViewControllerTests" name="testUserOptedOutMessage" time="0.011356">
+            <system-out>2015-06-08 15:25:50:933 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="EncodingUtilsTests" name="testCompressData_WhenEmptyData_EmptyDataIsReturned" time="0.000538"></testcase>
+        <testcase classname="EncodingUtilsTests" name="testCompressData_WhenNilData_NilAndErrorIsReturned" time="0.000086"></testcase>
+        <testcase classname="EncodingUtilsTests" name="testDataToStringConversion_WhenEmptyData_ReturnsEmptyString" time="0.000082"></testcase>
+        <testcase classname="EncodingUtilsTests" name="testDataToStringConversion_WhenNilData_ReturnsEmptyString" time="0.000068"></testcase>
+        <testcase classname="EncodingUtilsTests" name="testDataToStringConversion_WhenNonEmptyData_ReturnsCorrectString" time="0.000094"></testcase>
+        <testcase classname="EncodingUtilsTests" name="testDecompressData_WhenEmptyData_SomeDataIsReturned" time="0.000400"></testcase>
+        <testcase classname="EncodingUtilsTests" name="testDecompressData_WhenNilData_NilAndErrorIsReturned" time="0.000077"></testcase>
+        <testcase classname="EncodingUtilsTests" name="testEncodeDataWithBase64_WhenDataInitializedEmpty_ReturnsEmptyString" time="0.000075"></testcase>
+        <testcase classname="EncodingUtilsTests" name="testEncodeDataWithBase64_WhenNilData_ReturnsNil" time="0.000063"></testcase>
+        <testcase classname="EncodingUtilsTests" name="testEncodeDataWithBase64_WhenNonEmptyData_ReturnsEncodedString" time="0.000081"></testcase>
+        <testcase classname="EncodingUtilsTests" name="testEncodeStringWithBase64_WhenEmptyOrNilString_ReturnsNil" time="0.000063"></testcase>
+        <testcase classname="EncodingUtilsTests" name="testEncodeStringWithBase64_WhenNonEmptyString_ReturnsEncodedString" time="0.000072"></testcase>
+        <testcase classname="EncodingUtilsTests" name="testHashString_WhenNonEmptyString_ReturnsHashedData" time="0.000615"></testcase>
+        <testcase classname="EncodingUtilsTests" name="testPerformanceExample" time="0.256340">
+            <system-out>/Users/delveci/Documents/CI/vso-agent/_work/build/59ca63a210484a223c061ee3e5295b4e56f5fb256da0454f20004f85d2e05187/repo/ios/delveFeedApp/delveFeedAppTests/utils/EncodingUtilsTests.m:336: Test Case '-[EncodingUtilsTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 70.477%, values: [0.000005, 0.000002, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+</system-out>
+        </testcase>
+        <testcase classname="EncodingUtilsTests" name="testXorData_WhenEmptyData_EmptyDataIsReturned" time="0.000180"></testcase>
+        <testcase classname="EncodingUtilsTests" name="testXorData_WhenNilData_NilIsReturned" time="0.000125"></testcase>
+        <testcase classname="EncodingUtilsTests" name="testXorData_WhenNonEmptyData_XoredDataIsReturned" time="0.000185"></testcase>
+        <testcase classname="FeedbackPackagerTests" name="testPackageFeedbackReturnsCorrectFiles" time="0.010198"></testcase>
+        <testcase classname="IsDelveEnabledTests" name="testIsDelveEnabledInitWithPersistentValue" time="0.000128"></testcase>
+        <testcase classname="IsDelveEnabledTests" name="testUpdateIsDelveEnabledAsync_EnabledFromRemote" time="0.012929"></testcase>
+        <testcase classname="IsDelveEnabledTests" name="testUpdateIsDelveEnabledAsync_NoLicenseFromRemote" time="0.012927"></testcase>
+        <testcase classname="IsDelveEnabledTests" name="testUpdateIsDelveEnabledAsync_NotifiesOnChangedValue" time="0.000638"></testcase>
+        <testcase classname="IsDelveEnabledTests" name="testUpdateIsDelveEnabledSync_EnabledFromRemote" time="0.000379"></testcase>
+        <testcase classname="IsDelveEnabledTests" name="testUpdateIsDelveEnabledSync_NoLicenseFromRemote" time="0.000388"></testcase>
+        <testcase classname="JsonResultParserTests" name="testParseContentActionItem" time="0.001872">
+            <system-out>2015-06-08 15:25:51:245 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="JsonResultParserTests" name="testParseDiscoveryServiceReturnsResults" time="0.000714">
+            <system-out>2015-06-08 15:25:51:247 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="JsonResultParserTests" name="testParseInFeedForColleaguesWorksOnFeedReturnsDocuments" time="0.005456">
+            <system-out>2015-06-08 15:25:51:248 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="JsonResultParserTests" name="testParseInFeedForWorksOnFeedReturnsDocuments" time="0.001797">
+            <system-out>2015-06-08 15:25:51:254 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="JsonResultParserTests" name="testParseInFeedReturnsErrorAndNilResultsWhenErrorMessageParsed" time="0.000505">
+            <system-out>2015-06-08 15:25:51:256 Delve[72899:70b] Upgrading db from 0 to 30
+2015-06-08 15:25:51:256 Delve[72899:70b] Cannot parse {"Message":"An error has occurred.","ExceptionMessage":"InternalServerError: Failed to execute search query.","ExceptionType":"Microsoft.Office.Server.Search.DelveApi.MiddleTierInternalServerErrorException","StackTrace":"   at Microsoft.Office.Server.Search.DelveApi.DataAccess.SharePoint.SharePointSearchRestApi.&lt;ExecuteQueryAsyncCore&gt;d__d.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at Microsoft.Office.Server.Search.DelveApi.DataAccess.SharePoint.SharePointSearchRestApi.&lt;ExecuteQueryAsync&gt;d__0.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at Microsoft.Office.Server.Search.DelveApi.DataAccess.SharePoint.SharePointDataSource.&lt;GetPeopleByEmail&gt;d__5c.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()\r\n   at Microsoft.Office.Server.Search.DelveApi.MiddleTierApi.&lt;AddTidbitsToContentItems&gt;d__39.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at Microsoft.Office.Server.Search.DelveApi.MiddleTierApi.&lt;GetFeeds&gt;d__c.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at Microsoft.Office.Server.Search.DelveApi.REST.DelveApiController.&lt;GetBoardsCore&gt;d__19.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__3`1.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__0.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__2.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()\r\n   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__0.MoveNext()"}
+</system-out>
+        </testcase>
+        <testcase classname="JsonResultParserTests" name="testParseInFeedSharePoint" time="0.004862">
+            <system-out>2015-06-08 15:25:51:256 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="JsonResultParserTests" name="testParsePeopleSearchResultsReturnsResults" time="0.000579">
+            <system-out>2015-06-08 15:25:51:261 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="JsonResultParserTests" name="testParseRelatedPeople" time="0.002874">
+            <system-out>2015-06-08 15:25:51:262 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="JsonResultParserTests" name="testParseRelatedPeopleReturnsNoErrorAndEmptyResultsWhenNotRelatedJsonIsParsed" time="0.000395">
+            <system-out>2015-06-08 15:25:51:265 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="JsonResultParserTests" name="testParseReturnsError" time="0.000340">
+            <system-out>2015-06-08 15:25:51:266 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="JsonResultParserTests" name="testParseWorkingWithPeople" time="0.000441">
+            <system-out>2015-06-08 15:25:51:266 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="LocalStorageTests" name="testUpgradeLogic" time="0.000509">
+            <system-out>2015-06-08 15:25:51:267 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="MainAuthenticationOperationTests" name="testAuthenticationAllSucceeds" time="0.011105">
+            <system-out>2015-06-08 15:25:51:273 Delve[72899:70b] MainAuthenticationOperation: START. isSpoTokenValid: NO, isBackgroundFetch: NO
+2015-06-08 15:25:51:273 Delve[72899:70b] MainAuthenticationOperation: Services are not available. Using discovery to get them. State of services are :spoServiceResurceId: nil, spoMyServiceResurceId: nil, exoMailServiceResurceId: nil
+2015-06-08 15:25:51:274 Delve[72899:70b] MainAuthenticationOperation: DISCOVERY-token not valid: Discovery: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES
+2015-06-08 15:25:51:274 Delve[72899:70b] MainAuthenticationOperation: SPO-token not valid: SPO: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES, cookie = NO
+2015-06-08 15:25:51:274 Delve[72899:70b] MainAuthenticationOperation: Adding request to get cookie endpoint. ForceServerLookup: NO
+2015-06-08 15:25:51:274 Delve[72899:70b] MainAuthenticationOperation: EXOMail-token not valid: EXO: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES
+2015-06-08 15:25:51:274 Delve[72899:70b] MainAuthenticationOperation: SPOMY-token not valid: SPOMY: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES, cookie = NO
+2015-06-08 15:25:51:274 Delve[72899:70b] MainAuthenticationOperation: Adding request to get cookie endpoint. ForceServerLookup: NO
+2015-06-08 15:25:51:275 Delve[72899:70b] MainAuthenticationOperation: END.
+</system-out>
+        </testcase>
+        <testcase classname="MainAuthenticationOperationTests" name="testAuthenticationDiscoveryAllFails" time="0.008612">
+            <system-out>2015-06-08 15:25:51:283 Delve[72899:70b] MainAuthenticationOperation: START. isSpoTokenValid: NO, isBackgroundFetch: NO
+2015-06-08 15:25:51:283 Delve[72899:70b] MainAuthenticationOperation: Services are not available. Using discovery to get them. State of services are :spoServiceResurceId: nil, spoMyServiceResurceId: nil, exoMailServiceResurceId: nil
+2015-06-08 15:25:51:284 Delve[72899:70b] MainAuthenticationOperation: Fatal error. Could not fetch services. State of services are: spoServiceResurceId: nil, spoMyServiceResurceId: nil, exoMailServiceResurceId: nil
+2015-06-08 15:25:51:284 Delve[72899:70b] MainAuthenticationOperation: END.
+</system-out>
+        </testcase>
+        <testcase classname="MainAuthenticationOperationTests" name="testAuthenticationDiscoveryOnlyExoFails" time="0.009490">
+            <system-out>2015-06-08 15:25:51:292 Delve[72899:70b] MainAuthenticationOperation: START. isSpoTokenValid: NO, isBackgroundFetch: NO
+2015-06-08 15:25:51:292 Delve[72899:70b] MainAuthenticationOperation: Services are not available. Using discovery to get them. State of services are :spoServiceResurceId: nil, spoMyServiceResurceId: nil, exoMailServiceResurceId: nil
+2015-06-08 15:25:51:292 Delve[72899:70b] MainAuthenticationOperation: DISCOVERY-token not valid: Discovery: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES
+2015-06-08 15:25:51:292 Delve[72899:70b] MainAuthenticationOperation: SPO-token not valid: SPO: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES, cookie = NO
+2015-06-08 15:25:51:293 Delve[72899:70b] MainAuthenticationOperation: Adding request to get cookie endpoint. ForceServerLookup: NO
+2015-06-08 15:25:51:293 Delve[72899:70b] MainAuthenticationOperation: EXOMail-token not valid: EXO: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES
+2015-06-08 15:25:51:293 Delve[72899:70b] MainAuthenticationOperation: SPOMY-token not valid: SPOMY: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES, cookie = NO
+2015-06-08 15:25:51:293 Delve[72899:70b] MainAuthenticationOperation: Adding request to get cookie endpoint. ForceServerLookup: NO
+2015-06-08 15:25:51:293 Delve[72899:70b] MainAuthenticationOperation: END.
+</system-out>
+        </testcase>
+        <testcase classname="MainAuthenticationOperationTests" name="testAuthenticationDiscoveryOnlySpoCookieFails" time="0.009161">
+            <system-out>2015-06-08 15:25:51:301 Delve[72899:70b] MainAuthenticationOperation: START. isSpoTokenValid: NO, isBackgroundFetch: NO
+2015-06-08 15:25:51:301 Delve[72899:70b] MainAuthenticationOperation: Services are not available. Using discovery to get them. State of services are :spoServiceResurceId: nil, spoMyServiceResurceId: nil, exoMailServiceResurceId: nil
+2015-06-08 15:25:51:302 Delve[72899:70b] MainAuthenticationOperation: DISCOVERY-token not valid: Discovery: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES
+2015-06-08 15:25:51:302 Delve[72899:70b] MainAuthenticationOperation: SPO-token not valid: SPO: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES, cookie = NO
+2015-06-08 15:25:51:302 Delve[72899:70b] MainAuthenticationOperation: Adding request to get cookie endpoint. ForceServerLookup: NO
+2015-06-08 15:25:51:302 Delve[72899:70b] MainAuthenticationOperation: EXOMail-token not valid: EXO: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES
+2015-06-08 15:25:51:302 Delve[72899:70b] MainAuthenticationOperation: SPOMY-token not valid: SPOMY: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES, cookie = NO
+2015-06-08 15:25:51:302 Delve[72899:70b] MainAuthenticationOperation: Adding request to get cookie endpoint. ForceServerLookup: NO
+2015-06-08 15:25:51:303 Delve[72899:70b] MainAuthenticationOperation: END.
+</system-out>
+        </testcase>
+        <testcase classname="MainAuthenticationOperationTests" name="testAuthenticationDiscoveryOnlySpoFails" time="0.009234">
+            <system-out>2015-06-08 15:25:51:311 Delve[72899:70b] MainAuthenticationOperation: START. isSpoTokenValid: NO, isBackgroundFetch: NO
+2015-06-08 15:25:51:311 Delve[72899:70b] MainAuthenticationOperation: Services are not available. Using discovery to get them. State of services are :spoServiceResurceId: nil, spoMyServiceResurceId: nil, exoMailServiceResurceId: nil
+2015-06-08 15:25:51:311 Delve[72899:70b] MainAuthenticationOperation: DISCOVERY-token not valid: Discovery: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES
+2015-06-08 15:25:51:311 Delve[72899:70b] MainAuthenticationOperation: SPO-token not valid: SPO: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES, cookie = NO
+2015-06-08 15:25:51:311 Delve[72899:70b] MainAuthenticationOperation: Adding request to get cookie endpoint. ForceServerLookup: NO
+2015-06-08 15:25:51:311 Delve[72899:70b] MainAuthenticationOperation: EXOMail-token not valid: EXO: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES
+2015-06-08 15:25:51:311 Delve[72899:70b] MainAuthenticationOperation: SPOMY-token not valid: SPOMY: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES, cookie = NO
+2015-06-08 15:25:51:311 Delve[72899:70b] MainAuthenticationOperation: Adding request to get cookie endpoint. ForceServerLookup: NO
+2015-06-08 15:25:51:312 Delve[72899:70b] MainAuthenticationOperation: END.
+</system-out>
+        </testcase>
+        <testcase classname="MainAuthenticationOperationTests" name="testAuthenticationOnlySpoMyCookieFails" time="0.009092">
+            <system-out>2015-06-08 15:25:51:320 Delve[72899:70b] MainAuthenticationOperation: START. isSpoTokenValid: NO, isBackgroundFetch: NO
+2015-06-08 15:25:51:320 Delve[72899:70b] MainAuthenticationOperation: Services are not available. Using discovery to get them. State of services are :spoServiceResurceId: nil, spoMyServiceResurceId: nil, exoMailServiceResurceId: nil
+2015-06-08 15:25:51:321 Delve[72899:70b] MainAuthenticationOperation: DISCOVERY-token not valid: Discovery: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES
+2015-06-08 15:25:51:321 Delve[72899:70b] MainAuthenticationOperation: SPO-token not valid: SPO: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES, cookie = NO
+2015-06-08 15:25:51:321 Delve[72899:70b] MainAuthenticationOperation: Adding request to get cookie endpoint. ForceServerLookup: NO
+2015-06-08 15:25:51:321 Delve[72899:70b] MainAuthenticationOperation: EXOMail-token not valid: EXO: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES
+2015-06-08 15:25:51:321 Delve[72899:70b] MainAuthenticationOperation: SPOMY-token not valid: SPOMY: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES, cookie = NO
+2015-06-08 15:25:51:321 Delve[72899:70b] MainAuthenticationOperation: Adding request to get cookie endpoint. ForceServerLookup: NO
+2015-06-08 15:25:51:321 Delve[72899:70b] MainAuthenticationOperation: END.
+</system-out>
+        </testcase>
+        <testcase classname="MainAuthenticationOperationTests" name="testAuthenticationOnlySpoMyFails" time="0.009610">
+            <system-out>2015-06-08 15:25:51:329 Delve[72899:70b] MainAuthenticationOperation: START. isSpoTokenValid: NO, isBackgroundFetch: NO
+2015-06-08 15:25:51:329 Delve[72899:70b] MainAuthenticationOperation: Services are not available. Using discovery to get them. State of services are :spoServiceResurceId: nil, spoMyServiceResurceId: nil, exoMailServiceResurceId: nil
+2015-06-08 15:25:51:330 Delve[72899:70b] MainAuthenticationOperation: DISCOVERY-token not valid: Discovery: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES
+2015-06-08 15:25:51:330 Delve[72899:70b] MainAuthenticationOperation: SPO-token not valid: SPO: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES, cookie = NO
+2015-06-08 15:25:51:330 Delve[72899:70b] MainAuthenticationOperation: Adding request to get cookie endpoint. ForceServerLookup: NO
+2015-06-08 15:25:51:330 Delve[72899:70b] MainAuthenticationOperation: EXOMail-token not valid: EXO: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES
+2015-06-08 15:25:51:330 Delve[72899:70b] MainAuthenticationOperation: SPOMY-token not valid: SPOMY: authenticationResult = NO, tokenCacheStoreItem = VALID, accessTokenStatus = YES, cookie = NO
+2015-06-08 15:25:51:330 Delve[72899:70b] MainAuthenticationOperation: Adding request to get cookie endpoint. ForceServerLookup: NO
+2015-06-08 15:25:51:331 Delve[72899:70b] MainAuthenticationOperation: END.
+</system-out>
+        </testcase>
+        <testcase classname="NSDate_DelveUtilsTests" name="testDiffBetweenThenandNowExceedsSessionThreshold_IfOverThreshold" time="0.000096"></testcase>
+        <testcase classname="NSDate_DelveUtilsTests" name="testDiffBetweenThenandNowExceedsSessionThreshold_IfunderThreshold" time="0.000065"></testcase>
+        <testcase classname="NSString_DelveUtilsTest" name="testEncodedBase64String" time="0.000159"></testcase>
+        <testcase classname="NSUUID_DelveUtilsTests" name="testInitUUIDFromRawString_WhenEmptyStringProvided_UUIDIsReturned" time="0.000135"></testcase>
+        <testcase classname="NSUUID_DelveUtilsTests" name="testInitUUIDFromRawString_WhenNilStringProvided_NilIsReturned" time="0.000063"></testcase>
+        <testcase classname="NSUUID_DelveUtilsTests" name="testInitUUIDFromRawString_WhenNonEmptyLongStringProvided_UUIDIsReturned" time="0.000093"></testcase>
+        <testcase classname="NSUUID_DelveUtilsTests" name="testInitUUIDFromRawString_WhenNonEmptyStringProvided_UUIDIsReturned" time="0.000141"></testcase>
+        <testcase classname="NSUUID_DelveUtilsTests" name="testInitUUIDFromUnformattedString_EmptyStringProvided_NilIsReturned" time="0.000063"></testcase>
+        <testcase classname="NSUUID_DelveUtilsTests" name="testInitUUIDFromUnformattedString_NilStringProvided_NilIsReturned" time="0.000059"></testcase>
+        <testcase classname="NSUUID_DelveUtilsTests" name="testInitUUIDFromUnformattedString_WhenCorrectStringProvided_ReturnsFormattedUUID" time="0.000081"></testcase>
+        <testcase classname="NSUUID_DelveUtilsTests" name="testInitUUIDFromUnformattedString_WhenNotHexadecimalString_ReturnsNil" time="0.000072"></testcase>
+        <testcase classname="NSUUID_DelveUtilsTests" name="testInitUUIDFromUnformattedString_WhenTooLongStringProvided_ReturnsFormattedUUIDStrippedFromExcessiveChars" time="0.000081"></testcase>
+        <testcase classname="NSUUID_DelveUtilsTests" name="testInitUUIDFromUnformattedString_WhenTooShortStringProvided_ReturnsNil" time="0.000059"></testcase>
+        <testcase classname="NavigationViewControllerTest" name="testHasSearchBoxReturnsFalseWhenNoSearchBox" time="0.007086">
+            <system-out>2015-06-08 15:25:51:337 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="NavigationViewControllerTest" name="testIfHideNavigationBarItemsThenBarItemsAreHidden" time="0.001941">
+            <system-out>2015-06-08 15:25:51:344 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="NavigationViewControllerTest" name="testIfSearchControllerNotCreatedPropertyIsInstiantiated" time="0.004426">
+            <system-out>2015-06-08 15:25:51:347 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="NavigationViewControllerTest" name="testIfSetNavigationBarItemAlphaSetsAlpha" time="0.001633">
+            <system-out>2015-06-08 15:25:51:351 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="NavigationViewControllerTest" name="testIfShowNavigationBarItemsThenBarItemsAreShown" time="0.001587">
+            <system-out>2015-06-08 15:25:51:353 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="NavigationViewControllerTest" name="testNavigateToItemViewPushesItemViewController" time="0.004792">
+            <system-out>2015-06-08 15:25:51:355 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="NavigationViewControllerTest" name="testNavigateToProfileViewPushesProfileViewController" time="0.004324">
+            <system-out>2015-06-08 15:25:51:359 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="NavigationViewControllerTest" name="testNavigationLogoCreated" time="0.001659">
+            <system-out>2015-06-08 15:25:51:364 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="NotificationTests" name="testCheckForNewItemsWithCompletionBlock" time="0.001214">
+            <system-out>2015-06-08 15:25:51:366 Delve[72899:70b] Upgrading db from 0 to 30
+2015-06-08 15:25:51:366 Delve[72899:70b] LocNot: Resetting currentNotifications
+2015-06-08 15:25:51:366 Delve[72899:70b] LocNot: Background fetch started
+2015-06-08 15:25:51:366 Delve[72899:70b] LocNot: Background fetch authentication succeeded
+2015-06-08 15:25:51:366 Delve[72899:70b] Fetch data for getNewDocuments with status 1
+2015-06-08 15:25:51:366 Delve[72899:70b] LocNot: Background fetch cache failed
+</system-out>
+        </testcase>
+        <testcase classname="NotificationTests" name="testCreateNotifications" time="0.001381">
+            <system-out>2015-06-08 15:25:51:367 Delve[72899:70b] Upgrading db from 0 to 30
+2015-06-08 15:25:51:367 Delve[72899:70b] LocNot: diffBetween: oldItems = 0, newItems = 1
+2015-06-08 15:25:51:367 Delve[72899:70b] LocNot: diffBetween: Adding 1 to diff: Ulysses
+2015-06-08 15:25:51:367 Delve[72899:70b] LocNot: createNotifications: currentNotifications = 0
+2015-06-08 15:25:51:368 Delve[72899:70b] LocNot: Adding one notification for 1, 2014-10-08 07:20:01 +0000, Ulysses
+2015-06-08 15:25:51:368 Delve[72899:70b] LocNot: createNotifications: currentNotifications = 0
+</system-out>
+        </testcase>
+        <testcase classname="NotificationTests" name="testDiffBetween" time="0.001973">
+            <system-out>2015-06-08 15:25:51:368 Delve[72899:70b] LocNot: diffBetween: Adding 2 to diff: The sun also rises
+2015-06-08 15:25:51:368 Delve[72899:70b] LocNot: createNotifications: currentNotifications = 0
+2015-06-08 15:25:51:369 Delve[72899:70b] Upgrading db from 0 to 30
+2015-06-08 15:25:51:369 Delve[72899:70b] LocNot: diffBetween: oldItems = 0, newItems = 0
+2015-06-08 15:25:51:369 Delve[72899:70b] LocNot: diffBetween: oldItems = 1, newItems = 0
+2015-06-08 15:25:51:369 Delve[72899:70b] LocNot: diffBetween: oldItems = 0, newItems = 1
+2015-06-08 15:25:51:369 Delve[72899:70b] LocNot: diffBetween: Adding 1 to diff: Title 1
+2015-06-08 15:25:51:369 Delve[72899:70b] LocNot: diffBetween: oldItems = 1, newItems = 2
+2015-06-08 15:25:51:369 Delve[72899:70b] LocNot: diffBetween: Adding 2 to diff: Title 2
+2015-06-08 15:25:51:370 Delve[72899:70b] LocNot: diffBetween: oldItems = 1, newItems = 2
+2015-06-08 15:25:51:370 Delve[72899:70b] LocNot: diffBetween: Adding 1 to diff: Title 1
+2015-06-08 15:25:51:370 Delve[72899:70b] LocNot: diffBetween: oldItems = 1, newItems = 2
+2015-06-08 15:25:51:370 Delve[72899:70b] LocNot: diffBetween: Adding 1 to diff: Title 1
+2015-06-08 15:25:51:370 Delve[72899:70b] LocNot: diffBetween: Adding 2 to diff: Title 2
+</system-out>
+        </testcase>
+        <testcase classname="OfficeFeedbackManifestTests" name="testOfficeFeedbackManifestBuildsXml_NoOfficeClientId" time="0.000639">
+            <system-out>2015-06-08 15:25:51:370 Delve[72899:70b] LocNot: diffBetween: Adding 2 to diff: Title 2
+</system-out>
+        </testcase>
+        <testcase classname="OfficeFeedbackManifestTests" name="testOfficeFeedbackManifestBuildsXml_WithOfficeClientId" time="0.000506"></testcase>
+        <testcase classname="ParsingUtilsTests" name="testParseDateString_noMilliseconds" time="0.000524"></testcase>
+        <testcase classname="ParsingUtilsTests" name="testParseDateString_withMilliseconds" time="0.000696"></testcase>
+        <testcase classname="ParsingUtilsTests" name="testParseDateString_wrongFormat" time="0.000820"></testcase>
+        <testcase classname="PeopleSearchControllerTests" name="testSearch" time="0.306322">
+            <system-out>2015-06-08 15:25:51:375 Delve[72899:70b] Upgrading db from 0 to 30
+2015-06-08 15:25:51.678 Delve[72899:1400468] Searched for {
+    languageCodeId = 1033;
+    query = Dolly;
+}
+</system-out>
+        </testcase>
+        <testcase classname="PeopleSearchControllerTests" name="testSort" time="0.002085">
+            <system-out>2015-06-08 15:25:51:681 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="PeopleSearchControllerTests" name="testUnion" time="0.001683">
+            <system-out>2015-06-08 15:25:51:683 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="PeopleViewControllerTests" name="testHighlighting" time="0.012716">
+            <system-out>2015-06-08 15:25:51:685 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="PeopleViewControllerTests" name="testItemsDoNotGetPopulatedWithNewDataWhenPersonOrRelationIsWrong" time="0.007197">
+            <system-out>2015-06-08 15:25:51:698 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="PeopleViewControllerTests" name="testItemsGetPopulatedWithNewDataWithCorrectPerson" time="0.008972">
+            <system-out>2015-06-08 15:25:51:705 Delve[72899:70b] Upgrading db from 0 to 30
+2015-06-08 15:25:51:709 Delve[72899:70b] RelatedPeopleView: populating with new people
+</system-out>
+        </testcase>
+        <testcase classname="PeopleViewControllerTests" name="testItemsGetPopulatedWithNewDataWithMe" time="0.008440">
+            <system-out>2015-06-08 15:25:51:715 Delve[72899:70b] Upgrading db from 0 to 30
+2015-06-08 15:25:51:718 Delve[72899:70b] RelatedPeopleView: populating with new people
+</system-out>
+        </testcase>
+        <testcase classname="PeopleViewControllerTests" name="testPeopleViewControllerAsksForDataOnLoad" time="0.004021">
+            <system-out>2015-06-08 15:25:51:723 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="PeopleViewControllerTests" name="testUpdateViewWithItems" time="0.002618">
+            <system-out>2015-06-08 15:25:51:727 Delve[72899:70b] Upgrading db from 0 to 30
+2015-06-08 15:25:51.727 Delve[72899:1400468] Updating view with 3 items
+2015-06-08 15:25:51.729 Delve[72899:1400468] Updating view with 2 items
+</system-out>
+        </testcase>
+        <testcase classname="PersonTests" name="testIfMeThenIsPersonMeReturnsTrue" time="0.000318"></testcase>
+        <testcase classname="PersonTests" name="testIfNotMeThenIsPersonMeReturnsFalse" time="0.000277"></testcase>
+        <testcase classname="PersonTests" name="testInitPersonFromJsonWithAllProperties" time="0.000394">
+            <system-out>2015-06-08 15:25:51:731 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="PersonTests" name="testInitPersonFromJsonWithLackingProperties" time="0.000325">
+            <system-out>2015-06-08 15:25:51:731 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="PersonTests" name="testIsFullyEqual" time="0.000257"></testcase>
+        <testcase classname="ProfileViewControllerTests" name="testSetupProfileView" time="0.007346">
+            <system-out>2015-06-08 15:25:51:732 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="PullToRefreshContollerTest" name="testRefreshData" time="0.011931">
+            <system-out>2015-06-08 15:25:51:740 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="QueryResultTests" name="testCopyReturnsNewFeedResultInstanceWithCorrectProperties" time="0.000360">
+            <system-out>2015-06-08 15:25:51:752 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="QueryResultTests" name="testFeedResultObjectIsCreated" time="0.000296"></testcase>
+        <testcase classname="QueryResultTests" name="testFeedResultObjectIsCreatedWithAllVariables" time="0.000299"></testcase>
+        <testcase classname="QueryResultTests" name="testHasTheSameEntityReturnsFalseIfObjectHasDifferentEntity" time="0.000340"></testcase>
+        <testcase classname="QueryResultTests" name="testHasTheSameEntityReturnsTrueIfObjectHasTheSameEntity" time="0.000314"></testcase>
+        <testcase classname="QueryTests" name="testIfFeedQueryObjectIsNotCreatedWhenEmptyEntity" time="0.000307">
+            <system-out>2015-06-08 15:25:51:754 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="QueryTests" name="testIfFeedQueryObjectIsNotCreatedWhenEmptyEntityOrEmptyRelationInfoBase" time="0.000298"></testcase>
+        <testcase classname="QueryTests" name="testIfFeedQueryObjectIsNotCreatedWhenEmptyRelationInfo" time="0.000299">
+            <system-out>2015-06-08 15:25:51:755 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="QueryTests" name="testIfIsRelatedEntityMeReturnsFalseWhenItIsNotMe" time="0.000297"></testcase>
+        <testcase classname="QueryTests" name="testIfIsRelatedEntityMeReturnsTrueWhenItIsMe" time="0.000276"></testcase>
+        <testcase classname="QueryTests" name="testIfIsRelatedToMeOrWorkedByMeReturnsFalseWhenNotRelatedToMeOrWorkedByMe" time="0.000289"></testcase>
+        <testcase classname="QueryTests" name="testIfIsRelatedToMeOrWorkedByMeReturnsTrueWhenRelatedToMe" time="0.000288">
+            <system-out>2015-06-08 15:25:51:757 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="QueryTests" name="testIfIsRelatedToMeReturnsFalseWhenNotRelatedToMe" time="0.000316">
+            <system-out>2015-06-08 15:25:51:757 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="QueryTests" name="testIfIsRelatedToMeReturnsTrueWhenRelatedToMe" time="0.000274"></testcase>
+        <testcase classname="QueryTests" name="testIfIsRelatedToMyColleaguesReturnsFalseWhenNotRelatedToMyColleagues" time="0.000279"></testcase>
+        <testcase classname="QueryTests" name="testIfIsRelatedToMyColleaguesReturnsTrueWhenRelatedToMyColleagues" time="0.000282">
+            <system-out>2015-06-08 15:25:51:759 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="QueryTests" name="testIfIsRelatedToOrWorkedOnByMyColleaguesReturnsFalseWhenNotRelatedToMyColleagues" time="0.000287"></testcase>
+        <testcase classname="QueryTests" name="testIfIsRelatedToOrWorkedOnByMyColleaguesReturnsTrueWhenRelatedToMyColleagues" time="0.000269"></testcase>
+        <testcase classname="QueryTests" name="testIfIsWorkedOnByMeReturnsFalseWhenNotWorkedOnByMe" time="0.000270">
+            <system-out>2015-06-08 15:25:51:760 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="QueryTests" name="testIfIsWorkedOnByMeReturnsTrueWhenWorkedOnByMe" time="0.000283"></testcase>
+        <testcase classname="QueryTests" name="testIfIsWorkedOnByMyColleaguesReturnsFalseWhenNotWorkedOnByMyColleagues" time="0.000305">
+            <system-out>2015-06-08 15:25:51:761 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="QueryTests" name="testIfIsWorkedOnByMyColleaguesReturnsTrueWhenWorkedOnByMyColleagues" time="0.000308">
+            <system-out>2015-06-08 15:25:51:761 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="RelatedFeedViewControllerTests" name="testRelatedFeedViewControllerHasNavBarTypeNormal" time="0.011181">
+            <system-out>2015-06-08 15:25:51:762 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="RelatedFeedViewControllerTests" name="testRelatedFeedViewControllerHasNoSearchBox" time="0.010865">
+            <system-out>2015-06-08 15:25:51:773 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="RelatedFeedViewControllerTests" name="testRelatedFeedViewControllerIsCreatedAndSetWithRelationAndPerson" time="0.010230">
+            <system-out>2015-06-08 15:25:51:784 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="RelatedFeedViewControllerTests" name="testUserHasNoDataMessage" time="0.011627">
+            <system-out>2015-06-08 15:25:51:795 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="RelatedPeopleViewControllerTests" name="testPerformanceExample" time="0.256686">
+            <system-out>2015-06-08 15:25:51:806 Delve[72899:70b] Upgrading db from 0 to 30
+/Users/delveci/Documents/CI/vso-agent/_work/build/59ca63a210484a223c061ee3e5295b4e56f5fb256da0454f20004f85d2e05187/repo/ios/delveFeedApp/delveFeedAppTests/viewControllers/RelatedPeopleViewControllerTests.m:30: Test Case '-[RelatedPeopleViewControllerTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 109.361%, values: [0.000005, 0.000002, 0.000001, 0.000001, 0.000001, 0.000001, 0.000012, 0.000001, 0.000012, 0.000001], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+</system-out>
+        </testcase>
+        <testcase classname="ServiceInfoTests" name="testInitFromDictionary" time="0.000194"></testcase>
+        <testcase classname="ServiceInfoTests" name="testInitFromDictionaryFailsIfMalformedServiceEndpointUri" time="0.000148"></testcase>
+        <testcase classname="SignalClientTests" name="testFeedConsumedSignalShouldFail" time="0.000692">
+            <system-out>2015-06-08 15:25:52:064 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="SignalClientTests" name="testFeedConsumedSignalShouldPass" time="0.006444">
+            <system-out>2015-06-08 15:25:52:065 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="SignalClientTests" name="testItemClickedSignalShouldFail" time="0.000420">
+            <system-out>2015-06-08 15:25:52:072 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="SignalClientTests" name="testItemClickedSignalShouldPass" time="0.000416">
+            <system-out>2015-06-08 15:25:52:072 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="SignalClientTests" name="testItemElevatedSignalShouldFail" time="0.000340">
+            <system-out>2015-06-08 15:25:52:073 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="SignalClientTests" name="testItemElevatedSignalShouldPass" time="0.000411">
+            <system-out>2015-06-08 15:25:52:074 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+        <testcase classname="SystemFeedbackTests" name="testSystemFeedbackSetsValues" time="0.002179"></testcase>
+        <testcase classname="TenantGraphApiTests" name="testLoadItemsForQuery_IfBackgroundFetch_BackgroundFetchIsCalledAndResultsReturned" time="0.538987">
+            <system-out>2015-06-08 15:25:52:614 Delve[72899:70b] Sending get request to people/me/relatedPeople?expand=recentActivity&amp;top=90
+2015-06-08 15:25:52:614 Delve[72899:70b] Request to https://delveppe.cloudapp.net/delveapi/v1/people/me/relatedPeople?expand=recentActivity&amp;top=90 returned with code 200.
+2015-06-08 15:25:52:614 Delve[72899:70b] Successfull get request to people/me/relatedPeople?expand=recentActivity&amp;top=90
+</system-out>
+        </testcase>
+        <testcase classname="TenantGraphApiTests" name="testLoadItemsForQuery_IfNoBackgroundFetch_NormalFetchIsCalledAndResultsReturned" time="0.003135">
+            <system-out>2015-06-08 15:25:52:617 Delve[72899:70b] Sending get request to people/me/relatedPeople?expand=recentActivity&amp;top=90
+2015-06-08 15:25:52:618 Delve[72899:70b] Request to https://delveppe.cloudapp.net/delveapi/v1/people/me/relatedPeople?expand=recentActivity&amp;top=90 returned with code 200.
+2015-06-08 15:25:52:618 Delve[72899:70b] Successfull get request to people/me/relatedPeople?expand=recentActivity&amp;top=90
+</system-out>
+        </testcase>
+        <testcase classname="TenantGraphApiTests" name="testLoadItemsForQuery_QueryIsCorrect_ReturnsSuccessAndResults" time="0.003229">
+            <system-out>2015-06-08 15:25:52:621 Delve[72899:70b] Sending get request to people/me/relatedPeople?expand=recentActivity&amp;top=90
+2015-06-08 15:25:52:621 Delve[72899:70b] Request to https://delveppe.cloudapp.net/delveapi/v1/people/me/relatedPeople?expand=recentActivity&amp;top=90 returned with code 200.
+2015-06-08 15:25:52:621 Delve[72899:70b] Successfull get request to people/me/relatedPeople?expand=recentActivity&amp;top=90
+</system-out>
+        </testcase>
+        <testcase classname="TenantGraphApiTests" name="testLoadItemsForQuery_QueryIsNil_ReturnsFailure" time="0.002780"></testcase>
+        <testcase classname="TenantGraphApiTests" name="testLoadItemsForQuery_UserIsNil_ReturnsFailure" time="0.002426"></testcase>
+        <testcase classname="UserSessionTests" name="testAppDidBecomeInactiveWritesDateToUserDefaults" time="0.000113"></testcase>
+        <testcase classname="UserSessionTests" name="testDateIsNilAfterInit" time="0.000064"></testcase>
+        <testcase classname="UserSessionTests" name="testOldSessionsIdIsKeptIfWithinThreshold" time="0.001059">
+            <system-out>2015-06-08 15:25:52:629 Delve[72899:70b] UserSession: User continued session with id uuid
+</system-out>
+        </testcase>
+        <testcase classname="UserSessionTests" name="testSessionIdUpdatedIfExceedingThreshold" time="0.001123">
+            <system-out>2015-06-08 15:25:52:630 Delve[72899:70b] UserSession: User started session with id D5429A26-C1F0-44ED-A954-546E4CD74275
+</system-out>
+        </testcase>
+        <testcase classname="UserSessionTests" name="testUserSessionCreatesNewIdIfNoIdIsPersisted" time="0.000120"></testcase>
+        <testcase classname="UserSessionTests" name="testUserSessionSessionIdIsNilAfterInit" time="0.000070"></testcase>
+        <testcase classname="UserTests" name="testServicePersisting" time="0.012177"></testcase>
+        <testcase classname="appTests" name="testAppIdIsCorrectFormat" time="0.000307"></testcase>
+        <testcase classname="eventUtilsTests" name="testEventUtils" time="0.000881">
+            <system-out>2015-06-08 15:25:52:644 Delve[72899:70b] Upgrading db from 0 to 30
+</system-out>
+        </testcase>
+    </testsuite>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assemblies>
+  <assembly name="C:\Users\kaadhina\Source\Workspaces\p1\ClassLibrary2\ClassLibrary2\bin\Debug\ClassLibrary2.DLL" configFile="C:\Users\kaadhina\Source\Workspaces\p1\ClassLibrary2\packages\xunit.runner.console.2.0.0\tools\xunit.console.exe.Config" run-date="2015-08-18" run-time="04:23:08" time="0.400" total="2" passed="1" failed="1" skipped="0" environment="64-bit .NET 4.0.30319.42000 [collection-per-class, parallel]" test-framework="xUnit.net 2.0.0.2929">
+    <class name="MyFirstUnitTests.Class1" time="0.066" total="2" passed="1" failed="1" skipped="0">
+      <test name="MyFirstUnitTests.Class1.FailingTest" type="MyFirstUnitTests.Class1" method="FailingTest" result="Fail" time="0.062326">
+        <failure exception-type="Xunit.Sdk.EqualException">
+          <message>Assert.Equal() Failure
+Expected: 5
+Actual:   4</message>
+          <stack-trace>   at MyFirstUnitTests.Class1.FailingTest() in C:\Users\kaadhina\Source\Workspaces\p1\ClassLibrary2\ClassLibrary2\Class1.cs:line 17</stack-trace>
+        </failure>
+      </test>
+      <test name="MyFirstUnitTests.Class1.PassingTest" type="MyFirstUnitTests.Class1" method="PassingTest" result="Pass" time="0.0035219">
+        <traits>
+          <trait name="priority" value="0" />
+        </traits>
+      </test>
+    </class>
+  </assembly>
+</assemblies>

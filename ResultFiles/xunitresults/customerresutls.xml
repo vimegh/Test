@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assemblies>
+  <assembly name="C:\Users\kaadhina\Source\Workspaces\p1\ClassLibrary2\ClassLibrary1\bin\Debug\ClassLibrary1.DLL" environment="64-bit .NET 4.0.30319.42000 [collection-per-class, parallel]" test-framework="xUnit.net 2.0.0.2929" run-date="2015-09-03" run-time="01:46:50" config-file="C:\Users\kaadhina\Source\Workspaces\p1\ClassLibrary2\packages\xunit.runner.console.2.0.0\tools\xunit.console.exe.Config" total="2" passed="1" failed="0" skipped="1" time="0.226" errors="0">
+    <errors />
+    <collection total="2" passed="1" failed="0" skipped="1" name="Test collection for MyFirstUnitTests.Class2" time="0.006">
+<test name="UnitTests.StorageTests.PersistenceGrainTests_Local.Serialize_GrainState_DeepCopy_Stress" type="UnitTests.StorageTests.PersistenceGrainTests_Local" method="Serialize_GrainState_DeepCopy_Stress" time="834.2832567" result="Fail">
+        <traits>
+          <trait name="Category" value="Functional" />
+          <trait name="Category" value="Persistence" />
+          <trait name="Category" value="Serialization" />
+          <trait name="Category" value="CorePerf" />
+        </traits>
+        <failure exception-type="System.Runtime.Remoting.RemotingException">
+          <message><![CDATA[System.Runtime.Remoting.RemotingException : Object '/1d615037_cf1a_4938_97d2_1575139741bb/iepaentovjdc3qf_klrzgaee_15600.rem' has been disconnected or does not exist at the server.]]></message>
+          <stack-trace><![CDATA[   at System.Object.FieldGetter(String typeName, String fieldName, Object& val)
+   at UnitTests.StorageTests.PersistenceGrainTests_Local.SetErrorInjection(String providerName, ErrorInjectionPoint errorInjectionPoint) in D:\build\agent\_work\2\s\src\TesterInternal\StorageTests\PersistenceGrainTests.cs:line 1211
+   at ReflectionAbstractionExtensions.DisposeTestClass(ITest test, Object testClass, IMessageBus messageBus, ExecutionTimer timer, CancellationTokenSource cancellationTokenSource) in C:\BuildAgent\work\cb37e9acf085d108\src\xunit.execution\Extensions\ReflectionAbstractionExtensions.cs:line 76]]></stack-trace>
+        </failure>
+      </test>
+
+    </collection>
+  </assembly>
+</assemblies>

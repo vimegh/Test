@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="67c6df7a-9d01-4fef-97f9-477d6eb5fe18" name="tfsmladm@TFSBUILD11 2015-09-28 09:43:39" runUser="REDMOND\tfsmladm" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2015-09-28T09:43:39.8911288-07:00" queuing="2015-09-28T09:43:39.8911288-07:00" start="2015-09-28T09:43:39.8911288-07:00" finish="2015-09-28T09:43:39.9380077-07:00" />
+  <TestSettings name="default" id="37e58f7c-42f6-4d8b-89ed-163435448d68">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="tfsmladm_TFSBUILD11 2015-09-28 09_43_39" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="88c11fbb-0048-4960-afb1-da42ab33a95b" testId="a00ed063-2a39-c6cf-604d-da6efd0e58e3" testName="WillAllowAccessForRead" computerName="TFSBUILD11" duration="00:00:00.2166279" startTime="2015-09-28T09:43:39.5629802-07:00" endTime="2015-09-28T09:43:39.8286243-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="88c11fbb-0048-4960-afb1-da42ab33a95b" />
+    <UnitTestResult executionId="120e6531-f8b8-4167-b8a4-13253b78b417" testId="d567c958-be5a-652a-a12d-a3a5e9109ddf" testName="WillAllowAccessForWrite" computerName="TFSBUILD11" duration="00:00:00.0044760" startTime="2015-09-28T09:43:39.8442507-07:00" endTime="2015-09-28T09:43:39.8442507-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="120e6531-f8b8-4167-b8a4-13253b78b417" />
+    <UnitTestResult executionId="2c45df4b-a470-4d87-937e-154beffe5348" testId="88018912-ba26-124b-c22d-8d15e9d06f7c" testName="WillEvaluateForThisModule" computerName="TFSBUILD11" duration="00:00:00.0060006" startTime="2015-09-28T09:43:39.8442507-07:00" endTime="2015-09-28T09:43:39.8442507-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c45df4b-a470-4d87-937e-154beffe5348" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="WillAllowAccessForRead" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.webaccess.projectreleasestore.plugins.l0.tests\ms.tf.server.webaccess.projectreleasestore.plugins.l0.tests.dll" id="a00ed063-2a39-c6cf-604d-da6efd0e58e3">
+      <Owners>
+        <Owner name="vscscodeeng" />
+      </Owners>
+      <Execution id="88c11fbb-0048-4960-afb1-da42ab33a95b" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.WebAccess.ProjectReleaseStore.Plugins.L0.Tests\MS.TF.Server.WebAccess.ProjectReleaseStore.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.WebAccess.ProjectReleaseStore.Plugins.UnitTests.ProjectReleaseStorePermissionTests" name="WillAllowAccessForRead" />
+    </UnitTest>
+    <UnitTest name="WillAllowAccessForWrite" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.webaccess.projectreleasestore.plugins.l0.tests\ms.tf.server.webaccess.projectreleasestore.plugins.l0.tests.dll" id="d567c958-be5a-652a-a12d-a3a5e9109ddf">
+      <Owners>
+        <Owner name="vscscodeeng" />
+      </Owners>
+      <Execution id="120e6531-f8b8-4167-b8a4-13253b78b417" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.WebAccess.ProjectReleaseStore.Plugins.L0.Tests\MS.TF.Server.WebAccess.ProjectReleaseStore.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.WebAccess.ProjectReleaseStore.Plugins.UnitTests.ProjectReleaseStorePermissionTests" name="WillAllowAccessForWrite" />
+    </UnitTest>
+    <UnitTest name="WillEvaluateForThisModule" storage="d:\v2.0\a1\_work\dbded102\bin\release.anycpu\tfs.service\ms.tf.server.webaccess.projectreleasestore.plugins.l0.tests\ms.tf.server.webaccess.projectreleasestore.plugins.l0.tests.dll" id="88018912-ba26-124b-c22d-8d15e9d06f7c">
+      <Owners>
+        <Owner name="vscscodeeng" />
+      </Owners>
+      <Execution id="2c45df4b-a470-4d87-937e-154beffe5348" />
+      <TestMethod codeBase="D:\v2.0\A1\_work\dbded102\bin\Release.AnyCPU\Tfs.Service\MS.TF.Server.WebAccess.ProjectReleaseStore.Plugins.L0.Tests\MS.TF.Server.WebAccess.ProjectReleaseStore.Plugins.L0.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="MS.TF.Test.WebAccess.ProjectReleaseStore.Plugins.UnitTests.ProjectReleaseStorePermissionTests" name="WillEvaluateForThisModule" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="a00ed063-2a39-c6cf-604d-da6efd0e58e3" executionId="88c11fbb-0048-4960-afb1-da42ab33a95b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d567c958-be5a-652a-a12d-a3a5e9109ddf" executionId="120e6531-f8b8-4167-b8a4-13253b78b417" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="88018912-ba26-124b-c22d-8d15e9d06f7c" executionId="2c45df4b-a470-4d87-937e-154beffe5348" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
