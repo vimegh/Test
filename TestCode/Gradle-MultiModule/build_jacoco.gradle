@@ -1,0 +1,60 @@
+allprojects { apply plugin: 'jacoco' }
+
+allprojects {
+	repositories {
+        mavenCentral()
+    }
+}
+
+def jacocoExcludes = ['net/petrikainulainen/gradle/core/**']
+def jacocoIncludes = []
+
+subprojects {
+	
+	apply plugin: 'java'
+
+	
+    jacocoTestReport {
+		doFirst {
+			classDirectories = fileTree(dir: "${buildDir}/classes/main/").exclude(jacocoExcludes)
+		}
+		
+		reports {
+			html.enabled = true
+			html.destination "${buildDir}/jacocoHtml"
+		}
+    }
+	
+	test {
+		jacoco {
+			append = false
+			destinationFile = file("$buildDir/jacoco/jacocoTest.exec")
+			excludes = jacocoExcludes
+		}
+	}
+
+}
+
+task jacocoRootReport(type: org.gradle.testing.jacoco.tasks.JacocoReport) {
+    dependsOn = subprojects.test
+	executionData = files(subprojects.jacocoTestReport.executionData)
+	sourceDirectories = files(subprojects.sourceSets.main.allSource.srcDirs)
+	classDirectories = files()
+	
+	doFirst {
+        subprojects.each {
+			if (new File("${it.sourceSets.main.output.classesDir}").exists()) {
+				logger.info("Class directory exists in sub project: ${it.name}")
+				logger.info("Adding class files ${it.sourceSets.main.output.classesDir}")
+				classDirectories += fileTree(dir: "${it.sourceSets.main.output.classesDir}", includes: jacocoIncludes, excludes: jacocoExcludes)
+			} else {
+				logger.error("Class directory does not exist in sub project: ${it.name}")
+			}
+        }
+    }
+	
+	reports {
+		html.enabled = true
+		html.destination "${buildDir}/jacocoHtml"
+	}
+}

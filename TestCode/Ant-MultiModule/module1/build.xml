@@ -1,0 +1,38 @@
+<project name="JunitTest1" default="test" basedir=".">
+   <property name="testdir" location="module1/test" />
+   <property name="srcdir" location="module1/src" />
+   <property name="libdir" value="module1/lib"/>
+   <property name="reportdir" location="module1/report" />
+   <property name="full-compile" value="true" />
+
+   <path id="classpath.base"/>
+   <path id="classpath.test">
+      <pathelement location="${testdir}" />
+      <pathelement location="${srcdir}" />
+      <path refid="classpath.base" />
+      <pathelement location="lib/junit-4.12.jar" />
+   </path>
+
+   <target name="clean" >
+      <delete verbose="${full-compile}">
+         <fileset dir="${testdir}" includes="**/*.class" />
+		 <fileset dir="." includes="${reportdir}/**/Testresult*.xml" />
+      </delete>
+   </target>
+
+   <target name="compile" depends="clean">
+     <javac srcdir="${srcdir}" destdir="${testdir}" verbose="${full-compile}">
+       <classpath refid="classpath.test"/>
+     </javac>
+   </target>
+
+   <target name="test" depends="compile">
+    <junit fork="no" haltonfailure="false" printsummary="true" haltonerror="false" showoutput="false">
+         <classpath refid="classpath.test" />
+         <formatter type="plain" usefile="false" />
+         <test name="app.test.UtilTest" toDir="${reportdir}" outfile="Testresult_UtilTest">
+           <formatter type="xml"/>
+         </test>
+    </junit>
+   </target>
+</project>

@@ -1,0 +1,28 @@
+plugins {
+  id 'net.saliman.cobertura' version '2.2.7'
+}
+
+allprojects {
+	repositories {
+        mavenCentral()
+    }
+}
+
+subprojects {	
+	apply plugin: 'java'
+	apply plugin: 'net.saliman.cobertura'
+	
+	dependencies {
+		testCompile 'org.slf4j:slf4j-api:1.7.12'
+	}
+}
+
+test {
+	dependsOn = subprojects.test
+}
+
+cobertura {
+    coverageFormats = [ 'xml', 'html' ]
+    coverageMergeDatafiles = subprojects.collect { new File(it.projectDir, '/build/cobertura/cobertura.ser') }
+}
+

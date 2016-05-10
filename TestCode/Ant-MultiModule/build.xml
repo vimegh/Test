@@ -1,0 +1,7 @@
+<project name="junitsuiteexample">
+
+ <property name="project.name" value="junitsuiteexample"/>
+
+ <ant antfile="module1/build.xml" />
+ <ant antfile="module2/build.xml" />
+</project>
